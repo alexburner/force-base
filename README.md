@@ -34,7 +34,7 @@ npm run serve
 ```
 
 ### Build
-Run webpack build (`demo/src >> demo/dist`)
+Run webpack build (`demo/src` → `demo/dist`)
 ```
 npm run build
 ```

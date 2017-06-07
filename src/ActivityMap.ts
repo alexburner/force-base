@@ -1,4 +1,4 @@
-import ForceWorker from 'src/worker';
+import WorkerLoader from 'src/worker';
 import { draw } from 'src/render';
 
 export interface Node {
@@ -41,7 +41,7 @@ export default class ActivityMap {
     ) {
         const context = this.canvasEl.getContext('2d');
 
-        this.worker = new ForceWorker();
+        this.worker = new WorkerLoader();
 
         this.worker.addEventListener('message', (e) => {
             switch (e.data.type) {

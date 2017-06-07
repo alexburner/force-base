@@ -48,7 +48,7 @@ npm run watch
 ```
 
 ### Clean
-Scrub out `demo/src` and `.awcache`
+Scrub out `demo/dist` and `.awcache`
 ```
 npm run clean
 ```

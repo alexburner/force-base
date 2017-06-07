@@ -1,5 +1,5 @@
-# liveactivitymaps
-Live Activity Maps for ExtraHop EDA
+# Force Base
+Trying to get a basic build together
 
 ## Pre-install
 We're using Node 6.9.4 and NPM 3.10.10 (or will be soon). For consistency, install and use `nvm` to ensure versions match:

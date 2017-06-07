@@ -4,8 +4,6 @@ Trying to get a basic build together
 ## Pre-install
 We're using Node 6.9.4 and NPM 3.10.10 (or will be soon). For consistency, install and use `nvm` to ensure versions match:
 
-https://github.com/creationix/nvm
-
 #### Install `nvm`
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
@@ -29,12 +27,11 @@ npm install
 
 ## Demo client
 
-### Server
+### Serve
 Start up `http-server` in `demo/dist`
 ```
 npm run serve
 ```
-https://github.com/indexzero/http-server
 
 ### Build
 Run webpack build (`demo/src >> demo/dist`)

@@ -1,0 +1,19 @@
+# Generic
+*.d
+*.o
+*.so
+*.a
+*.tab.c
+*.output
+*.pyc
+*.lo
+*.la
+*.dll
+.DS_Store
+._.DS_Store
+
+# Project-specific
+.awcache
+node_modules
+npm-debug.log
+demo/dist

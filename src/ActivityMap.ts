@@ -53,7 +53,7 @@ export default class ActivityMap {
                             e.data.links,
                             this.size.width,
                             this.size.height,
-                            0.3 // scale
+                            0.3
                         );
                     });
                     break;

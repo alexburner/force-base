@@ -1,7 +1,7 @@
 import _ from 'underscore';
 
 import ActivityMap from 'src/ActivityMap';
-import { Node, Link, Data, Size } from 'src/ActivityMap';
+import { Node, Link } from 'src/ActivityMap';
 
 const width = window.innerWidth;
 const height = window.innerHeight;
@@ -37,8 +37,8 @@ document.body.appendChild(canvasEl);
 document.body.style.margin = '0';
 document.body.style.padding = '0';
 
-new ActivityMap({
-    data: { nodes, links } as Data,
-    size: { width, height } as Size,
+new ActivityMap(
     canvasEl,
-});
+    { nodes, links },
+    { width, height },
+);

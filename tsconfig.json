@@ -3,11 +3,12 @@
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
+        "lib": ["dom", "es2015"],
         "moduleResolution": "node",
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "sourceMap": true,
-        "lib": ["dom", "es2015"],
+        "strict": true,
         "target": "es2015"
     },
     "exclude": [

@@ -1,4 +1,4 @@
-import d3_force from 'd3-force';
+import * as d3_force from 'd3-force';
 
 let simulation;
 let nodes;
@@ -42,7 +42,7 @@ self.addEventListener('message', (e) => {
                         links: links,
                         tick: i,
                         time: delta,
-                    });
+                    }, undefined);
                 }
             }
             break;

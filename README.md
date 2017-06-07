@@ -2,7 +2,7 @@
 TypeScript + WebWorker + D3 Force Layout
 
 ## Pre-install
-We're using Node 6.9.4 and NPM 3.10.10 (or will be soon).
+We're using Node 6.9.4 and NPM 3.10.10 (or will be soon)
 
 For consistency, install and use `nvm` to ensure versions match:
 

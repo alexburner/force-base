@@ -8,8 +8,8 @@ export interface Node {
 }
 
 export interface Link {
-    source:number;
-    target:number;
+    source:Node|number;
+    target:Node|number;
 }
 
 export interface Data {

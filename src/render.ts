@@ -1,14 +1,33 @@
-const drawPoint = (context, x, y) => {
+import { Node, Link } from 'src/ActivityMap';
+
+const drawPoint = (
+    context:CanvasRenderingContext2D,
+    x:number,
+    y:number
+) => {
     context.moveTo(x + 4, y);
     context.arc(x, y, 2, 0, 2 * Math.PI);
 };
 
-const drawLine = (context, x1, y1, x2, y2) => {
+const drawLine = (
+    context:CanvasRenderingContext2D,
+    x1:number,
+    y1:number,
+    x2:number,
+    y2:number
+) => {
     context.moveTo(x1, y1);
     context.lineTo(x2, y2);
 };
 
-export const draw = (context, nodes, links, width, height, scale) => {
+export const draw = (
+    context:CanvasRenderingContext2D,
+    nodes:Node[],
+    links:Link[],
+    width:number,
+    height:number,
+    scale:number
+) => {
     const halfWidth = width / 2;
     const halfHeight = height / 2;
     context.fillStyle = '#1b86ff';
@@ -16,6 +35,8 @@ export const draw = (context, nodes, links, width, height, scale) => {
     context.beginPath();
     for (let i = 0, l = links.length; i < l; i++) {
         const link = links[i];
+        if (typeof link.source === 'number') { return; }
+        if (typeof link.target === 'number') { return; }
         drawLine(
             context,
             scale * link.source.x + halfWidth,

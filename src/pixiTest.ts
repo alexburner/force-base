@@ -186,8 +186,8 @@ export default (
         const sprite = new PIXI.Sprite(nodeTexture);
         const scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = 1.2 * scale;
-        sprite.scale.y = 1.2 * scale;
+        sprite.scale.x = 1.6 * scale;
+        sprite.scale.y = 1.6 * scale;
         sprite.alpha = 0.9;
         container.addChild(sprite);
         return sprite;
@@ -198,7 +198,7 @@ export default (
         const scale = linkScale(link.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.y = 1.2 * scale;
-        sprite.alpha = 0.7;
+        sprite.alpha = 0.6;
         container.addChild(sprite);
         return sprite;
     });

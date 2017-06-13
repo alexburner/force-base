@@ -4,21 +4,20 @@ export interface Annotation {
 }
 
 export interface Edge {
+    annotations: Annotation[];
     from: number;
     to: number;
-    annotations: Annotation[];
+    weight: number;
 }
 
 export interface Node {
     oid: number;
-    scale: number;
     weight: number;
     x: number;
     y: number;
 }
 
 export interface Link {
-    scale: number;
     source: number | Node;
     target: number | Node;
     weight: number;

@@ -1,4 +1,5 @@
 import _ from 'underscore';
+import * as d3_scale from 'd3-scale';
 import * as PIXI from 'pixi.js';
 
 import WorkerLoader from 'src/worker';
@@ -10,6 +11,17 @@ const nodeRadius = nodeWidth / 2 - 2;
 const linkWidth = 3;
 const linkHeight = 3;
 const linkThickness = 1;
+
+const colorToHex = (color: string): string => {
+    if (!color || !color.length) return '0xFFFFFF';
+    if (color.indexOf('#') === 0) return '0x' + color.split('#')[1];
+    const a = color.split('(')[1].split(')')[0].split(',');
+    const b = a.map(x => {
+        x = parseInt(x).toString(16);
+        return x.length === 1 ? '0' + x : x;
+    });
+    return '0x' + b.join('');
+};
 
 const getCanvas = (
     width,
@@ -88,40 +100,41 @@ export default (
     const links = [];
 
     _.each(edges, (edge: Edge) => {
-        let node1: Node = nodeMap[edge.from];
-        if (!node1) {
-            node1 = {
+        if (!edge.weight) return;
+
+        let nodeFrom: Node = nodeMap[edge.from];
+        if (!nodeFrom) {
+            nodeFrom = {
                 oid: edge.from,
-                scale: 0,
                 weight: 0,
-                x: Math.random() * width,
-                y: Math.random() * height,
+                x: edge.from % width,
+                y: edge.from % height,
             };
-            nodeMap[edge.from] = node1;
-            nodes.push(node1);
+            nodeMap[edge.from] = nodeFrom;
+            nodes.push(nodeFrom);
         }
-        let node2: Node = nodeMap[edge.to];
-        if (!node2) {
-            node2 = {
+
+        let nodeTo: Node = nodeMap[edge.to];
+        if (!nodeTo) {
+            nodeTo = {
                 oid: edge.to,
-                scale: 0,
                 weight: 0,
-                x: Math.random() * width,
-                y: Math.random() * height,
+                x: edge.to % width,
+                y: edge.to % height,
             };
-            nodeMap[edge.to] = node2;
-            nodes.push(node2);
+            nodeMap[edge.to] = nodeTo;
+            nodes.push(nodeTo);
         }
+
+        // weight nodes by edges
+        nodeFrom.weight += edge.weight;
+        nodeTo.weight += edge.weight;
+
         const link: Link = {
-            scale: 0,
             source: edge.from,
             target: edge.to,
-            weight: 0,
+            weight: edge.weight,
         };
-        _.each(edge.annotations, annotation => {
-            link.weight += annotation.weight;
-            node2.weight += annotation.weight;
-        });
         links.push(link);
     });
 
@@ -139,50 +152,62 @@ export default (
         minLinkWeight = Math.min(minLinkWeight, link.weight);
     });
 
-    const nodeWeightRange = maxNodeWeight - minNodeWeight;
-    const linkWeightRange = maxLinkWeight - minLinkWeight;
+    const nodeScale = d3_scale
+        .scaleLog()
+        .domain([minNodeWeight, maxNodeWeight])
+        .range([0, 1]);
 
-    _.each(nodes, node => {
-        const weight = node.weight;
-        const value = weight - minNodeWeight;
-        const scale = value / nodeWeightRange;
-        node.scale = scale;
+    const linkScale = d3_scale
+        .scaleLog()
+        .domain([minLinkWeight, maxLinkWeight])
+        .range([0, 1]);
+
+    const colorScale = d3_scale
+        .scaleSequential()
+        .domain([0, 1])
+        .interpolator(d3_scale.interpolateCool);
+
+    const app = new PIXI.Application({
+        width,
+        height,
+        backgroundColor: 0x333333,
+        view: canvasEl,
     });
-
-    _.each(links, link => {
-        const weight = link.weight;
-        const value = weight - minLinkWeight;
-        const scale = value / linkWeightRange;
-        link.scale = scale;
-    });
-
-    const app = new PIXI.Application({ width, height, view: canvasEl });
 
     const container = new PIXI.Container();
-    app.stage.addChild(container);
-
-    const nodeSprites = _.times(nodes.length, () => {
-        const sprite = new PIXI.Sprite(nodeTexture);
-        container.addChild(sprite);
-        return sprite;
-    });
-
-    const linkSprites = _.times(links.length, () => {
-        const sprite = new PIXI.Sprite(linkTexture);
-        container.addChild(sprite);
-        return sprite;
-    });
-
+    container.width = width;
+    container.height = height;
     container.x += width / 2;
     container.y += height / 2;
+    // container.scale = 0.3;
+    app.stage.addChild(container);
+
+    const nodeSprites = _.map(nodes, node => {
+        const sprite = new PIXI.Sprite(nodeTexture);
+        const scale = nodeScale(node.weight);
+        sprite.tint = colorToHex(colorScale(scale));
+        sprite.scale.x = 1.2 * scale;
+        sprite.scale.y = 1.2 * scale;
+        sprite.alpha = 0.9;
+        container.addChild(sprite);
+        return sprite;
+    });
+
+    const linkSprites = _.map(links, link => {
+        const sprite = new PIXI.Sprite(linkTexture);
+        const scale = linkScale(link.weight);
+        sprite.tint = colorToHex(colorScale(scale));
+        sprite.scale.y = 1.2 * scale;
+        sprite.alpha = 0.7;
+        container.addChild(sprite);
+        return sprite;
+    });
 
     const update = (nodes: Node[], links: Link[]) => {
         _.each(nodes, (node, i) => {
             const sprite = nodeSprites[i];
-            // sprite.scale.x = 1 + node.scale;
-            // sprite.scale.y = 1 + node.scale;
-            sprite.x = node.x - nodeWidth / 2;
-            sprite.y = node.y - nodeHeight / 2;
+            sprite.x = node.x - sprite.width / 2;
+            sprite.y = node.y - sprite.height / 2;
         });
         _.each(links, (link, i) => {
             const sprite = linkSprites[i];
@@ -193,7 +218,6 @@ export default (
                 ? nodeMap[link.target]
                 : link.target;
             setSpritePosition(sprite, node1, node2);
-            // sprite.scale.y = 1 + link.scale;
         });
     };
 

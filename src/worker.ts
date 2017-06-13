@@ -15,8 +15,8 @@ const init = args => {
     const charge = d3_force.forceManyBody();
     const link = d3_force.forceLink(links);
     link.id((node: Node) => `${node.oid}`);
-    link.distance(30);
-    link.strength(1);
+    link.distance(40);
+    link.strength(0.4);
     link.id((node: Node) => `${node.oid}`);
     const x = d3_force.forceX();
     const y = d3_force.forceY();

@@ -63,23 +63,25 @@ const setSpritePosition = (sprite, node1, node2, scaleY): void => {
     const xDiff = x2 - x1;
     const yDiff = y2 - y1;
     const length = Math.sqrt(xDiff * xDiff + yDiff * yDiff);
-    let angle = Math.acos(yDiff / length);
-    if (x2 > x1) angle *= -1;
+    let radians = Math.acos(yDiff / length) + Math.PI / 2;
+    if (x2 > x1) radians *= -1;
     // set new position
-    sprite.anchor.set(0, linkHeight / 2);
+    // sprite.anchor.set(0, 0.5);
     // sprite.pivot.set(0, linkHeight / 2);
-    // sprite.x = x1;
-    // sprite.y = y1;
-    // sprite.scaleX = length / linkWidth;
-    // sprite.scaleY = 1 + scaleY;
-    // sprite.rotation = angle;
-    sprite.setTransform(
-        /* x */ x1,
-        /* y */ y1,
-        /* scaleX */ length / linkWidth,
-        /* scaleY */ 1 + scaleY,
-        /* rotation */ angle,
-    );
+    sprite.x = x1;
+    sprite.y = y1;
+    sprite.scale.x = length / linkWidth;
+    sprite.scale.y = 1 + scaleY;
+    sprite.pivot.x = 0;
+    sprite.pivot.y = linkHeight / 2;
+    sprite.rotation = radians;
+    // sprite.setTransform(
+    //     /* x */ x1,
+    //     /* y */ y1,
+    //     /* scaleX */ length / linkWidth,
+    //     /* scaleY */ 1 + scaleY,
+    //     /* rotation */ radians,
+    // );
 };
 
 const nodeTexture = PIXI.Texture.fromCanvas(getNodeCanvas());
@@ -200,7 +202,8 @@ export default (
             const node2 = _.isNumber(link.target)
                 ? nodeMap[link.target]
                 : link.target;
-            setSpritePosition(sprite, node1, node2, link.scale);
+            // setSpritePosition(sprite, node1, node2, link.scale);
+            setSpritePosition(sprite, node1, node2, 0);
         });
     };
 

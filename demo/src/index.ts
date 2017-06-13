@@ -1,5 +1,5 @@
 import data from 'demo/src/data';
-import pixiTest from 'src/PixiTest';
+import pixiTest from 'src/pixiTest';
 
 const width = window.innerWidth;
 const height = window.innerHeight;

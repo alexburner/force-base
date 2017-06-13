@@ -1,0 +1,18 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "src/",
+        "jsx": "react",
+        "jsxFactory": "createElement",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "sourceMap": true,
+        "lib": ["dom", "es2015"],
+        "target": "es2015"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

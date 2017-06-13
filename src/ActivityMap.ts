@@ -2,24 +2,24 @@ import WorkerLoader from 'src/worker';
 import { draw } from 'src/render';
 
 export interface Node {
-    index:number;
-    x:number;
-    y:number;
+    index: number;
+    x: number;
+    y: number;
 }
 
 export interface Link {
-    source:Node|number;
-    target:Node|number;
+    source: Node | number;
+    target: Node | number;
 }
 
 export interface Data {
-    nodes:Node[];
-    links:Link[];
+    nodes: Node[];
+    links: Link[];
 }
 
 export interface Size {
-    width:number,
-    height:number,
+    width: number;
+    height: number;
 }
 
 // export interface Opts {
@@ -30,20 +30,20 @@ export interface Size {
 // }
 
 export default class ActivityMap {
-    private worker:Worker;
+    private worker: Worker;
 
     constructor(
-        private canvasEl:HTMLCanvasElement,
+        private canvasEl: HTMLCanvasElement,
         // private onClick:{(target:Node|Link):void},
-        private data:Data,
+        private data: Data,
         // private opts:Opts,
-        private size:Size,
+        private size: Size,
     ) {
         const context = this.canvasEl.getContext('2d');
 
         this.worker = new WorkerLoader();
 
-        this.worker.addEventListener('message', (e) => {
+        this.worker.addEventListener('message', e => {
             switch (e.data.type) {
                 case 'tick': {
                     window.requestAnimationFrame(() => {
@@ -53,7 +53,7 @@ export default class ActivityMap {
                             e.data.links,
                             this.size.width,
                             this.size.height,
-                            0.3
+                            0.3,
                         );
                     });
                     break;

@@ -4,7 +4,7 @@ let simulation;
 let nodes;
 let links;
 
-const init = (args) => {
+const init = args => {
     nodes = args.nodes;
     links = args.links;
     simulation = d3_force.forceSimulation();
@@ -22,7 +22,7 @@ const init = (args) => {
     simulation.force('y', y);
 };
 
-self.addEventListener('message', (e) => {
+self.addEventListener('message', e => {
     switch (e.data.type) {
         case 'init': {
             init({
@@ -36,13 +36,16 @@ self.addEventListener('message', (e) => {
                 simulation.tick();
                 if (i % batch === 0) {
                     const delta = Date.now() - start;
-                    self.postMessage({
-                        type: 'tick',
-                        nodes: nodes,
-                        links: links,
-                        tick: i,
-                        time: delta,
-                    }, undefined);
+                    self.postMessage(
+                        {
+                            type: 'tick',
+                            nodes: nodes,
+                            links: links,
+                            tick: i,
+                            time: delta,
+                        },
+                        undefined,
+                    );
                 }
             }
             break;

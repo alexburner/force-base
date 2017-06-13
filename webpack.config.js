@@ -6,7 +6,7 @@ module.exports = {
     entry: './demo/src/index.ts',
     output: {
         filename: 'bundle.[hash].js',
-        path: path.resolve(__dirname, 'demo', 'dist'),
+        path: path.resolve(__dirname, 'docs'),
     },
 
     devtool: 'cheap-module-source-map',

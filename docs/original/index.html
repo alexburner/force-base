@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Activity Map </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.6.0/Tween.min.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/85/three.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/62/three.js"></script>
+        <script src="arbor.js"></script>
+        <script src="dist/activitymap.js"></script>
+    </head>
+    <body>
+        <div id="mapcontainer"></div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                let opts = {
+                    'element': $('#mapcontainer')
+                };
+                new ActivityMap(opts)
+                    .init();
+            });
+        </script>
+    </body>
+</html>
+
+

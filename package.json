@@ -8,8 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --progress",
-    "clean": "rm -rf demo/dist/* && rm -rf .awcache/*",
-    "serve": "http-server demo/dist -o",
+    "clean": "rm -rf docs/* && rm -rf .awcache/*",
+    "serve": "http-server docs -o",
     "watch": "webpack --progress --watch",
     "precommit": "lint-staged"
   },
@@ -25,8 +25,9 @@
     "babel-polyfill": "6.23.0",
     "babel-runtime": "6.23.0",
     "d3-force": "1.0.6",
-    "regenerator-runtime": "0.10.5",
+    "pixi.js": "4.5.3",
     "regenerator": "0.9.7",
+    "regenerator-runtime": "0.10.5",
     "underscore": "1.8.3"
   },
   "devDependencies": {

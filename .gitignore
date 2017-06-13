@@ -16,4 +16,4 @@
 .awcache
 node_modules
 npm-debug.log
-demo/dist
+docs

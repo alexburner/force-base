@@ -6,11 +6,11 @@ import * as PIXI from 'pixi.js';
 import WorkerLoader from 'src/worker';
 import { Edge, Node, Link } from 'src/interfaces';
 
-const nodeWidth = 12;
+const nodeWidth = 16;
 const nodeHeight = nodeWidth;
-const nodeRadius = nodeWidth / 2 - 2;
-const linkWidth = 3;
-const linkHeight = 3;
+const nodeRadius = nodeWidth / 2 - 4;
+const linkWidth = 7;
+const linkHeight = 7;
 const linkThickness = 1;
 
 const colorToHex = (color: string): string => {

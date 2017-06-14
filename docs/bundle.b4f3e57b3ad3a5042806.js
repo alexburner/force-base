@@ -24462,11 +24462,11 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // import * as d3_scale_chromatic from 'd3-scale-chromatic';
-var nodeWidth = 12;
+var nodeWidth = 16;
 var nodeHeight = nodeWidth;
-var nodeRadius = nodeWidth / 2 - 2;
-var linkWidth = 3;
-var linkHeight = 3;
+var nodeRadius = nodeWidth / 2 - 4;
+var linkWidth = 7;
+var linkHeight = 7;
 var linkThickness = 1;
 var colorToHex = function colorToHex(color) {
     if (!color || !color.length) return '0xFFFFFF';
@@ -48437,4 +48437,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.35a35b5f7888ebb6743c.js.map
+//# sourceMappingURL=bundle.b4f3e57b3ad3a5042806.js.map

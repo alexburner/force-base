@@ -24603,7 +24603,8 @@ exports.default = function (canvasEl, width, height, edges) {
     container.height = height;
     container.x += width / 2;
     container.y += height / 2;
-    // container.scale = 0.3;
+    container.scale.x = 0.9;
+    container.scale.y = 0.9;
     app.stage.addChild(container);
     var linkSprites = _underscore2.default.map(links, function (link) {
         var sprite = new PIXI.Sprite(linkTexture);
@@ -48436,4 +48437,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.7f8837b1a976b2ac689d.js.map
+//# sourceMappingURL=bundle.35a35b5f7888ebb6743c.js.map

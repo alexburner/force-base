@@ -187,7 +187,8 @@ export default (
     container.height = height;
     container.x += width / 2;
     container.y += height / 2;
-    // container.scale = 0.3;
+    container.scale.x = 0.9;
+    container.scale.y = 0.9;
     app.stage.addChild(container);
 
     const linkSprites = _.map(links, link => {

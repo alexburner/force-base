@@ -557,10 +557,12 @@ var init = function init(args) {
     link.id(function (node) {
         return '' + node.oid;
     });
+    var center = d3_force.forceCenter();
     var x = d3_force.forceX();
     var y = d3_force.forceY();
     simulation.force('charge', charge);
     simulation.force('link', link);
+    simulation.force('center', center);
     simulation.force('x', x);
     simulation.force('y', y);
 };
@@ -574,7 +576,7 @@ self.addEventListener('message', function (e) {
                 });
                 var start = Date.now();
                 var limit = e.data.limit || e.data.nodes.length;
-                var batch = 10;
+                var batch = 1;
                 for (var i = 0; i <= limit; i++) {
                     simulation.tick();
                     if (i % batch === 0) {
@@ -1951,4 +1953,4 @@ function defaultY(d) {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=8ddf9bfe77a9e3eb0b28.worker.js.map
+//# sourceMappingURL=47e062b2c5cdc6fd51f9.worker.js.map

@@ -47,6 +47,8 @@ const getNodeCanvas = (): HTMLCanvasElement => {
     context.arc(x, y, nodeRadius, 0, 2 * Math.PI);
     context.fillStyle = 'rgba(255, 255, 255, 1)';
     context.fill();
+    context.strokeStyle = 'rgba(255, 255, 255, 1)';
+    context.stroke();
     return canvas.element;
 };
 
@@ -107,8 +109,8 @@ export default (
             nodeFrom = {
                 oid: edge.from,
                 weight: 0,
-                x: edge.from % width,
-                y: edge.from % height,
+                x: edge.from % width - width / 2,
+                y: edge.from % height - height / 2,
             };
             nodeMap[edge.from] = nodeFrom;
             nodes.push(nodeFrom);
@@ -119,8 +121,8 @@ export default (
             nodeTo = {
                 oid: edge.to,
                 weight: 0,
-                x: edge.to % width,
-                y: edge.to % height,
+                x: edge.to % width - width / 2,
+                y: edge.to % height - height / 2,
             };
             nodeMap[edge.to] = nodeTo;
             nodes.push(nodeTo);
@@ -165,7 +167,7 @@ export default (
     const colorScale = d3_scale
         .scaleSequential()
         .domain([0, 1])
-        .interpolator(d3_scale.interpolateCool);
+        .interpolator(d3_scale.interpolateViridis);
 
     const app = new PIXI.Application({
         width,
@@ -182,23 +184,23 @@ export default (
     // container.scale = 0.3;
     app.stage.addChild(container);
 
+    const linkSprites = _.map(links, link => {
+        const sprite = new PIXI.Sprite(linkTexture);
+        const scale = linkScale(link.weight);
+        sprite.tint = colorToHex(colorScale(scale));
+        sprite.scale.y = 1.2 * scale;
+        sprite.alpha = 0.6 + scale;
+        container.addChild(sprite);
+        return sprite;
+    });
+
     const nodeSprites = _.map(nodes, node => {
         const sprite = new PIXI.Sprite(nodeTexture);
         const scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.x = 1.6 * scale;
         sprite.scale.y = 1.6 * scale;
-        sprite.alpha = 0.9;
-        container.addChild(sprite);
-        return sprite;
-    });
-
-    const linkSprites = _.map(links, link => {
-        const sprite = new PIXI.Sprite(linkTexture);
-        const scale = linkScale(link.weight);
-        sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.y = 1.2 * scale;
-        sprite.alpha = 0.6;
+        sprite.alpha = 0.4 + scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -221,11 +223,22 @@ export default (
         });
     };
 
+    update(nodes, links);
+
     const worker = new WorkerLoader();
+
+    let alpha = 0;
+    container.alpha = alpha;
 
     worker.addEventListener('message', e => {
         switch (e.data.type) {
             case 'tick': {
+                if (e.data.tick < 10) {
+                    alpha += 0.01;
+                } else if (e.data.tick < 100) {
+                    alpha += 0.01;
+                    container.alpha = alpha;
+                }
                 window.requestAnimationFrame(() =>
                     update(e.data.nodes, e.data.links),
                 );
@@ -236,7 +249,7 @@ export default (
 
     worker.postMessage({
         type: 'init',
-        limit: 1000,
+        limit: 200,
         nodes,
         links,
     });

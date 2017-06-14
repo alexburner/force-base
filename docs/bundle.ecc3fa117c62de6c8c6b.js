@@ -24494,6 +24494,8 @@ var getNodeCanvas = function getNodeCanvas() {
     context.arc(x, y, nodeRadius, 0, 2 * Math.PI);
     context.fillStyle = 'rgba(255, 255, 255, 1)';
     context.fill();
+    context.strokeStyle = 'rgba(255, 255, 255, 1)';
+    context.stroke();
     return canvas.element;
 };
 var getLinkCanvas = function getLinkCanvas() {
@@ -24544,8 +24546,8 @@ exports.default = function (canvasEl, width, height, edges) {
             nodeFrom = {
                 oid: edge.from,
                 weight: 0,
-                x: edge.from % width,
-                y: edge.from % height
+                x: edge.from % width - width / 2,
+                y: edge.from % height - height / 2
             };
             nodeMap[edge.from] = nodeFrom;
             nodes.push(nodeFrom);
@@ -24555,8 +24557,8 @@ exports.default = function (canvasEl, width, height, edges) {
             nodeTo = {
                 oid: edge.to,
                 weight: 0,
-                x: edge.to % width,
-                y: edge.to % height
+                x: edge.to % width - width / 2,
+                y: edge.to % height - height / 2
             };
             nodeMap[edge.to] = nodeTo;
             nodes.push(nodeTo);
@@ -24585,7 +24587,7 @@ exports.default = function (canvasEl, width, height, edges) {
     });
     var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([0, 1]);
     var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([0, 1]);
-    var colorScale = d3_scale.scaleSequential().domain([0, 1]).interpolator(d3_scale.interpolateCool);
+    var colorScale = d3_scale.scaleSequential().domain([0, 1]).interpolator(d3_scale.interpolateViridis);
     var app = new PIXI.Application({
         width: width,
         height: height,
@@ -24599,22 +24601,22 @@ exports.default = function (canvasEl, width, height, edges) {
     container.y += height / 2;
     // container.scale = 0.3;
     app.stage.addChild(container);
+    var linkSprites = _underscore2.default.map(links, function (link) {
+        var sprite = new PIXI.Sprite(linkTexture);
+        var scale = linkScale(link.weight);
+        sprite.tint = colorToHex(colorScale(scale));
+        sprite.scale.y = 1.2 * scale;
+        sprite.alpha = 0.6 + scale;
+        container.addChild(sprite);
+        return sprite;
+    });
     var nodeSprites = _underscore2.default.map(nodes, function (node) {
         var sprite = new PIXI.Sprite(nodeTexture);
         var scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.x = 1.6 * scale;
         sprite.scale.y = 1.6 * scale;
-        sprite.alpha = 0.9;
-        container.addChild(sprite);
-        return sprite;
-    });
-    var linkSprites = _underscore2.default.map(links, function (link) {
-        var sprite = new PIXI.Sprite(linkTexture);
-        var scale = linkScale(link.weight);
-        sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.y = 1.2 * scale;
-        sprite.alpha = 0.6;
+        sprite.alpha = 0.4 + scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -24631,11 +24633,20 @@ exports.default = function (canvasEl, width, height, edges) {
             setSpritePosition(sprite, node1, node2);
         });
     };
+    update(nodes, links);
     var worker = new _worker2.default();
+    var alpha = 0;
+    container.alpha = alpha;
     worker.addEventListener('message', function (e) {
         switch (e.data.type) {
             case 'tick':
                 {
+                    if (e.data.tick < 10) {
+                        alpha += 0.01;
+                    } else if (e.data.tick < 100) {
+                        alpha += 0.01;
+                        container.alpha = alpha;
+                    }
                     window.requestAnimationFrame(function () {
                         return update(e.data.nodes, e.data.links);
                     });
@@ -24645,7 +24656,7 @@ exports.default = function (canvasEl, width, height, edges) {
     });
     worker.postMessage({
         type: 'init',
-        limit: 1000,
+        limit: 200,
         nodes: nodes,
         links: links
     });
@@ -48416,9 +48427,9 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-	return new Worker(__webpack_require__.p + "8ddf9bfe77a9e3eb0b28.worker.js");
+	return new Worker(__webpack_require__.p + "47e062b2c5cdc6fd51f9.worker.js");
 };
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.a2dde2e12fd9b63bf2cb.js.map
+//# sourceMappingURL=bundle.ecc3fa117c62de6c8c6b.js.map

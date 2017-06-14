@@ -18,10 +18,12 @@ const init = args => {
     link.distance(40);
     link.strength(0.4);
     link.id((node: Node) => `${node.oid}`);
+    const center = d3_force.forceCenter();
     const x = d3_force.forceX();
     const y = d3_force.forceY();
     simulation.force('charge', charge);
     simulation.force('link', link);
+    simulation.force('center', center);
     simulation.force('x', x);
     simulation.force('y', y);
 };
@@ -35,7 +37,7 @@ self.addEventListener('message', e => {
             });
             const start = Date.now();
             const limit = e.data.limit || e.data.nodes.length;
-            const batch = 10;
+            const batch = 1;
             for (let i = 0; i <= limit; i++) {
                 simulation.tick();
                 if (i % batch === 0) {

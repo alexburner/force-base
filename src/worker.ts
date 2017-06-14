@@ -13,6 +13,7 @@ const init = args => {
     simulation.nodes(nodes);
     simulation.stop();
     const charge = d3_force.forceManyBody();
+    charge.strength(-30);
     const link = d3_force.forceLink(links);
     link.id((node: Node) => `${node.oid}`);
     link.distance(40);

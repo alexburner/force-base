@@ -548,6 +548,7 @@ var init = function init(args) {
     simulation.nodes(nodes);
     simulation.stop();
     var charge = d3_force.forceManyBody();
+    charge.strength(-30);
     var link = d3_force.forceLink(links);
     link.id(function (node) {
         return '' + node.oid;
@@ -1953,4 +1954,4 @@ function defaultY(d) {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=47e062b2c5cdc6fd51f9.worker.js.map
+//# sourceMappingURL=e9d4a944848ae4ed631b.worker.js.map

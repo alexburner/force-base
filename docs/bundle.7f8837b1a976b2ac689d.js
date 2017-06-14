@@ -24461,6 +24461,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import * as d3_scale_chromatic from 'd3-scale-chromatic';
 var nodeWidth = 12;
 var nodeHeight = nodeWidth;
 var nodeRadius = nodeWidth / 2 - 2;
@@ -24588,6 +24589,9 @@ exports.default = function (canvasEl, width, height, edges) {
     var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([0, 1]);
     var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([0, 1]);
     var colorScale = d3_scale.scaleSequential().domain([0, 1]).interpolator(d3_scale.interpolateViridis);
+    // .interpolator(d3_scale.interpolatePlasma);
+    // .interpolator(d3_scale.interpolateMagma);
+    // .interpolator(d3_scale_chromatic.interpolateGnBu);
     var app = new PIXI.Application({
         width: width,
         height: height,
@@ -24606,7 +24610,7 @@ exports.default = function (canvasEl, width, height, edges) {
         var scale = linkScale(link.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.y = 1.2 * scale;
-        sprite.alpha = 0.6 + scale;
+        sprite.alpha = 0 + scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -24614,9 +24618,9 @@ exports.default = function (canvasEl, width, height, edges) {
         var sprite = new PIXI.Sprite(nodeTexture);
         var scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = 1.6 * scale;
-        sprite.scale.y = 1.6 * scale;
-        sprite.alpha = 0.4 + scale;
+        sprite.scale.x = 1.7 * scale;
+        sprite.scale.y = 1.7 * scale;
+        sprite.alpha = 0.6 + scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -48427,9 +48431,9 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-	return new Worker(__webpack_require__.p + "47e062b2c5cdc6fd51f9.worker.js");
+	return new Worker(__webpack_require__.p + "e9d4a944848ae4ed631b.worker.js");
 };
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.ecc3fa117c62de6c8c6b.js.map
+//# sourceMappingURL=bundle.7f8837b1a976b2ac689d.js.map

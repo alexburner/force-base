@@ -1,5 +1,6 @@
 import _ from 'underscore';
 import * as d3_scale from 'd3-scale';
+// import * as d3_scale_chromatic from 'd3-scale-chromatic';
 import * as PIXI from 'pixi.js';
 
 import WorkerLoader from 'src/worker';
@@ -167,7 +168,12 @@ export default (
     const colorScale = d3_scale
         .scaleSequential()
         .domain([0, 1])
+        // .domain([1, 0])
+        // .interpolator(d3_scale.interpolateCool);
         .interpolator(d3_scale.interpolateViridis);
+    // .interpolator(d3_scale.interpolatePlasma);
+    // .interpolator(d3_scale.interpolateMagma);
+    // .interpolator(d3_scale_chromatic.interpolateGnBu);
 
     const app = new PIXI.Application({
         width,
@@ -189,7 +195,7 @@ export default (
         const scale = linkScale(link.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.y = 1.2 * scale;
-        sprite.alpha = 0.6 + scale;
+        sprite.alpha = 0 + scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -198,9 +204,9 @@ export default (
         const sprite = new PIXI.Sprite(nodeTexture);
         const scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = 1.6 * scale;
-        sprite.scale.y = 1.6 * scale;
-        sprite.alpha = 0.4 + scale;
+        sprite.scale.x = 1.7 * scale;
+        sprite.scale.y = 1.7 * scale;
+        sprite.alpha = 0.6 + scale;
         container.addChild(sprite);
         return sprite;
     });

@@ -24462,7 +24462,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // import * as d3_scale_chromatic from 'd3-scale-chromatic';
-var nodeWidth = 16;
+var nodeWidth = 20;
 var nodeHeight = nodeWidth;
 var nodeRadius = nodeWidth / 2 - 4;
 var linkWidth = 7;
@@ -24619,8 +24619,8 @@ exports.default = function (canvasEl, width, height, edges) {
         var sprite = new PIXI.Sprite(nodeTexture);
         var scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = 1.7 * scale;
-        sprite.scale.y = 1.7 * scale;
+        sprite.scale.x = 0.1 + scale;
+        sprite.scale.y = 0.1 + scale;
         sprite.alpha = 0.6 + scale;
         container.addChild(sprite);
         return sprite;
@@ -48437,4 +48437,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.b4f3e57b3ad3a5042806.js.map
+//# sourceMappingURL=bundle.ca8fe4e9b4f558af123b.js.map

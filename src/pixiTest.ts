@@ -6,7 +6,7 @@ import * as PIXI from 'pixi.js';
 import WorkerLoader from 'src/worker';
 import { Edge, Node, Link } from 'src/interfaces';
 
-const nodeWidth = 16;
+const nodeWidth = 20;
 const nodeHeight = nodeWidth;
 const nodeRadius = nodeWidth / 2 - 4;
 const linkWidth = 7;
@@ -205,8 +205,8 @@ export default (
         const sprite = new PIXI.Sprite(nodeTexture);
         const scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = 1.7 * scale;
-        sprite.scale.y = 1.7 * scale;
+        sprite.scale.x = 0.1 + scale;
+        sprite.scale.y = 0.1 + scale;
         sprite.alpha = 0.6 + scale;
         container.addChild(sprite);
         return sprite;

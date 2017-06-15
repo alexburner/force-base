@@ -24682,9 +24682,9 @@ var _data = __webpack_require__(142);
 
 var _data2 = _interopRequireDefault(_data);
 
-var _pixiTest = __webpack_require__(143);
+var _render = __webpack_require__(143);
 
-var _pixiTest2 = _interopRequireDefault(_pixiTest);
+var _render2 = _interopRequireDefault(_render);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24711,7 +24711,7 @@ var _loop = function _loop(i) {
 for (var i = 0; i < multiples; i++) {
     _loop(i);
 }
-(0, _pixiTest2.default)(canvasEl, width, height, edges);
+(0, _render2.default)(canvasEl, width, height, edges);
 
 /***/ }),
 /* 145 */
@@ -48439,4 +48439,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.640a87ac814b3f192c96.js.map
+//# sourceMappingURL=bundle.148bff91711db9a48542.js.map

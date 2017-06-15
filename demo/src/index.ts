@@ -1,7 +1,7 @@
 import _ from 'underscore';
 
 import data from 'demo/src/data';
-import pixiTest from 'src/pixiTest';
+import render from 'src/render';
 
 const width = window.innerWidth;
 const height = window.innerHeight;
@@ -36,4 +36,4 @@ for (let i = 0; i < multiples; i++) {
     );
 }
 
-pixiTest(canvasEl, width, height, edges);
+render(canvasEl, width, height, edges);

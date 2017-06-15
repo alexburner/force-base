@@ -536,7 +536,17 @@ var _d3Force = __webpack_require__(8);
 
 var d3_force = _interopRequireWildcard(_d3Force);
 
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+function _interopRequireWildcard(obj) {
+    if (obj && obj.__esModule) {
+        return obj;
+    } else {
+        var newObj = {};if (obj != null) {
+            for (var key in obj) {
+                if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key];
+            }
+        }newObj.default = obj;return newObj;
+    }
+}
 
 var simulation = void 0;
 var nodes = void 0;
@@ -1954,4 +1964,4 @@ function defaultY(d) {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=e9d4a944848ae4ed631b.worker.js.map
+//# sourceMappingURL=581dbe4ec32ef2337404.worker.js.map

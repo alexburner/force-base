@@ -24697,6 +24697,8 @@ canvasEl.style.display = 'block';
 document.body.appendChild(canvasEl);
 document.body.style.margin = '0';
 document.body.style.padding = '0';
+var hash = window.location.hash.length ? Number(window.location.hash.slice(1)) : NaN;
+var multiples = isNaN(hash) ? 3 : hash;
 var edges = [];
 
 var _loop = function _loop(i) {
@@ -24706,7 +24708,7 @@ var _loop = function _loop(i) {
     }));
 };
 
-for (var i = 0; i < 3; i++) {
+for (var i = 0; i < multiples; i++) {
     _loop(i);
 }
 (0, _pixiTest2.default)(canvasEl, width, height, edges);
@@ -48437,4 +48439,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.ca8fe4e9b4f558af123b.js.map
+//# sourceMappingURL=bundle.640a87ac814b3f192c96.js.map

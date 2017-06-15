@@ -16,8 +16,14 @@ document.body.appendChild(canvasEl);
 document.body.style.margin = '0';
 document.body.style.padding = '0';
 
+const hash = window.location.hash.length
+    ? Number(window.location.hash.slice(1))
+    : NaN;
+
+const multiples = isNaN(hash) ? 3 : hash;
+
 let edges = [];
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < multiples; i++) {
     const factor = i + 1;
     edges = edges.concat(
         _.map(data.result.edges, edge => {

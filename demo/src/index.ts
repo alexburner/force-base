@@ -1,7 +1,7 @@
 import _ from 'underscore';
 
 import data from 'demo/src/data';
-import render from 'src/render';
+import render from 'src/PixiMap/render';
 
 const width = window.innerWidth;
 const height = window.innerHeight;

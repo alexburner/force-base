@@ -1,6 +1,6 @@
 import * as d3_force from 'd3-force';
 
-import { Node, Link } from 'src/interfaces';
+import { Node, Link } from 'src/PixiMap/interfaces';
 
 let simulation;
 let nodes: Node[];

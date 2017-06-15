@@ -3,8 +3,8 @@ import * as d3_scale from 'd3-scale';
 // import * as d3_scale_chromatic from 'd3-scale-chromatic';
 import * as PIXI from 'pixi.js';
 
-import WorkerLoader from 'src/worker';
-import { Edge, Node, Link } from 'src/interfaces';
+import WorkerLoader from 'worker-loader!src/PixiMap/worker';
+import { Edge, Node, Link } from 'src/PixiMap/interfaces';
 
 const nodeWidth = 20;
 const nodeHeight = nodeWidth;

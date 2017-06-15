@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 
-    entry: './demo/src/index.ts',
+    entry: './demo/index.tsx',
     output: {
         filename: 'bundle.[hash].js',
         path: path.resolve(__dirname, 'docs'),
@@ -11,7 +11,7 @@ module.exports = {
     devtool: 'cheap-module-source-map',
 
     resolve: {
-        extensions: ['.ts', '.js', '.json'],
+        extensions: ['.ts', '.tsx', '.js', '.json'],
         modules: [
             path.resolve(__dirname),
             'node_modules',
@@ -21,19 +21,14 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: 'demo/src/index.html',
+            template: 'demo/index.html',
         }),
     ],
 
     module: {
         rules: [
-            // {
-            //     test: /worker\.ts$/,
-            //     exclude: /node_modules/,
-            //     loader: 'worker-loader',
-            // },
             {
-                test: /\.ts$/,
+                test: /\.tsx?$/,
                 exclude: /node_modules/,
                 use: [
                     {
@@ -58,11 +53,11 @@ module.exports = {
                     },
                 ],
             },
-            {
-                test: /\.js$/,
-                loader: 'source-map-loader',
-                enforce: 'pre',
-            },
+            // {
+            //     test: /\.js$/,
+            //     loader: 'source-map-loader',
+            //     enforce: 'pre',
+            // },
         ],
     },
 

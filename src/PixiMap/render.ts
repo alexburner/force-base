@@ -1,6 +1,5 @@
 import _ from 'underscore';
 import * as d3_scale from 'd3-scale';
-// import * as d3_scale_chromatic from 'd3-scale-chromatic';
 import * as PIXI from 'pixi.js';
 
 import WorkerLoader from 'worker-loader!src/PixiMap/worker';
@@ -166,14 +165,8 @@ export default (
         .range([0, 1]);
 
     const colorScale = d3_scale
-        .scaleSequential()
-        .domain([0, 1])
-        // .domain([1, 0])
-        // .interpolator(d3_scale.interpolateCool);
-        .interpolator(d3_scale.interpolateViridis);
-    // .interpolator(d3_scale.interpolatePlasma);
-    // .interpolator(d3_scale.interpolateMagma);
-    // .interpolator(d3_scale_chromatic.interpolateGnBu);
+        .scaleSequential(d3_scale.interpolateViridis)
+        .domain([0, 1]);
 
     const app = new PIXI.Application({
         width,

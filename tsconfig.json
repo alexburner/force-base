@@ -3,6 +3,8 @@
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
+        "jsx": "react",
+        "jsxFactory": "createElement",
         "lib": ["dom", "es2015"],
         "moduleResolution": "node",
         "noUnusedLocals": true,

@@ -3,7 +3,7 @@ import createElement from 'inferno-create-element';
 import InfernoComponent from 'inferno-component';
 
 import data from 'demo/data';
-import render from 'src/PixiMap/render';
+import PixiMap from 'src/PixiMap'
 
 const hash = window.location.hash.length
     ? Number(window.location.hash.slice(1))
@@ -25,31 +25,15 @@ for (let i = 0; i < multiples; i++) {
     );
 }
 
-export default class Client extends InfernoComponent {
-    private container:HTMLElement;
-    private canvas:HTMLCanvasElement;
-
+export default class Client extends InfernoComponent<void, void> {
     render() {
         return (
-            <div
-                ref={el => this.container = el}
-                style={{
-                    height: '100%',
-                    width: '100%',
-                }}
-            >
-                <canvas
-                    ref={el => this.canvas = el}
-                    style={{display: 'block'}}
-                ></canvas>
+            <div style={{
+                height: '100%',
+                width: '100%',
+            }}>
+                <PixiMap edges={edges} />
             </div>
         );
-    }
-
-    componentDidMount() {
-        const bounds = this.container.getBoundingClientRect();
-        this.canvas.width = bounds.width;
-        this.canvas.height = bounds.height;
-        render(this.canvas, bounds.width, bounds.height, edges);
     }
 }

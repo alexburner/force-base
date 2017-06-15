@@ -214,8 +214,8 @@ export default (
         const sprite = new PIXI.Sprite(linkTexture);
         const scale = linkScale(link.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.y = 1.2 * scale;
-        sprite.alpha = scale;
+        sprite.scale.y = scale * 1.2;
+        sprite.alpha = scale - 1 / 6;
         container.addChild(sprite);
         return sprite;
     });
@@ -226,7 +226,7 @@ export default (
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.x = scale;
         sprite.scale.y = scale;
-        sprite.alpha = 0.6 + scale;
+        sprite.alpha = scale + 1 / 2;
         container.addChild(sprite);
         return sprite;
     });
@@ -259,9 +259,7 @@ export default (
     worker.addEventListener('message', e => {
         switch (e.data.type) {
             case 'tick': {
-                if (e.data.tick < 10) {
-                    alpha += 0.01;
-                } else if (e.data.tick < 100) {
+                if (e.data.tick > 10 && alpha < 1) {
                     alpha += 0.01;
                     container.alpha = alpha;
                 }

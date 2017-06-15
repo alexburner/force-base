@@ -25663,8 +25663,7 @@ var setSpritePosition = function setSpritePosition(sprite, node1, node2) {
 };
 var nodeTexture = PIXI.Texture.fromCanvas(getNodeCanvas());
 var linkTexture = PIXI.Texture.fromCanvas(getLinkCanvas());
-
-exports.default = function (canvasEl, width, height, edges) {
+var convertEdges = function convertEdges(edges, width, height) {
     var nodeMap = {};
     var nodes = [];
     var links = [];
@@ -25702,6 +25701,9 @@ exports.default = function (canvasEl, width, height, edges) {
         };
         links.push(link);
     });
+    return { nodeMap: nodeMap, nodes: nodes, links: links };
+};
+var getScales = function getScales(nodes, links) {
     var maxNodeWeight = -Infinity;
     var minNodeWeight = Infinity;
     _underscore2.default.each(nodes, function (node) {
@@ -25717,6 +25719,20 @@ exports.default = function (canvasEl, width, height, edges) {
     var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([1 / 5, 1]);
     var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([1 / 5, 1]);
     var colorScale = d3_scale.scaleSequential(d3_scale.interpolateViridis).domain([0, 1]);
+    return { nodeScale: nodeScale, linkScale: linkScale, colorScale: colorScale };
+};
+
+exports.default = function (canvasEl, width, height, edges) {
+    var _convertEdges = convertEdges(edges, width, height),
+        nodeMap = _convertEdges.nodeMap,
+        nodes = _convertEdges.nodes,
+        links = _convertEdges.links;
+
+    var _getScales = getScales(nodes, links),
+        nodeScale = _getScales.nodeScale,
+        linkScale = _getScales.linkScale,
+        colorScale = _getScales.colorScale;
+
     var app = new PIXI.Application({
         width: width,
         height: height,
@@ -53409,4 +53425,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.c1c27d16f538392c5db8.js.map
+//# sourceMappingURL=bundle.7ebf4df6897e2b27fd1b.js.map

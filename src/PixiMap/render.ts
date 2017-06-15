@@ -91,12 +91,15 @@ const setSpritePosition = (sprite, node1, node2): void => {
 const nodeTexture = PIXI.Texture.fromCanvas(getNodeCanvas());
 const linkTexture = PIXI.Texture.fromCanvas(getLinkCanvas());
 
-export default (
-    canvasEl: HTMLCanvasElement,
+const convertEdges = (
+    edges: Edge[],
     width: number,
     height: number,
-    edges: Edge[],
-) => {
+): {
+    nodeMap: { [oid: number]: Node };
+    nodes: Node[];
+    links: Link[];
+} => {
     const nodeMap: { [oid: number]: Node } = {};
     const nodes: Node[] = [];
     const links: Link[] = [];
@@ -140,6 +143,17 @@ export default (
         links.push(link);
     });
 
+    return { nodeMap, nodes, links };
+};
+
+const getScales = (
+    nodes: Node[],
+    links: Link[],
+): {
+    nodeScale: d3_scale.ScaleLogarithmic<number, number>;
+    linkScale: d3_scale.ScaleLogarithmic<number, number>;
+    colorScale: d3_scale.ScaleSequential<string>;
+} => {
     let maxNodeWeight = -Infinity;
     let minNodeWeight = Infinity;
     _.each(nodes, node => {
@@ -167,6 +181,18 @@ export default (
     const colorScale = d3_scale
         .scaleSequential(d3_scale.interpolateViridis)
         .domain([0, 1]);
+
+    return { nodeScale, linkScale, colorScale };
+};
+
+export default (
+    canvasEl: HTMLCanvasElement,
+    width: number,
+    height: number,
+    edges: Edge[],
+) => {
+    const { nodeMap, nodes, links } = convertEdges(edges, width, height);
+    const { nodeScale, linkScale, colorScale } = getScales(nodes, links);
 
     const app = new PIXI.Application({
         width,

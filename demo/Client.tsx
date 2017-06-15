@@ -37,3 +37,4 @@ export default class Client extends InfernoComponent<void, void> {
         );
     }
 }
+

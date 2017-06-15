@@ -38,3 +38,4 @@ export default class PixiMap extends InfernoComponent<Props, void> {
         render(this.canvas, bounds.width, bounds.height, this.props.edges);
     }
 }
+

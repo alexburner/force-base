@@ -57,7 +57,7 @@
     "worker-loader": "0.8.0"
   },
   "lint-staged": {
-    "(src|demo)/**/*.tsx?": [
+    "(src|demo)/**/*.(ts|tsx)": [
       "prettier --parser typescript --single-quote --tab-width 4 --trailing-comma all --write",
       "git add"
     ]

@@ -157,12 +157,12 @@ export default (
     const nodeScale = d3_scale
         .scaleLog()
         .domain([minNodeWeight, maxNodeWeight])
-        .range([1/5, 1]);
+        .range([1 / 5, 1]);
 
     const linkScale = d3_scale
         .scaleLog()
         .domain([minLinkWeight, maxLinkWeight])
-        .range([1/5, 1]);
+        .range([1 / 5, 1]);
 
     const colorScale = d3_scale
         .scaleSequential(d3_scale.interpolateViridis)
@@ -254,4 +254,3 @@ export default (
         links,
     });
 };
-

@@ -11,22 +11,22 @@ interface Props {
 }
 
 export default class PixiMap extends InfernoComponent<Props, void> {
-    private container:HTMLElement;
-    private canvas:HTMLCanvasElement;
+    private container: HTMLElement;
+    private canvas: HTMLCanvasElement;
 
     render() {
         return (
             <div
-                ref={el => this.container = el}
+                ref={el => (this.container = el)}
                 style={{
                     height: '100%',
                     width: '100%',
                 }}
             >
                 <canvas
-                    ref={el => this.canvas = el}
-                    style={{display: 'block'}}
-                ></canvas>
+                    ref={el => (this.canvas = el)}
+                    style={{ display: 'block' }}
+                />
             </div>
         );
     }
@@ -38,4 +38,3 @@ export default class PixiMap extends InfernoComponent<Props, void> {
         render(this.canvas, bounds.width, bounds.height, this.props.edges);
     }
 }
-

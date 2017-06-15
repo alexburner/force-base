@@ -3,7 +3,7 @@ import createElement from 'inferno-create-element';
 import InfernoComponent from 'inferno-component';
 
 import data from 'demo/data';
-import PixiMap from 'src/PixiMap'
+import PixiMap from 'src/PixiMap';
 
 const hash = window.location.hash.length
     ? Number(window.location.hash.slice(1))
@@ -28,13 +28,14 @@ for (let i = 0; i < multiples; i++) {
 export default class Client extends InfernoComponent<void, void> {
     render() {
         return (
-            <div style={{
-                height: '100%',
-                width: '100%',
-            }}>
+            <div
+                style={{
+                    height: '100%',
+                    width: '100%',
+                }}
+            >
                 <PixiMap edges={edges} />
             </div>
         );
     }
 }
-

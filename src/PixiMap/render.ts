@@ -5,7 +5,7 @@ import * as PIXI from 'pixi.js';
 import WorkerLoader from 'worker-loader!src/PixiMap/worker';
 import { Edge, Node, Link } from 'src/PixiMap/interfaces';
 
-const nodeWidth = 20;
+const nodeWidth = 22;
 const nodeHeight = nodeWidth;
 const nodeRadius = nodeWidth / 2 - 4;
 const linkWidth = 7;
@@ -157,12 +157,12 @@ export default (
     const nodeScale = d3_scale
         .scaleLog()
         .domain([minNodeWeight, maxNodeWeight])
-        .range([0, 1]);
+        .range([1/5, 1]);
 
     const linkScale = d3_scale
         .scaleLog()
         .domain([minLinkWeight, maxLinkWeight])
-        .range([0, 1]);
+        .range([1/5, 1]);
 
     const colorScale = d3_scale
         .scaleSequential(d3_scale.interpolateViridis)
@@ -189,7 +189,7 @@ export default (
         const scale = linkScale(link.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.y = 1.2 * scale;
-        sprite.alpha = 0 + scale;
+        sprite.alpha = scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -198,8 +198,8 @@ export default (
         const sprite = new PIXI.Sprite(nodeTexture);
         const scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = 0.1 + scale;
-        sprite.scale.y = 0.1 + scale;
+        sprite.scale.x = scale;
+        sprite.scale.y = scale;
         sprite.alpha = 0.6 + scale;
         container.addChild(sprite);
         return sprite;

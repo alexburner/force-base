@@ -25590,7 +25590,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var nodeWidth = 20;
+var nodeWidth = 22;
 var nodeHeight = nodeWidth;
 var nodeRadius = nodeWidth / 2 - 4;
 var linkWidth = 7;
@@ -25714,8 +25714,8 @@ exports.default = function (canvasEl, width, height, edges) {
         maxLinkWeight = Math.max(maxLinkWeight, link.weight);
         minLinkWeight = Math.min(minLinkWeight, link.weight);
     });
-    var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([0, 1]);
-    var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([0, 1]);
+    var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([1 / 5, 1]);
+    var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([1 / 5, 1]);
     var colorScale = d3_scale.scaleSequential(d3_scale.interpolateViridis).domain([0, 1]);
     var app = new PIXI.Application({
         width: width,
@@ -25736,7 +25736,7 @@ exports.default = function (canvasEl, width, height, edges) {
         var scale = linkScale(link.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.y = 1.2 * scale;
-        sprite.alpha = 0 + scale;
+        sprite.alpha = scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -25744,8 +25744,8 @@ exports.default = function (canvasEl, width, height, edges) {
         var sprite = new PIXI.Sprite(nodeTexture);
         var scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = 0.1 + scale;
-        sprite.scale.y = 0.1 + scale;
+        sprite.scale.x = scale;
+        sprite.scale.y = scale;
         sprite.alpha = 0.6 + scale;
         container.addChild(sprite);
         return sprite;
@@ -53409,4 +53409,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.88e6d927385441eeca43.js.map
+//# sourceMappingURL=bundle.c1c27d16f538392c5db8.js.map

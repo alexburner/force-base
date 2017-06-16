@@ -2,7 +2,7 @@
 TypeScript + WebWorker + D3 Force Layout
 
 ## Pre-install
-We're using Node 6.9.4 and NPM 3.10.10 (or will be soon)
+We're using Node 8.1.2 and NPM 5.0.3 (or will be soon)
 
 For consistency, install and use `nvm` to ensure versions match:
 
@@ -15,10 +15,10 @@ command -v nvm # should print "nvm"
 
 #### Set `node` & `npm` version
 ```
-nvm install 6.9.4
-nvm use 6.9.4
-node -v # should print "v6.9.4"
-npm -v # should print "v3.10.10"
+nvm install 8.1.2
+nvm use 8.1.2
+node -v # should print "v8.1.2"
+npm -v # should print "v5.0.3"
 ```
 
 ## Installation
@@ -29,22 +29,16 @@ npm install
 
 ## Demo client
 
-### Serve
-Start up `http-server` in `demo/dist`
+### Watch
+Run webpack dev server (serves on http://localhost:8080)
 ```
-npm run serve
+npm run watch
 ```
 
 ### Build
 Run webpack build (`demo/src` → `demo/dist`)
 ```
 npm run build
-```
-
-### Watch
-Run webpack build and re-run on changes
-```
-npm run watch
 ```
 
 ### Clean

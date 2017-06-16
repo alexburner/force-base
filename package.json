@@ -23,7 +23,6 @@
   "dependencies": {
     "babel-polyfill": "6.23.0",
     "babel-runtime": "6.23.0",
-    "bowser": "1.7.0",
     "d3-force": "1.0.6",
     "d3-scale": "1.0.6",
     "inferno": "3.3.1",

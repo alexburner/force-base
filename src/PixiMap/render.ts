@@ -1,5 +1,4 @@
 import _ from 'underscore';
-import * as bowser from 'bowser';
 import * as d3_scale from 'd3-scale';
 import * as PIXI from 'pixi.js';
 
@@ -199,7 +198,6 @@ export default (
         width,
         height,
         backgroundColor: 0x333333,
-        legacy: bowser.mobile,
         view: canvasEl,
     });
 
@@ -210,7 +208,6 @@ export default (
     container.y += height / 2;
     container.scale.x = 0.9;
     container.scale.y = 0.9;
-    container.alpha = 0;
     app.stage.addChild(container);
 
     const linkSprites = _.map(links, link => {
@@ -256,11 +253,15 @@ export default (
 
     const worker = new WorkerLoader();
 
+    let alpha = 0;
+    container.alpha = alpha;
+
     worker.addEventListener('message', e => {
         switch (e.data.type) {
             case 'tick': {
-                if (e.data.tick > 10 && container.alpha < 1) {
-                    container.alpha += 0.01;
+                if (e.data.tick > 10 && alpha < 1) {
+                    alpha += 0.01;
+                    container.alpha = alpha;
                 }
                 window.requestAnimationFrame(() =>
                     update(e.data.nodes, e.data.links),

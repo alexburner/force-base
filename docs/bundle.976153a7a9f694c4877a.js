@@ -412,7 +412,7 @@ var UPDATE_PRIORITY = exports.UPDATE_PRIORITY = {
   LOW: -25,
   UTILITY: -50
 };
-//# sourceMappingURL=const.js.map
+
 
 /***/ }),
 /* 1 */
@@ -794,7 +794,7 @@ exports.CanvasRenderer = _CanvasRenderer2.default;
 exports.WebGLRenderer = _WebGLRenderer2.default; /**
                                                   * @namespace PIXI
                                                   */
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 2 */
@@ -1272,7 +1272,7 @@ function premultiplyTintToRgba(tint, alpha, out, premultiply) {
 
     return out;
 }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 3 */
@@ -1521,7 +1521,7 @@ exports.default = {
   CAN_UPLOAD_SAME_BUFFER: (0, _canUploadSameBuffer2.default)()
 
 };
-//# sourceMappingURL=settings.js.map
+
 
 /***/ }),
 /* 5 */
@@ -1614,7 +1614,7 @@ Object.defineProperty(exports, 'RoundedRectangle', {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 6 */
@@ -3772,7 +3772,7 @@ removeAllHandlers(Texture.EMPTY.baseTexture);
 Texture.WHITE = createWhiteTexture();
 removeAllHandlers(Texture.WHITE);
 removeAllHandlers(Texture.WHITE.baseTexture);
-//# sourceMappingURL=Texture.js.map
+
 
 /***/ }),
 /* 24 */
@@ -5497,7 +5497,7 @@ var BaseTexture = function (_EventEmitter) {
 }(_eventemitter2.default);
 
 exports.default = BaseTexture;
-//# sourceMappingURL=BaseTexture.js.map
+
 
 /***/ }),
 /* 30 */
@@ -5992,7 +5992,7 @@ var Shader = function (_GLShader) {
 }(_pixiGlCore.GLShader);
 
 exports.default = Shader;
-//# sourceMappingURL=Shader.js.map
+
 
 /***/ }),
 /* 40 */
@@ -6615,7 +6615,7 @@ var Container = function (_DisplayObject) {
 
 exports.default = Container;
 Container.prototype.containerUpdateTransform = Container.prototype.updateTransform;
-//# sourceMappingURL=Container.js.map
+
 
 /***/ }),
 /* 41 */
@@ -6972,7 +6972,7 @@ var CanvasRenderer = function (_SystemRenderer) {
 
 exports.default = CanvasRenderer;
 _utils.pluginTarget.mixin(CanvasRenderer);
-//# sourceMappingURL=CanvasRenderer.js.map
+
 
 /***/ }),
 /* 42 */
@@ -7032,7 +7032,7 @@ var WebGLManager = function () {
 }();
 
 exports.default = WebGLManager;
-//# sourceMappingURL=WebGLManager.js.map
+
 
 /***/ }),
 /* 43 */
@@ -7405,7 +7405,7 @@ Mesh.DRAW_MODES = {
   TRIANGLE_MESH: 0,
   TRIANGLES: 1
 };
-//# sourceMappingURL=Mesh.js.map
+
 
 /***/ }),
 /* 44 */
@@ -7434,7 +7434,7 @@ Loader.base64 = b64;
 module.exports = Loader;
 // export default Loader;
 module.exports.default = Loader;
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 45 */
@@ -8246,7 +8246,7 @@ function buildNativeLine(graphicsData, webGLData) {
         verts.push(r, g, b, alpha);
     }
 }
-//# sourceMappingURL=buildLine.js.map
+
 
 /***/ }),
 /* 55 */
@@ -9051,7 +9051,7 @@ var WebGLRenderer = function (_SystemRenderer) {
 
 exports.default = WebGLRenderer;
 _utils.pluginTarget.mixin(WebGLRenderer);
-//# sourceMappingURL=WebGLRenderer.js.map
+
 
 /***/ }),
 /* 56 */
@@ -9134,7 +9134,7 @@ var ObjectRenderer = function (_WebGLManager) {
 }(_WebGLManager3.default);
 
 exports.default = ObjectRenderer;
-//# sourceMappingURL=ObjectRenderer.js.map
+
 
 /***/ }),
 /* 57 */
@@ -9466,7 +9466,7 @@ var RenderTarget = function () {
 }();
 
 exports.default = RenderTarget;
-//# sourceMappingURL=RenderTarget.js.map
+
 
 /***/ }),
 /* 58 */
@@ -11294,7 +11294,7 @@ var Bounds = function () {
 }();
 
 exports.default = Bounds;
-//# sourceMappingURL=Bounds.js.map
+
 
 /***/ }),
 /* 89 */
@@ -11386,7 +11386,7 @@ exports.default = TransformBase;
 TransformBase.prototype.updateWorldTransform = TransformBase.prototype.updateTransform;
 
 TransformBase.IDENTITY = new TransformBase();
-//# sourceMappingURL=TransformBase.js.map
+
 
 /***/ }),
 /* 90 */
@@ -11922,7 +11922,7 @@ var Matrix = function () {
 }();
 
 exports.default = Matrix;
-//# sourceMappingURL=Matrix.js.map
+
 
 /***/ }),
 /* 91 */
@@ -12018,7 +12018,7 @@ var Point = function () {
 }();
 
 exports.default = Point;
-//# sourceMappingURL=Point.js.map
+
 
 /***/ }),
 /* 92 */
@@ -12286,7 +12286,7 @@ var Rectangle = function () {
 }();
 
 exports.default = Rectangle;
-//# sourceMappingURL=Rectangle.js.map
+
 
 /***/ }),
 /* 93 */
@@ -12913,7 +12913,7 @@ var Sprite = function (_Container) {
 }(_Container3.default);
 
 exports.default = Sprite;
-//# sourceMappingURL=Sprite.js.map
+
 
 /***/ }),
 /* 94 */
@@ -13163,7 +13163,7 @@ CanvasTinter.tintMethod = CanvasTinter.canUseMultiply ? CanvasTinter.tintWithMul
  */
 
 exports.default = CanvasTinter;
-//# sourceMappingURL=CanvasTinter.js.map
+
 
 /***/ }),
 /* 95 */
@@ -13319,7 +13319,7 @@ var RenderTexture = function (_Texture) {
 }(_Texture3.default);
 
 exports.default = RenderTexture;
-//# sourceMappingURL=RenderTexture.js.map
+
 
 /***/ }),
 /* 96 */
@@ -13404,7 +13404,7 @@ shared.destroy = function () {
  */
 exports.shared = shared;
 exports.Ticker = _Ticker2.default;
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 97 */
@@ -13443,7 +13443,7 @@ function createIndicesForQuads(size) {
 
     return indices;
 }
-//# sourceMappingURL=createIndicesForQuads.js.map
+
 
 /***/ }),
 /* 98 */
@@ -13607,7 +13607,7 @@ var TextureTransform = function () {
 }();
 
 exports.default = TextureTransform;
-//# sourceMappingURL=TextureTransform.js.map
+
 
 /***/ }),
 /* 99 */
@@ -14100,7 +14100,7 @@ function findTextStyle(item, queue) {
 
     return false;
 }
-//# sourceMappingURL=BasePrepare.js.map
+
 
 /***/ }),
 /* 100 */
@@ -15255,7 +15255,7 @@ function setExtMap(map, extname, val) {
 function reqType(xhr) {
     return xhr.toString().replace('object ', '');
 }
-//# sourceMappingURL=Resource.js.map
+
 
 /***/ }),
 /* 101 */
@@ -19436,7 +19436,7 @@ exports.default = {
    */
   _accessibleDiv: false
 };
-//# sourceMappingURL=accessibleTarget.js.map
+
 
 /***/ }),
 /* 165 */
@@ -19656,7 +19656,7 @@ var Application = function () {
 }();
 
 exports.default = Application;
-//# sourceMappingURL=Application.js.map
+
 
 /***/ }),
 /* 166 */
@@ -19728,7 +19728,7 @@ function autoDetectRenderer(options, arg1, arg2, arg3) {
 
     return new _CanvasRenderer2.default(options, arg1, arg2);
 }
-//# sourceMappingURL=autoDetectRenderer.js.map
+
 
 /***/ }),
 /* 167 */
@@ -20425,7 +20425,7 @@ var DisplayObject = function (_EventEmitter) {
 
 exports.default = DisplayObject;
 DisplayObject.prototype.displayObjectUpdateTransform = DisplayObject.prototype.updateTransform;
-//# sourceMappingURL=DisplayObject.js.map
+
 
 /***/ }),
 /* 168 */
@@ -20611,7 +20611,7 @@ var Transform = function (_TransformBase) {
 }(_TransformBase3.default);
 
 exports.default = Transform;
-//# sourceMappingURL=Transform.js.map
+
 
 /***/ }),
 /* 169 */
@@ -20826,7 +20826,7 @@ var TransformStatic = function (_TransformBase) {
 }(_TransformBase3.default);
 
 exports.default = TransformStatic;
-//# sourceMappingURL=TransformStatic.js.map
+
 
 /***/ }),
 /* 170 */
@@ -20953,7 +20953,7 @@ var GraphicsData = function () {
 }();
 
 exports.default = GraphicsData;
-//# sourceMappingURL=GraphicsData.js.map
+
 
 /***/ }),
 /* 171 */
@@ -21150,7 +21150,7 @@ var GroupD8 = {
 };
 
 exports.default = GroupD8;
-//# sourceMappingURL=GroupD8.js.map
+
 
 /***/ }),
 /* 172 */
@@ -21272,7 +21272,7 @@ var ObservablePoint = function () {
 }();
 
 exports.default = ObservablePoint;
-//# sourceMappingURL=ObservablePoint.js.map
+
 
 /***/ }),
 /* 173 */
@@ -21640,7 +21640,7 @@ var SystemRenderer = function (_EventEmitter) {
 }(_eventemitter2.default);
 
 exports.default = SystemRenderer;
-//# sourceMappingURL=SystemRenderer.js.map
+
 
 /***/ }),
 /* 174 */
@@ -21769,7 +21769,7 @@ var CanvasRenderTarget = function () {
 }();
 
 exports.default = CanvasRenderTarget;
-//# sourceMappingURL=CanvasRenderTarget.js.map
+
 
 /***/ }),
 /* 175 */
@@ -21835,7 +21835,7 @@ function canUseNewCanvasBlendModes() {
 
     return data[0] === 255 && data[1] === 0 && data[2] === 0;
 }
-//# sourceMappingURL=canUseNewCanvasBlendModes.js.map
+
 
 /***/ }),
 /* 176 */
@@ -22016,7 +22016,7 @@ var Filter = function () {
 }();
 
 exports.default = Filter;
-//# sourceMappingURL=Filter.js.map
+
 
 /***/ }),
 /* 177 */
@@ -22093,7 +22093,7 @@ var SpriteMaskFilter = function (_Filter) {
 }(_Filter3.default);
 
 exports.default = SpriteMaskFilter;
-//# sourceMappingURL=SpriteMaskFilter.js.map
+
 
 /***/ }),
 /* 178 */
@@ -22279,7 +22279,7 @@ var Quad = function () {
 }();
 
 exports.default = Quad;
-//# sourceMappingURL=Quad.js.map
+
 
 /***/ }),
 /* 179 */
@@ -22586,7 +22586,7 @@ TextMetrics._context = canvas.getContext('2d');
  * @private
  */
 TextMetrics._fonts = {};
-//# sourceMappingURL=TextMetrics.js.map
+
 
 /***/ }),
 /* 180 */
@@ -23125,7 +23125,7 @@ function areArraysEqual(array1, array2) {
 
     return true;
 }
-//# sourceMappingURL=TextStyle.js.map
+
 
 /***/ }),
 /* 181 */
@@ -23289,7 +23289,7 @@ var BaseRenderTexture = function (_BaseTexture) {
 }(_BaseTexture3.default);
 
 exports.default = BaseRenderTexture;
-//# sourceMappingURL=BaseRenderTexture.js.map
+
 
 /***/ }),
 /* 182 */
@@ -23399,7 +23399,7 @@ var TextureUvs = function () {
 }();
 
 exports.default = TextureUvs;
-//# sourceMappingURL=TextureUvs.js.map
+
 
 /***/ }),
 /* 183 */
@@ -23729,7 +23729,7 @@ function createSource(path, type) {
 
     return source;
 }
-//# sourceMappingURL=VideoBaseTexture.js.map
+
 
 /***/ }),
 /* 184 */
@@ -23795,7 +23795,7 @@ __webpack_require__(392);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // imported for side effect of extending the prototype only, contains no exports
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 185 */
@@ -23966,7 +23966,7 @@ var BlurXFilter = function (_core$Filter) {
 }(core.Filter);
 
 exports.default = BlurXFilter;
-//# sourceMappingURL=BlurXFilter.js.map
+
 
 /***/ }),
 /* 186 */
@@ -24136,7 +24136,7 @@ var BlurYFilter = function (_core$Filter) {
 }(core.Filter);
 
 exports.default = BlurYFilter;
-//# sourceMappingURL=BlurYFilter.js.map
+
 
 /***/ }),
 /* 187 */
@@ -24188,7 +24188,7 @@ function generateFragBlurSource(kernelSize) {
 
     return fragSource;
 }
-//# sourceMappingURL=generateBlurFragSource.js.map
+
 
 /***/ }),
 /* 188 */
@@ -24237,7 +24237,7 @@ function generateVertBlurSource(kernelSize, x) {
 
     return vertSource;
 }
-//# sourceMappingURL=generateBlurVertSource.js.map
+
 
 /***/ }),
 /* 189 */
@@ -24258,7 +24258,7 @@ function getMaxKernelSize(gl) {
 
     return kernelSize;
 }
-//# sourceMappingURL=getMaxBlurKernelSize.js.map
+
 
 /***/ }),
 /* 190 */
@@ -24487,7 +24487,7 @@ var InteractionData = function () {
 }();
 
 exports.default = InteractionData;
-//# sourceMappingURL=InteractionData.js.map
+
 
 /***/ }),
 /* 191 */
@@ -24609,7 +24609,7 @@ exports.default = {
    */
   _trackedPointers: undefined
 };
-//# sourceMappingURL=interactiveTarget.js.map
+
 
 /***/ }),
 /* 192 */
@@ -24706,7 +24706,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function parse(resource, texture) {
     resource.bitmapFont = _extras.BitmapText.registerFont(resource.data, texture);
 }
-//# sourceMappingURL=bitmapFontParser.js.map
+
 
 /***/ }),
 /* 193 */
@@ -24770,7 +24770,7 @@ function getResourcePath(resource, baseUrl) {
 
     return _url2.default.resolve(resource.url.replace(baseUrl, ''), resource.data.meta.image);
 }
-//# sourceMappingURL=spritesheetParser.js.map
+
 
 /***/ }),
 /* 194 */
@@ -24798,7 +24798,7 @@ var _Texture = __webpack_require__(23);
 var _Texture2 = _interopRequireDefault(_Texture);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=textureParser.js.map
+
 
 /***/ }),
 /* 195 */
@@ -24942,7 +24942,7 @@ var Plane = function (_Mesh) {
 }(_Mesh3.default);
 
 exports.default = Plane;
-//# sourceMappingURL=Plane.js.map
+
 
 /***/ }),
 /* 196 */
@@ -25005,7 +25005,7 @@ var CountLimiter = function () {
 }();
 
 exports.default = CountLimiter;
-//# sourceMappingURL=CountLimiter.js.map
+
 
 /***/ }),
 /* 197 */
@@ -25219,7 +25219,7 @@ function queue(worker, concurrency) {
 
     return q;
 }
-//# sourceMappingURL=async.js.map
+
 
 /***/ }),
 /* 198 */
@@ -25292,7 +25292,7 @@ function encodeBinary(input) {
 
     return output;
 }
-//# sourceMappingURL=b64.js.map
+
 
 /***/ }),
 /* 199 */
@@ -33955,7 +33955,7 @@ exports.default = AccessibilityManager;
 
 core.WebGLRenderer.registerPlugin('accessibility', AccessibilityManager);
 core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
-//# sourceMappingURL=AccessibilityManager.js.map
+
 
 /***/ }),
 /* 339 */
@@ -33985,7 +33985,7 @@ Object.defineProperty(exports, 'AccessibilityManager', {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 340 */
@@ -35162,7 +35162,7 @@ exports.default = Graphics;
 
 
 Graphics._SPRITE_TEXTURE = null;
-//# sourceMappingURL=Graphics.js.map
+
 
 /***/ }),
 /* 341 */
@@ -35436,7 +35436,7 @@ exports.default = CanvasGraphicsRenderer;
 
 
 _CanvasRenderer2.default.registerPlugin('graphics', CanvasGraphicsRenderer);
-//# sourceMappingURL=CanvasGraphicsRenderer.js.map
+
 
 /***/ }),
 /* 342 */
@@ -35491,7 +35491,7 @@ function bezierCurveTo(fromX, fromY, cpX, cpY, cpX2, cpY2, toX, toY) {
 
     return path;
 }
-//# sourceMappingURL=bezierCurveTo.js.map
+
 
 /***/ }),
 /* 343 */
@@ -35761,7 +35761,7 @@ exports.default = GraphicsRenderer;
 
 
 _WebGLRenderer2.default.registerPlugin('graphics', GraphicsRenderer);
-//# sourceMappingURL=GraphicsRenderer.js.map
+
 
 /***/ }),
 /* 344 */
@@ -35909,7 +35909,7 @@ var WebGLGraphicsData = function () {
 }();
 
 exports.default = WebGLGraphicsData;
-//# sourceMappingURL=WebGLGraphicsData.js.map
+
 
 /***/ }),
 /* 345 */
@@ -35959,7 +35959,7 @@ var PrimitiveShader = function (_Shader) {
 }(_Shader3.default);
 
 exports.default = PrimitiveShader;
-//# sourceMappingURL=PrimitiveShader.js.map
+
 
 /***/ }),
 /* 346 */
@@ -36057,7 +36057,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
         graphicsData.points = tempPoints;
     }
 }
-//# sourceMappingURL=buildCircle.js.map
+
 
 /***/ }),
 /* 347 */
@@ -36148,7 +36148,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
         (0, _buildLine2.default)(graphicsData, webGLData, webGLDataNativeLines);
     }
 }
-//# sourceMappingURL=buildPoly.js.map
+
 
 /***/ }),
 /* 348 */
@@ -36229,7 +36229,7 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
         graphicsData.points = tempPoints;
     }
 }
-//# sourceMappingURL=buildRectangle.js.map
+
 
 /***/ }),
 /* 349 */
@@ -36390,7 +36390,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 
     return points;
 }
-//# sourceMappingURL=buildRoundedRectangle.js.map
+
 
 /***/ }),
 /* 350 */
@@ -36509,7 +36509,7 @@ var Circle = function () {
 }();
 
 exports.default = Circle;
-//# sourceMappingURL=Circle.js.map
+
 
 /***/ }),
 /* 351 */
@@ -36636,7 +36636,7 @@ var Ellipse = function () {
 }();
 
 exports.default = Ellipse;
-//# sourceMappingURL=Ellipse.js.map
+
 
 /***/ }),
 /* 352 */
@@ -36772,7 +36772,7 @@ var Polygon = function () {
 }();
 
 exports.default = Polygon;
-//# sourceMappingURL=Polygon.js.map
+
 
 /***/ }),
 /* 353 */
@@ -36910,7 +36910,7 @@ var RoundedRectangle = function () {
 }();
 
 exports.default = RoundedRectangle;
-//# sourceMappingURL=RoundedRectangle.js.map
+
 
 /***/ }),
 /* 354 */
@@ -37083,7 +37083,7 @@ var CanvasMaskManager = function () {
 }();
 
 exports.default = CanvasMaskManager;
-//# sourceMappingURL=CanvasMaskManager.js.map
+
 
 /***/ }),
 /* 355 */
@@ -37160,7 +37160,7 @@ function mapCanvasBlendModesToPixi() {
 
     return array;
 }
-//# sourceMappingURL=mapCanvasBlendModesToPixi.js.map
+
 
 /***/ }),
 /* 356 */
@@ -37285,7 +37285,7 @@ var TextureGarbageCollector = function () {
 }();
 
 exports.default = TextureGarbageCollector;
-//# sourceMappingURL=TextureGarbageCollector.js.map
+
 
 /***/ }),
 /* 357 */
@@ -37537,7 +37537,7 @@ var TextureManager = function () {
 }();
 
 exports.default = TextureManager;
-//# sourceMappingURL=TextureManager.js.map
+
 
 /***/ }),
 /* 358 */
@@ -37822,7 +37822,7 @@ var WebGLState = function () {
 }();
 
 exports.default = WebGLState;
-//# sourceMappingURL=WebGLState.js.map
+
 
 /***/ }),
 /* 359 */
@@ -37889,7 +37889,7 @@ function extractUniformsFromString(string) {
 
     return uniforms;
 }
-//# sourceMappingURL=extractUniformsFromSrc.js.map
+
 
 /***/ }),
 /* 360 */
@@ -37976,7 +37976,7 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 
     return mappedMatrix;
 }
-//# sourceMappingURL=filterTransforms.js.map
+
 
 /***/ }),
 /* 361 */
@@ -38551,7 +38551,7 @@ var FilterManager = function (_WebGLManager) {
 }(_WebGLManager3.default);
 
 exports.default = FilterManager;
-//# sourceMappingURL=FilterManager.js.map
+
 
 /***/ }),
 /* 362 */
@@ -38766,7 +38766,7 @@ var MaskManager = function (_WebGLManager) {
 }(_WebGLManager3.default);
 
 exports.default = MaskManager;
-//# sourceMappingURL=MaskManager.js.map
+
 
 /***/ }),
 /* 363 */
@@ -38905,7 +38905,7 @@ var StencilManager = function (_WebGLManager) {
 }(_WebGLManager3.default);
 
 exports.default = StencilManager;
-//# sourceMappingURL=StencilManager.js.map
+
 
 /***/ }),
 /* 364 */
@@ -38985,7 +38985,7 @@ function generateIfTestSrc(maxIfs) {
 
     return src;
 }
-//# sourceMappingURL=checkMaxIfStatmentsInShader.js.map
+
 
 /***/ }),
 /* 365 */
@@ -39039,7 +39039,7 @@ function mapWebGLBlendModesToPixi(gl) {
 
     return array;
 }
-//# sourceMappingURL=mapWebGLBlendModesToPixi.js.map
+
 
 /***/ }),
 /* 366 */
@@ -39076,7 +39076,7 @@ function mapWebGLDrawModesToPixi(gl) {
 
   return object;
 }
-//# sourceMappingURL=mapWebGLDrawModesToPixi.js.map
+
 
 /***/ }),
 /* 367 */
@@ -39097,7 +39097,7 @@ function validateContext(gl) {
         /* eslint-enable no-console */
     }
 }
-//# sourceMappingURL=validateContext.js.map
+
 
 /***/ }),
 /* 368 */
@@ -39255,7 +39255,7 @@ exports.default = CanvasSpriteRenderer;
 
 
 _CanvasRenderer2.default.registerPlugin('sprite', CanvasSpriteRenderer);
-//# sourceMappingURL=CanvasSpriteRenderer.js.map
+
 
 /***/ }),
 /* 369 */
@@ -39313,7 +39313,7 @@ var Buffer = function () {
 }();
 
 exports.default = Buffer;
-//# sourceMappingURL=BatchBuffer.js.map
+
 
 /***/ }),
 /* 370 */
@@ -39860,7 +39860,7 @@ exports.default = SpriteRenderer;
 
 
 _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
-//# sourceMappingURL=SpriteRenderer.js.map
+
 
 /***/ }),
 /* 371 */
@@ -39928,7 +39928,7 @@ function generateSampleSrc(maxTextures) {
 
     return src;
 }
-//# sourceMappingURL=generateMultiTextureShader.js.map
+
 
 /***/ }),
 /* 372 */
@@ -40588,7 +40588,7 @@ var Text = function (_Sprite) {
 }(_Sprite3.default);
 
 exports.default = Text;
-//# sourceMappingURL=Text.js.map
+
 
 /***/ }),
 /* 373 */
@@ -40854,7 +40854,7 @@ var Spritesheet = function () {
 }();
 
 exports.default = Spritesheet;
-//# sourceMappingURL=Spritesheet.js.map
+
 
 /***/ }),
 /* 374 */
@@ -41332,7 +41332,7 @@ var Ticker = function () {
 }();
 
 exports.default = Ticker;
-//# sourceMappingURL=Ticker.js.map
+
 
 /***/ }),
 /* 375 */
@@ -41511,7 +41511,7 @@ var TickerListener = function () {
 }();
 
 exports.default = TickerListener;
-//# sourceMappingURL=TickerListener.js.map
+
 
 /***/ }),
 /* 376 */
@@ -41530,7 +41530,7 @@ function canUploadSameBuffer() {
 
 	return !ios;
 }
-//# sourceMappingURL=canUploadSameBuffer.js.map
+
 
 /***/ }),
 /* 377 */
@@ -41591,7 +41591,7 @@ function determineCrossOrigin(url) {
 
     return '';
 }
-//# sourceMappingURL=determineCrossOrigin.js.map
+
 
 /***/ }),
 /* 378 */
@@ -41639,7 +41639,7 @@ function mapPremultipliedBlendModes() {
 
     return array;
 }
-//# sourceMappingURL=mapPremultipliedBlendModes.js.map
+
 
 /***/ }),
 /* 379 */
@@ -41666,7 +41666,7 @@ function maxRecommendedTextures(max) {
     // desktop should be ok
     return max;
 }
-//# sourceMappingURL=maxRecommendedTextures.js.map
+
 
 /***/ }),
 /* 380 */
@@ -41733,7 +41733,7 @@ function performMixins() {
     }
     mixins.length = 0;
 }
-//# sourceMappingURL=mixin.js.map
+
 
 /***/ }),
 /* 381 */
@@ -41804,7 +41804,7 @@ exports.default = {
         pluginTarget(obj);
     }
 };
-//# sourceMappingURL=pluginTarget.js.map
+
 
 /***/ }),
 /* 382 */
@@ -41885,7 +41885,7 @@ function trimCanvas(canvas) {
         data: data
     };
 }
-//# sourceMappingURL=trimCanvas.js.map
+
 
 /***/ }),
 /* 383 */
@@ -42986,7 +42986,7 @@ function deprecation(core) {
         });
     }
 }
-//# sourceMappingURL=deprecation.js.map
+
 
 /***/ }),
 /* 384 */
@@ -43171,7 +43171,7 @@ exports.default = CanvasExtract;
 
 
 core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
-//# sourceMappingURL=CanvasExtract.js.map
+
 
 /***/ }),
 /* 385 */
@@ -43201,7 +43201,7 @@ Object.defineProperty(exports, 'canvas', {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 386 */
@@ -43429,7 +43429,7 @@ exports.default = WebGLExtract;
 
 
 core.WebGLRenderer.registerPlugin('extract', WebGLExtract);
-//# sourceMappingURL=WebGLExtract.js.map
+
 
 /***/ }),
 /* 387 */
@@ -43842,7 +43842,7 @@ var AnimatedSprite = function (_core$Sprite) {
 }(core.Sprite);
 
 exports.default = AnimatedSprite;
-//# sourceMappingURL=AnimatedSprite.js.map
+
 
 /***/ }),
 /* 388 */
@@ -44435,7 +44435,7 @@ exports.default = BitmapText;
 
 
 BitmapText.fonts = {};
-//# sourceMappingURL=BitmapText.js.map
+
 
 /***/ }),
 /* 389 */
@@ -44892,7 +44892,7 @@ var TilingSprite = function (_core$Sprite) {
 }(core.Sprite);
 
 exports.default = TilingSprite;
-//# sourceMappingURL=TilingSprite.js.map
+
 
 /***/ }),
 /* 390 */
@@ -45301,7 +45301,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
     this.cacheAsBitmap = false;
     this.destroy(options);
 };
-//# sourceMappingURL=cacheAsBitmap.js.map
+
 
 /***/ }),
 /* 391 */
@@ -45340,7 +45340,7 @@ core.Container.prototype.getChildByName = function getChildByName(name) {
 
     return null;
 };
-//# sourceMappingURL=getChildByName.js.map
+
 
 /***/ }),
 /* 392 */
@@ -45378,7 +45378,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
     return point;
 };
-//# sourceMappingURL=getGlobalPosition.js.map
+
 
 /***/ }),
 /* 393 */
@@ -45545,7 +45545,7 @@ exports.default = TilingSpriteRenderer;
 
 
 core.WebGLRenderer.registerPlugin('tilingSprite', TilingSpriteRenderer);
-//# sourceMappingURL=TilingSpriteRenderer.js.map
+
 
 /***/ }),
 /* 394 */
@@ -45707,7 +45707,7 @@ var BlurFilter = function (_core$Filter) {
 }(core.Filter);
 
 exports.default = BlurFilter;
-//# sourceMappingURL=BlurFilter.js.map
+
 
 /***/ }),
 /* 395 */
@@ -46263,7 +46263,7 @@ var ColorMatrixFilter = function (_core$Filter) {
 
 exports.default = ColorMatrixFilter;
 ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
-//# sourceMappingURL=ColorMatrixFilter.js.map
+
 
 /***/ }),
 /* 396 */
@@ -46378,7 +46378,7 @@ var DisplacementFilter = function (_core$Filter) {
 }(core.Filter);
 
 exports.default = DisplacementFilter;
-//# sourceMappingURL=DisplacementFilter.js.map
+
 
 /***/ }),
 /* 397 */
@@ -46437,7 +46437,7 @@ var FXAAFilter = function (_core$Filter) {
 }(core.Filter);
 
 exports.default = FXAAFilter;
-//# sourceMappingURL=FXAAFilter.js.map
+
 
 /***/ }),
 /* 398 */
@@ -46521,7 +46521,7 @@ Object.defineProperty(exports, 'VoidFilter', {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 399 */
@@ -46623,7 +46623,7 @@ var NoiseFilter = function (_core$Filter) {
 }(core.Filter);
 
 exports.default = NoiseFilter;
-//# sourceMappingURL=NoiseFilter.js.map
+
 
 /***/ }),
 /* 400 */
@@ -46678,7 +46678,7 @@ var VoidFilter = function (_core$Filter) {
 }(core.Filter);
 
 exports.default = VoidFilter;
-//# sourceMappingURL=VoidFilter.js.map
+
 
 /***/ }),
 /* 401 */
@@ -46795,7 +46795,7 @@ if (typeof _deprecation2.default === 'function') {
 
 // Always export pixi globally.
 global.PIXI = exports; // eslint-disable-line
-//# sourceMappingURL=index.js.map
+
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(101)))
 
 /***/ }),
@@ -46886,7 +46886,7 @@ var InteractionEvent = function () {
 }();
 
 exports.default = InteractionEvent;
-//# sourceMappingURL=InteractionEvent.js.map
+
 
 /***/ }),
 /* 403 */
@@ -48651,7 +48651,7 @@ exports.default = InteractionManager;
 
 core.WebGLRenderer.registerPlugin('interaction', InteractionManager);
 core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
-//# sourceMappingURL=InteractionManager.js.map
+
 
 /***/ }),
 /* 404 */
@@ -48832,7 +48832,7 @@ InteractionTrackingData.FLAGS = Object.freeze({
     LEFT_DOWN: 1 << 1,
     RIGHT_DOWN: 1 << 2
 });
-//# sourceMappingURL=InteractionTrackingData.js.map
+
 
 /***/ }),
 /* 405 */
@@ -48871,7 +48871,7 @@ Object.defineProperty(exports, 'interactiveTarget', {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 406 */
@@ -49004,7 +49004,7 @@ AppPrototype.destroy = function destroy(removeView) {
     }
     this._parentDestroy(removeView);
 };
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 407 */
@@ -49180,7 +49180,7 @@ _bitmapFontParser2.default];
 var Resource = _resourceLoader2.default.Resource;
 
 Resource.setExtensionXhrType('fnt', Resource.XHR_RESPONSE_TYPE.DOCUMENT);
-//# sourceMappingURL=loader.js.map
+
 
 /***/ }),
 /* 408 */
@@ -49571,7 +49571,7 @@ var NineSlicePlane = function (_Plane) {
 }(_Plane3.default);
 
 exports.default = NineSlicePlane;
-//# sourceMappingURL=NineSlicePlane.js.map
+
 
 /***/ }),
 /* 409 */
@@ -49812,7 +49812,7 @@ var Rope = function (_Mesh) {
 }(_Mesh3.default);
 
 exports.default = Rope;
-//# sourceMappingURL=Rope.js.map
+
 
 /***/ }),
 /* 410 */
@@ -50099,7 +50099,7 @@ exports.default = MeshSpriteRenderer;
 
 
 core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
-//# sourceMappingURL=CanvasMeshRenderer.js.map
+
 
 /***/ }),
 /* 411 */
@@ -50165,7 +50165,7 @@ Object.defineProperty(exports, 'Rope', {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 412 */
@@ -50321,7 +50321,7 @@ exports.default = MeshRenderer;
 
 
 core.WebGLRenderer.registerPlugin('mesh', MeshRenderer);
-//# sourceMappingURL=MeshRenderer.js.map
+
 
 /***/ }),
 /* 413 */
@@ -50697,7 +50697,7 @@ var ParticleContainer = function (_core$Container) {
 }(core.Container);
 
 exports.default = ParticleContainer;
-//# sourceMappingURL=ParticleContainer.js.map
+
 
 /***/ }),
 /* 414 */
@@ -50727,7 +50727,7 @@ Object.defineProperty(exports, 'ParticleRenderer', {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 415 */
@@ -50972,7 +50972,7 @@ var ParticleBuffer = function () {
 }();
 
 exports.default = ParticleBuffer;
-//# sourceMappingURL=ParticleBuffer.js.map
+
 
 /***/ }),
 /* 416 */
@@ -51422,7 +51422,7 @@ exports.default = ParticleRenderer;
 
 
 core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
-//# sourceMappingURL=ParticleRenderer.js.map
+
 
 /***/ }),
 /* 417 */
@@ -51470,7 +51470,7 @@ var ParticleShader = function (_Shader) {
 }(_Shader3.default);
 
 exports.default = ParticleShader;
-//# sourceMappingURL=ParticleShader.js.map
+
 
 /***/ }),
 /* 418 */
@@ -51493,7 +51493,7 @@ if (!Math.sign) {
         return x > 0 ? 1 : -1;
     };
 }
-//# sourceMappingURL=Math.sign.js.map
+
 
 /***/ }),
 /* 419 */
@@ -51513,7 +51513,7 @@ if (!Object.assign) {
 } // References:
 // https://github.com/sindresorhus/object-assign
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
-//# sourceMappingURL=Object.assign.js.map
+
 
 /***/ }),
 /* 420 */
@@ -51543,7 +51543,7 @@ if (!window.Uint32Array) {
 if (!window.Uint16Array) {
     window.Uint16Array = Array;
 }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 421 */
@@ -51623,7 +51623,7 @@ if (!global.cancelAnimationFrame) {
         return clearTimeout(id);
     };
 }
-//# sourceMappingURL=requestAnimationFrame.js.map
+
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(101)))
 
 /***/ }),
@@ -51749,7 +51749,7 @@ function uploadBaseTextures(prepare, item) {
 }
 
 core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
-//# sourceMappingURL=CanvasPrepare.js.map
+
 
 /***/ }),
 /* 423 */
@@ -51806,7 +51806,7 @@ Object.defineProperty(exports, 'TimeLimiter', {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-//# sourceMappingURL=index.js.map
+
 
 /***/ }),
 /* 424 */
@@ -51869,7 +51869,7 @@ var TimeLimiter = function () {
 }();
 
 exports.default = TimeLimiter;
-//# sourceMappingURL=TimeLimiter.js.map
+
 
 /***/ }),
 /* 425 */
@@ -51996,7 +51996,7 @@ function findGraphics(item, queue) {
 }
 
 core.WebGLRenderer.registerPlugin('prepare', WebGLPrepare);
-//# sourceMappingURL=WebGLPrepare.js.map
+
 
 /***/ }),
 /* 426 */
@@ -53387,7 +53387,7 @@ var Loader = function () {
 }();
 
 exports.default = Loader;
-//# sourceMappingURL=Loader.js.map
+
 
 /***/ }),
 /* 432 */
@@ -53480,7 +53480,7 @@ function blobMiddlewareFactory() {
         next();
     };
 }
-//# sourceMappingURL=blob.js.map
+
 
 /***/ }),
 /* 433 */
@@ -53543,4 +53543,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.24465653fa8503149059.js.map
+//# sourceMappingURL=bundle.976153a7a9f694c4877a.js.map

@@ -6,12 +6,15 @@ import * as PIXI from 'pixi.js';
 import WorkerLoader from 'worker-loader!src/PixiMap/worker';
 import { Edge, Node, Link } from 'src/PixiMap/interfaces';
 
-const nodeWidth = 22;
+// Texture size must be power of 2 !
+// https://developer.mozilla.org/en-US/docs/Web/API/
+// WebGL_API/Tutorial/Using_textures_in_WebGL#Non_power-of-two_textures
+const nodeWidth = 32;
 const nodeHeight = nodeWidth;
 const nodeRadius = nodeWidth / 2 - 4;
-const linkWidth = 7;
-const linkHeight = 7;
-const linkThickness = 1;
+const linkWidth = 8;
+const linkHeight = linkWidth;
+const linkThickness = 2;
 
 const colorToHex = (color: string): string => {
     if (!color || !color.length) return '0xFFFFFF';
@@ -172,16 +175,16 @@ const getScales = (
     const nodeScale = d3_scale
         .scaleLog()
         .domain([minNodeWeight, maxNodeWeight])
-        .range([1 / 5, 1]);
+        .range([0.2, 1]);
 
     const linkScale = d3_scale
         .scaleLog()
         .domain([minLinkWeight, maxLinkWeight])
-        .range([1 / 5, 1]);
+        .range([0.2, 1]);
 
     const colorScale = d3_scale
-        .scaleSequential(d3_scale.interpolateViridis)
-        .domain([0, 1]);
+        .scaleSequential(d3_scale.interpolateMagma)
+        .domain([0.1, 1]);
 
     return { nodeScale, linkScale, colorScale };
 };
@@ -227,8 +230,8 @@ export default (
         const sprite = new PIXI.Sprite(nodeTexture);
         const scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = scale;
-        sprite.scale.y = scale;
+        sprite.scale.x = scale - 0.2;
+        sprite.scale.y = scale - 0.2;
         sprite.alpha = scale + 1 / 2;
         container.addChild(sprite);
         return sprite;

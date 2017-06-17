@@ -27821,12 +27821,15 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var nodeWidth = 22;
+// Texture size must be power of 2 !
+// https://developer.mozilla.org/en-US/docs/Web/API/
+// WebGL_API/Tutorial/Using_textures_in_WebGL#Non_power-of-two_textures
+var nodeWidth = 32;
 var nodeHeight = nodeWidth;
 var nodeRadius = nodeWidth / 2 - 4;
-var linkWidth = 7;
-var linkHeight = 7;
-var linkThickness = 1;
+var linkWidth = 8;
+var linkHeight = linkWidth;
+var linkThickness = 2;
 var colorToHex = function colorToHex(color) {
     if (!color || !color.length) return '0xFFFFFF';
     if (color.indexOf('#') === 0) return '0x' + color.split('#')[1];
@@ -27947,9 +27950,9 @@ var getScales = function getScales(nodes, links) {
         maxLinkWeight = Math.max(maxLinkWeight, link.weight);
         minLinkWeight = Math.min(minLinkWeight, link.weight);
     });
-    var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([1 / 5, 1]);
-    var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([1 / 5, 1]);
-    var colorScale = d3_scale.scaleSequential(d3_scale.interpolateViridis).domain([0, 1]);
+    var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([0.2, 1]);
+    var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([0.2, 1]);
+    var colorScale = d3_scale.scaleSequential(d3_scale.interpolateMagma).domain([0.1, 1]);
     return { nodeScale: nodeScale, linkScale: linkScale, colorScale: colorScale };
 };
 
@@ -27993,8 +27996,8 @@ exports.default = function (canvasEl, width, height, edges) {
         var sprite = new PIXI.Sprite(nodeTexture);
         var scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = scale;
-        sprite.scale.y = scale;
+        sprite.scale.x = scale - 0.2;
+        sprite.scale.y = scale - 0.2;
         sprite.alpha = scale + 1 / 2;
         container.addChild(sprite);
         return sprite;
@@ -54162,4 +54165,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.2f802cfb95190de16b49.js.map
+//# sourceMappingURL=bundle.b752a68a663af6994d77.js.map

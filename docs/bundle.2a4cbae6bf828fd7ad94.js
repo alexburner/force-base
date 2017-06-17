@@ -27831,14 +27831,20 @@ var linkWidth = 8;
 var linkHeight = linkWidth;
 var linkThickness = 2;
 var colorToHex = function colorToHex(color) {
-    if (!color || !color.length) return '0xFFFFFF';
-    if (color.indexOf('#') === 0) return '0x' + color.split('#')[1];
-    var a = color.split('(')[1].split(')')[0].split(',');
-    var b = a.map(function (x) {
-        x = parseInt(x).toString(16);
-        return x.length === 1 ? '0' + x : x;
-    });
-    return '0x' + b.join('');
+    var hex = void 0;
+    if (!color || !color.length) {
+        hex = '0xFFFFFF';
+    } else if (color.indexOf('#') === 0) {
+        hex = '0x' + color.split('#')[1];
+    } else {
+        var a = color.split('(')[1].split(')')[0].split(',');
+        var b = a.map(function (x) {
+            x = parseInt(x).toString(16);
+            return x.length === 1 ? '0' + x : x;
+        });
+        hex = '0x' + b.join('');
+    }
+    return parseInt(hex, 16);
 };
 var getCanvas = function getCanvas(width, height) {
     var element = document.createElement('canvas');
@@ -54165,4 +54171,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.b752a68a663af6994d77.js.map
+//# sourceMappingURL=bundle.2a4cbae6bf828fd7ad94.js.map

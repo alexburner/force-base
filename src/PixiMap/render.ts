@@ -16,15 +16,21 @@ const linkWidth = 8;
 const linkHeight = linkWidth;
 const linkThickness = 2;
 
-const colorToHex = (color: string): string => {
-    if (!color || !color.length) return '0xFFFFFF';
-    if (color.indexOf('#') === 0) return '0x' + color.split('#')[1];
-    const a = color.split('(')[1].split(')')[0].split(',');
-    const b = a.map(x => {
-        x = parseInt(x).toString(16);
-        return x.length === 1 ? '0' + x : x;
-    });
-    return '0x' + b.join('');
+const colorToHex = (color: string): number => {
+    let hex: string;
+    if (!color || !color.length) {
+        hex = '0xFFFFFF';
+    } else if (color.indexOf('#') === 0) {
+        hex = '0x' + color.split('#')[1];
+    } else {
+        const a = color.split('(')[1].split(')')[0].split(',');
+        const b = a.map(x => {
+            x = parseInt(x).toString(16);
+            return x.length === 1 ? '0' + x : x;
+        });
+        hex = '0x' + b.join('');
+    }
+    return parseInt(hex, 16);
 };
 
 const getCanvas = (

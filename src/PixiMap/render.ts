@@ -181,16 +181,16 @@ const getScales = (
     const nodeScale = d3_scale
         .scaleLog()
         .domain([minNodeWeight, maxNodeWeight])
-        .range([0.2, 1]);
+        .range([0, 1]);
 
     const linkScale = d3_scale
         .scaleLog()
         .domain([minLinkWeight, maxLinkWeight])
-        .range([0.2, 1]);
+        .range([0, 1]);
 
     const colorScale = d3_scale
         .scaleSequential(d3_scale.interpolateMagma)
-        .domain([0.1, 1]);
+        .domain([0, 1]);
 
     return { nodeScale, linkScale, colorScale };
 };
@@ -217,8 +217,8 @@ export default (
     container.height = height;
     container.x += width / 2;
     container.y += height / 2;
-    container.scale.x = 0.9;
-    container.scale.y = 0.9;
+    container.scale.x = 0.7;
+    container.scale.y = 0.7;
     container.alpha = 0;
     app.stage.addChild(container);
 
@@ -227,7 +227,7 @@ export default (
         const scale = linkScale(link.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.y = scale * 1.2;
-        sprite.alpha = scale - 1 / 6;
+        sprite.alpha = scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -236,9 +236,9 @@ export default (
         const sprite = new PIXI.Sprite(nodeTexture);
         const scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = scale - 0.2;
-        sprite.scale.y = scale - 0.2;
-        sprite.alpha = scale + 1 / 2;
+        sprite.scale.x = scale * 0.8;
+        sprite.scale.y = scale * 0.8;
+        sprite.alpha = scale + 0.7;
         container.addChild(sprite);
         return sprite;
     });

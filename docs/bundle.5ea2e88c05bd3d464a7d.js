@@ -27956,9 +27956,9 @@ var getScales = function getScales(nodes, links) {
         maxLinkWeight = Math.max(maxLinkWeight, link.weight);
         minLinkWeight = Math.min(minLinkWeight, link.weight);
     });
-    var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([0.2, 1]);
-    var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([0.2, 1]);
-    var colorScale = d3_scale.scaleSequential(d3_scale.interpolateMagma).domain([0.1, 1]);
+    var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([0, 1]);
+    var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([0, 1]);
+    var colorScale = d3_scale.scaleSequential(d3_scale.interpolateMagma).domain([0, 1]);
     return { nodeScale: nodeScale, linkScale: linkScale, colorScale: colorScale };
 };
 
@@ -27985,8 +27985,8 @@ exports.default = function (canvasEl, width, height, edges) {
     container.height = height;
     container.x += width / 2;
     container.y += height / 2;
-    container.scale.x = 0.9;
-    container.scale.y = 0.9;
+    container.scale.x = 0.7;
+    container.scale.y = 0.7;
     container.alpha = 0;
     app.stage.addChild(container);
     var linkSprites = _underscore2.default.map(links, function (link) {
@@ -27994,7 +27994,7 @@ exports.default = function (canvasEl, width, height, edges) {
         var scale = linkScale(link.weight);
         sprite.tint = colorToHex(colorScale(scale));
         sprite.scale.y = scale * 1.2;
-        sprite.alpha = scale - 1 / 6;
+        sprite.alpha = scale;
         container.addChild(sprite);
         return sprite;
     });
@@ -28002,9 +28002,9 @@ exports.default = function (canvasEl, width, height, edges) {
         var sprite = new PIXI.Sprite(nodeTexture);
         var scale = nodeScale(node.weight);
         sprite.tint = colorToHex(colorScale(scale));
-        sprite.scale.x = scale - 0.2;
-        sprite.scale.y = scale - 0.2;
-        sprite.alpha = scale + 1 / 2;
+        sprite.scale.x = scale * 0.8;
+        sprite.scale.y = scale * 0.8;
+        sprite.alpha = scale + 0.7;
         container.addChild(sprite);
         return sprite;
     });
@@ -54171,4 +54171,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.2a4cbae6bf828fd7ad94.js.map
+//# sourceMappingURL=bundle.5ea2e88c05bd3d464a7d.js.map

@@ -1,59 +1,125 @@
+import _ from 'underscore';
 import * as d3_force from 'd3-force';
 
 import { Node, Link } from 'src/PixiMap/interfaces';
 
 let simulation;
-let nodes: Node[];
-let links: Link[];
+let loopSignature;
 
-const init = args => {
-    nodes = args.nodes;
-    links = args.links;
+// Initialize on file load ( new WorkerLoader() )
+{
     simulation = d3_force.forceSimulation();
-    simulation.nodes(nodes);
-    simulation.stop();
+    simulation.nodes([]);
+    const link = d3_force.forceLink([]);
     const charge = d3_force.forceManyBody();
-    charge.strength(-30);
-    const link = d3_force.forceLink(links);
-    link.id((node: Node) => `${node.oid}`);
-    link.distance(40);
-    link.strength(0.4);
-    link.id((node: Node) => `${node.oid}`);
     const center = d3_force.forceCenter();
+    const collide = d3_force.forceCollide();
     const x = d3_force.forceX();
     const y = d3_force.forceY();
-    simulation.force('charge', charge);
+    link.id((node: Node) => `${node.id}`);
+    link.distance(40); // magic #
+    link.strength(0.4); // magic #
+    charge.strength(-30); // magic #
+    collide.radius((node: Node) => node.scale * 6); // magic #
     simulation.force('link', link);
+    simulation.force('charge', charge);
     simulation.force('center', center);
+    simulation.force('collide', collide);
     simulation.force('x', x);
     simulation.force('y', y);
+    simulation.stop();
+}
+
+const run = (
+    nodes: Node[],
+    links: Link[],
+    nodesById: { [id: number]: Node },
+    linksById: { [id: string]: Link },
+    limit: number,
+    batch: number,
+) => {
+    // Update simulation nodes/links
+    simulation.nodes(nodes);
+    simulation.force('link').links(links);
+    simulation.alpha(1); // re-heat
+    simulation.stop();
+    // Use object reference value to track if our loop is still relevant
+    loopSignature = {};
+    const localLoopSignature = loopSignature;
+    // Track tick timing
+    const start = Date.now();
+    // Run simulation ticks
+    _.times(limit + 1, i => {
+        // Async to allow interrupt
+        setTimeout(() => {
+            // Abort if we're no longer relevant
+            if (localLoopSignature !== loopSignature) {
+                return;
+            }
+            // Halt if simulation is done
+            if (i === limit || simulation.alpha() < simulation.alphaMin()) {
+                halt();
+                return;
+            }
+            // Tick simulation
+            simulation.tick();
+            // Send batched updates
+            if (i % batch === 0) {
+                self.postMessage(
+                    {
+                        type: 'tick',
+                        nodes: nodes,
+                        links: links,
+                        nodesById: nodesById,
+                        linksById: linksById,
+                        tick: i,
+                        time: Date.now() - start,
+                    },
+                    undefined,
+                );
+            }
+        }, 0);
+    });
+};
+
+const halt = () => {
+    // Stop any current loop
+    loopSignature = null;
+    // Inform subscribers we're stopping
+    self.postMessage({ type: 'halt' }, undefined);
+};
+
+const destroy = () => {
+    halt();
+    // Dismantle simulation
+    simulation.nodes([]);
+    simulation.force('link', null);
+    simulation.force('charge', null);
+    simulation.force('center', null);
+    simulation.force('x', null);
+    simulation.force('y', null);
+    // Remove reference
+    simulation = null;
 };
 
 self.addEventListener('message', e => {
     switch (e.data.type) {
-        case 'init': {
-            init({
-                nodes: e.data.nodes,
-                links: e.data.links,
-            });
-            const start = Date.now();
+        case 'run': {
+            const nodes = e.data.nodes;
+            const links = e.data.links;
+            const nodesById = e.data.nodesById;
+            const linksById = e.data.linksById;
             const limit = e.data.limit || e.data.nodes.length;
-            const batch = 1;
-            for (let i = 0; i <= limit; i++) {
-                simulation.tick();
-                if (i % batch === 0) {
-                    self.postMessage(
-                        {
-                            type: 'tick',
-                            nodes: nodes,
-                            links: links,
-                            tick: i,
-                            time: Date.now() - start,
-                        },
-                        undefined,
-                    );
-                }
-            }
+            const batch = e.data.batch || 1;
+            run(nodes, links, nodesById, linksById, limit, batch);
+            break;
+        }
+        case 'halt': {
+            halt();
+            break;
+        }
+        case 'destroy': {
+            destroy();
             break;
         }
     }

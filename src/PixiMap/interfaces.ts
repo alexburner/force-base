@@ -5,20 +5,31 @@ export interface Annotation {
 
 export interface Edge {
     annotations: Annotation[];
-    from: number;
-    to: number;
+    from: number; // object_id
+    to: number; // object_id
     weight: number;
 }
 
+type Status = 'added' | 'removed' | 'updated';
+
 export interface Node {
-    oid: number;
+    status: Status;
+    id: number; // object_id
+    scale: number; // 0-1
     weight: number;
     x: number;
     y: number;
 }
 
 export interface Link {
-    source: number | Node;
-    target: number | Node;
+    status: Status;
+    id: string; // `${edge.from},${edge.to}`
+    scale: number; // 0-1
+    source: Node;
+    target: Node;
     weight: number;
+}
+
+export interface Opts {
+    colorKey: string; // TODO how to: keyof D3Colors;
 }

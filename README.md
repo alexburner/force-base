@@ -36,13 +36,13 @@ npm run watch
 ```
 
 ### Build
-Run webpack build (`demo/src` → `demo/dist`)
+Run webpack build (`demo` → `docs`)
 ```
 npm run build
 ```
 
 ### Clean
-Scrub out `demo/dist` and `.awcache`
+Scrub out `docs` and `.awcache`
 ```
 npm run clean
 ```

@@ -8,7 +8,7 @@ import { D3Colors } from 'src/PixiMap/constants';
 import { Edge } from 'src/PixiMap/interfaces';
 
 interface State {
-    colorKey: string; // TODO how to: keyof D3Colors;
+    colorKey: keyof typeof D3Colors;
     multiplier: number;
 }
 

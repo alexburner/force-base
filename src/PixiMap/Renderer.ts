@@ -44,12 +44,12 @@ export default class Renderer {
         this.stage.addChild(this.nodeLayer);
     }
 
-    setColors(colorKey: string /* TODO how to: keyof D3Colors */) {
+    setColors(colorKey: keyof typeof D3Colors) {
         const color = D3Colors[colorKey];
         if (!color) return;
         this.colorScale = d3_scale
             .scaleSequential(color.interpolator)
-            .domain(color.domain);
+            .domain(color.domain as [number, number]);
     }
 
     remove(nodes: Node[], links: Link[]) {

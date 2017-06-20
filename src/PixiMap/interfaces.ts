@@ -1,3 +1,5 @@
+import { D3Colors } from 'src/PixiMap/constants';
+
 export interface Annotation {
     proto: string;
     weight: number;
@@ -31,5 +33,5 @@ export interface Link {
 }
 
 export interface Opts {
-    colorKey: string; // TODO how to: keyof D3Colors;
+    colorKey: keyof typeof D3Colors;
 }

@@ -28348,7 +28348,7 @@ var Renderer = function () {
 
     (0, _createClass3.default)(Renderer, [{
         key: 'setColors',
-        value: function setColors(colorKey /* TODO how to: keyof D3Colors */) {
+        value: function setColors(colorKey) {
             var color = _constants.D3Colors[colorKey];
             if (!color) return;
             this.colorScale = d3_scale.scaleSequential(color.interpolator).domain(color.domain);
@@ -54919,4 +54919,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.02f6ae2cc13824158211.js.map
+//# sourceMappingURL=bundle.1712f5acaa5cece72358.js.map

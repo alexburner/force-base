@@ -1,4 +1,3 @@
-import _ from 'underscore';
 import * as d3_force from 'd3-force';
 
 import { Node, Link } from 'src/PixiMap/interfaces';
@@ -38,48 +37,48 @@ const run = (
     limit: number,
     batch: number,
 ) => {
+    // Use object reference value to track if our loop is still relevant
+    loopSignature = {};
+    const localLoopSignature = loopSignature;
     // Update simulation nodes/links
     simulation.nodes(nodes);
     simulation.force('link').links(links);
     simulation.alpha(1); // re-heat
     simulation.stop();
-    // Use object reference value to track if our loop is still relevant
-    loopSignature = {};
-    const localLoopSignature = loopSignature;
     // Track tick timing
     const start = Date.now();
     // Run simulation ticks
-    _.times(limit + 1, i => {
-        // Async to allow interrupt
-        setTimeout(() => {
-            // Abort if we're no longer relevant
-            if (localLoopSignature !== loopSignature) {
-                return;
-            }
-            // Halt if simulation is done
-            if (i === limit || simulation.alpha() < simulation.alphaMin()) {
-                halt();
-                return;
-            }
-            // Tick simulation
-            simulation.tick();
-            // Send batched updates
-            if (i % batch === 0) {
-                self.postMessage(
-                    {
-                        type: 'tick',
-                        nodes: nodes,
-                        links: links,
-                        nodesById: nodesById,
-                        linksById: linksById,
-                        tick: i,
-                        time: Date.now() - start,
-                    },
-                    undefined,
-                );
-            }
-        }, 0);
-    });
+    let i = 0;
+    const tick = () => {
+        // Abort if we're no longer relevant
+        if (localLoopSignature !== loopSignature) return;
+        // Halt if simulation is done
+        if (i === limit - 1 || simulation.alpha() < simulation.alphaMin()) {
+            halt();
+            return;
+        }
+        // Tick simulation
+        simulation.tick();
+        // Send batched updates
+        if (i % batch === 0) {
+            self.postMessage(
+                {
+                    type: 'tick',
+                    nodes: nodes,
+                    links: links,
+                    nodesById: nodesById,
+                    linksById: linksById,
+                    tick: i,
+                    time: Date.now() - start,
+                },
+                undefined,
+            );
+        }
+        i++;
+        // Async loop to allow interrupt
+        setTimeout(tick, 0);
+    };
+    tick();
 };
 
 const halt = () => {

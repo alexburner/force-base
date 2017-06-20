@@ -108,7 +108,6 @@ export default class Renderer {
         _.each(nodes, node => {
             if (node.status === 'removed') return;
             const sprite = this.nodeSpritesById[node.id];
-            if (!sprite) return; // XXX: worker may be out of sync
             sprite.x = node.x - sprite.width / 2;
             sprite.y = node.y - sprite.height / 2;
         });
@@ -117,7 +116,6 @@ export default class Renderer {
         _.each(links, link => {
             if (link.status === 'removed') return;
             const sprite = this.linkSpritesById[link.id];
-            if (!sprite) return; // XXX: worker may be out of sync
             const node1 = link.source;
             const node2 = link.target;
             setLinkPosition(sprite, node1, node2);

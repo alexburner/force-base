@@ -28148,25 +28148,38 @@ var Module = function () {
     (0, _createClass3.default)(Module, [{
         key: 'update',
         value: function update(edges) {
-            // TODO
-            // module & renderer data changes are sync
+            var _this2 = this;
+
+            // Module & renderer data changes are sync
             // but worker is async running in background with old data
             // and renderer may have its tick() called with old nodes/links
             // that were just pulled out in its remove() function
-            // how to handle?
-            // - easier: skip unrecognized nodes/links (current)
-            // - harder: halt worker, listen for halt, update data, re-run worker
-            this.handleEdges(edges);
-            this.renderer.update(this.nodes, this.links);
-            this.renderer.run();
-            this.worker.postMessage({
-                type: 'run',
-                limit: 200,
-                nodes: this.nodes,
-                links: this.links,
-                nodesById: this.nodesById,
-                linksById: this.linksById
-            });
+            //
+            // So, we halt worker before updating
+            // and resume it once we're done
+            var handleMessage = function handleMessage(e) {
+                if (_this2.isDestroyed) return;
+                switch (e.data.type) {
+                    case 'halt':
+                        {
+                            _this2.handleEdges(edges);
+                            _this2.renderer.update(_this2.nodes, _this2.links);
+                            _this2.renderer.run();
+                            _this2.worker.removeEventListener('message', handleMessage);
+                            _this2.worker.postMessage({
+                                type: 'run',
+                                limit: 200,
+                                nodes: _this2.nodes,
+                                links: _this2.links,
+                                nodesById: _this2.nodesById,
+                                linksById: _this2.linksById
+                            });
+                            break;
+                        }
+                }
+            };
+            this.worker.addEventListener('message', handleMessage);
+            this.worker.postMessage({ type: 'halt' });
         }
     }, {
         key: 'resize',
@@ -28191,7 +28204,7 @@ var Module = function () {
     }, {
         key: 'handleEdges',
         value: function handleEdges(edges) {
-            var _this2 = this;
+            var _this3 = this;
 
             // Assume all current node/links removed
             // (unless proven otherwise, in next loop)
@@ -28204,29 +28217,29 @@ var Module = function () {
             // Use edge data to update node/link collections
             _underscore2.default.each(edges, function (edge) {
                 if (!edge.weight) return;
-                var fromNode = _this2.nodesById[edge.from];
+                var fromNode = _this3.nodesById[edge.from];
                 if (!fromNode) {
-                    fromNode = (0, _util.makeNode)(edge.from, _this2.width, _this2.height);
-                    _this2.nodesById[fromNode.id] = fromNode;
-                    _this2.nodes.push(fromNode);
+                    fromNode = (0, _util.makeNode)(edge.from, _this3.width, _this3.height);
+                    _this3.nodesById[fromNode.id] = fromNode;
+                    _this3.nodes.push(fromNode);
                 } else {
                     fromNode.status = 'updated';
                 }
-                var toNode = _this2.nodesById[edge.to];
+                var toNode = _this3.nodesById[edge.to];
                 if (!toNode) {
-                    toNode = (0, _util.makeNode)(edge.to, _this2.width, _this2.height);
-                    _this2.nodesById[toNode.id] = toNode;
-                    _this2.nodes.push(toNode);
+                    toNode = (0, _util.makeNode)(edge.to, _this3.width, _this3.height);
+                    _this3.nodesById[toNode.id] = toNode;
+                    _this3.nodes.push(toNode);
                 } else {
                     toNode.status = 'updated';
                 }
-                var link = _this2.linksById[edge.from + ',' + edge.to];
+                var link = _this3.linksById[edge.from + ',' + edge.to];
                 if (!link) {
                     link = (0, _util.makeLink)(edge, fromNode, toNode);
                     fromNode.weight += edge.weight;
                     toNode.weight += edge.weight;
-                    _this2.linksById[link.id] = link;
-                    _this2.links.push(link);
+                    _this3.linksById[link.id] = link;
+                    _this3.links.push(link);
                 } else {
                     link.status = 'updated';
                 }
@@ -28241,10 +28254,10 @@ var Module = function () {
                 return link.status === 'removed';
             });
             _underscore2.default.each(this.nodesById, function (node) {
-                if (node.status === 'removed') delete _this2.nodesById[node.id];
+                if (node.status === 'removed') delete _this3.nodesById[node.id];
             });
             _underscore2.default.each(this.linksById, function (link) {
-                if (link.status === 'removed') delete _this2.linksById[link.id];
+                if (link.status === 'removed') delete _this3.linksById[link.id];
             });
             // Now that nodes/links may have new weights, regenerate their scales
 
@@ -28409,7 +28422,6 @@ var Renderer = function () {
             _underscore2.default.each(nodes, function (node) {
                 if (node.status === 'removed') return;
                 var sprite = _this3.nodeSpritesById[node.id];
-                if (!sprite) return; // XXX: worker may be out of sync
                 sprite.x = node.x - sprite.width / 2;
                 sprite.y = node.y - sprite.height / 2;
             });
@@ -28417,7 +28429,6 @@ var Renderer = function () {
             _underscore2.default.each(links, function (link) {
                 if (link.status === 'removed') return;
                 var sprite = _this3.linkSpritesById[link.id];
-                if (!sprite) return; // XXX: worker may be out of sync
                 var node1 = link.source;
                 var node2 = link.target;
                 setLinkPosition(sprite, node1, node2);
@@ -54908,4 +54919,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.ca9fe496972ce710fdc4.js.map
+//# sourceMappingURL=bundle.02f6ae2cc13824158211.js.map

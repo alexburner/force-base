@@ -42,26 +42,35 @@ export default class Module {
     }
 
     update(edges: Edge[]) {
-        // TODO
-        // module & renderer data changes are sync
+        // Module & renderer data changes are sync
         // but worker is async running in background with old data
         // and renderer may have its tick() called with old nodes/links
         // that were just pulled out in its remove() function
-        // how to handle?
-        // - easier: skip unrecognized nodes/links (current)
-        // - harder: halt worker, listen for halt, update data, re-run worker
-
-        this.handleEdges(edges);
-        this.renderer.update(this.nodes, this.links);
-        this.renderer.run();
-        this.worker.postMessage({
-            type: 'run',
-            limit: 200,
-            nodes: this.nodes,
-            links: this.links,
-            nodesById: this.nodesById,
-            linksById: this.linksById,
-        });
+        //
+        // So, we halt worker before updating
+        // and resume it once we're done
+        const handleMessage = (e: MessageEvent) => {
+            if (this.isDestroyed) return;
+            switch (e.data.type) {
+                case 'halt': {
+                    this.handleEdges(edges);
+                    this.renderer.update(this.nodes, this.links);
+                    this.renderer.run();
+                    this.worker.removeEventListener('message', handleMessage);
+                    this.worker.postMessage({
+                        type: 'run',
+                        limit: 200,
+                        nodes: this.nodes,
+                        links: this.links,
+                        nodesById: this.nodesById,
+                        linksById: this.linksById,
+                    });
+                    break;
+                }
+            }
+        };
+        this.worker.addEventListener('message', handleMessage);
+        this.worker.postMessage({ type: 'halt' });
     }
 
     resize(width: number, height: number) {

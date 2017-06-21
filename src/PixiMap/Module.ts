@@ -34,7 +34,7 @@ export default class Module {
                     this.links = e.data.links;
                     this.nodesById = e.data.nodesById;
                     this.linksById = e.data.linksById;
-                    this.renderer.tick(this.nodes, this.links, e.data.tick);
+                    this.renderer.tick(this.nodes, this.links);
                     break;
                 }
             }
@@ -102,7 +102,7 @@ export default class Module {
 
             let fromNode: Node = this.nodesById[edge.from];
             if (!fromNode) {
-                fromNode = makeNode(edge.from, this.width, this.height);
+                fromNode = makeNode(edge.from);
                 this.nodesById[fromNode.id] = fromNode;
                 this.nodes.push(fromNode);
             } else {
@@ -111,7 +111,7 @@ export default class Module {
 
             let toNode: Node = this.nodesById[edge.to];
             if (!toNode) {
-                toNode = makeNode(edge.to, this.width, this.height);
+                toNode = makeNode(edge.to);
                 this.nodesById[toNode.id] = toNode;
                 this.nodes.push(toNode);
             } else {

@@ -103,7 +103,7 @@ export default class Renderer {
         });
     }
 
-    tick(nodes: Node[], links: Link[], tick: number) {
+    tick(nodes: Node[], links: Link[]) {
         // Update node sprite positions
         _.each(nodes, node => {
             if (node.status === 'removed') return;
@@ -121,8 +121,8 @@ export default class Renderer {
             setLinkPosition(sprite, node1, node2);
         });
 
-        // Update stage opacity (if wanted/needed)
-        if (tick > 10 && this.stage.alpha < 1) this.stage.alpha += 0.01;
+        // Increment stage opacity if not full
+        if (this.stage.alpha < 1) this.stage.alpha += 0.01;
     }
 
     renderLoop() {

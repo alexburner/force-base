@@ -4,18 +4,13 @@ import * as d3_scale from 'd3-scale';
 import { Edge, Node, Link } from 'src/PixiMap/interfaces';
 
 // Create a new node object
-// TODO decouple initial positioning from width/height
-export const makeNode = (
-    object_id: number,
-    width: number,
-    height: number,
-): Node => ({
+export const makeNode = (object_id: number): Node => ({
     status: 'added',
     id: object_id,
     scale: 0,
     weight: 0,
-    x: object_id % width - width / 2,
-    y: object_id % height - height / 2,
+    x: object_id % 3000 - 3000 / 2,
+    y: object_id % 3000 - 3000 / 2,
 });
 
 // Create a new link object

@@ -2,13 +2,18 @@ import * as d3_force from 'd3-force';
 
 import { Node, Link } from 'src/PixiMap/interfaces';
 
-let simulation;
-let loopSignature;
+const TICK_FLOOR = 10; // Number of ticks to withold from rendering
 
-// Initialize on file load ( new WorkerLoader() )
+// Global state
+let simulation;
+let globalLoopSignature;
+
+// Initialize on file load
+// ( new WorkerLoader() )
 {
     simulation = d3_force.forceSimulation();
     simulation.nodes([]);
+    simulation.stop();
     const link = d3_force.forceLink([]);
     const charge = d3_force.forceManyBody();
     const center = d3_force.forceCenter();
@@ -26,8 +31,34 @@ let loopSignature;
     simulation.force('collide', collide);
     simulation.force('x', x);
     simulation.force('y', y);
-    simulation.stop();
 }
+
+// Handle browser messages
+self.addEventListener('message', e => {
+    switch (e.data.type) {
+        case 'run': {
+            // Run simulation ticks on given nodes/links
+            const nodes = e.data.nodes;
+            const links = e.data.links;
+            const nodesById = e.data.nodesById;
+            const linksById = e.data.linksById;
+            const limit = e.data.limit || e.data.nodes.length;
+            const batch = e.data.batch || 1;
+            run(nodes, links, nodesById, linksById, limit, batch);
+            break;
+        }
+        case 'halt': {
+            // Halt simulation ticks
+            halt();
+            break;
+        }
+        case 'destroy': {
+            // Destroy simulation
+            destroy();
+            break;
+        }
+    }
+});
 
 const run = (
     nodes: Node[],
@@ -37,30 +68,38 @@ const run = (
     limit: number,
     batch: number,
 ) => {
-    // Use object reference value to track if our loop is still relevant
-    loopSignature = {};
-    const localLoopSignature = loopSignature;
+    globalLoopSignature = {};
+    // globally store the unique reference value of a new object
+    // so our loop can track whether it's fallen out of sync
+    // by checking against a version captured locally
+    const localLoopSignature = globalLoopSignature;
+
     // Update simulation nodes/links
     simulation.nodes(nodes);
     simulation.force('link').links(links);
     simulation.alpha(1); // re-heat
     simulation.stop();
+
     // Track tick timing
     const start = Date.now();
+
     // Run simulation ticks
     let i = 0;
-    const tick = () => {
-        // Abort if we're no longer relevant
-        if (localLoopSignature !== loopSignature) return;
-        // Halt if simulation is done
+    const tickLoop = () => {
+        // Abort if our loop is no longer relevant
+        if (localLoopSignature !== globalLoopSignature) return;
+
+        // Halt if tick limit hit, or simulation has cooled off
         if (i === limit - 1 || simulation.alpha() < simulation.alphaMin()) {
             halt();
             return;
         }
+
         // Tick simulation
         simulation.tick();
-        // Send batched updates
-        if (i % batch === 0) {
+
+        // Send batched updates (but only beyond tick minimum)
+        if (i % batch === 0 && i > TICK_FLOOR) {
             self.postMessage(
                 {
                     type: 'tick',
@@ -74,17 +113,19 @@ const run = (
                 undefined,
             );
         }
+
         i++;
-        // Async loop to allow interrupt
-        setTimeout(tick, 0);
+        setTimeout(tickLoop, 0); // Async loop to allow interrupt
     };
-    tick();
+
+    // Begin
+    tickLoop();
 };
 
 const halt = () => {
     // Stop any current loop
-    loopSignature = null;
-    // Inform subscribers we're stopping
+    globalLoopSignature = null;
+    // Inform listeners that we're stopping
     self.postMessage({ type: 'halt' }, undefined);
 };
 
@@ -100,26 +141,3 @@ const destroy = () => {
     // Remove reference
     simulation = null;
 };
-
-self.addEventListener('message', e => {
-    switch (e.data.type) {
-        case 'run': {
-            const nodes = e.data.nodes;
-            const links = e.data.links;
-            const nodesById = e.data.nodesById;
-            const linksById = e.data.linksById;
-            const limit = e.data.limit || e.data.nodes.length;
-            const batch = e.data.batch || 1;
-            run(nodes, links, nodesById, linksById, limit, batch);
-            break;
-        }
-        case 'halt': {
-            halt();
-            break;
-        }
-        case 'destroy': {
-            destroy();
-            break;
-        }
-    }
-});

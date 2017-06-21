@@ -6,8 +6,7 @@ import { D3Colors } from 'src/PixiMap/constants';
 import { Node, Link } from 'src/PixiMap/interfaces';
 import { colorToHex, makeCanvas } from 'src/PixiMap/util';
 
-export default class Renderer {
-    private isRunning: boolean;
+export default class Drawing {
     private renderer: PIXI.WebGLRenderer | PIXI.CanvasRenderer;
     private stage: PIXI.Container;
     private nodeLayer: PIXI.Container;
@@ -17,19 +16,23 @@ export default class Renderer {
     private nodeSpritesById: { [id: number]: PIXI.Sprite };
     private linkSpritesById: { [id: number]: PIXI.Sprite };
     private colorScale: d3_scale.ScaleSequential<any>;
+    private isRunning: boolean;
 
     constructor(width: number, height: number, canvas: HTMLCanvasElement) {
         this.isRunning = false;
+
         this.nodeTexture = PIXI.Texture.fromCanvas(makeNodeCanvas());
         this.linkTexture = PIXI.Texture.fromCanvas(makeLinkCanvas());
+
         this.nodeSpritesById = {};
         this.linkSpritesById = {};
-        this.setColors('Magma');
+
         this.renderer = PIXI.autoDetectRenderer(width, height, {
             antialias: true,
             backgroundColor: 0x333333,
             view: canvas,
         });
+
         this.stage = new PIXI.Container();
         this.stage.width = width;
         this.stage.height = height;
@@ -38,22 +41,45 @@ export default class Renderer {
         this.stage.scale.x = 0.7; // magic #
         this.stage.scale.y = 0.7; // magic #
         this.stage.alpha = 0;
+
         this.nodeLayer = new PIXI.Container();
         this.linkLayer = new PIXI.Container();
         this.stage.addChild(this.linkLayer);
         this.stage.addChild(this.nodeLayer);
+
+        this.setColors('Magma');
+    }
+
+    run() {
+        this.isRunning = true;
+        this.loop();
+    }
+
+    halt() {
+        this.isRunning = false;
+    }
+
+    loop() {
+        if (!this.isRunning) return;
+        window.requestAnimationFrame(() => {
+            this.renderer.render(this.stage);
+            this.loop();
+        });
+    }
+
+    resize(width: number, height: number) {
+        this.renderer.resize(width, height);
     }
 
     setColors(colorKey: keyof typeof D3Colors) {
         const color = D3Colors[colorKey];
-        if (!color) return;
         this.colorScale = d3_scale
             .scaleSequential(color.interpolator)
             .domain(color.domain as [number, number]);
     }
 
     remove(nodes: Node[], links: Link[]) {
-        // Clean out sprites for any removed nodes/links
+        // Clean out sprites for any removed nodes
         _.each(nodes, node => {
             if (node.status !== 'removed') return;
             const sprite = this.nodeSpritesById[node.id];
@@ -63,6 +89,8 @@ export default class Renderer {
                 setTimeout(() => sprite.destroy(), 0);
             }
         });
+
+        // Clean out sprites for any removed links
         _.each(links, link => {
             if (link.status !== 'removed') return;
             const sprite = this.linkSpritesById[link.id];
@@ -75,7 +103,7 @@ export default class Renderer {
     }
 
     update(nodes: Node[], links: Link[]) {
-        // Create/update node sprites appearance
+        // Create/Update node sprites
         _.each(nodes, node => {
             let sprite = this.nodeSpritesById[node.id];
             if (!sprite) {
@@ -89,7 +117,7 @@ export default class Renderer {
             sprite.alpha = node.scale + 0.7; // magic #
         });
 
-        // Create/update link sprite appearance
+        // Create/Update link sprites
         _.each(links, link => {
             let sprite = this.linkSpritesById[link.id];
             if (!sprite) {
@@ -104,7 +132,7 @@ export default class Renderer {
     }
 
     tick(nodes: Node[], links: Link[]) {
-        // Update node sprite positions
+        // Move node sprites
         _.each(nodes, node => {
             if (node.status === 'removed') return;
             const sprite = this.nodeSpritesById[node.id];
@@ -112,7 +140,7 @@ export default class Renderer {
             sprite.y = node.y - sprite.height / 2;
         });
 
-        // Update link sprite positions
+        // Move link sprites
         _.each(links, link => {
             if (link.status === 'removed') return;
             const sprite = this.linkSpritesById[link.id];
@@ -121,33 +149,14 @@ export default class Renderer {
             setLinkPosition(sprite, node1, node2);
         });
 
-        // Increment stage opacity if not full
+        // Increment stage opacity (if not full)
         if (this.stage.alpha < 1) this.stage.alpha += 0.01;
     }
 
-    renderLoop() {
-        if (!this.isRunning) return;
-        window.requestAnimationFrame(() => {
-            this.renderer.render(this.stage);
-            this.renderLoop();
-        });
-    }
-
-    run() {
-        this.isRunning = true;
-        this.renderLoop();
-    }
-
-    halt() {
-        this.isRunning = false;
-    }
-
-    resize(width: number, height: number) {
-        this.renderer.resize(width, height);
-    }
-
     destroy() {
+        // stop loop
         this.halt();
+        // clean up pixi
         this.stage.destroy({
             children: true,
             texture: true,
@@ -158,11 +167,12 @@ export default class Renderer {
 }
 
 const nodeWidth = 32; // magic # (must be power of 2)
-const nodeHeight = nodeWidth;
-const nodeRadius = nodeWidth / 2 - 4;
-const linkWidth = 8; // magic # (must be power of 2)
-const linkHeight = linkWidth;
-const linkThickness = 2;
+const nodeHeight = nodeWidth; // square
+const nodeRadius = nodeWidth / 2 - 4; // magic #
+
+const linkLength = 8; // magic # (must be power of 2)
+const linkHeight = linkLength; // square
+const linkThickness = 2; // magic #
 
 const makeNodeCanvas = (): HTMLCanvasElement => {
     const x = nodeWidth / 2;
@@ -181,10 +191,10 @@ const makeNodeCanvas = (): HTMLCanvasElement => {
 
 const makeLinkCanvas = (): HTMLCanvasElement => {
     const x1 = 0;
-    const x2 = linkWidth;
+    const x2 = linkLength;
     const y1 = linkHeight / 2 - linkThickness / 2;
-    const y2 = linkHeight / 2 - linkThickness / 2;
-    const canvas = makeCanvas(linkWidth, linkHeight);
+    const y2 = y1; // horizontal line
+    const canvas = makeCanvas(linkLength, linkHeight);
     const context = canvas.context;
     context.beginPath();
     context.moveTo(x1, y1);
@@ -196,6 +206,7 @@ const makeLinkCanvas = (): HTMLCanvasElement => {
 };
 
 const setLinkPosition = (sprite, node1, node2) => {
+    // extract node coords
     const x1 = node1.x;
     const y1 = node1.y;
     const x2 = node2.x;
@@ -209,8 +220,10 @@ const setLinkPosition = (sprite, node1, node2) => {
     // set new position
     sprite.x = x1;
     sprite.y = y1;
-    sprite.scale.x = length / linkWidth;
+    // set new rotation
     sprite.pivot.x = 0;
     sprite.pivot.y = linkHeight / 2;
     sprite.rotation = radians + Math.PI / 2;
+    // set new stretch
+    sprite.scale.x = length / linkLength;
 };

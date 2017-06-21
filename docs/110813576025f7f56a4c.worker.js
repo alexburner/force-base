@@ -538,12 +538,16 @@ var d3_force = _interopRequireWildcard(_d3Force);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
+var TICK_FLOOR = 10; // Number of ticks to withold from rendering
+// Global state
 var simulation = void 0;
-var loopSignature = void 0;
-// Initialize on file load ( new WorkerLoader() )
+var globalLoopSignature = void 0;
+// Initialize on file load
+// ( new WorkerLoader() )
 {
     simulation = d3_force.forceSimulation();
     simulation.nodes([]);
+    simulation.stop();
     var link = d3_force.forceLink([]);
     var charge = d3_force.forceManyBody();
     var center = d3_force.forceCenter();
@@ -557,7 +561,7 @@ var loopSignature = void 0;
     link.strength(0.4); // magic #
     charge.strength(-30); // magic #
     collide.radius(function (node) {
-        return node.scale * 6;
+        return node.scale * 7;
     }); // magic #
     simulation.force('link', link);
     simulation.force('charge', charge);
@@ -565,12 +569,42 @@ var loopSignature = void 0;
     simulation.force('collide', collide);
     simulation.force('x', x);
     simulation.force('y', y);
-    simulation.stop();
 }
+// Handle browser messages
+self.addEventListener('message', function (e) {
+    switch (e.data.type) {
+        case 'run':
+            {
+                // Run simulation ticks on given nodes/links
+                var nodes = e.data.nodes;
+                var links = e.data.links;
+                var nodesById = e.data.nodesById;
+                var linksById = e.data.linksById;
+                var limit = e.data.limit || e.data.nodes.length;
+                var batch = e.data.batch || 1;
+                run(nodes, links, nodesById, linksById, limit, batch);
+                break;
+            }
+        case 'halt':
+            {
+                // Halt simulation ticks
+                halt();
+                break;
+            }
+        case 'destroy':
+            {
+                // Destroy simulation
+                destroy();
+                break;
+            }
+    }
+});
 var run = function run(nodes, links, nodesById, linksById, limit, batch) {
-    // Use object reference value to track if our loop is still relevant
-    loopSignature = {};
-    var localLoopSignature = loopSignature;
+    globalLoopSignature = {};
+    // globally store the unique reference value of a new object
+    // so our loop can track whether it's fallen out of sync
+    // by checking against a version captured locally
+    var localLoopSignature = globalLoopSignature;
     // Update simulation nodes/links
     simulation.nodes(nodes);
     simulation.force('link').links(links);
@@ -580,18 +614,18 @@ var run = function run(nodes, links, nodesById, linksById, limit, batch) {
     var start = Date.now();
     // Run simulation ticks
     var i = 0;
-    var tick = function tick() {
-        // Abort if we're no longer relevant
-        if (localLoopSignature !== loopSignature) return;
-        // Halt if simulation is done
+    var tickLoop = function tickLoop() {
+        // Abort if our loop is no longer relevant
+        if (localLoopSignature !== globalLoopSignature) return;
+        // Halt if tick limit hit, or simulation has cooled off
         if (i === limit - 1 || simulation.alpha() < simulation.alphaMin()) {
             halt();
             return;
         }
         // Tick simulation
         simulation.tick();
-        // Send batched updates
-        if (i % batch === 0) {
+        // Send batched updates (but only beyond tick minimum)
+        if (i % batch === 0 && i > TICK_FLOOR) {
             self.postMessage({
                 type: 'tick',
                 nodes: nodes,
@@ -603,15 +637,15 @@ var run = function run(nodes, links, nodesById, linksById, limit, batch) {
             }, undefined);
         }
         i++;
-        // Async loop to allow interrupt
-        setTimeout(tick, 0);
+        setTimeout(tickLoop, 0); // Async loop to allow interrupt
     };
-    tick();
+    // Begin
+    tickLoop();
 };
 var halt = function halt() {
     // Stop any current loop
-    loopSignature = null;
-    // Inform subscribers we're stopping
+    globalLoopSignature = null;
+    // Inform listeners that we're stopping
     self.postMessage({ type: 'halt' }, undefined);
 };
 var destroy = function destroy() {
@@ -626,31 +660,6 @@ var destroy = function destroy() {
     // Remove reference
     simulation = null;
 };
-self.addEventListener('message', function (e) {
-    switch (e.data.type) {
-        case 'run':
-            {
-                var nodes = e.data.nodes;
-                var links = e.data.links;
-                var nodesById = e.data.nodesById;
-                var linksById = e.data.linksById;
-                var limit = e.data.limit || e.data.nodes.length;
-                var batch = e.data.batch || 1;
-                run(nodes, links, nodesById, linksById, limit, batch);
-                break;
-            }
-        case 'halt':
-            {
-                halt();
-                break;
-            }
-        case 'destroy':
-            {
-                destroy();
-                break;
-            }
-    }
-});
 
 /***/ }),
 /* 10 */
@@ -2011,4 +2020,4 @@ function defaultY(d) {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=70b04708b69258f9142b.worker.js.map
+//# sourceMappingURL=110813576025f7f56a4c.worker.js.map

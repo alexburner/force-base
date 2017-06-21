@@ -24,7 +24,7 @@ let globalLoopSignature;
     link.distance(40); // magic #
     link.strength(0.4); // magic #
     charge.strength(-30); // magic #
-    collide.radius((node: Node) => node.scale * 6); // magic #
+    collide.radius((node: Node) => node.scale * 7); // magic #
     simulation.force('link', link);
     simulation.force('charge', charge);
     simulation.force('center', center);

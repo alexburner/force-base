@@ -17,8 +17,8 @@ export default class PixiFrame extends InfernoComponent<void, State> {
     private canvas: HTMLCanvasElement;
     private handleClose: { (): void };
     private handleResize: { (): void };
-    private handleColorChange: { (e: Event): void };
-    private handleMultiplierChange: { (e: Event): void };
+    private handleColorInput: { (e: Event): void };
+    private handleMultiplierInput: { (e: Event): void };
     private map: PixiMap;
 
     constructor() {
@@ -37,14 +37,14 @@ export default class PixiFrame extends InfernoComponent<void, State> {
             }
         };
 
-        this.handleColorChange = e => {
+        this.handleColorInput = e => {
             this.setState({ colorKey: (e.target as HTMLInputElement).value });
             if (this.map) {
                 this.map.config({ colorKey: this.state.colorKey });
             }
         };
 
-        this.handleMultiplierChange = e => {
+        this.handleMultiplierInput = e => {
             const value = (e.target as HTMLInputElement).value;
             const number = Number(value);
             this.setState({ multiplier: value });
@@ -88,7 +88,7 @@ export default class PixiFrame extends InfernoComponent<void, State> {
                             Color=
                             <select
                                 value={this.state.colorKey}
-                                onChange={this.handleColorChange}
+                                onChange={this.handleColorInput}
                             >
                                 {_.map(D3Colors, (scale, key) =>
                                     <option value={key}>{scale.name}</option>,
@@ -105,7 +105,7 @@ export default class PixiFrame extends InfernoComponent<void, State> {
                                     textAlign: 'center',
                                 }}
                                 value={this.state.multiplier}
-                                onChange={this.handleMultiplierChange}
+                                onChange={this.handleMultiplierInput}
                             />
                         </label>
                         &nbsp;&nbsp;&nbsp;&nbsp;

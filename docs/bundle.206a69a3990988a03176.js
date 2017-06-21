@@ -17153,15 +17153,14 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // Create a new node object
-// TODO decouple initial positioning from width/height
-var makeNode = exports.makeNode = function makeNode(object_id, width, height) {
+var makeNode = exports.makeNode = function makeNode(object_id) {
     return {
         status: 'added',
         id: object_id,
         scale: 0,
         weight: 0,
-        x: object_id % width - width / 2,
-        y: object_id % height - height / 2
+        x: object_id % 3000 - 3000 / 2,
+        y: object_id % 3000 - 3000 / 2
     };
 };
 // Create a new link object
@@ -27920,7 +27919,7 @@ var _data = __webpack_require__(205);
 
 var _data2 = _interopRequireDefault(_data);
 
-var _Module = __webpack_require__(207);
+var _Module = __webpack_require__(208);
 
 var _Module2 = _interopRequireDefault(_Module);
 
@@ -27949,13 +27948,13 @@ var PixiFrame = function (_InfernoComponent) {
                 _this.map.resize(bounds.width, bounds.height);
             }
         };
-        _this.handleColorChange = function (e) {
+        _this.handleColorInput = function (e) {
             _this.setState({ colorKey: e.target.value });
             if (_this.map) {
                 _this.map.config({ colorKey: _this.state.colorKey });
             }
         };
-        _this.handleMultiplierChange = function (e) {
+        _this.handleMultiplierInput = function (e) {
             var value = e.target.value;
             var number = Number(value);
             _this.setState({ multiplier: value });
@@ -27991,12 +27990,12 @@ var PixiFrame = function (_InfernoComponent) {
                     top: 0,
                     right: xPadding + 'px',
                     bottom: 0
-                } }, (0, _infernoCreateElement2.default)("label", null, "Color=", (0, _infernoCreateElement2.default)("select", { value: this.state.colorKey, onChange: this.handleColorChange }, _underscore2.default.map(_constants.D3Colors, function (scale, key) {
+                } }, (0, _infernoCreateElement2.default)("label", null, "Color=", (0, _infernoCreateElement2.default)("select", { value: this.state.colorKey, onChange: this.handleColorInput }, _underscore2.default.map(_constants.D3Colors, function (scale, key) {
                 return (0, _infernoCreateElement2.default)("option", { value: key }, scale.name);
             }))), '\xA0\xA0\xA0\xA0', (0, _infernoCreateElement2.default)("label", null, "Multiplier=", (0, _infernoCreateElement2.default)("input", { type: "text", style: {
                     width: '30px',
                     textAlign: 'center'
-                }, value: this.state.multiplier, onChange: this.handleMultiplierChange })), '\xA0\xA0\xA0\xA0', (0, _infernoCreateElement2.default)("button", { onclick: this.handleClose }, '\u2715'))), (0, _infernoCreateElement2.default)("canvas", { ref: function ref(el) {
+                }, value: this.state.multiplier, onChange: this.handleMultiplierInput })), '\xA0\xA0\xA0\xA0', (0, _infernoCreateElement2.default)("button", { onclick: this.handleClose }, '\u2715'))), (0, _infernoCreateElement2.default)("canvas", { ref: function ref(el) {
                     return _this2.canvas = el;
                 }, style: {
                     display: 'block',
@@ -28102,9 +28101,271 @@ var _underscore = __webpack_require__(60);
 
 var _underscore2 = _interopRequireDefault(_underscore);
 
-var _Renderer = __webpack_require__(208);
+var _d3Scale = __webpack_require__(86);
 
-var _Renderer2 = _interopRequireDefault(_Renderer);
+var d3_scale = _interopRequireWildcard(_d3Scale);
+
+var _pixi = __webpack_require__(442);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _constants = __webpack_require__(108);
+
+var _util = __webpack_require__(109);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Drawing = function () {
+    function Drawing(width, height, canvas) {
+        (0, _classCallCheck3.default)(this, Drawing);
+
+        this.isRunning = false;
+        this.nodeTexture = PIXI.Texture.fromCanvas(makeNodeCanvas());
+        this.linkTexture = PIXI.Texture.fromCanvas(makeLinkCanvas());
+        this.nodeSpritesById = {};
+        this.linkSpritesById = {};
+        this.renderer = PIXI.autoDetectRenderer(width, height, {
+            antialias: true,
+            backgroundColor: 0x333333,
+            view: canvas
+        });
+        this.stage = new PIXI.Container();
+        this.stage.width = width;
+        this.stage.height = height;
+        this.stage.x += width / 2;
+        this.stage.y += height / 2;
+        this.stage.scale.x = 0.7; // magic #
+        this.stage.scale.y = 0.7; // magic #
+        this.stage.alpha = 0;
+        this.nodeLayer = new PIXI.Container();
+        this.linkLayer = new PIXI.Container();
+        this.stage.addChild(this.linkLayer);
+        this.stage.addChild(this.nodeLayer);
+        this.setColors('Magma');
+    }
+
+    (0, _createClass3.default)(Drawing, [{
+        key: 'run',
+        value: function run() {
+            this.isRunning = true;
+            this.loop();
+        }
+    }, {
+        key: 'halt',
+        value: function halt() {
+            this.isRunning = false;
+        }
+    }, {
+        key: 'loop',
+        value: function loop() {
+            var _this = this;
+
+            if (!this.isRunning) return;
+            window.requestAnimationFrame(function () {
+                _this.renderer.render(_this.stage);
+                _this.loop();
+            });
+        }
+    }, {
+        key: 'resize',
+        value: function resize(width, height) {
+            this.renderer.resize(width, height);
+        }
+    }, {
+        key: 'setColors',
+        value: function setColors(colorKey) {
+            var color = _constants.D3Colors[colorKey];
+            this.colorScale = d3_scale.scaleSequential(color.interpolator).domain(color.domain);
+        }
+    }, {
+        key: 'remove',
+        value: function remove(nodes, links) {
+            var _this2 = this;
+
+            // Clean out sprites for any removed nodes
+            _underscore2.default.each(nodes, function (node) {
+                if (node.status !== 'removed') return;
+                var sprite = _this2.nodeSpritesById[node.id];
+                if (sprite) {
+                    delete _this2.nodeSpritesById[node.id];
+                    _this2.nodeLayer.removeChild(sprite);
+                    setTimeout(function () {
+                        return sprite.destroy();
+                    }, 0);
+                }
+            });
+            // Clean out sprites for any removed links
+            _underscore2.default.each(links, function (link) {
+                if (link.status !== 'removed') return;
+                var sprite = _this2.linkSpritesById[link.id];
+                if (sprite) {
+                    delete _this2.linkSpritesById[link.id];
+                    _this2.linkLayer.removeChild(sprite);
+                    setTimeout(function () {
+                        return sprite.destroy();
+                    }, 0);
+                }
+            });
+        }
+    }, {
+        key: 'update',
+        value: function update(nodes, links) {
+            var _this3 = this;
+
+            // Create/Update node sprites
+            _underscore2.default.each(nodes, function (node) {
+                var sprite = _this3.nodeSpritesById[node.id];
+                if (!sprite) {
+                    sprite = new PIXI.Sprite(_this3.nodeTexture);
+                    _this3.nodeSpritesById[node.id] = sprite;
+                    _this3.nodeLayer.addChild(sprite);
+                }
+                sprite.tint = (0, _util.colorToHex)(_this3.colorScale(node.scale));
+                sprite.scale.x = node.scale * 0.8; // magic #
+                sprite.scale.y = node.scale * 0.8; // magic #
+                sprite.alpha = node.scale + 0.7; // magic #
+            });
+            // Create/Update link sprites
+            _underscore2.default.each(links, function (link) {
+                var sprite = _this3.linkSpritesById[link.id];
+                if (!sprite) {
+                    sprite = new PIXI.Sprite(_this3.linkTexture);
+                    _this3.linkSpritesById[link.id] = sprite;
+                    _this3.linkLayer.addChild(sprite);
+                }
+                sprite.tint = (0, _util.colorToHex)(_this3.colorScale(link.scale));
+                sprite.scale.y = link.scale * 1.2; // magic #
+                sprite.alpha = link.scale;
+            });
+        }
+    }, {
+        key: 'tick',
+        value: function tick(nodes, links) {
+            var _this4 = this;
+
+            // Move node sprites
+            _underscore2.default.each(nodes, function (node) {
+                if (node.status === 'removed') return;
+                var sprite = _this4.nodeSpritesById[node.id];
+                sprite.x = node.x - sprite.width / 2;
+                sprite.y = node.y - sprite.height / 2;
+            });
+            // Move link sprites
+            _underscore2.default.each(links, function (link) {
+                if (link.status === 'removed') return;
+                var sprite = _this4.linkSpritesById[link.id];
+                var node1 = link.source;
+                var node2 = link.target;
+                setLinkPosition(sprite, node1, node2);
+            });
+            // Increment stage opacity (if not full)
+            if (this.stage.alpha < 1) this.stage.alpha += 0.01;
+        }
+    }, {
+        key: 'destroy',
+        value: function destroy() {
+            // stop loop
+            this.halt();
+            // clean up pixi
+            this.stage.destroy({
+                children: true,
+                texture: true,
+                baseTexture: true
+            });
+            this.renderer.destroy();
+        }
+    }]);
+    return Drawing;
+}();
+
+exports.default = Drawing;
+
+var nodeWidth = 32; // magic # (must be power of 2)
+var nodeHeight = nodeWidth; // square
+var nodeRadius = nodeWidth / 2 - 4; // magic #
+var linkLength = 8; // magic # (must be power of 2)
+var linkHeight = linkLength; // square
+var linkThickness = 2; // magic #
+var makeNodeCanvas = function makeNodeCanvas() {
+    var x = nodeWidth / 2;
+    var y = nodeHeight / 2;
+    var canvas = (0, _util.makeCanvas)(nodeWidth, nodeHeight);
+    var context = canvas.context;
+    context.beginPath();
+    context.moveTo(x + 4, y);
+    context.arc(x, y, nodeRadius, 0, 2 * Math.PI);
+    context.fillStyle = 'rgba(255, 255, 255, 1)';
+    context.fill();
+    context.strokeStyle = 'rgba(255, 255, 255, 1)';
+    context.stroke();
+    return canvas.element;
+};
+var makeLinkCanvas = function makeLinkCanvas() {
+    var x1 = 0;
+    var x2 = linkLength;
+    var y1 = linkHeight / 2 - linkThickness / 2;
+    var y2 = y1; // horizontal line
+    var canvas = (0, _util.makeCanvas)(linkLength, linkHeight);
+    var context = canvas.context;
+    context.beginPath();
+    context.moveTo(x1, y1);
+    context.lineWidth = linkThickness;
+    context.lineTo(x2, y2);
+    context.strokeStyle = 'rgba(255, 255, 255, 1)';
+    context.stroke();
+    return canvas.element;
+};
+var setLinkPosition = function setLinkPosition(sprite, node1, node2) {
+    // extract node coords
+    var x1 = node1.x;
+    var y1 = node1.y;
+    var x2 = node2.x;
+    var y2 = node2.y;
+    // calculate new length & angle
+    var xDiff = x2 - x1;
+    var yDiff = y2 - y1;
+    var length = Math.sqrt(xDiff * xDiff + yDiff * yDiff);
+    var radians = Math.acos(yDiff / length);
+    if (x2 > x1) radians *= -1;
+    // set new position
+    sprite.x = x1;
+    sprite.y = y1;
+    // set new rotation
+    sprite.pivot.x = 0;
+    sprite.pivot.y = linkHeight / 2;
+    sprite.rotation = radians + Math.PI / 2;
+    // set new stretch
+    sprite.scale.x = length / linkLength;
+};
+
+/***/ }),
+/* 208 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(63);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(64);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _underscore = __webpack_require__(60);
+
+var _underscore2 = _interopRequireDefault(_underscore);
+
+var _Drawing = __webpack_require__(207);
+
+var _Drawing2 = _interopRequireDefault(_Drawing);
 
 var _worker = __webpack_require__(476);
 
@@ -28127,18 +28388,21 @@ var Module = function () {
         this.links = [];
         this.nodesById = {};
         this.linksById = {};
-        this.renderer = new _Renderer2.default(width, height, canvas);
+        this.drawing = new _Drawing2.default(width, height, canvas);
+        this.drawing.run(); // TODO: halt?
         this.worker = new _worker2.default();
         this.worker.addEventListener('message', function (e) {
             if (_this.isDestroyed) return;
             switch (e.data.type) {
                 case 'tick':
                     {
+                        // save new data for later updates
                         _this.nodes = e.data.nodes;
                         _this.links = e.data.links;
                         _this.nodesById = e.data.nodesById;
                         _this.linksById = e.data.linksById;
-                        _this.renderer.tick(_this.nodes, _this.links, e.data.tick);
+                        // pass ticked nodes/links to drawing
+                        _this.drawing.tick(e.data.nodes, e.data.links);
                         break;
                     }
             }
@@ -28151,21 +28415,20 @@ var Module = function () {
             var _this2 = this;
 
             // Module & renderer data changes are sync
-            // but worker is async running in background with old data
-            // and renderer may have its tick() called with old nodes/links
-            // that were just pulled out in its remove() function
+            // but worker is async, running in background with old data
+            // and could send 'tick' message with outdated nodes/links
             //
-            // So, we halt worker before updating
+            // So, halt worker before updating
             // and resume it once we're done
-            var handleMessage = function handleMessage(e) {
+            // with a one-time 'halt' listener
+            var haltListener = function haltListener(e) {
                 if (_this2.isDestroyed) return;
                 switch (e.data.type) {
                     case 'halt':
                         {
                             _this2.handleEdges(edges);
-                            _this2.renderer.update(_this2.nodes, _this2.links);
-                            _this2.renderer.run();
-                            _this2.worker.removeEventListener('message', handleMessage);
+                            _this2.drawing.update(_this2.nodes, _this2.links);
+                            _this2.worker.removeEventListener('message', haltListener);
                             _this2.worker.postMessage({
                                 type: 'run',
                                 limit: 200,
@@ -28178,20 +28441,20 @@ var Module = function () {
                         }
                 }
             };
-            this.worker.addEventListener('message', handleMessage);
+            this.worker.addEventListener('message', haltListener);
             this.worker.postMessage({ type: 'halt' });
         }
     }, {
         key: 'resize',
         value: function resize(width, height) {
-            this.renderer.resize(width, height);
+            this.drawing.resize(width, height);
         }
     }, {
         key: 'config',
         value: function config(opts) {
             if (opts.colorKey) {
-                this.renderer.setColors(opts.colorKey);
-                this.renderer.update(this.nodes, this.links);
+                this.drawing.setColors(opts.colorKey);
+                this.drawing.update(this.nodes, this.links);
             }
         }
     }, {
@@ -28199,7 +28462,7 @@ var Module = function () {
         value: function destroy() {
             this.isDestroyed = true;
             this.worker.postMessage({ type: 'destroy' });
-            this.renderer.destroy();
+            this.drawing.destroy();
         }
     }, {
         key: 'handleEdges',
@@ -28217,22 +28480,25 @@ var Module = function () {
             // Use edge data to update node/link collections
             _underscore2.default.each(edges, function (edge) {
                 if (!edge.weight) return;
+                // Source node
                 var fromNode = _this3.nodesById[edge.from];
                 if (!fromNode) {
-                    fromNode = (0, _util.makeNode)(edge.from, _this3.width, _this3.height);
+                    fromNode = (0, _util.makeNode)(edge.from);
                     _this3.nodesById[fromNode.id] = fromNode;
                     _this3.nodes.push(fromNode);
                 } else {
                     fromNode.status = 'updated';
                 }
+                // Target node
                 var toNode = _this3.nodesById[edge.to];
                 if (!toNode) {
-                    toNode = (0, _util.makeNode)(edge.to, _this3.width, _this3.height);
+                    toNode = (0, _util.makeNode)(edge.to);
                     _this3.nodesById[toNode.id] = toNode;
                     _this3.nodes.push(toNode);
                 } else {
                     toNode.status = 'updated';
                 }
+                // Link
                 var link = _this3.linksById[edge.from + ',' + edge.to];
                 if (!link) {
                     link = (0, _util.makeLink)(edge, fromNode, toNode);
@@ -28245,7 +28511,7 @@ var Module = function () {
                 }
             });
             // Give renderer a chance to handle removed nodes/links
-            this.renderer.remove(this.nodes, this.links);
+            this.drawing.remove(this.nodes, this.links);
             // Clean out removed nodes/links from collections
             this.nodes = _underscore2.default.reject(this.nodes, function (node) {
                 return node.status === 'removed';
@@ -28277,263 +28543,6 @@ var Module = function () {
 }();
 
 exports.default = Module;
-
-/***/ }),
-/* 208 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(63);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(64);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _underscore = __webpack_require__(60);
-
-var _underscore2 = _interopRequireDefault(_underscore);
-
-var _d3Scale = __webpack_require__(86);
-
-var d3_scale = _interopRequireWildcard(_d3Scale);
-
-var _pixi = __webpack_require__(442);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _constants = __webpack_require__(108);
-
-var _util = __webpack_require__(109);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Renderer = function () {
-    function Renderer(width, height, canvas) {
-        (0, _classCallCheck3.default)(this, Renderer);
-
-        this.isRunning = false;
-        this.nodeTexture = PIXI.Texture.fromCanvas(makeNodeCanvas());
-        this.linkTexture = PIXI.Texture.fromCanvas(makeLinkCanvas());
-        this.nodeSpritesById = {};
-        this.linkSpritesById = {};
-        this.setColors('Magma');
-        this.renderer = PIXI.autoDetectRenderer(width, height, {
-            antialias: true,
-            backgroundColor: 0x333333,
-            view: canvas
-        });
-        this.stage = new PIXI.Container();
-        this.stage.width = width;
-        this.stage.height = height;
-        this.stage.x += width / 2;
-        this.stage.y += height / 2;
-        this.stage.scale.x = 0.7; // magic #
-        this.stage.scale.y = 0.7; // magic #
-        this.stage.alpha = 0;
-        this.nodeLayer = new PIXI.Container();
-        this.linkLayer = new PIXI.Container();
-        this.stage.addChild(this.linkLayer);
-        this.stage.addChild(this.nodeLayer);
-    }
-
-    (0, _createClass3.default)(Renderer, [{
-        key: 'setColors',
-        value: function setColors(colorKey) {
-            var color = _constants.D3Colors[colorKey];
-            if (!color) return;
-            this.colorScale = d3_scale.scaleSequential(color.interpolator).domain(color.domain);
-        }
-    }, {
-        key: 'remove',
-        value: function remove(nodes, links) {
-            var _this = this;
-
-            // Clean out sprites for any removed nodes/links
-            _underscore2.default.each(nodes, function (node) {
-                if (node.status !== 'removed') return;
-                var sprite = _this.nodeSpritesById[node.id];
-                if (sprite) {
-                    delete _this.nodeSpritesById[node.id];
-                    _this.nodeLayer.removeChild(sprite);
-                    setTimeout(function () {
-                        return sprite.destroy();
-                    }, 0);
-                }
-            });
-            _underscore2.default.each(links, function (link) {
-                if (link.status !== 'removed') return;
-                var sprite = _this.linkSpritesById[link.id];
-                if (sprite) {
-                    delete _this.linkSpritesById[link.id];
-                    _this.linkLayer.removeChild(sprite);
-                    setTimeout(function () {
-                        return sprite.destroy();
-                    }, 0);
-                }
-            });
-        }
-    }, {
-        key: 'update',
-        value: function update(nodes, links) {
-            var _this2 = this;
-
-            // Create/update node sprites appearance
-            _underscore2.default.each(nodes, function (node) {
-                var sprite = _this2.nodeSpritesById[node.id];
-                if (!sprite) {
-                    sprite = new PIXI.Sprite(_this2.nodeTexture);
-                    _this2.nodeSpritesById[node.id] = sprite;
-                    _this2.nodeLayer.addChild(sprite);
-                }
-                sprite.tint = (0, _util.colorToHex)(_this2.colorScale(node.scale));
-                sprite.scale.x = node.scale * 0.8; // magic #
-                sprite.scale.y = node.scale * 0.8; // magic #
-                sprite.alpha = node.scale + 0.7; // magic #
-            });
-            // Create/update link sprite appearance
-            _underscore2.default.each(links, function (link) {
-                var sprite = _this2.linkSpritesById[link.id];
-                if (!sprite) {
-                    sprite = new PIXI.Sprite(_this2.linkTexture);
-                    _this2.linkSpritesById[link.id] = sprite;
-                    _this2.linkLayer.addChild(sprite);
-                }
-                sprite.tint = (0, _util.colorToHex)(_this2.colorScale(link.scale));
-                sprite.scale.y = link.scale * 1.2; // magic #
-                sprite.alpha = link.scale;
-            });
-        }
-    }, {
-        key: 'tick',
-        value: function tick(nodes, links, _tick) {
-            var _this3 = this;
-
-            // Update node sprite positions
-            _underscore2.default.each(nodes, function (node) {
-                if (node.status === 'removed') return;
-                var sprite = _this3.nodeSpritesById[node.id];
-                sprite.x = node.x - sprite.width / 2;
-                sprite.y = node.y - sprite.height / 2;
-            });
-            // Update link sprite positions
-            _underscore2.default.each(links, function (link) {
-                if (link.status === 'removed') return;
-                var sprite = _this3.linkSpritesById[link.id];
-                var node1 = link.source;
-                var node2 = link.target;
-                setLinkPosition(sprite, node1, node2);
-            });
-            // Update stage opacity (if wanted/needed)
-            if (_tick > 10 && this.stage.alpha < 1) this.stage.alpha += 0.01;
-        }
-    }, {
-        key: 'renderLoop',
-        value: function renderLoop() {
-            var _this4 = this;
-
-            if (!this.isRunning) return;
-            window.requestAnimationFrame(function () {
-                _this4.renderer.render(_this4.stage);
-                _this4.renderLoop();
-            });
-        }
-    }, {
-        key: 'run',
-        value: function run() {
-            this.isRunning = true;
-            this.renderLoop();
-        }
-    }, {
-        key: 'halt',
-        value: function halt() {
-            this.isRunning = false;
-        }
-    }, {
-        key: 'resize',
-        value: function resize(width, height) {
-            this.renderer.resize(width, height);
-        }
-    }, {
-        key: 'destroy',
-        value: function destroy() {
-            this.halt();
-            this.stage.destroy({
-                children: true,
-                texture: true,
-                baseTexture: true
-            });
-            this.renderer.destroy();
-        }
-    }]);
-    return Renderer;
-}();
-
-exports.default = Renderer;
-
-var nodeWidth = 32; // magic # (must be power of 2)
-var nodeHeight = nodeWidth;
-var nodeRadius = nodeWidth / 2 - 4;
-var linkWidth = 8; // magic # (must be power of 2)
-var linkHeight = linkWidth;
-var linkThickness = 2;
-var makeNodeCanvas = function makeNodeCanvas() {
-    var x = nodeWidth / 2;
-    var y = nodeHeight / 2;
-    var canvas = (0, _util.makeCanvas)(nodeWidth, nodeHeight);
-    var context = canvas.context;
-    context.beginPath();
-    context.moveTo(x + 4, y);
-    context.arc(x, y, nodeRadius, 0, 2 * Math.PI);
-    context.fillStyle = 'rgba(255, 255, 255, 1)';
-    context.fill();
-    context.strokeStyle = 'rgba(255, 255, 255, 1)';
-    context.stroke();
-    return canvas.element;
-};
-var makeLinkCanvas = function makeLinkCanvas() {
-    var x1 = 0;
-    var x2 = linkWidth;
-    var y1 = linkHeight / 2 - linkThickness / 2;
-    var y2 = linkHeight / 2 - linkThickness / 2;
-    var canvas = (0, _util.makeCanvas)(linkWidth, linkHeight);
-    var context = canvas.context;
-    context.beginPath();
-    context.moveTo(x1, y1);
-    context.lineWidth = linkThickness;
-    context.lineTo(x2, y2);
-    context.strokeStyle = 'rgba(255, 255, 255, 1)';
-    context.stroke();
-    return canvas.element;
-};
-var setLinkPosition = function setLinkPosition(sprite, node1, node2) {
-    var x1 = node1.x;
-    var y1 = node1.y;
-    var x2 = node2.x;
-    var y2 = node2.y;
-    // calculate new length & angle
-    var xDiff = x2 - x1;
-    var yDiff = y2 - y1;
-    var length = Math.sqrt(xDiff * xDiff + yDiff * yDiff);
-    var radians = Math.acos(yDiff / length);
-    if (x2 > x1) radians *= -1;
-    // set new position
-    sprite.x = x1;
-    sprite.y = y1;
-    sprite.scale.x = length / linkWidth;
-    sprite.pivot.x = 0;
-    sprite.pivot.y = linkHeight / 2;
-    sprite.rotation = radians + Math.PI / 2;
-};
 
 /***/ }),
 /* 209 */
@@ -54914,9 +54923,9 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-	return new Worker(__webpack_require__.p + "70b04708b69258f9142b.worker.js");
+	return new Worker(__webpack_require__.p + "110813576025f7f56a4c.worker.js");
 };
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.1712f5acaa5cece72358.js.map
+//# sourceMappingURL=bundle.206a69a3990988a03176.js.map

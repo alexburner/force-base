@@ -2,16 +2,23 @@ import _ from 'underscore'
 
 import Drawing from 'src/PixiMap/Drawing'
 import WorkerLoader from 'worker-loader!src/PixiMap/worker'
-import { Edge, Node, Link, Opts } from 'src/PixiMap/interfaces'
+import {
+    Edge,
+    Node,
+    Link,
+    NodesById,
+    LinksById,
+    Opts,
+} from 'src/PixiMap/interfaces'
 import { makeNode, makeLink, makeScales } from 'src/PixiMap/util'
 
-export default class Module {
+export default class PixiMap {
     private drawing: Drawing
     private worker: Worker
     private nodes: Node[]
     private links: Link[]
-    private nodesById: { [id: number]: Node }
-    private linksById: { [id: string]: Link }
+    private nodesById: NodesById
+    private linksById: LinksById
     private width: number
     private height: number
     private isDestroyed: boolean
@@ -81,7 +88,7 @@ export default class Module {
 
     config(opts: Opts) {
         if (opts.colorKey) {
-            this.drawing.setColors(opts.colorKey)
+            this.drawing.setColor(opts.colorKey)
             this.drawing.update(this.nodes, this.links)
         }
     }
@@ -133,6 +140,10 @@ export default class Module {
             } else {
                 link.status = 'updated'
             }
+
+            // Add link reference to each node
+            fromNode.linksById[link.id] = link
+            toNode.linksById[link.id] = link
         })
 
         // Give renderer a chance to handle removed nodes/links

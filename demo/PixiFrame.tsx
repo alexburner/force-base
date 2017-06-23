@@ -3,26 +3,31 @@ import createElement from 'inferno-create-element'
 import InfernoComponent from 'inferno-component'
 
 import data from 'demo/data'
-import PixiMap from 'src/PixiMap/Module'
+import PixiMap from 'src/PixiMap/PixiMap'
+import PixiMapHover from 'src/PixiMapHover/PixiMap'
 import { D3Colors } from 'src/PixiMap/constants'
 import { Edge } from 'src/PixiMap/interfaces'
+
+interface Props {
+    hover: boolean
+}
 
 interface State {
     colorKey: keyof typeof D3Colors
     multiplier: number
 }
 
-export default class PixiFrame extends InfernoComponent<void, State> {
+export default class PixiFrame extends InfernoComponent<Props, State> {
     private container: HTMLElement
     private canvas: HTMLCanvasElement
     private handleClose: { (): void }
     private handleResize: { (): void }
     private handleColorInput: { (e: Event): void }
     private handleMultiplierInput: { (e: Event): void }
-    private map: PixiMap
+    private map: PixiMap | PixiMapHover
 
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
             colorKey: 'Magma',
             multiplier: 3,
@@ -129,7 +134,9 @@ export default class PixiFrame extends InfernoComponent<void, State> {
 
     componentDidMount() {
         const bounds = this.container.getBoundingClientRect()
-        this.map = new PixiMap(bounds.width, bounds.height, this.canvas)
+        this.map = this.props.hover
+            ? new PixiMapHover(bounds.width, bounds.height, this.canvas)
+            : new PixiMap(bounds.width, bounds.height, this.canvas)
         this.map.update(generateEdges(this.state.multiplier))
         window.addEventListener('resize', this.handleResize)
     }

@@ -2,9 +2,9 @@ import _ from 'underscore'
 import * as d3_scale from 'd3-scale'
 import * as PIXI from 'pixi.js'
 
-import { D3Colors } from 'src/PixiMap/constants'
-import { Node, Link } from 'src/PixiMap/interfaces'
-import { colorToHex, makeCanvas } from 'src/PixiMap/util'
+import { D3Colors } from 'src/PixiMapHover/constants'
+import { Node, Link } from 'src/PixiMapHover/interfaces'
+import { colorToHex, makeCanvas } from 'src/PixiMapHover/util'
 
 export default class Drawing {
     private renderer: PIXI.WebGLRenderer | PIXI.CanvasRenderer
@@ -78,6 +78,42 @@ export default class Drawing {
             .domain(color.domain as [number, number])
     }
 
+    fadeOutSprites() {
+        _.each(this.nodeSpritesById, fadeOutSprite)
+        _.each(this.linkSpritesById, fadeOutSprite)
+    }
+
+    fadeInSprites() {
+        _.each(this.nodeSpritesById, fadeInSprite)
+        _.each(this.linkSpritesById, fadeInSprite)
+    }
+
+    hoverNode(node: Node) {
+        this.fadeOutSprites()
+        const nodesById = {}
+        nodesById[node.id] = node
+        _.each(node.linksById, (link: Link) => {
+            // save connected nodes
+            nodesById[link.source.id] = link.source
+            nodesById[link.target.id] = link.target
+            // fade in link sprite
+            fadeInSprite(this.linkSpritesById[link.id])
+        })
+        // fade in node sprites
+        _.each(nodesById, (node: Node) => {
+            fadeInSprite(this.nodeSpritesById[node.id])
+        })
+    }
+
+    hoverLink(link: Link) {
+        this.fadeOutSprites()
+        // fade in link sprite
+        fadeInSprite(this.linkSpritesById[link.id])
+        // fade in node sprites
+        fadeInSprite(this.nodeSpritesById[link.source.id])
+        fadeInSprite(this.nodeSpritesById[link.target.id])
+    }
+
     remove(nodes: Node[], links: Link[]) {
         // Clean out sprites for any removed nodes
         _.each(nodes, node => {
@@ -108,6 +144,10 @@ export default class Drawing {
             let sprite = this.nodeSpritesById[node.id]
             if (!sprite) {
                 sprite = new PIXI.Sprite(this.nodeTexture)
+                sprite.interactive = true
+                sprite.interactiveChildren = false
+                sprite.buttonMode = true
+                sprite.on('pointerover', () => this.hoverNode(node))
                 // sprite.on('pointerout', () => this.fadeInSprites())
                 this.nodeSpritesById[node.id] = sprite
                 this.nodeLayer.addChild(sprite)
@@ -115,7 +155,8 @@ export default class Drawing {
             sprite.tint = colorToHex(this.colorScale(node.scale))
             sprite.scale.x = node.scale * 0.8 // magic #
             sprite.scale.y = node.scale * 0.8 // magic #
-            sprite.alpha = node.scale + 0.7 // magic #
+            // sprite.alpha = node.scale + 0.7 // magic #
+            sprite.alpha = 0.2
         })
 
         // Create/Update link sprites
@@ -123,13 +164,18 @@ export default class Drawing {
             let sprite = this.linkSpritesById[link.id]
             if (!sprite) {
                 sprite = new PIXI.Sprite(this.linkTexture)
+                sprite.interactive = true
+                sprite.interactiveChildren = false
+                sprite.buttonMode = true
+                sprite.on('pointerover', () => this.hoverLink(link))
                 // sprite.on('pointerout', () => this.fadeInSprites())
                 this.linkSpritesById[link.id] = sprite
                 this.linkLayer.addChild(sprite)
             }
             sprite.tint = colorToHex(this.colorScale(link.scale))
             sprite.scale.y = link.scale * 1.2 // magic #
-            sprite.alpha = link.scale
+            // sprite.alpha = link.scale
+            sprite.alpha = 0.2
         })
     }
 
@@ -229,3 +275,6 @@ const setLinkPosition = (sprite: PIXI.Sprite, node1: Node, node2: Node) => {
     // set new stretch
     sprite.scale.x = length / linkLength
 }
+
+const fadeOutSprite = (sprite: PIXI.Sprite) => sprite && (sprite.alpha = 0.2)
+const fadeInSprite = (sprite: PIXI.Sprite) => sprite && (sprite.alpha = 1)

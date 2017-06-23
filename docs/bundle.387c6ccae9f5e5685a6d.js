@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 206);
+/******/ 	return __webpack_require__(__webpack_require__.s = 212);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -478,7 +478,7 @@ Object.defineProperty(exports, 'Bounds', {
   }
 });
 
-var _DisplayObject = __webpack_require__(170);
+var _DisplayObject = __webpack_require__(175);
 
 Object.defineProperty(exports, 'DisplayObject', {
   enumerable: true,
@@ -487,7 +487,7 @@ Object.defineProperty(exports, 'DisplayObject', {
   }
 });
 
-var _Container = __webpack_require__(42);
+var _Container = __webpack_require__(46);
 
 Object.defineProperty(exports, 'Container', {
   enumerable: true,
@@ -496,7 +496,7 @@ Object.defineProperty(exports, 'Container', {
   }
 });
 
-var _Transform = __webpack_require__(171);
+var _Transform = __webpack_require__(176);
 
 Object.defineProperty(exports, 'Transform', {
   enumerable: true,
@@ -505,7 +505,7 @@ Object.defineProperty(exports, 'Transform', {
   }
 });
 
-var _TransformStatic = __webpack_require__(172);
+var _TransformStatic = __webpack_require__(177);
 
 Object.defineProperty(exports, 'TransformStatic', {
   enumerable: true,
@@ -532,7 +532,7 @@ Object.defineProperty(exports, 'Sprite', {
   }
 });
 
-var _CanvasSpriteRenderer = __webpack_require__(409);
+var _CanvasSpriteRenderer = __webpack_require__(414);
 
 Object.defineProperty(exports, 'CanvasSpriteRenderer', {
   enumerable: true,
@@ -550,7 +550,7 @@ Object.defineProperty(exports, 'CanvasTinter', {
   }
 });
 
-var _SpriteRenderer = __webpack_require__(411);
+var _SpriteRenderer = __webpack_require__(416);
 
 Object.defineProperty(exports, 'SpriteRenderer', {
   enumerable: true,
@@ -559,7 +559,7 @@ Object.defineProperty(exports, 'SpriteRenderer', {
   }
 });
 
-var _Text = __webpack_require__(413);
+var _Text = __webpack_require__(418);
 
 Object.defineProperty(exports, 'Text', {
   enumerable: true,
@@ -568,7 +568,7 @@ Object.defineProperty(exports, 'Text', {
   }
 });
 
-var _TextStyle = __webpack_require__(183);
+var _TextStyle = __webpack_require__(188);
 
 Object.defineProperty(exports, 'TextStyle', {
   enumerable: true,
@@ -577,7 +577,7 @@ Object.defineProperty(exports, 'TextStyle', {
   }
 });
 
-var _TextMetrics = __webpack_require__(182);
+var _TextMetrics = __webpack_require__(187);
 
 Object.defineProperty(exports, 'TextMetrics', {
   enumerable: true,
@@ -586,7 +586,7 @@ Object.defineProperty(exports, 'TextMetrics', {
   }
 });
 
-var _Graphics = __webpack_require__(381);
+var _Graphics = __webpack_require__(386);
 
 Object.defineProperty(exports, 'Graphics', {
   enumerable: true,
@@ -595,7 +595,7 @@ Object.defineProperty(exports, 'Graphics', {
   }
 });
 
-var _GraphicsData = __webpack_require__(173);
+var _GraphicsData = __webpack_require__(178);
 
 Object.defineProperty(exports, 'GraphicsData', {
   enumerable: true,
@@ -604,7 +604,7 @@ Object.defineProperty(exports, 'GraphicsData', {
   }
 });
 
-var _GraphicsRenderer = __webpack_require__(384);
+var _GraphicsRenderer = __webpack_require__(389);
 
 Object.defineProperty(exports, 'GraphicsRenderer', {
   enumerable: true,
@@ -613,7 +613,7 @@ Object.defineProperty(exports, 'GraphicsRenderer', {
   }
 });
 
-var _CanvasGraphicsRenderer = __webpack_require__(382);
+var _CanvasGraphicsRenderer = __webpack_require__(387);
 
 Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   enumerable: true,
@@ -622,7 +622,7 @@ Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   }
 });
 
-var _Spritesheet = __webpack_require__(414);
+var _Spritesheet = __webpack_require__(419);
 
 Object.defineProperty(exports, 'Spritesheet', {
   enumerable: true,
@@ -640,7 +640,7 @@ Object.defineProperty(exports, 'Texture', {
   }
 });
 
-var _BaseTexture = __webpack_require__(32);
+var _BaseTexture = __webpack_require__(36);
 
 Object.defineProperty(exports, 'BaseTexture', {
   enumerable: true,
@@ -658,7 +658,7 @@ Object.defineProperty(exports, 'RenderTexture', {
   }
 });
 
-var _BaseRenderTexture = __webpack_require__(184);
+var _BaseRenderTexture = __webpack_require__(189);
 
 Object.defineProperty(exports, 'BaseRenderTexture', {
   enumerable: true,
@@ -667,7 +667,7 @@ Object.defineProperty(exports, 'BaseRenderTexture', {
   }
 });
 
-var _VideoBaseTexture = __webpack_require__(186);
+var _VideoBaseTexture = __webpack_require__(191);
 
 Object.defineProperty(exports, 'VideoBaseTexture', {
   enumerable: true,
@@ -676,7 +676,7 @@ Object.defineProperty(exports, 'VideoBaseTexture', {
   }
 });
 
-var _TextureUvs = __webpack_require__(185);
+var _TextureUvs = __webpack_require__(190);
 
 Object.defineProperty(exports, 'TextureUvs', {
   enumerable: true,
@@ -685,7 +685,7 @@ Object.defineProperty(exports, 'TextureUvs', {
   }
 });
 
-var _CanvasRenderTarget = __webpack_require__(177);
+var _CanvasRenderTarget = __webpack_require__(182);
 
 Object.defineProperty(exports, 'CanvasRenderTarget', {
   enumerable: true,
@@ -694,7 +694,7 @@ Object.defineProperty(exports, 'CanvasRenderTarget', {
   }
 });
 
-var _Shader = __webpack_require__(41);
+var _Shader = __webpack_require__(45);
 
 Object.defineProperty(exports, 'Shader', {
   enumerable: true,
@@ -703,7 +703,7 @@ Object.defineProperty(exports, 'Shader', {
   }
 });
 
-var _WebGLManager = __webpack_require__(44);
+var _WebGLManager = __webpack_require__(48);
 
 Object.defineProperty(exports, 'WebGLManager', {
   enumerable: true,
@@ -712,7 +712,7 @@ Object.defineProperty(exports, 'WebGLManager', {
   }
 });
 
-var _ObjectRenderer = __webpack_require__(58);
+var _ObjectRenderer = __webpack_require__(62);
 
 Object.defineProperty(exports, 'ObjectRenderer', {
   enumerable: true,
@@ -721,7 +721,7 @@ Object.defineProperty(exports, 'ObjectRenderer', {
   }
 });
 
-var _RenderTarget = __webpack_require__(59);
+var _RenderTarget = __webpack_require__(63);
 
 Object.defineProperty(exports, 'RenderTarget', {
   enumerable: true,
@@ -730,7 +730,7 @@ Object.defineProperty(exports, 'RenderTarget', {
   }
 });
 
-var _Quad = __webpack_require__(181);
+var _Quad = __webpack_require__(186);
 
 Object.defineProperty(exports, 'Quad', {
   enumerable: true,
@@ -739,7 +739,7 @@ Object.defineProperty(exports, 'Quad', {
   }
 });
 
-var _SpriteMaskFilter = __webpack_require__(180);
+var _SpriteMaskFilter = __webpack_require__(185);
 
 Object.defineProperty(exports, 'SpriteMaskFilter', {
   enumerable: true,
@@ -748,7 +748,7 @@ Object.defineProperty(exports, 'SpriteMaskFilter', {
   }
 });
 
-var _Filter = __webpack_require__(179);
+var _Filter = __webpack_require__(184);
 
 Object.defineProperty(exports, 'Filter', {
   enumerable: true,
@@ -757,7 +757,7 @@ Object.defineProperty(exports, 'Filter', {
   }
 });
 
-var _Application = __webpack_require__(168);
+var _Application = __webpack_require__(173);
 
 Object.defineProperty(exports, 'Application', {
   enumerable: true,
@@ -766,7 +766,7 @@ Object.defineProperty(exports, 'Application', {
   }
 });
 
-var _autoDetectRenderer = __webpack_require__(169);
+var _autoDetectRenderer = __webpack_require__(174);
 
 Object.defineProperty(exports, 'autoDetectRenderer', {
   enumerable: true,
@@ -787,11 +787,11 @@ var _settings = __webpack_require__(6);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _CanvasRenderer = __webpack_require__(43);
+var _CanvasRenderer = __webpack_require__(47);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(57);
+var _WebGLRenderer = __webpack_require__(61);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -813,7 +813,7 @@ exports.WebGLRenderer = _WebGLRenderer2.default; /**
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__ = __webpack_require__(33);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(scheme) {
@@ -859,11 +859,11 @@ var _eventemitter = __webpack_require__(23);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _pluginTarget = __webpack_require__(422);
+var _pluginTarget = __webpack_require__(427);
 
 var _pluginTarget2 = _interopRequireDefault(_pluginTarget);
 
-var _mixin = __webpack_require__(421);
+var _mixin = __webpack_require__(426);
 
 var mixins = _interopRequireWildcard(_mixin);
 
@@ -871,11 +871,11 @@ var _ismobilejs = __webpack_require__(92);
 
 var isMobile = _interopRequireWildcard(_ismobilejs);
 
-var _removeArrayItems = __webpack_require__(471);
+var _removeArrayItems = __webpack_require__(475);
 
 var _removeArrayItems2 = _interopRequireDefault(_removeArrayItems);
 
-var _mapPremultipliedBlendModes = __webpack_require__(419);
+var _mapPremultipliedBlendModes = __webpack_require__(424);
 
 var _mapPremultipliedBlendModes2 = _interopRequireDefault(_mapPremultipliedBlendModes);
 
@@ -1303,7 +1303,7 @@ function premultiplyTintToRgba(tint, alpha, out, premultiply) {
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(364);
+module.exports = __webpack_require__(369);
 module.exports.default = module.exports;
 
 
@@ -1317,11 +1317,11 @@ module.exports.default = module.exports;
 
 exports.__esModule = true;
 
-var _maxRecommendedTextures = __webpack_require__(420);
+var _maxRecommendedTextures = __webpack_require__(425);
 
 var _maxRecommendedTextures2 = _interopRequireDefault(_maxRecommendedTextures);
 
-var _canUploadSameBuffer = __webpack_require__(417);
+var _canUploadSameBuffer = __webpack_require__(422);
 
 var _canUploadSameBuffer2 = _interopRequireDefault(_canUploadSameBuffer);
 
@@ -1566,7 +1566,7 @@ Object.defineProperty(exports, 'Point', {
   }
 });
 
-var _ObservablePoint = __webpack_require__(175);
+var _ObservablePoint = __webpack_require__(180);
 
 Object.defineProperty(exports, 'ObservablePoint', {
   enumerable: true,
@@ -1584,7 +1584,7 @@ Object.defineProperty(exports, 'Matrix', {
   }
 });
 
-var _GroupD = __webpack_require__(174);
+var _GroupD = __webpack_require__(179);
 
 Object.defineProperty(exports, 'GroupD8', {
   enumerable: true,
@@ -1593,7 +1593,7 @@ Object.defineProperty(exports, 'GroupD8', {
   }
 });
 
-var _Circle = __webpack_require__(391);
+var _Circle = __webpack_require__(396);
 
 Object.defineProperty(exports, 'Circle', {
   enumerable: true,
@@ -1602,7 +1602,7 @@ Object.defineProperty(exports, 'Circle', {
   }
 });
 
-var _Ellipse = __webpack_require__(392);
+var _Ellipse = __webpack_require__(397);
 
 Object.defineProperty(exports, 'Ellipse', {
   enumerable: true,
@@ -1611,7 +1611,7 @@ Object.defineProperty(exports, 'Ellipse', {
   }
 });
 
-var _Polygon = __webpack_require__(393);
+var _Polygon = __webpack_require__(398);
 
 Object.defineProperty(exports, 'Polygon', {
   enumerable: true,
@@ -1629,7 +1629,7 @@ Object.defineProperty(exports, 'Rectangle', {
   }
 });
 
-var _RoundedRectangle = __webpack_require__(394);
+var _RoundedRectangle = __webpack_require__(399);
 
 Object.defineProperty(exports, 'RoundedRectangle', {
   enumerable: true,
@@ -1721,14 +1721,14 @@ function newInterval(floori, offseti, count, field) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var gl = {
-    createContext:          __webpack_require__(377),
-    setVertexAttribArrays:  __webpack_require__(159),
-    GLBuffer:               __webpack_require__(373),
-    GLFramebuffer:          __webpack_require__(374),
-    GLShader:               __webpack_require__(375),
-    GLTexture:              __webpack_require__(158),
-    VertexArrayObject:      __webpack_require__(376),
-    shader:                 __webpack_require__(378)
+    createContext:          __webpack_require__(382),
+    setVertexAttribArrays:  __webpack_require__(164),
+    GLBuffer:               __webpack_require__(378),
+    GLFramebuffer:          __webpack_require__(379),
+    GLShader:               __webpack_require__(380),
+    GLTexture:              __webpack_require__(163),
+    VertexArrayObject:      __webpack_require__(381),
+    shader:                 __webpack_require__(383)
 };
 
 // Export for Node-compatible environments
@@ -1757,8 +1757,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var inferno_shared_1 = __webpack_require__(5);
 var options_1 = __webpack_require__(17);
 var VNodes_1 = __webpack_require__(24);
-var constants_1 = __webpack_require__(54);
-var mounting_1 = __webpack_require__(55);
+var constants_1 = __webpack_require__(58);
+var mounting_1 = __webpack_require__(59);
 var unmounting_1 = __webpack_require__(90);
 // We need EMPTY_OBJ defined in one place.
 // Its used for comparison so we cant inline it into shared
@@ -2374,63 +2374,63 @@ process.umask = function() { return 0; };
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_bisect__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_bisect__ = __webpack_require__(125);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_bisect__["a"]; });
 /* unused harmony reexport bisectRight */
 /* unused harmony reexport bisectLeft */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ascending__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ascending__ = __webpack_require__(32);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ascending__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_bisector__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_bisector__ = __webpack_require__(126);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__src_bisector__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_cross__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_cross__ = __webpack_require__(258);
 /* unused harmony reexport cross */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_descending__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_descending__ = __webpack_require__(259);
 /* unused harmony reexport descending */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_deviation__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_deviation__ = __webpack_require__(127);
 /* unused harmony reexport deviation */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_extent__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_extent__ = __webpack_require__(128);
 /* unused harmony reexport extent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_histogram__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_histogram__ = __webpack_require__(260);
 /* unused harmony reexport histogram */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__ = __webpack_require__(270);
 /* unused harmony reexport thresholdFreedmanDiaconis */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__ = __webpack_require__(271);
 /* unused harmony reexport thresholdScott */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__ = __webpack_require__(132);
 /* unused harmony reexport thresholdSturges */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_max__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_max__ = __webpack_require__(262);
 /* unused harmony reexport max */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_mean__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_mean__ = __webpack_require__(263);
 /* unused harmony reexport mean */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_median__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_median__ = __webpack_require__(264);
 /* unused harmony reexport median */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_merge__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_merge__ = __webpack_require__(265);
 /* unused harmony reexport merge */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_min__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_min__ = __webpack_require__(129);
 /* unused harmony reexport min */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_pairs__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_pairs__ = __webpack_require__(130);
 /* unused harmony reexport pairs */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(266);
 /* unused harmony reexport permute */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(80);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_18__src_quantile__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_range__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_range__ = __webpack_require__(131);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_19__src_range__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_scan__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_scan__ = __webpack_require__(267);
 /* unused harmony reexport scan */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_shuffle__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_shuffle__ = __webpack_require__(268);
 /* unused harmony reexport shuffle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sum__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sum__ = __webpack_require__(269);
 /* unused harmony reexport sum */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_ticks__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_ticks__ = __webpack_require__(133);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_transpose__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_transpose__ = __webpack_require__(134);
 /* unused harmony reexport transpose */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_variance__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_variance__ = __webpack_require__(135);
 /* unused harmony reexport variance */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_zip__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_zip__ = __webpack_require__(272);
 /* unused harmony reexport zip */
 
 
@@ -2492,14 +2492,14 @@ if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_color__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_color__ = __webpack_require__(82);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["h"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(280);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(279);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__["a"]; });
 
 
@@ -2531,7 +2531,7 @@ exports.options = {
 /***/ (function(module, exports, __webpack_require__) {
 
 // Thank's IE8 for his funny defineProperty
-module.exports = !__webpack_require__(47)(function(){
+module.exports = !__webpack_require__(51)(function(){
   return Object.defineProperty({}, 'a', {get: function(){ return 7; }}).a != 7;
 });
 
@@ -2548,9 +2548,9 @@ module.exports = function(it, key){
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject       = __webpack_require__(33)
-  , IE8_DOM_DEFINE = __webpack_require__(114)
-  , toPrimitive    = __webpack_require__(76)
+var anObject       = __webpack_require__(37)
+  , IE8_DOM_DEFINE = __webpack_require__(117)
+  , toPrimitive    = __webpack_require__(77)
   , dP             = Object.defineProperty;
 
 exports.f = __webpack_require__(18) ? Object.defineProperty : function defineProperty(O, P, Attributes){
@@ -2570,8 +2570,8 @@ exports.f = __webpack_require__(18) ? Object.defineProperty : function definePro
 /***/ (function(module, exports, __webpack_require__) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
-var IObject = __webpack_require__(226)
-  , defined = __webpack_require__(66);
+var IObject = __webpack_require__(233)
+  , defined = __webpack_require__(67);
 module.exports = function(it){
   return IObject(defined(it));
 };
@@ -2916,7 +2916,7 @@ if (true) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var inferno_shared_1 = __webpack_require__(5);
 var utils_1 = __webpack_require__(10);
-var normalization_1 = __webpack_require__(155);
+var normalization_1 = __webpack_require__(160);
 var options_1 = __webpack_require__(17);
 function VNode(children, className, flags, key, props, ref, type) {
     this.children = children;
@@ -3130,15 +3130,15 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _BaseTexture = __webpack_require__(32);
+var _BaseTexture = __webpack_require__(36);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
-var _VideoBaseTexture = __webpack_require__(186);
+var _VideoBaseTexture = __webpack_require__(191);
 
 var _VideoBaseTexture2 = _interopRequireDefault(_VideoBaseTexture);
 
-var _TextureUvs = __webpack_require__(185);
+var _TextureUvs = __webpack_require__(190);
 
 var _TextureUvs2 = _interopRequireDefault(_TextureUvs);
 
@@ -3801,5700 +3801,6 @@ removeAllHandlers(Texture.WHITE.baseTexture);
 
 /***/ }),
 /* 26 */
-/***/ (function(module, exports) {
-
-var core = module.exports = {version: '2.4.0'};
-if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var dP         = __webpack_require__(20)
-  , createDesc = __webpack_require__(49);
-module.exports = __webpack_require__(18) ? function(object, key, value){
-  return dP.f(object, key, createDesc(1, value));
-} : function(object, key, value){
-  object[key] = value;
-  return object;
-};
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var store      = __webpack_require__(74)('wks')
-  , uid        = __webpack_require__(50)
-  , Symbol     = __webpack_require__(15).Symbol
-  , USE_SYMBOL = typeof Symbol == 'function';
-
-var $exports = module.exports = function(name){
-  return store[name] || (store[name] =
-    USE_SYMBOL && Symbol[name] || (USE_SYMBOL ? Symbol : uid)('Symbol.' + name));
-};
-
-$exports.store = store;
-
-/***/ }),
-/* 29 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
-  return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
-});
-
-
-/***/ }),
-/* 30 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_value__ = __webpack_require__(85);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_value__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_array__ = __webpack_require__(139);
-/* unused harmony reexport interpolateArray */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_basis__ = __webpack_require__(84);
-/* unused harmony reexport interpolateBasis */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__ = __webpack_require__(140);
-/* unused harmony reexport interpolateBasisClosed */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_date__ = __webpack_require__(142);
-/* unused harmony reexport interpolateDate */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_number__ = __webpack_require__(52);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__src_number__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(143);
-/* unused harmony reexport interpolateObject */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(288);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_7__src_round__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(145);
-/* unused harmony reexport interpolateString */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(290);
-/* unused harmony reexport interpolateTransformCss */
-/* unused harmony reexport interpolateTransformSvg */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(292);
-/* unused harmony reexport interpolateZoom */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(144);
-/* unused harmony reexport interpolateRgb */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["a"]; });
-/* unused harmony reexport interpolateRgbBasisClosed */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(285);
-/* unused harmony reexport interpolateHsl */
-/* unused harmony reexport interpolateHslLong */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(286);
-/* unused harmony reexport interpolateLab */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(284);
-/* unused harmony reexport interpolateHcl */
-/* unused harmony reexport interpolateHclLong */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(283);
-/* unused harmony reexport interpolateCubehelix */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(287);
-/* unused harmony reexport quantize */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 31 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-Object.defineProperty(exports, "__esModule", { value: true });
-var inferno_shared_1 = __webpack_require__(5);
-var options_1 = __webpack_require__(17);
-var VNodes_1 = __webpack_require__(24);
-var constants_1 = __webpack_require__(54);
-var delegation_1 = __webpack_require__(365);
-var mounting_1 = __webpack_require__(55);
-var rendering_1 = __webpack_require__(40);
-var unmounting_1 = __webpack_require__(90);
-var utils_1 = __webpack_require__(10);
-var processElement_1 = __webpack_require__(91);
-function patch(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling) {
-    if (lastVNode !== nextVNode) {
-        var lastFlags = lastVNode.flags;
-        var nextFlags = nextVNode.flags;
-        if (nextFlags & 28 /* Component */) {
-            var isClass = (nextFlags & 4 /* ComponentClass */) > 0;
-            if (lastFlags & 28 /* Component */) {
-                patchComponent(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isClass, isRecycling);
-            }
-            else {
-                utils_1.replaceVNode(parentDom, mounting_1.mountComponent(nextVNode, null, lifecycle, context, isSVG, isClass), lastVNode, lifecycle, isRecycling);
-            }
-        }
-        else if (nextFlags & 3970 /* Element */) {
-            if (lastFlags & 3970 /* Element */) {
-                patchElement(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling);
-            }
-            else {
-                utils_1.replaceVNode(parentDom, mounting_1.mountElement(nextVNode, null, lifecycle, context, isSVG), lastVNode, lifecycle, isRecycling);
-            }
-        }
-        else if (nextFlags & 1 /* Text */) {
-            if (lastFlags & 1 /* Text */) {
-                patchText(lastVNode, nextVNode);
-            }
-            else {
-                utils_1.replaceVNode(parentDom, mounting_1.mountText(nextVNode, null), lastVNode, lifecycle, isRecycling);
-            }
-        }
-        else if (nextFlags & 4096 /* Void */) {
-            if (lastFlags & 4096 /* Void */) {
-                patchVoid(lastVNode, nextVNode);
-            }
-            else {
-                utils_1.replaceVNode(parentDom, mounting_1.mountVoid(nextVNode, null), lastVNode, lifecycle, isRecycling);
-            }
-        }
-        else {
-            // Error case: mount new one replacing old one
-            utils_1.replaceLastChildAndUnmount(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling);
-        }
-    }
-}
-exports.patch = patch;
-function unmountChildren(children, dom, lifecycle, isRecycling) {
-    if (VNodes_1.isVNode(children)) {
-        unmounting_1.unmount(children, dom, lifecycle, true, isRecycling);
-    }
-    else if (inferno_shared_1.isArray(children)) {
-        utils_1.removeAllChildren(dom, children, lifecycle, isRecycling);
-    }
-    else {
-        dom.textContent = '';
-    }
-}
-function patchElement(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling) {
-    var nextTag = nextVNode.type;
-    var lastTag = lastVNode.type;
-    if (lastTag !== nextTag) {
-        utils_1.replaceWithNewNode(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling);
-    }
-    else {
-        var dom = lastVNode.dom;
-        var lastProps = lastVNode.props;
-        var nextProps = nextVNode.props;
-        var lastChildren = lastVNode.children;
-        var nextChildren = nextVNode.children;
-        var lastFlags = lastVNode.flags;
-        var nextFlags = nextVNode.flags;
-        var nextRef = nextVNode.ref;
-        var lastClassName = lastVNode.className;
-        var nextClassName = nextVNode.className;
-        nextVNode.dom = dom;
-        isSVG = isSVG || (nextFlags & 128 /* SvgElement */) > 0;
-        if (lastChildren !== nextChildren) {
-            patchChildren(lastFlags, nextFlags, lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling);
-        }
-        // inlined patchProps  -- starts --
-        if (lastProps !== nextProps) {
-            var lastPropsOrEmpty = lastProps || utils_1.EMPTY_OBJ;
-            var nextPropsOrEmpty = nextProps || utils_1.EMPTY_OBJ;
-            var hasControlledValue = false;
-            if (nextPropsOrEmpty !== utils_1.EMPTY_OBJ) {
-                var isFormElement = (nextFlags & 3584 /* FormElement */) > 0;
-                if (isFormElement) {
-                    hasControlledValue = processElement_1.isControlledFormElement(nextPropsOrEmpty);
-                }
-                for (var prop in nextPropsOrEmpty) {
-                    // do not add a hasOwnProperty check here, it affects performance
-                    var nextValue = nextPropsOrEmpty[prop];
-                    var lastValue = lastPropsOrEmpty[prop];
-                    patchProp(prop, lastValue, nextValue, dom, isSVG, hasControlledValue);
-                }
-                if (isFormElement) {
-                    // When inferno is recycling form element, we need to process it like it would be mounting
-                    processElement_1.processElement(nextFlags, nextVNode, dom, nextPropsOrEmpty, isRecycling, hasControlledValue);
-                }
-            }
-            if (lastPropsOrEmpty !== utils_1.EMPTY_OBJ) {
-                for (var prop in lastPropsOrEmpty) {
-                    // do not add a hasOwnProperty check here, it affects performance
-                    if (inferno_shared_1.isNullOrUndef(nextPropsOrEmpty[prop]) && !inferno_shared_1.isNullOrUndef(lastPropsOrEmpty[prop])) {
-                        removeProp(prop, lastPropsOrEmpty[prop], dom);
-                    }
-                }
-            }
-        }
-        // inlined patchProps  -- ends --
-        if (lastClassName !== nextClassName) {
-            if (inferno_shared_1.isNullOrUndef(nextClassName)) {
-                dom.removeAttribute('class');
-            }
-            else {
-                if (isSVG) {
-                    dom.setAttribute('class', nextClassName);
-                }
-                else {
-                    dom.className = nextClassName;
-                }
-            }
-        }
-        if (nextRef) {
-            if (lastVNode.ref !== nextRef || isRecycling) {
-                mounting_1.mountRef(dom, nextRef, lifecycle);
-            }
-        }
-    }
-}
-exports.patchElement = patchElement;
-function patchChildren(lastFlags, nextFlags, lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling) {
-    var patchArray = false;
-    var patchKeyed = false;
-    if (nextFlags & 64 /* HasNonKeyedChildren */) {
-        patchArray = true;
-    }
-    else if ((lastFlags & 32 /* HasKeyedChildren */) > 0 && (nextFlags & 32 /* HasKeyedChildren */) > 0) {
-        patchKeyed = true;
-        patchArray = true;
-    }
-    else if (inferno_shared_1.isInvalid(nextChildren)) {
-        unmountChildren(lastChildren, dom, lifecycle, isRecycling);
-    }
-    else if (inferno_shared_1.isInvalid(lastChildren)) {
-        if (inferno_shared_1.isStringOrNumber(nextChildren)) {
-            utils_1.setTextContent(dom, nextChildren);
-        }
-        else {
-            if (inferno_shared_1.isArray(nextChildren)) {
-                mounting_1.mountArrayChildren(nextChildren, dom, lifecycle, context, isSVG);
-            }
-            else {
-                mounting_1.mount(nextChildren, dom, lifecycle, context, isSVG);
-            }
-        }
-    }
-    else if (inferno_shared_1.isStringOrNumber(nextChildren)) {
-        if (inferno_shared_1.isStringOrNumber(lastChildren)) {
-            utils_1.updateTextContent(dom, nextChildren);
-        }
-        else {
-            unmountChildren(lastChildren, dom, lifecycle, isRecycling);
-            utils_1.setTextContent(dom, nextChildren);
-        }
-    }
-    else if (inferno_shared_1.isArray(nextChildren)) {
-        if (inferno_shared_1.isArray(lastChildren)) {
-            patchArray = true;
-            if (utils_1.isKeyed(lastChildren, nextChildren)) {
-                patchKeyed = true;
-            }
-        }
-        else {
-            unmountChildren(lastChildren, dom, lifecycle, isRecycling);
-            mounting_1.mountArrayChildren(nextChildren, dom, lifecycle, context, isSVG);
-        }
-    }
-    else if (inferno_shared_1.isArray(lastChildren)) {
-        utils_1.removeAllChildren(dom, lastChildren, lifecycle, isRecycling);
-        mounting_1.mount(nextChildren, dom, lifecycle, context, isSVG);
-    }
-    else if (VNodes_1.isVNode(nextChildren)) {
-        if (VNodes_1.isVNode(lastChildren)) {
-            patch(lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling);
-        }
-        else {
-            unmountChildren(lastChildren, dom, lifecycle, isRecycling);
-            mounting_1.mount(nextChildren, dom, lifecycle, context, isSVG);
-        }
-    }
-    if (patchArray) {
-        if (patchKeyed) {
-            patchKeyedChildren(lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling);
-        }
-        else {
-            patchNonKeyedChildren(lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling);
-        }
-    }
-}
-function patchComponent(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isClass, isRecycling) {
-    var lastType = lastVNode.type;
-    var nextType = nextVNode.type;
-    var lastKey = lastVNode.key;
-    var nextKey = nextVNode.key;
-    if (lastType !== nextType || lastKey !== nextKey) {
-        utils_1.replaceWithNewNode(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling);
-        return false;
-    }
-    else {
-        var nextProps = nextVNode.props || utils_1.EMPTY_OBJ;
-        if (isClass) {
-            var instance = lastVNode.children;
-            instance._updating = true;
-            if (instance._unmounted) {
-                if (inferno_shared_1.isNull(parentDom)) {
-                    return true;
-                }
-                utils_1.replaceChild(parentDom, mounting_1.mountComponent(nextVNode, null, lifecycle, context, isSVG, (nextVNode.flags & 4 /* ComponentClass */) > 0), lastVNode.dom);
-            }
-            else {
-                var hasComponentDidUpdate = !inferno_shared_1.isUndefined(instance.componentDidUpdate);
-                var nextState = instance.state;
-                // When component has componentDidUpdate hook, we need to clone lastState or will be modified by reference during update
-                var lastState = hasComponentDidUpdate ? inferno_shared_1.combineFrom(nextState, null) : nextState;
-                var lastProps = instance.props;
-                var childContext = void 0;
-                if (!inferno_shared_1.isUndefined(instance.getChildContext)) {
-                    childContext = instance.getChildContext();
-                }
-                nextVNode.children = instance;
-                instance._isSVG = isSVG;
-                if (inferno_shared_1.isNullOrUndef(childContext)) {
-                    childContext = context;
-                }
-                else {
-                    childContext = inferno_shared_1.combineFrom(context, childContext);
-                }
-                var lastInput = instance._lastInput;
-                var nextInput = instance._updateComponent(lastState, nextState, lastProps, nextProps, context, false, false);
-                var didUpdate = true;
-                instance._childContext = childContext;
-                if (inferno_shared_1.isInvalid(nextInput)) {
-                    nextInput = VNodes_1.createVoidVNode();
-                }
-                else if (nextInput === inferno_shared_1.NO_OP) {
-                    nextInput = lastInput;
-                    didUpdate = false;
-                }
-                else if (inferno_shared_1.isStringOrNumber(nextInput)) {
-                    nextInput = VNodes_1.createTextVNode(nextInput, null);
-                }
-                else if (inferno_shared_1.isArray(nextInput)) {
-                    if (process.env.NODE_ENV !== 'production') {
-                        inferno_shared_1.throwError('a valid Inferno VNode (or null) must be returned from a component render. You may have returned an array or an invalid object.');
-                    }
-                    inferno_shared_1.throwError();
-                }
-                else if (inferno_shared_1.isObject(nextInput)) {
-                    if (!inferno_shared_1.isNull(nextInput.dom)) {
-                        nextInput = VNodes_1.directClone(nextInput);
-                    }
-                }
-                if (nextInput.flags & 28 /* Component */) {
-                    nextInput.parentVNode = nextVNode;
-                }
-                else if (lastInput.flags & 28 /* Component */) {
-                    lastInput.parentVNode = nextVNode;
-                }
-                instance._lastInput = nextInput;
-                instance._vNode = nextVNode;
-                if (didUpdate) {
-                    patch(lastInput, nextInput, parentDom, lifecycle, childContext, isSVG, isRecycling);
-                    if (hasComponentDidUpdate) {
-                        instance.componentDidUpdate(lastProps, lastState);
-                    }
-                    if (!inferno_shared_1.isNull(options_1.options.afterUpdate)) {
-                        options_1.options.afterUpdate(nextVNode);
-                    }
-                    if (options_1.options.findDOMNodeEnabled) {
-                        rendering_1.componentToDOMNodeMap.set(instance, nextInput.dom);
-                    }
-                }
-                nextVNode.dom = nextInput.dom;
-            }
-            instance._updating = false;
-        }
-        else {
-            var shouldUpdate = true;
-            var lastProps = lastVNode.props;
-            var nextHooks = nextVNode.ref;
-            var nextHooksDefined = !inferno_shared_1.isNullOrUndef(nextHooks);
-            var lastInput = lastVNode.children;
-            var nextInput = lastInput;
-            nextVNode.dom = lastVNode.dom;
-            nextVNode.children = lastInput;
-            if (lastKey !== nextKey) {
-                shouldUpdate = true;
-            }
-            else {
-                if (nextHooksDefined && !inferno_shared_1.isNullOrUndef(nextHooks.onComponentShouldUpdate)) {
-                    shouldUpdate = nextHooks.onComponentShouldUpdate(lastProps, nextProps);
-                }
-            }
-            if (shouldUpdate !== false) {
-                if (nextHooksDefined && !inferno_shared_1.isNullOrUndef(nextHooks.onComponentWillUpdate)) {
-                    nextHooks.onComponentWillUpdate(lastProps, nextProps);
-                }
-                nextInput = nextType(nextProps, context);
-                if (inferno_shared_1.isInvalid(nextInput)) {
-                    nextInput = VNodes_1.createVoidVNode();
-                }
-                else if (inferno_shared_1.isStringOrNumber(nextInput) && nextInput !== inferno_shared_1.NO_OP) {
-                    nextInput = VNodes_1.createTextVNode(nextInput, null);
-                }
-                else if (inferno_shared_1.isArray(nextInput)) {
-                    if (process.env.NODE_ENV !== 'production') {
-                        inferno_shared_1.throwError('a valid Inferno VNode (or null) must be returned from a component render. You may have returned an array or an invalid object.');
-                    }
-                    inferno_shared_1.throwError();
-                }
-                else if (inferno_shared_1.isObject(nextInput)) {
-                    if (!inferno_shared_1.isNull(nextInput.dom)) {
-                        nextInput = VNodes_1.directClone(nextInput);
-                    }
-                }
-                if (nextInput !== inferno_shared_1.NO_OP) {
-                    patch(lastInput, nextInput, parentDom, lifecycle, context, isSVG, isRecycling);
-                    nextVNode.children = nextInput;
-                    if (nextHooksDefined && !inferno_shared_1.isNullOrUndef(nextHooks.onComponentDidUpdate)) {
-                        nextHooks.onComponentDidUpdate(lastProps, nextProps);
-                    }
-                    nextVNode.dom = nextInput.dom;
-                }
-            }
-            if (nextInput.flags & 28 /* Component */) {
-                nextInput.parentVNode = nextVNode;
-            }
-            else if (lastInput.flags & 28 /* Component */) {
-                lastInput.parentVNode = nextVNode;
-            }
-        }
-    }
-    return false;
-}
-exports.patchComponent = patchComponent;
-function patchText(lastVNode, nextVNode) {
-    var nextText = nextVNode.children;
-    var dom = lastVNode.dom;
-    nextVNode.dom = dom;
-    if (lastVNode.children !== nextText) {
-        dom.nodeValue = nextText;
-    }
-}
-exports.patchText = patchText;
-function patchVoid(lastVNode, nextVNode) {
-    nextVNode.dom = lastVNode.dom;
-}
-exports.patchVoid = patchVoid;
-function patchNonKeyedChildren(lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling) {
-    var lastChildrenLength = lastChildren.length;
-    var nextChildrenLength = nextChildren.length;
-    var commonLength = lastChildrenLength > nextChildrenLength ? nextChildrenLength : lastChildrenLength;
-    var i = 0;
-    for (; i < commonLength; i++) {
-        var nextChild = nextChildren[i];
-        if (nextChild.dom) {
-            nextChild = nextChildren[i] = VNodes_1.directClone(nextChild);
-        }
-        patch(lastChildren[i], nextChild, dom, lifecycle, context, isSVG, isRecycling);
-    }
-    if (lastChildrenLength < nextChildrenLength) {
-        for (i = commonLength; i < nextChildrenLength; i++) {
-            var nextChild = nextChildren[i];
-            if (nextChild.dom) {
-                nextChild = nextChildren[i] = VNodes_1.directClone(nextChild);
-            }
-            utils_1.appendChild(dom, mounting_1.mount(nextChild, null, lifecycle, context, isSVG));
-        }
-    }
-    else if (nextChildrenLength === 0) {
-        utils_1.removeAllChildren(dom, lastChildren, lifecycle, isRecycling);
-    }
-    else if (lastChildrenLength > nextChildrenLength) {
-        for (i = commonLength; i < lastChildrenLength; i++) {
-            unmounting_1.unmount(lastChildren[i], dom, lifecycle, false, isRecycling);
-        }
-    }
-}
-exports.patchNonKeyedChildren = patchNonKeyedChildren;
-function patchKeyedChildren(a, b, dom, lifecycle, context, isSVG, isRecycling) {
-    var aLength = a.length;
-    var bLength = b.length;
-    var aEnd = aLength - 1;
-    var bEnd = bLength - 1;
-    var aStart = 0;
-    var bStart = 0;
-    var i;
-    var j;
-    var aNode;
-    var bNode;
-    var nextNode;
-    var nextPos;
-    var node;
-    if (aLength === 0) {
-        if (bLength > 0) {
-            mounting_1.mountArrayChildren(b, dom, lifecycle, context, isSVG);
-        }
-        return;
-    }
-    else if (bLength === 0) {
-        utils_1.removeAllChildren(dom, a, lifecycle, isRecycling);
-        return;
-    }
-    var aStartNode = a[aStart];
-    var bStartNode = b[bStart];
-    var aEndNode = a[aEnd];
-    var bEndNode = b[bEnd];
-    if (bStartNode.dom) {
-        b[bStart] = bStartNode = VNodes_1.directClone(bStartNode);
-    }
-    if (bEndNode.dom) {
-        b[bEnd] = bEndNode = VNodes_1.directClone(bEndNode);
-    }
-    // Step 1
-    /* eslint no-constant-condition: 0 */
-    outer: while (true) {
-        // Sync nodes with the same key at the beginning.
-        while (aStartNode.key === bStartNode.key) {
-            patch(aStartNode, bStartNode, dom, lifecycle, context, isSVG, isRecycling);
-            aStart++;
-            bStart++;
-            if (aStart > aEnd || bStart > bEnd) {
-                break outer;
-            }
-            aStartNode = a[aStart];
-            bStartNode = b[bStart];
-            if (bStartNode.dom) {
-                b[bStart] = bStartNode = VNodes_1.directClone(bStartNode);
-            }
-        }
-        // Sync nodes with the same key at the end.
-        while (aEndNode.key === bEndNode.key) {
-            patch(aEndNode, bEndNode, dom, lifecycle, context, isSVG, isRecycling);
-            aEnd--;
-            bEnd--;
-            if (aStart > aEnd || bStart > bEnd) {
-                break outer;
-            }
-            aEndNode = a[aEnd];
-            bEndNode = b[bEnd];
-            if (bEndNode.dom) {
-                b[bEnd] = bEndNode = VNodes_1.directClone(bEndNode);
-            }
-        }
-        // Move and sync nodes from right to left.
-        if (aEndNode.key === bStartNode.key) {
-            patch(aEndNode, bStartNode, dom, lifecycle, context, isSVG, isRecycling);
-            utils_1.insertOrAppend(dom, bStartNode.dom, aStartNode.dom);
-            aEnd--;
-            bStart++;
-            aEndNode = a[aEnd];
-            bStartNode = b[bStart];
-            if (bStartNode.dom) {
-                b[bStart] = bStartNode = VNodes_1.directClone(bStartNode);
-            }
-            continue;
-        }
-        // Move and sync nodes from left to right.
-        if (aStartNode.key === bEndNode.key) {
-            patch(aStartNode, bEndNode, dom, lifecycle, context, isSVG, isRecycling);
-            nextPos = bEnd + 1;
-            nextNode = nextPos < b.length ? b[nextPos].dom : null;
-            utils_1.insertOrAppend(dom, bEndNode.dom, nextNode);
-            aStart++;
-            bEnd--;
-            aStartNode = a[aStart];
-            bEndNode = b[bEnd];
-            if (bEndNode.dom) {
-                b[bEnd] = bEndNode = VNodes_1.directClone(bEndNode);
-            }
-            continue;
-        }
-        break;
-    }
-    if (aStart > aEnd) {
-        if (bStart <= bEnd) {
-            nextPos = bEnd + 1;
-            nextNode = nextPos < b.length ? b[nextPos].dom : null;
-            while (bStart <= bEnd) {
-                node = b[bStart];
-                if (node.dom) {
-                    b[bStart] = node = VNodes_1.directClone(node);
-                }
-                bStart++;
-                utils_1.insertOrAppend(dom, mounting_1.mount(node, null, lifecycle, context, isSVG), nextNode);
-            }
-        }
-    }
-    else if (bStart > bEnd) {
-        while (aStart <= aEnd) {
-            unmounting_1.unmount(a[aStart++], dom, lifecycle, false, isRecycling);
-        }
-    }
-    else {
-        aLength = aEnd - aStart + 1;
-        bLength = bEnd - bStart + 1;
-        var sources = new Array(bLength);
-        // Mark all nodes as inserted.
-        for (i = 0; i < bLength; i++) {
-            sources[i] = -1;
-        }
-        var moved = false;
-        var pos = 0;
-        var patched = 0;
-        // When sizes are small, just loop them through
-        if ((bLength <= 4) || (aLength * bLength <= 16)) {
-            for (i = aStart; i <= aEnd; i++) {
-                aNode = a[i];
-                if (patched < bLength) {
-                    for (j = bStart; j <= bEnd; j++) {
-                        bNode = b[j];
-                        if (aNode.key === bNode.key) {
-                            sources[j - bStart] = i;
-                            if (pos > j) {
-                                moved = true;
-                            }
-                            else {
-                                pos = j;
-                            }
-                            if (bNode.dom) {
-                                b[j] = bNode = VNodes_1.directClone(bNode);
-                            }
-                            patch(aNode, bNode, dom, lifecycle, context, isSVG, isRecycling);
-                            patched++;
-                            a[i] = null;
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-        else {
-            var keyIndex = new Map();
-            // Map keys by their index in array
-            for (i = bStart; i <= bEnd; i++) {
-                keyIndex.set(b[i].key, i);
-            }
-            // Try to patch same keys
-            for (i = aStart; i <= aEnd; i++) {
-                aNode = a[i];
-                if (patched < bLength) {
-                    j = keyIndex.get(aNode.key);
-                    if (!inferno_shared_1.isUndefined(j)) {
-                        bNode = b[j];
-                        sources[j - bStart] = i;
-                        if (pos > j) {
-                            moved = true;
-                        }
-                        else {
-                            pos = j;
-                        }
-                        if (bNode.dom) {
-                            b[j] = bNode = VNodes_1.directClone(bNode);
-                        }
-                        patch(aNode, bNode, dom, lifecycle, context, isSVG, isRecycling);
-                        patched++;
-                        a[i] = null;
-                    }
-                }
-            }
-        }
-        // fast-path: if nothing patched remove all old and add all new
-        if (aLength === a.length && patched === 0) {
-            utils_1.removeAllChildren(dom, a, lifecycle, isRecycling);
-            while (bStart < bLength) {
-                node = b[bStart];
-                if (node.dom) {
-                    b[bStart] = node = VNodes_1.directClone(node);
-                }
-                bStart++;
-                utils_1.insertOrAppend(dom, mounting_1.mount(node, null, lifecycle, context, isSVG), null);
-            }
-        }
-        else {
-            i = aLength - patched;
-            while (i > 0) {
-                aNode = a[aStart++];
-                if (!inferno_shared_1.isNull(aNode)) {
-                    unmounting_1.unmount(aNode, dom, lifecycle, true, isRecycling);
-                    i--;
-                }
-            }
-            if (moved) {
-                var seq = lis_algorithm(sources);
-                j = seq.length - 1;
-                for (i = bLength - 1; i >= 0; i--) {
-                    if (sources[i] === -1) {
-                        pos = i + bStart;
-                        node = b[pos];
-                        if (node.dom) {
-                            b[pos] = node = VNodes_1.directClone(node);
-                        }
-                        nextPos = pos + 1;
-                        nextNode = nextPos < b.length ? b[nextPos].dom : null;
-                        utils_1.insertOrAppend(dom, mounting_1.mount(node, dom, lifecycle, context, isSVG), nextNode);
-                    }
-                    else {
-                        if (j < 0 || i !== seq[j]) {
-                            pos = i + bStart;
-                            node = b[pos];
-                            nextPos = pos + 1;
-                            nextNode = nextPos < b.length ? b[nextPos].dom : null;
-                            utils_1.insertOrAppend(dom, node.dom, nextNode);
-                        }
-                        else {
-                            j--;
-                        }
-                    }
-                }
-            }
-            else if (patched !== bLength) {
-                // when patched count doesn't match b length we need to insert those new ones
-                // loop backwards so we can use insertBefore
-                for (i = bLength - 1; i >= 0; i--) {
-                    if (sources[i] === -1) {
-                        pos = i + bStart;
-                        node = b[pos];
-                        if (node.dom) {
-                            b[pos] = node = VNodes_1.directClone(node);
-                        }
-                        nextPos = pos + 1;
-                        nextNode = nextPos < b.length ? b[nextPos].dom : null;
-                        utils_1.insertOrAppend(dom, mounting_1.mount(node, null, lifecycle, context, isSVG), nextNode);
-                    }
-                }
-            }
-        }
-    }
-}
-exports.patchKeyedChildren = patchKeyedChildren;
-// // https://en.wikipedia.org/wiki/Longest_increasing_subsequence
-function lis_algorithm(arr) {
-    var p = arr.slice(0);
-    var result = [0];
-    var i;
-    var j;
-    var u;
-    var v;
-    var c;
-    var len = arr.length;
-    for (i = 0; i < len; i++) {
-        var arrI = arr[i];
-        if (arrI === -1) {
-            continue;
-        }
-        j = result[result.length - 1];
-        if (arr[j] < arrI) {
-            p[i] = j;
-            result.push(i);
-            continue;
-        }
-        u = 0;
-        v = result.length - 1;
-        while (u < v) {
-            c = ((u + v) / 2) | 0;
-            if (arr[result[c]] < arrI) {
-                u = c + 1;
-            }
-            else {
-                v = c;
-            }
-        }
-        if (arrI < arr[result[u]]) {
-            if (u > 0) {
-                p[i] = result[u - 1];
-            }
-            result[u] = i;
-        }
-    }
-    u = result.length;
-    v = result[u - 1];
-    while (u-- > 0) {
-        result[u] = v;
-        v = p[v];
-    }
-    return result;
-}
-function isAttrAnEvent(attr) {
-    return attr[0] === 'o' && attr[1] === 'n';
-}
-exports.isAttrAnEvent = isAttrAnEvent;
-function patchProp(prop, lastValue, nextValue, dom, isSVG, hasControlledValue) {
-    if (lastValue !== nextValue) {
-        if (constants_1.skipProps.has(prop) || (hasControlledValue && prop === 'value')) {
-            return;
-        }
-        else if (constants_1.booleanProps.has(prop)) {
-            prop = prop === 'autoFocus' ? prop.toLowerCase() : prop;
-            dom[prop] = !!nextValue;
-        }
-        else if (constants_1.strictProps.has(prop)) {
-            var value = inferno_shared_1.isNullOrUndef(nextValue) ? '' : nextValue;
-            if (dom[prop] !== value) {
-                dom[prop] = value;
-            }
-        }
-        else if (isAttrAnEvent(prop)) {
-            patchEvent(prop, lastValue, nextValue, dom);
-        }
-        else if (inferno_shared_1.isNullOrUndef(nextValue)) {
-            dom.removeAttribute(prop);
-        }
-        else if (prop === 'style') {
-            patchStyle(lastValue, nextValue, dom);
-        }
-        else if (prop === 'dangerouslySetInnerHTML') {
-            var lastHtml = lastValue && lastValue.__html;
-            var nextHtml = nextValue && nextValue.__html;
-            if (lastHtml !== nextHtml) {
-                if (!inferno_shared_1.isNullOrUndef(nextHtml)) {
-                    dom.innerHTML = nextHtml;
-                }
-            }
-        }
-        else {
-            // We optimize for NS being boolean. Its 99.9% time false
-            if (isSVG && constants_1.namespaces.has(prop)) {
-                // If we end up in this path we can read property again
-                dom.setAttributeNS(constants_1.namespaces.get(prop), prop, nextValue);
-            }
-            else {
-                dom.setAttribute(prop, nextValue);
-            }
-        }
-    }
-}
-exports.patchProp = patchProp;
-function patchEvent(name, lastValue, nextValue, dom) {
-    if (lastValue !== nextValue) {
-        if (constants_1.delegatedEvents.has(name)) {
-            delegation_1.handleEvent(name, lastValue, nextValue, dom);
-        }
-        else {
-            var nameLowerCase = name.toLowerCase();
-            var domEvent = dom[nameLowerCase];
-            // if the function is wrapped, that means it's been controlled by a wrapper
-            if (domEvent && domEvent.wrapped) {
-                return;
-            }
-            if (!inferno_shared_1.isFunction(nextValue) && !inferno_shared_1.isNullOrUndef(nextValue)) {
-                var linkEvent_1 = nextValue.event;
-                if (linkEvent_1 && inferno_shared_1.isFunction(linkEvent_1)) {
-                    dom[nameLowerCase] = function (e) {
-                        linkEvent_1(nextValue.data, e);
-                    };
-                }
-                else {
-                    if (process.env.NODE_ENV !== 'production') {
-                        inferno_shared_1.throwError("an event on a VNode \"" + name + "\". was not a function or a valid linkEvent.");
-                    }
-                    inferno_shared_1.throwError();
-                }
-            }
-            else {
-                dom[nameLowerCase] = nextValue;
-            }
-        }
-    }
-}
-exports.patchEvent = patchEvent;
-// We are assuming here that we come from patchProp routine
-// -nextAttrValue cannot be null or undefined
-function patchStyle(lastAttrValue, nextAttrValue, dom) {
-    var domStyle = dom.style;
-    if (inferno_shared_1.isString(nextAttrValue)) {
-        domStyle.cssText = nextAttrValue;
-        return;
-    }
-    for (var style in nextAttrValue) {
-        // do not add a hasOwnProperty check here, it affects performance
-        var value = nextAttrValue[style];
-        if (!inferno_shared_1.isNumber(value) || constants_1.isUnitlessNumber.has(style)) {
-            domStyle[style] = value;
-        }
-        else {
-            domStyle[style] = value + 'px';
-        }
-    }
-    if (!inferno_shared_1.isNullOrUndef(lastAttrValue)) {
-        for (var style in lastAttrValue) {
-            if (inferno_shared_1.isNullOrUndef(nextAttrValue[style])) {
-                domStyle[style] = '';
-            }
-        }
-    }
-}
-exports.patchStyle = patchStyle;
-function removeProp(prop, lastValue, dom) {
-    if (prop === 'value') {
-        dom.value = '';
-    }
-    else if (prop === 'style') {
-        dom.removeAttribute('style');
-    }
-    else if (isAttrAnEvent(prop)) {
-        delegation_1.handleEvent(prop, lastValue, null, dom);
-    }
-    else {
-        dom.removeAttribute(prop);
-    }
-}
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _utils = __webpack_require__(4);
-
-var _settings = __webpack_require__(6);
-
-var _settings2 = _interopRequireDefault(_settings);
-
-var _eventemitter = __webpack_require__(23);
-
-var _eventemitter2 = _interopRequireDefault(_eventemitter);
-
-var _determineCrossOrigin = __webpack_require__(418);
-
-var _determineCrossOrigin2 = _interopRequireDefault(_determineCrossOrigin);
-
-var _bitTwiddle = __webpack_require__(65);
-
-var _bitTwiddle2 = _interopRequireDefault(_bitTwiddle);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * A texture stores the information that represents an image. All textures have a base texture.
- *
- * @class
- * @extends EventEmitter
- * @memberof PIXI
- */
-var BaseTexture = function (_EventEmitter) {
-    _inherits(BaseTexture, _EventEmitter);
-
-    /**
-     * @param {HTMLImageElement|HTMLCanvasElement} [source] - the source object of the texture.
-     * @param {number} [scaleMode=PIXI.settings.SCALE_MODE] - See {@link PIXI.SCALE_MODES} for possible values
-     * @param {number} [resolution=1] - The resolution / device pixel ratio of the texture
-     */
-    function BaseTexture(source, scaleMode, resolution) {
-        _classCallCheck(this, BaseTexture);
-
-        var _this = _possibleConstructorReturn(this, _EventEmitter.call(this));
-
-        _this.uid = (0, _utils.uid)();
-
-        _this.touched = 0;
-
-        /**
-         * The resolution / device pixel ratio of the texture
-         *
-         * @member {number}
-         * @default 1
-         */
-        _this.resolution = resolution || _settings2.default.RESOLUTION;
-
-        /**
-         * The width of the base texture set when the image has loaded
-         *
-         * @readonly
-         * @member {number}
-         */
-        _this.width = 100;
-
-        /**
-         * The height of the base texture set when the image has loaded
-         *
-         * @readonly
-         * @member {number}
-         */
-        _this.height = 100;
-
-        // TODO docs
-        // used to store the actual dimensions of the source
-        /**
-         * Used to store the actual width of the source of this texture
-         *
-         * @readonly
-         * @member {number}
-         */
-        _this.realWidth = 100;
-        /**
-         * Used to store the actual height of the source of this texture
-         *
-         * @readonly
-         * @member {number}
-         */
-        _this.realHeight = 100;
-
-        /**
-         * The scale mode to apply when scaling this texture
-         *
-         * @member {number}
-         * @default PIXI.settings.SCALE_MODE
-         * @see PIXI.SCALE_MODES
-         */
-        _this.scaleMode = scaleMode !== undefined ? scaleMode : _settings2.default.SCALE_MODE;
-
-        /**
-         * Set to true once the base texture has successfully loaded.
-         *
-         * This is never true if the underlying source fails to load or has no texture data.
-         *
-         * @readonly
-         * @member {boolean}
-         */
-        _this.hasLoaded = false;
-
-        /**
-         * Set to true if the source is currently loading.
-         *
-         * If an Image source is loading the 'loaded' or 'error' event will be
-         * dispatched when the operation ends. An underyling source that is
-         * immediately-available bypasses loading entirely.
-         *
-         * @readonly
-         * @member {boolean}
-         */
-        _this.isLoading = false;
-
-        /**
-         * The image source that is used to create the texture.
-         *
-         * TODO: Make this a setter that calls loadSource();
-         *
-         * @readonly
-         * @member {HTMLImageElement|HTMLCanvasElement}
-         */
-        _this.source = null; // set in loadSource, if at all
-
-        /**
-         * The image source that is used to create the texture. This is used to
-         * store the original Svg source when it is replaced with a canvas element.
-         *
-         * TODO: Currently not in use but could be used when re-scaling svg.
-         *
-         * @readonly
-         * @member {Image}
-         */
-        _this.origSource = null; // set in loadSvg, if at all
-
-        /**
-         * Type of image defined in source, eg. `png` or `svg`
-         *
-         * @readonly
-         * @member {string}
-         */
-        _this.imageType = null; // set in updateImageType
-
-        /**
-         * Scale for source image. Used with Svg images to scale them before rasterization.
-         *
-         * @readonly
-         * @member {number}
-         */
-        _this.sourceScale = 1.0;
-
-        /**
-         * Controls if RGB channels should be pre-multiplied by Alpha  (WebGL only)
-         * All blend modes, and shaders written for default value. Change it on your own risk.
-         *
-         * @member {boolean}
-         * @default true
-         */
-        _this.premultipliedAlpha = true;
-
-        /**
-         * The image url of the texture
-         *
-         * @member {string}
-         */
-        _this.imageUrl = null;
-
-        /**
-         * Whether or not the texture is a power of two, try to use power of two textures as much
-         * as you can
-         *
-         * @private
-         * @member {boolean}
-         */
-        _this.isPowerOfTwo = false;
-
-        // used for webGL
-
-        /**
-         *
-         * Set this to true if a mipmap of this texture needs to be generated. This value needs
-         * to be set before the texture is used
-         * Also the texture must be a power of two size to work
-         *
-         * @member {boolean}
-         * @see PIXI.MIPMAP_TEXTURES
-         */
-        _this.mipmap = _settings2.default.MIPMAP_TEXTURES;
-
-        /**
-         *
-         * WebGL Texture wrap mode
-         *
-         * @member {number}
-         * @see PIXI.WRAP_MODES
-         */
-        _this.wrapMode = _settings2.default.WRAP_MODE;
-
-        /**
-         * A map of renderer IDs to webgl textures
-         *
-         * @private
-         * @member {object<number, WebGLTexture>}
-         */
-        _this._glTextures = {};
-
-        _this._enabled = 0;
-        _this._virtalBoundId = -1;
-
-        /**
-         * If the object has been destroyed via destroy(). If true, it should not be used.
-         *
-         * @member {boolean}
-         * @private
-         * @readonly
-         */
-        _this._destroyed = false;
-
-        /**
-         * The ids under which this BaseTexture has been added to the base texture cache. This is
-         * automatically set as long as BaseTexture.addToCache is used, but may not be set if a
-         * BaseTexture is added directly to the BaseTextureCache array.
-         *
-         * @member {string[]}
-         */
-        _this.textureCacheIds = [];
-
-        // if no source passed don't try to load
-        if (source) {
-            _this.loadSource(source);
-        }
-
-        /**
-         * Fired when a not-immediately-available source finishes loading.
-         *
-         * @protected
-         * @event PIXI.BaseTexture#loaded
-         * @param {PIXI.BaseTexture} baseTexture - Resource loaded.
-         */
-
-        /**
-         * Fired when a not-immediately-available source fails to load.
-         *
-         * @protected
-         * @event PIXI.BaseTexture#error
-         * @param {PIXI.BaseTexture} baseTexture - Resource errored.
-         */
-
-        /**
-         * Fired when BaseTexture is updated.
-         *
-         * @protected
-         * @event PIXI.BaseTexture#update
-         * @param {PIXI.BaseTexture} baseTexture - Instance of texture being updated.
-         */
-
-        /**
-         * Fired when BaseTexture is destroyed.
-         *
-         * @protected
-         * @event PIXI.BaseTexture#dispose
-         * @param {PIXI.BaseTexture} baseTexture - Instance of texture being destroyed.
-         */
-        return _this;
-    }
-
-    /**
-     * Updates the texture on all the webgl renderers, this also assumes the src has changed.
-     *
-     * @fires PIXI.BaseTexture#update
-     */
-
-
-    BaseTexture.prototype.update = function update() {
-        // Svg size is handled during load
-        if (this.imageType !== 'svg') {
-            this.realWidth = this.source.naturalWidth || this.source.videoWidth || this.source.width;
-            this.realHeight = this.source.naturalHeight || this.source.videoHeight || this.source.height;
-
-            this._updateDimensions();
-        }
-
-        this.emit('update', this);
-    };
-
-    /**
-     * Update dimensions from real values
-     */
-
-
-    BaseTexture.prototype._updateDimensions = function _updateDimensions() {
-        this.width = this.realWidth / this.resolution;
-        this.height = this.realHeight / this.resolution;
-
-        this.isPowerOfTwo = _bitTwiddle2.default.isPow2(this.realWidth) && _bitTwiddle2.default.isPow2(this.realHeight);
-    };
-
-    /**
-     * Load a source.
-     *
-     * If the source is not-immediately-available, such as an image that needs to be
-     * downloaded, then the 'loaded' or 'error' event will be dispatched in the future
-     * and `hasLoaded` will remain false after this call.
-     *
-     * The logic state after calling `loadSource` directly or indirectly (eg. `fromImage`, `new BaseTexture`) is:
-     *
-     *     if (texture.hasLoaded) {
-     *        // texture ready for use
-     *     } else if (texture.isLoading) {
-     *        // listen to 'loaded' and/or 'error' events on texture
-     *     } else {
-     *        // not loading, not going to load UNLESS the source is reloaded
-     *        // (it may still make sense to listen to the events)
-     *     }
-     *
-     * @protected
-     * @param {HTMLImageElement|HTMLCanvasElement} source - the source object of the texture.
-     */
-
-
-    BaseTexture.prototype.loadSource = function loadSource(source) {
-        var wasLoading = this.isLoading;
-
-        this.hasLoaded = false;
-        this.isLoading = false;
-
-        if (wasLoading && this.source) {
-            this.source.onload = null;
-            this.source.onerror = null;
-        }
-
-        var firstSourceLoaded = !this.source;
-
-        this.source = source;
-
-        // Apply source if loaded. Otherwise setup appropriate loading monitors.
-        if ((source.src && source.complete || source.getContext) && source.width && source.height) {
-            this._updateImageType();
-
-            if (this.imageType === 'svg') {
-                this._loadSvgSource();
-            } else {
-                this._sourceLoaded();
-            }
-
-            if (firstSourceLoaded) {
-                // send loaded event if previous source was null and we have been passed a pre-loaded IMG element
-                this.emit('loaded', this);
-            }
-        } else if (!source.getContext) {
-            // Image fail / not ready
-            this.isLoading = true;
-
-            var scope = this;
-
-            source.onload = function () {
-                scope._updateImageType();
-                source.onload = null;
-                source.onerror = null;
-
-                if (!scope.isLoading) {
-                    return;
-                }
-
-                scope.isLoading = false;
-                scope._sourceLoaded();
-
-                if (scope.imageType === 'svg') {
-                    scope._loadSvgSource();
-
-                    return;
-                }
-
-                scope.emit('loaded', scope);
-            };
-
-            source.onerror = function () {
-                source.onload = null;
-                source.onerror = null;
-
-                if (!scope.isLoading) {
-                    return;
-                }
-
-                scope.isLoading = false;
-                scope.emit('error', scope);
-            };
-
-            // Per http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element
-            //   "The value of `complete` can thus change while a script is executing."
-            // So complete needs to be re-checked after the callbacks have been added..
-            // NOTE: complete will be true if the image has no src so best to check if the src is set.
-            if (source.complete && source.src) {
-                // ..and if we're complete now, no need for callbacks
-                source.onload = null;
-                source.onerror = null;
-
-                if (scope.imageType === 'svg') {
-                    scope._loadSvgSource();
-
-                    return;
-                }
-
-                this.isLoading = false;
-
-                if (source.width && source.height) {
-                    this._sourceLoaded();
-
-                    // If any previous subscribers possible
-                    if (wasLoading) {
-                        this.emit('loaded', this);
-                    }
-                }
-                // If any previous subscribers possible
-                else if (wasLoading) {
-                        this.emit('error', this);
-                    }
-            }
-        }
-    };
-
-    /**
-     * Updates type of the source image.
-     */
-
-
-    BaseTexture.prototype._updateImageType = function _updateImageType() {
-        if (!this.imageUrl) {
-            return;
-        }
-
-        var dataUri = (0, _utils.decomposeDataUri)(this.imageUrl);
-        var imageType = void 0;
-
-        if (dataUri && dataUri.mediaType === 'image') {
-            // Check for subType validity
-            var firstSubType = dataUri.subType.split('+')[0];
-
-            imageType = (0, _utils.getUrlFileExtension)('.' + firstSubType);
-
-            if (!imageType) {
-                throw new Error('Invalid image type in data URI.');
-            }
-        } else {
-            imageType = (0, _utils.getUrlFileExtension)(this.imageUrl);
-
-            if (!imageType) {
-                imageType = 'png';
-            }
-        }
-
-        this.imageType = imageType;
-    };
-
-    /**
-     * Checks if `source` is an SVG image and whether it's loaded via a URL or a data URI. Then calls
-     * `_loadSvgSourceUsingDataUri` or `_loadSvgSourceUsingXhr`.
-     */
-
-
-    BaseTexture.prototype._loadSvgSource = function _loadSvgSource() {
-        if (this.imageType !== 'svg') {
-            // Do nothing if source is not svg
-            return;
-        }
-
-        var dataUri = (0, _utils.decomposeDataUri)(this.imageUrl);
-
-        if (dataUri) {
-            this._loadSvgSourceUsingDataUri(dataUri);
-        } else {
-            // We got an URL, so we need to do an XHR to check the svg size
-            this._loadSvgSourceUsingXhr();
-        }
-    };
-
-    /**
-     * Reads an SVG string from data URI and then calls `_loadSvgSourceUsingString`.
-     *
-     * @param {string} dataUri - The data uri to load from.
-     */
-
-
-    BaseTexture.prototype._loadSvgSourceUsingDataUri = function _loadSvgSourceUsingDataUri(dataUri) {
-        var svgString = void 0;
-
-        if (dataUri.encoding === 'base64') {
-            if (!atob) {
-                throw new Error('Your browser doesn\'t support base64 conversions.');
-            }
-            svgString = atob(dataUri.data);
-        } else {
-            svgString = dataUri.data;
-        }
-
-        this._loadSvgSourceUsingString(svgString);
-    };
-
-    /**
-     * Loads an SVG string from `imageUrl` using XHR and then calls `_loadSvgSourceUsingString`.
-     */
-
-
-    BaseTexture.prototype._loadSvgSourceUsingXhr = function _loadSvgSourceUsingXhr() {
-        var _this2 = this;
-
-        var svgXhr = new XMLHttpRequest();
-
-        // This throws error on IE, so SVG Document can't be used
-        // svgXhr.responseType = 'document';
-
-        // This is not needed since we load the svg as string (breaks IE too)
-        // but overrideMimeType() can be used to force the response to be parsed as XML
-        // svgXhr.overrideMimeType('image/svg+xml');
-
-        svgXhr.onload = function () {
-            if (svgXhr.readyState !== svgXhr.DONE || svgXhr.status !== 200) {
-                throw new Error('Failed to load SVG using XHR.');
-            }
-
-            _this2._loadSvgSourceUsingString(svgXhr.response);
-        };
-
-        svgXhr.onerror = function () {
-            return _this2.emit('error', _this2);
-        };
-
-        svgXhr.open('GET', this.imageUrl, true);
-        svgXhr.send();
-    };
-
-    /**
-     * Loads texture using an SVG string. The original SVG Image is stored as `origSource` and the
-     * created canvas is the new `source`. The SVG is scaled using `sourceScale`. Called by
-     * `_loadSvgSourceUsingXhr` or `_loadSvgSourceUsingDataUri`.
-     *
-     * @param  {string} svgString SVG source as string
-     *
-     * @fires PIXI.BaseTexture#loaded
-     */
-
-
-    BaseTexture.prototype._loadSvgSourceUsingString = function _loadSvgSourceUsingString(svgString) {
-        var svgSize = (0, _utils.getSvgSize)(svgString);
-
-        var svgWidth = svgSize.width;
-        var svgHeight = svgSize.height;
-
-        if (!svgWidth || !svgHeight) {
-            throw new Error('The SVG image must have width and height defined (in pixels), canvas API needs them.');
-        }
-
-        // Scale realWidth and realHeight
-        this.realWidth = Math.round(svgWidth * this.sourceScale);
-        this.realHeight = Math.round(svgHeight * this.sourceScale);
-
-        this._updateDimensions();
-
-        // Create a canvas element
-        var canvas = document.createElement('canvas');
-
-        canvas.width = this.realWidth;
-        canvas.height = this.realHeight;
-        canvas._pixiId = 'canvas_' + (0, _utils.uid)();
-
-        // Draw the Svg to the canvas
-        canvas.getContext('2d').drawImage(this.source, 0, 0, svgWidth, svgHeight, 0, 0, this.realWidth, this.realHeight);
-
-        // Replace the original source image with the canvas
-        this.origSource = this.source;
-        this.source = canvas;
-
-        // Add also the canvas in cache (destroy clears by `imageUrl` and `source._pixiId`)
-        BaseTexture.addToCache(this, canvas._pixiId);
-
-        this.isLoading = false;
-        this._sourceLoaded();
-        this.emit('loaded', this);
-    };
-
-    /**
-     * Used internally to update the width, height, and some other tracking vars once
-     * a source has successfully loaded.
-     *
-     * @private
-     */
-
-
-    BaseTexture.prototype._sourceLoaded = function _sourceLoaded() {
-        this.hasLoaded = true;
-        this.update();
-    };
-
-    /**
-     * Destroys this base texture
-     *
-     */
-
-
-    BaseTexture.prototype.destroy = function destroy() {
-        if (this.imageUrl) {
-            delete _utils.TextureCache[this.imageUrl];
-
-            this.imageUrl = null;
-
-            if (!navigator.isCocoonJS) {
-                this.source.src = '';
-            }
-        }
-
-        this.source = null;
-
-        this.dispose();
-
-        BaseTexture.removeFromCache(this);
-        this.textureCacheIds = null;
-
-        this._destroyed = true;
-    };
-
-    /**
-     * Frees the texture from WebGL memory without destroying this texture object.
-     * This means you can still use the texture later which will upload it to GPU
-     * memory again.
-     *
-     * @fires PIXI.BaseTexture#dispose
-     */
-
-
-    BaseTexture.prototype.dispose = function dispose() {
-        this.emit('dispose', this);
-    };
-
-    /**
-     * Changes the source image of the texture.
-     * The original source must be an Image element.
-     *
-     * @param {string} newSrc - the path of the image
-     */
-
-
-    BaseTexture.prototype.updateSourceImage = function updateSourceImage(newSrc) {
-        this.source.src = newSrc;
-
-        this.loadSource(this.source);
-    };
-
-    /**
-     * Helper function that creates a base texture from the given image url.
-     * If the image is not in the base texture cache it will be created and loaded.
-     *
-     * @static
-     * @param {string} imageUrl - The image url of the texture
-     * @param {boolean} [crossorigin=(auto)] - Should use anonymous CORS? Defaults to true if the URL is not a data-URI.
-     * @param {number} [scaleMode=PIXI.settings.SCALE_MODE] - See {@link PIXI.SCALE_MODES} for possible values
-     * @param {number} [sourceScale=(auto)] - Scale for the original image, used with Svg images.
-     * @return {PIXI.BaseTexture} The new base texture.
-     */
-
-
-    BaseTexture.fromImage = function fromImage(imageUrl, crossorigin, scaleMode, sourceScale) {
-        var baseTexture = _utils.BaseTextureCache[imageUrl];
-
-        if (!baseTexture) {
-            // new Image() breaks tex loading in some versions of Chrome.
-            // See https://code.google.com/p/chromium/issues/detail?id=238071
-            var image = new Image(); // document.createElement('img');
-
-            if (crossorigin === undefined && imageUrl.indexOf('data:') !== 0) {
-                image.crossOrigin = (0, _determineCrossOrigin2.default)(imageUrl);
-            } else if (crossorigin) {
-                image.crossOrigin = typeof crossorigin === 'string' ? crossorigin : 'anonymous';
-            }
-
-            baseTexture = new BaseTexture(image, scaleMode);
-            baseTexture.imageUrl = imageUrl;
-
-            if (sourceScale) {
-                baseTexture.sourceScale = sourceScale;
-            }
-
-            // if there is an @2x at the end of the url we are going to assume its a highres image
-            baseTexture.resolution = (0, _utils.getResolutionOfUrl)(imageUrl);
-
-            image.src = imageUrl; // Setting this triggers load
-
-            BaseTexture.addToCache(baseTexture, imageUrl);
-        }
-
-        return baseTexture;
-    };
-
-    /**
-     * Helper function that creates a base texture from the given canvas element.
-     *
-     * @static
-     * @param {HTMLCanvasElement} canvas - The canvas element source of the texture
-     * @param {number} scaleMode - See {@link PIXI.SCALE_MODES} for possible values
-     * @param {string} [origin='canvas'] - A string origin of who created the base texture
-     * @return {PIXI.BaseTexture} The new base texture.
-     */
-
-
-    BaseTexture.fromCanvas = function fromCanvas(canvas, scaleMode) {
-        var origin = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'canvas';
-
-        if (!canvas._pixiId) {
-            canvas._pixiId = origin + '_' + (0, _utils.uid)();
-        }
-
-        var baseTexture = _utils.BaseTextureCache[canvas._pixiId];
-
-        if (!baseTexture) {
-            baseTexture = new BaseTexture(canvas, scaleMode);
-            BaseTexture.addToCache(baseTexture, canvas._pixiId);
-        }
-
-        return baseTexture;
-    };
-
-    /**
-     * Helper function that creates a base texture based on the source you provide.
-     * The source can be - image url, image element, canvas element.
-     *
-     * @static
-     * @param {string|HTMLImageElement|HTMLCanvasElement} source - The source to create base texture from.
-     * @param {number} [scaleMode=PIXI.settings.SCALE_MODE] - See {@link PIXI.SCALE_MODES} for possible values
-     * @param {number} [sourceScale=(auto)] - Scale for the original image, used with Svg images.
-     * @return {PIXI.BaseTexture} The new base texture.
-     */
-
-
-    BaseTexture.from = function from(source, scaleMode, sourceScale) {
-        if (typeof source === 'string') {
-            return BaseTexture.fromImage(source, undefined, scaleMode, sourceScale);
-        } else if (source instanceof HTMLImageElement) {
-            var imageUrl = source.src;
-            var baseTexture = _utils.BaseTextureCache[imageUrl];
-
-            if (!baseTexture) {
-                baseTexture = new BaseTexture(source, scaleMode);
-                baseTexture.imageUrl = imageUrl;
-
-                if (sourceScale) {
-                    baseTexture.sourceScale = sourceScale;
-                }
-
-                // if there is an @2x at the end of the url we are going to assume its a highres image
-                baseTexture.resolution = (0, _utils.getResolutionOfUrl)(imageUrl);
-
-                BaseTexture.addToCache(baseTexture, imageUrl);
-            }
-
-            return baseTexture;
-        } else if (source instanceof HTMLCanvasElement) {
-            return BaseTexture.fromCanvas(source, scaleMode);
-        }
-
-        // lets assume its a base texture!
-        return source;
-    };
-
-    /**
-     * Adds a BaseTexture to the global BaseTextureCache. This cache is shared across the whole PIXI object.
-     *
-     * @static
-     * @param {PIXI.BaseTexture} baseTexture - The BaseTexture to add to the cache.
-     * @param {string} id - The id that the BaseTexture will be stored against.
-     */
-
-
-    BaseTexture.addToCache = function addToCache(baseTexture, id) {
-        if (id) {
-            if (baseTexture.textureCacheIds.indexOf(id) === -1) {
-                baseTexture.textureCacheIds.push(id);
-            }
-
-            // @if DEBUG
-            /* eslint-disable no-console */
-            if (_utils.BaseTextureCache[id]) {
-                console.warn('BaseTexture added to the cache with an id [' + id + '] that already had an entry');
-            }
-            /* eslint-enable no-console */
-            // @endif
-
-            _utils.BaseTextureCache[id] = baseTexture;
-        }
-    };
-
-    /**
-     * Remove a BaseTexture from the global BaseTextureCache.
-     *
-     * @static
-     * @param {string|PIXI.BaseTexture} baseTexture - id of a BaseTexture to be removed, or a BaseTexture instance itself.
-     * @return {PIXI.BaseTexture|null} The BaseTexture that was removed.
-     */
-
-
-    BaseTexture.removeFromCache = function removeFromCache(baseTexture) {
-        if (typeof baseTexture === 'string') {
-            var baseTextureFromCache = _utils.BaseTextureCache[baseTexture];
-
-            if (baseTextureFromCache) {
-                var index = baseTextureFromCache.textureCacheIds.indexOf(baseTexture);
-
-                if (index > -1) {
-                    baseTextureFromCache.textureCacheIds.splice(index, 1);
-                }
-
-                delete _utils.BaseTextureCache[baseTexture];
-
-                return baseTextureFromCache;
-            }
-        } else if (baseTexture && baseTexture.textureCacheIds) {
-            for (var i = 0; i < baseTexture.textureCacheIds.length; ++i) {
-                delete _utils.BaseTextureCache[baseTexture.textureCacheIds[i]];
-            }
-
-            baseTexture.textureCacheIds.length = 0;
-
-            return baseTexture;
-        }
-
-        return null;
-    };
-
-    return BaseTexture;
-}(_eventemitter2.default);
-
-exports.default = BaseTexture;
-
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isObject = __webpack_require__(35);
-module.exports = function(it){
-  if(!isObject(it))throw TypeError(it + ' is not an object!');
-  return it;
-};
-
-/***/ }),
-/* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var global    = __webpack_require__(15)
-  , core      = __webpack_require__(26)
-  , ctx       = __webpack_require__(112)
-  , hide      = __webpack_require__(27)
-  , PROTOTYPE = 'prototype';
-
-var $export = function(type, name, source){
-  var IS_FORCED = type & $export.F
-    , IS_GLOBAL = type & $export.G
-    , IS_STATIC = type & $export.S
-    , IS_PROTO  = type & $export.P
-    , IS_BIND   = type & $export.B
-    , IS_WRAP   = type & $export.W
-    , exports   = IS_GLOBAL ? core : core[name] || (core[name] = {})
-    , expProto  = exports[PROTOTYPE]
-    , target    = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE]
-    , key, own, out;
-  if(IS_GLOBAL)source = name;
-  for(key in source){
-    // contains in native
-    own = !IS_FORCED && target && target[key] !== undefined;
-    if(own && key in exports)continue;
-    // export native or passed
-    out = own ? target[key] : source[key];
-    // prevent global pollution for namespaces
-    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
-    // bind timers to global for call from export context
-    : IS_BIND && own ? ctx(out, global)
-    // wrap global constructors for prevent change them in library
-    : IS_WRAP && target[key] == out ? (function(C){
-      var F = function(a, b, c){
-        if(this instanceof C){
-          switch(arguments.length){
-            case 0: return new C;
-            case 1: return new C(a);
-            case 2: return new C(a, b);
-          } return new C(a, b, c);
-        } return C.apply(this, arguments);
-      };
-      F[PROTOTYPE] = C[PROTOTYPE];
-      return F;
-    // make static versions for prototype methods
-    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
-    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%
-    if(IS_PROTO){
-      (exports.virtual || (exports.virtual = {}))[key] = out;
-      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%
-      if(type & $export.R && expProto && !expProto[key])hide(expProto, key, out);
-    }
-  }
-};
-// type bitmap
-$export.F = 1;   // forced
-$export.G = 2;   // global
-$export.S = 4;   // static
-$export.P = 8;   // proto
-$export.B = 16;  // bind
-$export.W = 32;  // wrap
-$export.U = 64;  // safe
-$export.R = 128; // real proto method for `library` 
-module.exports = $export;
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports) {
-
-module.exports = function(it){
-  return typeof it === 'object' ? it !== null : typeof it === 'function';
-};
-
-/***/ }),
-/* 36 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = (function(x) {
-  return x === null ? NaN : +x;
-});
-
-
-/***/ }),
-/* 37 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(141);
-/* harmony export (immutable) */ __webpack_exports__["b"] = hue;
-/* harmony export (immutable) */ __webpack_exports__["c"] = gamma;
-/* harmony export (immutable) */ __webpack_exports__["a"] = nogamma;
-
-
-function linear(a, d) {
-  return function(t) {
-    return a + t * d;
-  };
-}
-
-function exponential(a, b, y) {
-  return a = Math.pow(a, y), b = Math.pow(b, y) - a, y = 1 / y, function(t) {
-    return Math.pow(a + t * b, y);
-  };
-}
-
-function hue(a, b) {
-  var d = b - a;
-  return d ? linear(a, d > 180 || d < -180 ? d - 360 * Math.round(d / 360) : d) : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__constant__["a" /* default */])(isNaN(a) ? b : a);
-}
-
-function gamma(y) {
-  return (y = +y) === 1 ? nogamma : function(a, b) {
-    return b - a ? exponential(a, b, y) : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__constant__["a" /* default */])(isNaN(a) ? b : a);
-  };
-}
-
-function nogamma(a, b) {
-  var d = b - a;
-  return d ? linear(a, d) : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__constant__["a" /* default */])(isNaN(a) ? b : a);
-}
-
-
-/***/ }),
-/* 38 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = (function(s) {
-  return s.match(/.{6}/g).map(function(x) {
-    return "#" + x;
-  });
-});
-
-
-/***/ }),
-/* 39 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(343);
-/* harmony export (immutable) */ __webpack_exports__["b"] = linearish;
-/* harmony export (immutable) */ __webpack_exports__["a"] = linear;
-
-
-
-
-
-function linearish(scale) {
-  var domain = scale.domain;
-
-  scale.ticks = function(count) {
-    var d = domain();
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["a" /* ticks */])(d[0], d[d.length - 1], count == null ? 10 : count);
-  };
-
-  scale.tickFormat = function(count, specifier) {
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__tickFormat__["a" /* default */])(domain(), count, specifier);
-  };
-
-  scale.nice = function(count) {
-    if (count == null) count = 10;
-
-    var d = domain(),
-        i0 = 0,
-        i1 = d.length - 1,
-        start = d[i0],
-        stop = d[i1],
-        step;
-
-    if (stop < start) {
-      step = start, start = stop, stop = step;
-      step = i0, i0 = i1, i1 = step;
-    }
-
-    step = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["b" /* tickIncrement */])(start, stop, count);
-
-    if (step > 0) {
-      start = Math.floor(start / step) * step;
-      stop = Math.ceil(stop / step) * step;
-      step = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["b" /* tickIncrement */])(start, stop, count);
-    } else if (step < 0) {
-      start = Math.ceil(start * step) / step;
-      stop = Math.floor(stop * step) / step;
-      step = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["b" /* tickIncrement */])(start, stop, count);
-    }
-
-    if (step > 0) {
-      d[i0] = Math.floor(start / step) * step;
-      d[i1] = Math.ceil(stop / step) * step;
-      domain(d);
-    } else if (step < 0) {
-      d[i0] = Math.ceil(start * step) / step;
-      d[i1] = Math.floor(stop * step) / step;
-      domain(d);
-    }
-
-    return scale;
-  };
-
-  return scale;
-}
-
-function linear() {
-  var scale = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__continuous__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_2__continuous__["b" /* deinterpolateLinear */], __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__["b" /* interpolateNumber */]);
-
-  scale.copy = function() {
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__continuous__["c" /* copy */])(scale, linear());
-  };
-
-  return linearish(scale);
-}
-
-
-/***/ }),
-/* 40 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-Object.defineProperty(exports, "__esModule", { value: true });
-var inferno_shared_1 = __webpack_require__(5);
-var options_1 = __webpack_require__(17);
-var VNodes_1 = __webpack_require__(24);
-var hydration_1 = __webpack_require__(367);
-var mounting_1 = __webpack_require__(55);
-var patching_1 = __webpack_require__(31);
-var unmounting_1 = __webpack_require__(90);
-var utils_1 = __webpack_require__(10);
-// rather than use a Map, like we did before, we can use an array here
-// given there shouldn't be THAT many roots on the page, the difference
-// in performance is huge: https://esbench.com/bench/5802a691330ab09900a1a2da
-exports.componentToDOMNodeMap = new Map();
-var roots = options_1.options.roots;
-/**
- * When inferno.options.findDOMNOdeEnabled is true, this function will return DOM Node by component instance
- * @param ref Component instance
- * @returns {*|null} returns dom node
- */
-function findDOMNode(ref) {
-    if (!options_1.options.findDOMNodeEnabled) {
-        if (process.env.NODE_ENV !== 'production') {
-            inferno_shared_1.throwError('findDOMNode() has been disabled, use Inferno.options.findDOMNodeEnabled = true; enabled findDOMNode(). Warning this can significantly impact performance!');
-        }
-        inferno_shared_1.throwError();
-    }
-    var dom = ref && ref.nodeType ? ref : null;
-    return exports.componentToDOMNodeMap.get(ref) || dom;
-}
-exports.findDOMNode = findDOMNode;
-function getRoot(dom) {
-    for (var i = 0, len = roots.length; i < len; i++) {
-        var root = roots[i];
-        if (root.dom === dom) {
-            return root;
-        }
-    }
-    return null;
-}
-function setRoot(dom, input, lifecycle) {
-    var root = {
-        dom: dom,
-        input: input,
-        lifecycle: lifecycle
-    };
-    roots.push(root);
-    return root;
-}
-function removeRoot(root) {
-    for (var i = 0, len = roots.length; i < len; i++) {
-        if (roots[i] === root) {
-            roots.splice(i, 1);
-            return;
-        }
-    }
-}
-if (process.env.NODE_ENV !== 'production') {
-    if (inferno_shared_1.isBrowser && document.body === null) {
-        inferno_shared_1.warning('Inferno warning: you cannot initialize inferno without "document.body". Wait on "DOMContentLoaded" event, add script to bottom of body, or use async/defer attributes on script tag.');
-    }
-}
-var documentBody = inferno_shared_1.isBrowser ? document.body : null;
-/**
- * Renders virtual node tree into parent node.
- * @param {VNode | null | string | number} input vNode to be rendered
- * @param parentDom DOM node which content will be replaced by virtual node
- * @returns {InfernoChildren} rendered virtual node
- */
-function render(input, parentDom) {
-    if (documentBody === parentDom) {
-        if (process.env.NODE_ENV !== 'production') {
-            inferno_shared_1.throwError('you cannot render() to the "document.body". Use an empty element as a container instead.');
-        }
-        inferno_shared_1.throwError();
-    }
-    if (input === inferno_shared_1.NO_OP) {
-        return;
-    }
-    var root = getRoot(parentDom);
-    if (inferno_shared_1.isNull(root)) {
-        var lifecycle = new inferno_shared_1.Lifecycle();
-        if (!inferno_shared_1.isInvalid(input)) {
-            if (input.dom) {
-                input = VNodes_1.directClone(input);
-            }
-            if (!hydration_1.hydrateRoot(input, parentDom, lifecycle)) {
-                mounting_1.mount(input, parentDom, lifecycle, utils_1.EMPTY_OBJ, false);
-            }
-            root = setRoot(parentDom, input, lifecycle);
-            lifecycle.trigger();
-        }
-    }
-    else {
-        var lifecycle = root.lifecycle;
-        lifecycle.listeners = [];
-        if (inferno_shared_1.isNullOrUndef(input)) {
-            unmounting_1.unmount(root.input, parentDom, lifecycle, false, false);
-            removeRoot(root);
-        }
-        else {
-            if (input.dom) {
-                input = VNodes_1.directClone(input);
-            }
-            patching_1.patch(root.input, input, parentDom, lifecycle, utils_1.EMPTY_OBJ, false, false);
-        }
-        root.input = input;
-        lifecycle.trigger();
-    }
-    if (root) {
-        var rootInput = root.input;
-        if (rootInput && (rootInput.flags & 28 /* Component */)) {
-            return rootInput.children;
-        }
-    }
-}
-exports.render = render;
-function createRenderer(parentDom) {
-    return function renderer(lastInput, nextInput) {
-        if (!parentDom) {
-            parentDom = lastInput;
-        }
-        render(nextInput, parentDom);
-    };
-}
-exports.createRenderer = createRenderer;
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
-
-/***/ }),
-/* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _pixiGlCore = __webpack_require__(9);
-
-var _settings = __webpack_require__(6);
-
-var _settings2 = _interopRequireDefault(_settings);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function checkPrecision(src, def) {
-    if (src instanceof Array) {
-        if (src[0].substring(0, 9) !== 'precision') {
-            var copy = src.slice(0);
-
-            copy.unshift('precision ' + def + ' float;');
-
-            return copy;
-        }
-    } else if (src.substring(0, 9) !== 'precision') {
-        return 'precision ' + def + ' float;\n' + src;
-    }
-
-    return src;
-}
-
-/**
- * Wrapper class, webGL Shader for Pixi.
- * Adds precision string if vertexSrc or fragmentSrc have no mention of it.
- *
- * @class
- * @extends GLShader
- * @memberof PIXI
- */
-
-var Shader = function (_GLShader) {
-    _inherits(Shader, _GLShader);
-
-    /**
-     *
-     * @param {WebGLRenderingContext} gl - The current WebGL rendering context
-     * @param {string|string[]} vertexSrc - The vertex shader source as an array of strings.
-     * @param {string|string[]} fragmentSrc - The fragment shader source as an array of strings.
-     */
-    function Shader(gl, vertexSrc, fragmentSrc) {
-        _classCallCheck(this, Shader);
-
-        return _possibleConstructorReturn(this, _GLShader.call(this, gl, checkPrecision(vertexSrc, _settings2.default.PRECISION_VERTEX), checkPrecision(fragmentSrc, _settings2.default.PRECISION_FRAGMENT)));
-    }
-
-    return Shader;
-}(_pixiGlCore.GLShader);
-
-exports.default = Shader;
-
-
-/***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _utils = __webpack_require__(4);
-
-var _DisplayObject2 = __webpack_require__(170);
-
-var _DisplayObject3 = _interopRequireDefault(_DisplayObject2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * A Container represents a collection of display objects.
- * It is the base class of all display objects that act as a container for other objects.
- *
- *```js
- * let container = new PIXI.Container();
- * container.addChild(sprite);
- * ```
- *
- * @class
- * @extends PIXI.DisplayObject
- * @memberof PIXI
- */
-var Container = function (_DisplayObject) {
-    _inherits(Container, _DisplayObject);
-
-    /**
-     *
-     */
-    function Container() {
-        _classCallCheck(this, Container);
-
-        /**
-         * The array of children of this container.
-         *
-         * @member {PIXI.DisplayObject[]}
-         * @readonly
-         */
-        var _this = _possibleConstructorReturn(this, _DisplayObject.call(this));
-
-        _this.children = [];
-        return _this;
-    }
-
-    /**
-     * Overridable method that can be used by Container subclasses whenever the children array is modified
-     *
-     * @private
-     */
-
-
-    Container.prototype.onChildrenChange = function onChildrenChange() {}
-    /* empty */
-
-
-    /**
-     * Adds one or more children to the container.
-     *
-     * Multiple items can be added like so: `myContainer.addChild(thingOne, thingTwo, thingThree)`
-     *
-     * @param {...PIXI.DisplayObject} child - The DisplayObject(s) to add to the container
-     * @return {PIXI.DisplayObject} The first child that was added.
-     */
-    ;
-
-    Container.prototype.addChild = function addChild(child) {
-        var argumentsLength = arguments.length;
-
-        // if there is only one argument we can bypass looping through the them
-        if (argumentsLength > 1) {
-            // loop through the arguments property and add all children
-            // use it the right way (.length and [i]) so that this function can still be optimised by JS runtimes
-            for (var i = 0; i < argumentsLength; i++) {
-                this.addChild(arguments[i]);
-            }
-        } else {
-            // if the child has a parent then lets remove it as Pixi objects can only exist in one place
-            if (child.parent) {
-                child.parent.removeChild(child);
-            }
-
-            child.parent = this;
-            // ensure child transform will be recalculated
-            child.transform._parentID = -1;
-
-            this.children.push(child);
-
-            // ensure bounds will be recalculated
-            this._boundsID++;
-
-            // TODO - lets either do all callbacks or all events.. not both!
-            this.onChildrenChange(this.children.length - 1);
-            child.emit('added', this);
-        }
-
-        return child;
-    };
-
-    /**
-     * Adds a child to the container at a specified index. If the index is out of bounds an error will be thrown
-     *
-     * @param {PIXI.DisplayObject} child - The child to add
-     * @param {number} index - The index to place the child in
-     * @return {PIXI.DisplayObject} The child that was added.
-     */
-
-
-    Container.prototype.addChildAt = function addChildAt(child, index) {
-        if (index < 0 || index > this.children.length) {
-            throw new Error(child + 'addChildAt: The index ' + index + ' supplied is out of bounds ' + this.children.length);
-        }
-
-        if (child.parent) {
-            child.parent.removeChild(child);
-        }
-
-        child.parent = this;
-        // ensure child transform will be recalculated
-        child.transform._parentID = -1;
-
-        this.children.splice(index, 0, child);
-
-        // ensure bounds will be recalculated
-        this._boundsID++;
-
-        // TODO - lets either do all callbacks or all events.. not both!
-        this.onChildrenChange(index);
-        child.emit('added', this);
-
-        return child;
-    };
-
-    /**
-     * Swaps the position of 2 Display Objects within this container.
-     *
-     * @param {PIXI.DisplayObject} child - First display object to swap
-     * @param {PIXI.DisplayObject} child2 - Second display object to swap
-     */
-
-
-    Container.prototype.swapChildren = function swapChildren(child, child2) {
-        if (child === child2) {
-            return;
-        }
-
-        var index1 = this.getChildIndex(child);
-        var index2 = this.getChildIndex(child2);
-
-        this.children[index1] = child2;
-        this.children[index2] = child;
-        this.onChildrenChange(index1 < index2 ? index1 : index2);
-    };
-
-    /**
-     * Returns the index position of a child DisplayObject instance
-     *
-     * @param {PIXI.DisplayObject} child - The DisplayObject instance to identify
-     * @return {number} The index position of the child display object to identify
-     */
-
-
-    Container.prototype.getChildIndex = function getChildIndex(child) {
-        var index = this.children.indexOf(child);
-
-        if (index === -1) {
-            throw new Error('The supplied DisplayObject must be a child of the caller');
-        }
-
-        return index;
-    };
-
-    /**
-     * Changes the position of an existing child in the display object container
-     *
-     * @param {PIXI.DisplayObject} child - The child DisplayObject instance for which you want to change the index number
-     * @param {number} index - The resulting index number for the child display object
-     */
-
-
-    Container.prototype.setChildIndex = function setChildIndex(child, index) {
-        if (index < 0 || index >= this.children.length) {
-            throw new Error('The supplied index is out of bounds');
-        }
-
-        var currentIndex = this.getChildIndex(child);
-
-        (0, _utils.removeItems)(this.children, currentIndex, 1); // remove from old position
-        this.children.splice(index, 0, child); // add at new position
-
-        this.onChildrenChange(index);
-    };
-
-    /**
-     * Returns the child at the specified index
-     *
-     * @param {number} index - The index to get the child at
-     * @return {PIXI.DisplayObject} The child at the given index, if any.
-     */
-
-
-    Container.prototype.getChildAt = function getChildAt(index) {
-        if (index < 0 || index >= this.children.length) {
-            throw new Error('getChildAt: Index (' + index + ') does not exist.');
-        }
-
-        return this.children[index];
-    };
-
-    /**
-     * Removes one or more children from the container.
-     *
-     * @param {...PIXI.DisplayObject} child - The DisplayObject(s) to remove
-     * @return {PIXI.DisplayObject} The first child that was removed.
-     */
-
-
-    Container.prototype.removeChild = function removeChild(child) {
-        var argumentsLength = arguments.length;
-
-        // if there is only one argument we can bypass looping through the them
-        if (argumentsLength > 1) {
-            // loop through the arguments property and add all children
-            // use it the right way (.length and [i]) so that this function can still be optimised by JS runtimes
-            for (var i = 0; i < argumentsLength; i++) {
-                this.removeChild(arguments[i]);
-            }
-        } else {
-            var index = this.children.indexOf(child);
-
-            if (index === -1) return null;
-
-            child.parent = null;
-            // ensure child transform will be recalculated
-            child.transform._parentID = -1;
-            (0, _utils.removeItems)(this.children, index, 1);
-
-            // ensure bounds will be recalculated
-            this._boundsID++;
-
-            // TODO - lets either do all callbacks or all events.. not both!
-            this.onChildrenChange(index);
-            child.emit('removed', this);
-        }
-
-        return child;
-    };
-
-    /**
-     * Removes a child from the specified index position.
-     *
-     * @param {number} index - The index to get the child from
-     * @return {PIXI.DisplayObject} The child that was removed.
-     */
-
-
-    Container.prototype.removeChildAt = function removeChildAt(index) {
-        var child = this.getChildAt(index);
-
-        // ensure child transform will be recalculated..
-        child.parent = null;
-        child.transform._parentID = -1;
-        (0, _utils.removeItems)(this.children, index, 1);
-
-        // ensure bounds will be recalculated
-        this._boundsID++;
-
-        // TODO - lets either do all callbacks or all events.. not both!
-        this.onChildrenChange(index);
-        child.emit('removed', this);
-
-        return child;
-    };
-
-    /**
-     * Removes all children from this container that are within the begin and end indexes.
-     *
-     * @param {number} [beginIndex=0] - The beginning position.
-     * @param {number} [endIndex=this.children.length] - The ending position. Default value is size of the container.
-     * @returns {DisplayObject[]} List of removed children
-     */
-
-
-    Container.prototype.removeChildren = function removeChildren() {
-        var beginIndex = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-        var endIndex = arguments[1];
-
-        var begin = beginIndex;
-        var end = typeof endIndex === 'number' ? endIndex : this.children.length;
-        var range = end - begin;
-        var removed = void 0;
-
-        if (range > 0 && range <= end) {
-            removed = this.children.splice(begin, range);
-
-            for (var i = 0; i < removed.length; ++i) {
-                removed[i].parent = null;
-                if (removed[i].transform) {
-                    removed[i].transform._parentID = -1;
-                }
-            }
-
-            this._boundsID++;
-
-            this.onChildrenChange(beginIndex);
-
-            for (var _i = 0; _i < removed.length; ++_i) {
-                removed[_i].emit('removed', this);
-            }
-
-            return removed;
-        } else if (range === 0 && this.children.length === 0) {
-            return [];
-        }
-
-        throw new RangeError('removeChildren: numeric values are outside the acceptable range.');
-    };
-
-    /**
-     * Updates the transform on all children of this container for rendering
-     */
-
-
-    Container.prototype.updateTransform = function updateTransform() {
-        this._boundsID++;
-
-        this.transform.updateTransform(this.parent.transform);
-
-        // TODO: check render flags, how to process stuff here
-        this.worldAlpha = this.alpha * this.parent.worldAlpha;
-
-        for (var i = 0, j = this.children.length; i < j; ++i) {
-            var child = this.children[i];
-
-            if (child.visible) {
-                child.updateTransform();
-            }
-        }
-    };
-
-    /**
-     * Recalculates the bounds of the container.
-     *
-     */
-
-
-    Container.prototype.calculateBounds = function calculateBounds() {
-        this._bounds.clear();
-
-        this._calculateBounds();
-
-        for (var i = 0; i < this.children.length; i++) {
-            var child = this.children[i];
-
-            if (!child.visible || !child.renderable) {
-                continue;
-            }
-
-            child.calculateBounds();
-
-            // TODO: filter+mask, need to mask both somehow
-            if (child._mask) {
-                child._mask.calculateBounds();
-                this._bounds.addBoundsMask(child._bounds, child._mask._bounds);
-            } else if (child.filterArea) {
-                this._bounds.addBoundsArea(child._bounds, child.filterArea);
-            } else {
-                this._bounds.addBounds(child._bounds);
-            }
-        }
-
-        this._lastBoundsID = this._boundsID;
-    };
-
-    /**
-     * Recalculates the bounds of the object. Override this to
-     * calculate the bounds of the specific object (not including children).
-     *
-     */
-
-
-    Container.prototype._calculateBounds = function _calculateBounds() {}
-    // FILL IN//
-
-
-    /**
-     * Renders the object using the WebGL renderer
-     *
-     * @param {PIXI.WebGLRenderer} renderer - The renderer
-     */
-    ;
-
-    Container.prototype.renderWebGL = function renderWebGL(renderer) {
-        // if the object is not visible or the alpha is 0 then no need to render this element
-        if (!this.visible || this.worldAlpha <= 0 || !this.renderable) {
-            return;
-        }
-
-        // do a quick check to see if this element has a mask or a filter.
-        if (this._mask || this._filters) {
-            this.renderAdvancedWebGL(renderer);
-        } else {
-            this._renderWebGL(renderer);
-
-            // simple render children!
-            for (var i = 0, j = this.children.length; i < j; ++i) {
-                this.children[i].renderWebGL(renderer);
-            }
-        }
-    };
-
-    /**
-     * Render the object using the WebGL renderer and advanced features.
-     *
-     * @private
-     * @param {PIXI.WebGLRenderer} renderer - The renderer
-     */
-
-
-    Container.prototype.renderAdvancedWebGL = function renderAdvancedWebGL(renderer) {
-        renderer.flush();
-
-        var filters = this._filters;
-        var mask = this._mask;
-
-        // push filter first as we need to ensure the stencil buffer is correct for any masking
-        if (filters) {
-            if (!this._enabledFilters) {
-                this._enabledFilters = [];
-            }
-
-            this._enabledFilters.length = 0;
-
-            for (var i = 0; i < filters.length; i++) {
-                if (filters[i].enabled) {
-                    this._enabledFilters.push(filters[i]);
-                }
-            }
-
-            if (this._enabledFilters.length) {
-                renderer.filterManager.pushFilter(this, this._enabledFilters);
-            }
-        }
-
-        if (mask) {
-            renderer.maskManager.pushMask(this, this._mask);
-        }
-
-        // add this object to the batch, only rendered if it has a texture.
-        this._renderWebGL(renderer);
-
-        // now loop through the children and make sure they get rendered
-        for (var _i2 = 0, j = this.children.length; _i2 < j; _i2++) {
-            this.children[_i2].renderWebGL(renderer);
-        }
-
-        renderer.flush();
-
-        if (mask) {
-            renderer.maskManager.popMask(this, this._mask);
-        }
-
-        if (filters && this._enabledFilters && this._enabledFilters.length) {
-            renderer.filterManager.popFilter();
-        }
-    };
-
-    /**
-     * To be overridden by the subclasses.
-     *
-     * @private
-     * @param {PIXI.WebGLRenderer} renderer - The renderer
-     */
-
-
-    Container.prototype._renderWebGL = function _renderWebGL(renderer) // eslint-disable-line no-unused-vars
-    {}
-    // this is where content itself gets rendered...
-
-
-    /**
-     * To be overridden by the subclass
-     *
-     * @private
-     * @param {PIXI.CanvasRenderer} renderer - The renderer
-     */
-    ;
-
-    Container.prototype._renderCanvas = function _renderCanvas(renderer) // eslint-disable-line no-unused-vars
-    {}
-    // this is where content itself gets rendered...
-
-
-    /**
-     * Renders the object using the Canvas renderer
-     *
-     * @param {PIXI.CanvasRenderer} renderer - The renderer
-     */
-    ;
-
-    Container.prototype.renderCanvas = function renderCanvas(renderer) {
-        // if not visible or the alpha is 0 then no need to render this
-        if (!this.visible || this.worldAlpha <= 0 || !this.renderable) {
-            return;
-        }
-
-        if (this._mask) {
-            renderer.maskManager.pushMask(this._mask);
-        }
-
-        this._renderCanvas(renderer);
-        for (var i = 0, j = this.children.length; i < j; ++i) {
-            this.children[i].renderCanvas(renderer);
-        }
-
-        if (this._mask) {
-            renderer.maskManager.popMask(renderer);
-        }
-    };
-
-    /**
-     * Removes all internal references and listeners as well as removes children from the display list.
-     * Do not use a Container after calling `destroy`.
-     *
-     * @param {object|boolean} [options] - Options parameter. A boolean will act as if all options
-     *  have been set to that value
-     * @param {boolean} [options.children=false] - if set to true, all the children will have their destroy
-     *  method called as well. 'options' will be passed on to those calls.
-     * @param {boolean} [options.texture=false] - Only used for child Sprites if options.children is set to true
-     *  Should it destroy the texture of the child sprite
-     * @param {boolean} [options.baseTexture=false] - Only used for child Sprites if options.children is set to true
-     *  Should it destroy the base texture of the child sprite
-     */
-
-
-    Container.prototype.destroy = function destroy(options) {
-        _DisplayObject.prototype.destroy.call(this);
-
-        var destroyChildren = typeof options === 'boolean' ? options : options && options.children;
-
-        var oldChildren = this.removeChildren(0, this.children.length);
-
-        if (destroyChildren) {
-            for (var i = 0; i < oldChildren.length; ++i) {
-                oldChildren[i].destroy(options);
-            }
-        }
-    };
-
-    /**
-     * The width of the Container, setting this will actually modify the scale to achieve the value set
-     *
-     * @member {number}
-     */
-
-
-    _createClass(Container, [{
-        key: 'width',
-        get: function get() {
-            return this.scale.x * this.getLocalBounds().width;
-        },
-        set: function set(value) // eslint-disable-line require-jsdoc
-        {
-            var width = this.getLocalBounds().width;
-
-            if (width !== 0) {
-                this.scale.x = value / width;
-            } else {
-                this.scale.x = 1;
-            }
-
-            this._width = value;
-        }
-
-        /**
-         * The height of the Container, setting this will actually modify the scale to achieve the value set
-         *
-         * @member {number}
-         */
-
-    }, {
-        key: 'height',
-        get: function get() {
-            return this.scale.y * this.getLocalBounds().height;
-        },
-        set: function set(value) // eslint-disable-line require-jsdoc
-        {
-            var height = this.getLocalBounds().height;
-
-            if (height !== 0) {
-                this.scale.y = value / height;
-            } else {
-                this.scale.y = 1;
-            }
-
-            this._height = value;
-        }
-    }]);
-
-    return Container;
-}(_DisplayObject3.default);
-
-// performance increase to avoid using call.. (10x faster)
-
-
-exports.default = Container;
-Container.prototype.containerUpdateTransform = Container.prototype.updateTransform;
-
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _SystemRenderer2 = __webpack_require__(176);
-
-var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
-
-var _CanvasMaskManager = __webpack_require__(395);
-
-var _CanvasMaskManager2 = _interopRequireDefault(_CanvasMaskManager);
-
-var _CanvasRenderTarget = __webpack_require__(177);
-
-var _CanvasRenderTarget2 = _interopRequireDefault(_CanvasRenderTarget);
-
-var _mapCanvasBlendModesToPixi = __webpack_require__(396);
-
-var _mapCanvasBlendModesToPixi2 = _interopRequireDefault(_mapCanvasBlendModesToPixi);
-
-var _utils = __webpack_require__(4);
-
-var _const = __webpack_require__(1);
-
-var _settings = __webpack_require__(6);
-
-var _settings2 = _interopRequireDefault(_settings);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * The CanvasRenderer draws the scene and all its content onto a 2d canvas. This renderer should
- * be used for browsers that do not support WebGL. Don't forget to add the CanvasRenderer.view to
- * your DOM or you will not see anything :)
- *
- * @class
- * @memberof PIXI
- * @extends PIXI.SystemRenderer
- */
-var CanvasRenderer = function (_SystemRenderer) {
-    _inherits(CanvasRenderer, _SystemRenderer);
-
-    // eslint-disable-next-line valid-jsdoc
-    /**
-     * @param {object} [options] - The optional renderer parameters
-     * @param {number} [options.width=800] - the width of the screen
-     * @param {number} [options.height=600] - the height of the screen
-     * @param {HTMLCanvasElement} [options.view] - the canvas to use as a view, optional
-     * @param {boolean} [options.transparent=false] - If the render view is transparent, default false
-     * @param {boolean} [options.autoResize=false] - If the render view is automatically resized, default false
-     * @param {boolean} [options.antialias=false] - sets antialias (only applicable in chrome at the moment)
-     * @param {number} [options.resolution=1] - The resolution / device pixel ratio of the renderer. The
-     *  resolution of the renderer retina would be 2.
-     * @param {boolean} [options.preserveDrawingBuffer=false] - enables drawing buffer preservation,
-     *  enable this if you need to call toDataUrl on the webgl context.
-     * @param {boolean} [options.clearBeforeRender=true] - This sets if the renderer will clear the canvas or
-     *      not before the new render pass.
-     * @param {number} [options.backgroundColor=0x000000] - The background color of the rendered area
-     *  (shown if not transparent).
-     * @param {boolean} [options.roundPixels=false] - If true Pixi will Math.floor() x/y values when rendering,
-     *  stopping pixel interpolation.
-     */
-    function CanvasRenderer(options, arg2, arg3) {
-        _classCallCheck(this, CanvasRenderer);
-
-        var _this = _possibleConstructorReturn(this, _SystemRenderer.call(this, 'Canvas', options, arg2, arg3));
-
-        _this.type = _const.RENDERER_TYPE.CANVAS;
-
-        /**
-         * The root canvas 2d context that everything is drawn with.
-         *
-         * @member {CanvasRenderingContext2D}
-         */
-        _this.rootContext = _this.view.getContext('2d', { alpha: _this.transparent });
-
-        /**
-         * The currently active canvas 2d context (could change with renderTextures)
-         *
-         * @member {CanvasRenderingContext2D}
-         */
-        _this.context = _this.rootContext;
-
-        /**
-         * Boolean flag controlling canvas refresh.
-         *
-         * @member {boolean}
-         */
-        _this.refresh = true;
-
-        /**
-         * Instance of a CanvasMaskManager, handles masking when using the canvas renderer.
-         *
-         * @member {PIXI.CanvasMaskManager}
-         */
-        _this.maskManager = new _CanvasMaskManager2.default(_this);
-
-        /**
-         * The canvas property used to set the canvas smoothing property.
-         *
-         * @member {string}
-         */
-        _this.smoothProperty = 'imageSmoothingEnabled';
-
-        if (!_this.rootContext.imageSmoothingEnabled) {
-            if (_this.rootContext.webkitImageSmoothingEnabled) {
-                _this.smoothProperty = 'webkitImageSmoothingEnabled';
-            } else if (_this.rootContext.mozImageSmoothingEnabled) {
-                _this.smoothProperty = 'mozImageSmoothingEnabled';
-            } else if (_this.rootContext.oImageSmoothingEnabled) {
-                _this.smoothProperty = 'oImageSmoothingEnabled';
-            } else if (_this.rootContext.msImageSmoothingEnabled) {
-                _this.smoothProperty = 'msImageSmoothingEnabled';
-            }
-        }
-
-        _this.initPlugins();
-
-        _this.blendModes = (0, _mapCanvasBlendModesToPixi2.default)();
-        _this._activeBlendMode = null;
-
-        _this.renderingToScreen = false;
-
-        _this.resize(_this.options.width, _this.options.height);
-
-        /**
-         * Fired after rendering finishes.
-         *
-         * @event PIXI.CanvasRenderer#postrender
-         */
-
-        /**
-         * Fired before rendering starts.
-         *
-         * @event PIXI.CanvasRenderer#prerender
-         */
-        return _this;
-    }
-
-    /**
-     * Renders the object to this canvas view
-     *
-     * @param {PIXI.DisplayObject} displayObject - The object to be rendered
-     * @param {PIXI.RenderTexture} [renderTexture] - A render texture to be rendered to.
-     *  If unset, it will render to the root context.
-     * @param {boolean} [clear=false] - Whether to clear the canvas before drawing
-     * @param {PIXI.Transform} [transform] - A transformation to be applied
-     * @param {boolean} [skipUpdateTransform=false] - Whether to skip the update transform
-     */
-
-
-    CanvasRenderer.prototype.render = function render(displayObject, renderTexture, clear, transform, skipUpdateTransform) {
-        if (!this.view) {
-            return;
-        }
-
-        // can be handy to know!
-        this.renderingToScreen = !renderTexture;
-
-        this.emit('prerender');
-
-        var rootResolution = this.resolution;
-
-        if (renderTexture) {
-            renderTexture = renderTexture.baseTexture || renderTexture;
-
-            if (!renderTexture._canvasRenderTarget) {
-                renderTexture._canvasRenderTarget = new _CanvasRenderTarget2.default(renderTexture.width, renderTexture.height, renderTexture.resolution);
-                renderTexture.source = renderTexture._canvasRenderTarget.canvas;
-                renderTexture.valid = true;
-            }
-
-            this.context = renderTexture._canvasRenderTarget.context;
-            this.resolution = renderTexture._canvasRenderTarget.resolution;
-        } else {
-            this.context = this.rootContext;
-        }
-
-        var context = this.context;
-
-        if (!renderTexture) {
-            this._lastObjectRendered = displayObject;
-        }
-
-        if (!skipUpdateTransform) {
-            // update the scene graph
-            var cacheParent = displayObject.parent;
-            var tempWt = this._tempDisplayObjectParent.transform.worldTransform;
-
-            if (transform) {
-                transform.copy(tempWt);
-
-                // lets not forget to flag the parent transform as dirty...
-                this._tempDisplayObjectParent.transform._worldID = -1;
-            } else {
-                tempWt.identity();
-            }
-
-            displayObject.parent = this._tempDisplayObjectParent;
-
-            displayObject.updateTransform();
-            displayObject.parent = cacheParent;
-            // displayObject.hitArea = //TODO add a temp hit area
-        }
-
-        context.setTransform(1, 0, 0, 1, 0, 0);
-        context.globalAlpha = 1;
-        context.globalCompositeOperation = this.blendModes[_const.BLEND_MODES.NORMAL];
-
-        if (navigator.isCocoonJS && this.view.screencanvas) {
-            context.fillStyle = 'black';
-            context.clear();
-        }
-
-        if (clear !== undefined ? clear : this.clearBeforeRender) {
-            if (this.renderingToScreen) {
-                if (this.transparent) {
-                    context.clearRect(0, 0, this.width, this.height);
-                } else {
-                    context.fillStyle = this._backgroundColorString;
-                    context.fillRect(0, 0, this.width, this.height);
-                }
-            } // else {
-            // TODO: implement background for CanvasRenderTarget or RenderTexture?
-            // }
-        }
-
-        // TODO RENDER TARGET STUFF HERE..
-        var tempContext = this.context;
-
-        this.context = context;
-        displayObject.renderCanvas(this);
-        this.context = tempContext;
-
-        this.resolution = rootResolution;
-
-        this.emit('postrender');
-    };
-
-    /**
-     * Clear the canvas of renderer.
-     *
-     * @param {string} [clearColor] - Clear the canvas with this color, except the canvas is transparent.
-     */
-
-
-    CanvasRenderer.prototype.clear = function clear(clearColor) {
-        var context = this.context;
-
-        clearColor = clearColor || this._backgroundColorString;
-
-        if (!this.transparent && clearColor) {
-            context.fillStyle = clearColor;
-            context.fillRect(0, 0, this.width, this.height);
-        } else {
-            context.clearRect(0, 0, this.width, this.height);
-        }
-    };
-
-    /**
-     * Sets the blend mode of the renderer.
-     *
-     * @param {number} blendMode - See {@link PIXI.BLEND_MODES} for valid values.
-     */
-
-
-    CanvasRenderer.prototype.setBlendMode = function setBlendMode(blendMode) {
-        if (this._activeBlendMode === blendMode) {
-            return;
-        }
-
-        this._activeBlendMode = blendMode;
-        this.context.globalCompositeOperation = this.blendModes[blendMode];
-    };
-
-    /**
-     * Removes everything from the renderer and optionally removes the Canvas DOM element.
-     *
-     * @param {boolean} [removeView=false] - Removes the Canvas element from the DOM.
-     */
-
-
-    CanvasRenderer.prototype.destroy = function destroy(removeView) {
-        this.destroyPlugins();
-
-        // call the base destroy
-        _SystemRenderer.prototype.destroy.call(this, removeView);
-
-        this.context = null;
-
-        this.refresh = true;
-
-        this.maskManager.destroy();
-        this.maskManager = null;
-
-        this.smoothProperty = null;
-    };
-
-    /**
-     * Resizes the canvas view to the specified width and height.
-     *
-     * @extends PIXI.SystemRenderer#resize
-     *
-     * @param {number} screenWidth - the new width of the screen
-     * @param {number} screenHeight - the new height of the screen
-     */
-
-
-    CanvasRenderer.prototype.resize = function resize(screenWidth, screenHeight) {
-        _SystemRenderer.prototype.resize.call(this, screenWidth, screenHeight);
-
-        // reset the scale mode.. oddly this seems to be reset when the canvas is resized.
-        // surely a browser bug?? Let pixi fix that for you..
-        if (this.smoothProperty) {
-            this.rootContext[this.smoothProperty] = _settings2.default.SCALE_MODE === _const.SCALE_MODES.LINEAR;
-        }
-    };
-
-    return CanvasRenderer;
-}(_SystemRenderer3.default);
-
-/**
- * Collection of installed plugins. These are included by default in PIXI, but can be excluded
- * by creating a custom build. Consult the README for more information about creating custom
- * builds and excluding plugins.
- * @name PIXI.CanvasRenderer#plugins
- * @type {object}
- * @readonly
- * @property {PIXI.accessibility.AccessibilityManager} accessibility Support tabbing interactive elements.
- * @property {PIXI.extract.CanvasExtract} extract Extract image data from renderer.
- * @property {PIXI.interaction.InteractionManager} interaction Handles mouse, touch and pointer events.
- * @property {PIXI.prepare.CanvasPrepare} prepare Pre-render display objects.
- */
-
-/**
- * Adds a plugin to the renderer.
- *
- * @method PIXI.CanvasRenderer#registerPlugin
- * @param {string} pluginName - The name of the plugin.
- * @param {Function} ctor - The constructor function or class for the plugin.
- */
-
-exports.default = CanvasRenderer;
-_utils.pluginTarget.mixin(CanvasRenderer);
-
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * @class
- * @memberof PIXI
- */
-var WebGLManager = function () {
-  /**
-   * @param {PIXI.WebGLRenderer} renderer - The renderer this manager works for.
-   */
-  function WebGLManager(renderer) {
-    _classCallCheck(this, WebGLManager);
-
-    /**
-     * The renderer this manager works for.
-     *
-     * @member {PIXI.WebGLRenderer}
-     */
-    this.renderer = renderer;
-
-    this.renderer.on('context', this.onContextChange, this);
-  }
-
-  /**
-   * Generic method called when there is a WebGL context change.
-   *
-   */
-
-
-  WebGLManager.prototype.onContextChange = function onContextChange() {}
-  // do some codes init!
-
-
-  /**
-   * Generic destroy methods to be overridden by the subclass
-   *
-   */
-  ;
-
-  WebGLManager.prototype.destroy = function destroy() {
-    this.renderer.off('context', this.onContextChange, this);
-
-    this.renderer = null;
-  };
-
-  return WebGLManager;
-}();
-
-exports.default = WebGLManager;
-
-
-/***/ }),
-/* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _core = __webpack_require__(2);
-
-var core = _interopRequireWildcard(_core);
-
-var _TextureTransform = __webpack_require__(104);
-
-var _TextureTransform2 = _interopRequireDefault(_TextureTransform);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var tempPoint = new core.Point();
-var tempPolygon = new core.Polygon();
-
-/**
- * Base mesh class
- * @class
- * @extends PIXI.Container
- * @memberof PIXI.mesh
- */
-
-var Mesh = function (_core$Container) {
-  _inherits(Mesh, _core$Container);
-
-  /**
-   * @param {PIXI.Texture} texture - The texture to use
-   * @param {Float32Array} [vertices] - if you want to specify the vertices
-   * @param {Float32Array} [uvs] - if you want to specify the uvs
-   * @param {Uint16Array} [indices] - if you want to specify the indices
-   * @param {number} [drawMode] - the drawMode, can be any of the Mesh.DRAW_MODES consts
-   */
-  function Mesh(texture, vertices, uvs, indices, drawMode) {
-    _classCallCheck(this, Mesh);
-
-    /**
-     * The texture of the Mesh
-     *
-     * @member {PIXI.Texture}
-     * @private
-     */
-    var _this = _possibleConstructorReturn(this, _core$Container.call(this));
-
-    _this._texture = texture;
-
-    /**
-     * The Uvs of the Mesh
-     *
-     * @member {Float32Array}
-     */
-    _this.uvs = uvs || new Float32Array([0, 0, 1, 0, 1, 1, 0, 1]);
-
-    /**
-     * An array of vertices
-     *
-     * @member {Float32Array}
-     */
-    _this.vertices = vertices || new Float32Array([0, 0, 100, 0, 100, 100, 0, 100]);
-
-    /**
-     * An array containing the indices of the vertices
-     *
-     * @member {Uint16Array}
-     */
-    //  TODO auto generate this based on draw mode!
-    _this.indices = indices || new Uint16Array([0, 1, 3, 2]);
-
-    /**
-     * Version of mesh uvs are dirty or not
-     *
-     * @member {number}
-     */
-    _this.dirty = 0;
-
-    /**
-     * Version of mesh indices
-     *
-     * @member {number}
-     */
-    _this.indexDirty = 0;
-
-    /**
-     * The blend mode to be applied to the sprite. Set to `PIXI.BLEND_MODES.NORMAL` to remove
-     * any blend mode.
-     *
-     * @member {number}
-     * @default PIXI.BLEND_MODES.NORMAL
-     * @see PIXI.BLEND_MODES
-     */
-    _this.blendMode = core.BLEND_MODES.NORMAL;
-
-    /**
-     * Triangles in canvas mode are automatically antialiased, use this value to force triangles
-     * to overlap a bit with each other.
-     *
-     * @member {number}
-     */
-    _this.canvasPadding = 0;
-
-    /**
-     * The way the Mesh should be drawn, can be any of the {@link PIXI.mesh.Mesh.DRAW_MODES} consts
-     *
-     * @member {number}
-     * @see PIXI.mesh.Mesh.DRAW_MODES
-     */
-    _this.drawMode = drawMode || Mesh.DRAW_MODES.TRIANGLE_MESH;
-
-    /**
-     * The default shader that is used if a mesh doesn't have a more specific one.
-     *
-     * @member {PIXI.Shader}
-     */
-    _this.shader = null;
-
-    /**
-     * The tint applied to the mesh. This is a [r,g,b] value. A value of [1,1,1] will remove any
-     * tint effect.
-     *
-     * @member {number}
-     */
-    _this.tintRgb = new Float32Array([1, 1, 1]);
-
-    /**
-     * A map of renderer IDs to webgl render data
-     *
-     * @private
-     * @member {object<number, object>}
-     */
-    _this._glDatas = {};
-
-    /**
-     * transform that is applied to UV to get the texture coords
-     * its updated independently from texture uvTransform
-     * updates of uvs are tied to that thing
-     *
-     * @member {PIXI.extras.TextureTransform}
-     * @private
-     */
-    _this._uvTransform = new _TextureTransform2.default(texture);
-
-    /**
-     * whether or not upload uvTransform to shader
-     * if its false, then uvs should be pre-multiplied
-     * if you change it for generated mesh, please call 'refresh(true)'
-     * @member {boolean}
-     * @default false
-     */
-    _this.uploadUvTransform = false;
-
-    /**
-     * Plugin that is responsible for rendering this element.
-     * Allows to customize the rendering process without overriding '_renderWebGL' & '_renderCanvas' methods.
-     * @member {string}
-     * @default 'mesh'
-     */
-    _this.pluginName = 'mesh';
-    return _this;
-  }
-
-  /**
-   * Renders the object using the WebGL renderer
-   *
-   * @private
-   * @param {PIXI.WebGLRenderer} renderer - a reference to the WebGL renderer
-   */
-
-
-  Mesh.prototype._renderWebGL = function _renderWebGL(renderer) {
-    this.refresh();
-    renderer.setObjectRenderer(renderer.plugins[this.pluginName]);
-    renderer.plugins[this.pluginName].render(this);
-  };
-
-  /**
-   * Renders the object using the Canvas renderer
-   *
-   * @private
-   * @param {PIXI.CanvasRenderer} renderer - The canvas renderer.
-   */
-
-
-  Mesh.prototype._renderCanvas = function _renderCanvas(renderer) {
-    this.refresh();
-    renderer.plugins[this.pluginName].render(this);
-  };
-
-  /**
-   * When the texture is updated, this event will fire to update the scale and frame
-   *
-   * @private
-   */
-
-
-  Mesh.prototype._onTextureUpdate = function _onTextureUpdate() {
-    this._uvTransform.texture = this._texture;
-    this.refresh();
-  };
-
-  /**
-   * multiplies uvs only if uploadUvTransform is false
-   * call it after you change uvs manually
-   * make sure that texture is valid
-   */
-
-
-  Mesh.prototype.multiplyUvs = function multiplyUvs() {
-    if (!this.uploadUvTransform) {
-      this._uvTransform.multiplyUvs(this.uvs);
-    }
-  };
-
-  /**
-   * Refreshes uvs for generated meshes (rope, plane)
-   * sometimes refreshes vertices too
-   *
-   * @param {boolean} [forceUpdate=false] if true, matrices will be updated any case
-   */
-
-
-  Mesh.prototype.refresh = function refresh(forceUpdate) {
-    if (this._uvTransform.update(forceUpdate)) {
-      this._refresh();
-    }
-  };
-
-  /**
-   * re-calculates mesh coords
-   * @protected
-   */
-
-
-  Mesh.prototype._refresh = function _refresh() {}
-  /* empty */
-
-
-  /**
-   * Returns the bounds of the mesh as a rectangle. The bounds calculation takes the worldTransform into account.
-   *
-   */
-  ;
-
-  Mesh.prototype._calculateBounds = function _calculateBounds() {
-    // TODO - we can cache local bounds and use them if they are dirty (like graphics)
-    this._bounds.addVertices(this.transform, this.vertices, 0, this.vertices.length);
-  };
-
-  /**
-   * Tests if a point is inside this mesh. Works only for TRIANGLE_MESH
-   *
-   * @param {PIXI.Point} point - the point to test
-   * @return {boolean} the result of the test
-   */
-
-
-  Mesh.prototype.containsPoint = function containsPoint(point) {
-    if (!this.getBounds().contains(point.x, point.y)) {
-      return false;
-    }
-
-    this.worldTransform.applyInverse(point, tempPoint);
-
-    var vertices = this.vertices;
-    var points = tempPolygon.points;
-    var indices = this.indices;
-    var len = this.indices.length;
-    var step = this.drawMode === Mesh.DRAW_MODES.TRIANGLES ? 3 : 1;
-
-    for (var i = 0; i + 2 < len; i += step) {
-      var ind0 = indices[i] * 2;
-      var ind1 = indices[i + 1] * 2;
-      var ind2 = indices[i + 2] * 2;
-
-      points[0] = vertices[ind0];
-      points[1] = vertices[ind0 + 1];
-      points[2] = vertices[ind1];
-      points[3] = vertices[ind1 + 1];
-      points[4] = vertices[ind2];
-      points[5] = vertices[ind2 + 1];
-
-      if (tempPolygon.contains(tempPoint.x, tempPoint.y)) {
-        return true;
-      }
-    }
-
-    return false;
-  };
-
-  /**
-   * The texture that the mesh uses.
-   *
-   * @member {PIXI.Texture}
-   */
-
-
-  _createClass(Mesh, [{
-    key: 'texture',
-    get: function get() {
-      return this._texture;
-    },
-    set: function set(value) // eslint-disable-line require-jsdoc
-    {
-      if (this._texture === value) {
-        return;
-      }
-
-      this._texture = value;
-
-      if (value) {
-        // wait for the texture to load
-        if (value.baseTexture.hasLoaded) {
-          this._onTextureUpdate();
-        } else {
-          value.once('update', this._onTextureUpdate, this);
-        }
-      }
-    }
-
-    /**
-     * The tint applied to the mesh. This is a hex value. A value of 0xFFFFFF will remove any tint effect.
-     *
-     * @member {number}
-     * @default 0xFFFFFF
-     */
-
-  }, {
-    key: 'tint',
-    get: function get() {
-      return core.utils.rgb2hex(this.tintRgb);
-    },
-    set: function set(value) // eslint-disable-line require-jsdoc
-    {
-      this.tintRgb = core.utils.hex2rgb(value, this.tintRgb);
-    }
-  }]);
-
-  return Mesh;
-}(core.Container);
-
-/**
- * Different drawing buffer modes supported
- *
- * @static
- * @constant
- * @type {object}
- * @property {number} TRIANGLE_MESH
- * @property {number} TRIANGLES
- */
-
-
-exports.default = Mesh;
-Mesh.DRAW_MODES = {
-  TRIANGLE_MESH: 0,
-  TRIANGLES: 1
-};
-
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// import Loader from './Loader';
-// import Resource from './Resource';
-// import * as async from './async';
-// import * as b64 from './b64';
-
-/* eslint-disable no-undef */
-
-var Loader = __webpack_require__(472).default;
-var Resource = __webpack_require__(106).default;
-var async = __webpack_require__(200);
-var b64 = __webpack_require__(201);
-
-Loader.Resource = Resource;
-Loader.async = async;
-Loader.base64 = b64;
-
-// export manually, and also as default
-module.exports = Loader;
-// export default Loader;
-module.exports.default = Loader;
-
-
-/***/ }),
-/* 47 */
-/***/ (function(module, exports) {
-
-module.exports = function(exec){
-  try {
-    return !!exec();
-  } catch(e){
-    return true;
-  }
-};
-
-/***/ }),
-/* 48 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys       = __webpack_require__(119)
-  , enumBugKeys = __webpack_require__(67);
-
-module.exports = Object.keys || function keys(O){
-  return $keys(O, enumBugKeys);
-};
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports) {
-
-module.exports = function(bitmap, value){
-  return {
-    enumerable  : !(bitmap & 1),
-    configurable: !(bitmap & 2),
-    writable    : !(bitmap & 4),
-    value       : value
-  };
-};
-
-/***/ }),
-/* 50 */
-/***/ (function(module, exports) {
-
-var id = 0
-  , px = Math.random();
-module.exports = function(key){
-  return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + px).toString(36));
-};
-
-/***/ }),
-/* 51 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(83);
-
-
-/* harmony default export */ __webpack_exports__["a"] = (function(x) {
-  return x = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__formatDecimal__["a" /* default */])(Math.abs(x)), x ? x[1] : NaN;
-});
-
-
-/***/ }),
-/* 52 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
-  return a = +a, b -= a, function(t) {
-    return a + b * t;
-  };
-});
-
-
-/***/ }),
-/* 53 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(147);
-/* harmony export (immutable) */ __webpack_exports__["b"] = deinterpolateLinear;
-/* harmony export (immutable) */ __webpack_exports__["c"] = copy;
-/* harmony export (immutable) */ __webpack_exports__["a"] = continuous;
-
-
-
-
-
-
-var unit = [0, 1];
-
-function deinterpolateLinear(a, b) {
-  return (b -= (a = +a))
-      ? function(x) { return (x - a) / b; }
-      : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__constant__["a" /* default */])(b);
-}
-
-function deinterpolateClamp(deinterpolate) {
-  return function(a, b) {
-    var d = deinterpolate(a = +a, b = +b);
-    return function(x) { return x <= a ? 0 : x >= b ? 1 : d(x); };
-  };
-}
-
-function reinterpolateClamp(reinterpolate) {
-  return function(a, b) {
-    var r = reinterpolate(a = +a, b = +b);
-    return function(t) { return t <= 0 ? a : t >= 1 ? b : r(t); };
-  };
-}
-
-function bimap(domain, range, deinterpolate, reinterpolate) {
-  var d0 = domain[0], d1 = domain[1], r0 = range[0], r1 = range[1];
-  if (d1 < d0) d0 = deinterpolate(d1, d0), r0 = reinterpolate(r1, r0);
-  else d0 = deinterpolate(d0, d1), r0 = reinterpolate(r0, r1);
-  return function(x) { return r0(d0(x)); };
-}
-
-function polymap(domain, range, deinterpolate, reinterpolate) {
-  var j = Math.min(domain.length, range.length) - 1,
-      d = new Array(j),
-      r = new Array(j),
-      i = -1;
-
-  // Reverse descending domains.
-  if (domain[j] < domain[0]) {
-    domain = domain.slice().reverse();
-    range = range.slice().reverse();
-  }
-
-  while (++i < j) {
-    d[i] = deinterpolate(domain[i], domain[i + 1]);
-    r[i] = reinterpolate(range[i], range[i + 1]);
-  }
-
-  return function(x) {
-    var i = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["c" /* bisect */])(domain, x, 1, j) - 1;
-    return r[i](d[i](x));
-  };
-}
-
-function copy(source, target) {
-  return target
-      .domain(source.domain())
-      .range(source.range())
-      .interpolate(source.interpolate())
-      .clamp(source.clamp());
-}
-
-// deinterpolate(a, b)(x) takes a domain value x in [a,b] and returns the corresponding parameter t in [0,1].
-// reinterpolate(a, b)(t) takes a parameter t in [0,1] and returns the corresponding domain value x in [a,b].
-function continuous(deinterpolate, reinterpolate) {
-  var domain = unit,
-      range = unit,
-      interpolate = __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__["c" /* interpolate */],
-      clamp = false,
-      piecewise,
-      output,
-      input;
-
-  function rescale() {
-    piecewise = Math.min(domain.length, range.length) > 2 ? polymap : bimap;
-    output = input = null;
-    return scale;
-  }
-
-  function scale(x) {
-    return (output || (output = piecewise(domain, range, clamp ? deinterpolateClamp(deinterpolate) : deinterpolate, interpolate)))(+x);
-  }
-
-  scale.invert = function(y) {
-    return (input || (input = piecewise(range, domain, deinterpolateLinear, clamp ? reinterpolateClamp(reinterpolate) : reinterpolate)))(+y);
-  };
-
-  scale.domain = function(_) {
-    return arguments.length ? (domain = __WEBPACK_IMPORTED_MODULE_2__array__["a" /* map */].call(_, __WEBPACK_IMPORTED_MODULE_4__number__["a" /* default */]), rescale()) : domain.slice();
-  };
-
-  scale.range = function(_) {
-    return arguments.length ? (range = __WEBPACK_IMPORTED_MODULE_2__array__["b" /* slice */].call(_), rescale()) : range.slice();
-  };
-
-  scale.rangeRound = function(_) {
-    return range = __WEBPACK_IMPORTED_MODULE_2__array__["b" /* slice */].call(_), interpolate = __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__["d" /* interpolateRound */], rescale();
-  };
-
-  scale.clamp = function(_) {
-    return arguments.length ? (clamp = !!_, rescale()) : clamp;
-  };
-
-  scale.interpolate = function(_) {
-    return arguments.length ? (interpolate = _, rescale()) : interpolate;
-  };
-
-  return rescale();
-}
-
-
-/***/ }),
-/* 54 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.xlinkNS = 'http://www.w3.org/1999/xlink';
-exports.xmlNS = 'http://www.w3.org/XML/1998/namespace';
-exports.svgNS = 'http://www.w3.org/2000/svg';
-exports.strictProps = new Set();
-exports.strictProps.add('volume');
-exports.strictProps.add('defaultChecked');
-exports.booleanProps = new Set();
-exports.booleanProps.add('muted');
-exports.booleanProps.add('scoped');
-exports.booleanProps.add('loop');
-exports.booleanProps.add('open');
-exports.booleanProps.add('checked');
-exports.booleanProps.add('default');
-exports.booleanProps.add('capture');
-exports.booleanProps.add('disabled');
-exports.booleanProps.add('readOnly');
-exports.booleanProps.add('required');
-exports.booleanProps.add('autoplay');
-exports.booleanProps.add('controls');
-exports.booleanProps.add('seamless');
-exports.booleanProps.add('reversed');
-exports.booleanProps.add('allowfullscreen');
-exports.booleanProps.add('novalidate');
-exports.booleanProps.add('hidden');
-exports.booleanProps.add('autoFocus');
-exports.booleanProps.add('selected');
-exports.namespaces = new Map();
-exports.namespaces.set('xlink:href', exports.xlinkNS);
-exports.namespaces.set('xlink:arcrole', exports.xlinkNS);
-exports.namespaces.set('xlink:actuate', exports.xlinkNS);
-exports.namespaces.set('xlink:show', exports.xlinkNS);
-exports.namespaces.set('xlink:role', exports.xlinkNS);
-exports.namespaces.set('xlink:title', exports.xlinkNS);
-exports.namespaces.set('xlink:type', exports.xlinkNS);
-exports.namespaces.set('xml:base', exports.xmlNS);
-exports.namespaces.set('xml:lang', exports.xmlNS);
-exports.namespaces.set('xml:space', exports.xmlNS);
-exports.isUnitlessNumber = new Set();
-exports.isUnitlessNumber.add('animationIterationCount');
-exports.isUnitlessNumber.add('borderImageOutset');
-exports.isUnitlessNumber.add('borderImageSlice');
-exports.isUnitlessNumber.add('borderImageWidth');
-exports.isUnitlessNumber.add('boxFlex');
-exports.isUnitlessNumber.add('boxFlexGroup');
-exports.isUnitlessNumber.add('boxOrdinalGroup');
-exports.isUnitlessNumber.add('columnCount');
-exports.isUnitlessNumber.add('flex');
-exports.isUnitlessNumber.add('flexGrow');
-exports.isUnitlessNumber.add('flexPositive');
-exports.isUnitlessNumber.add('flexShrink');
-exports.isUnitlessNumber.add('flexNegative');
-exports.isUnitlessNumber.add('flexOrder');
-exports.isUnitlessNumber.add('gridRow');
-exports.isUnitlessNumber.add('gridColumn');
-exports.isUnitlessNumber.add('fontWeight');
-exports.isUnitlessNumber.add('lineClamp');
-exports.isUnitlessNumber.add('lineHeight');
-exports.isUnitlessNumber.add('opacity');
-exports.isUnitlessNumber.add('order');
-exports.isUnitlessNumber.add('orphans');
-exports.isUnitlessNumber.add('tabSize');
-exports.isUnitlessNumber.add('widows');
-exports.isUnitlessNumber.add('zIndex');
-exports.isUnitlessNumber.add('zoom');
-exports.isUnitlessNumber.add('fillOpacity');
-exports.isUnitlessNumber.add('floodOpacity');
-exports.isUnitlessNumber.add('stopOpacity');
-exports.isUnitlessNumber.add('strokeDasharray');
-exports.isUnitlessNumber.add('strokeDashoffset');
-exports.isUnitlessNumber.add('strokeMiterlimit');
-exports.isUnitlessNumber.add('strokeOpacity');
-exports.isUnitlessNumber.add('strokeWidth');
-exports.skipProps = new Set();
-exports.skipProps.add('children');
-exports.skipProps.add('childrenType');
-exports.skipProps.add('defaultValue');
-exports.skipProps.add('ref');
-exports.skipProps.add('key');
-exports.skipProps.add('checked');
-exports.skipProps.add('multiple');
-exports.delegatedEvents = new Set();
-exports.delegatedEvents.add('onClick');
-exports.delegatedEvents.add('onMouseDown');
-exports.delegatedEvents.add('onMouseUp');
-exports.delegatedEvents.add('onMouseMove');
-exports.delegatedEvents.add('onSubmit');
-exports.delegatedEvents.add('onDblClick');
-exports.delegatedEvents.add('onKeyDown');
-exports.delegatedEvents.add('onKeyUp');
-exports.delegatedEvents.add('onKeyPress');
-
-
-/***/ }),
-/* 55 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-Object.defineProperty(exports, "__esModule", { value: true });
-var inferno_shared_1 = __webpack_require__(5);
-var options_1 = __webpack_require__(17);
-var VNodes_1 = __webpack_require__(24);
-var patching_1 = __webpack_require__(31);
-var recycling_1 = __webpack_require__(154);
-var rendering_1 = __webpack_require__(40);
-var utils_1 = __webpack_require__(10);
-var processElement_1 = __webpack_require__(91);
-function mount(vNode, parentDom, lifecycle, context, isSVG) {
-    var flags = vNode.flags;
-    if (flags & 3970 /* Element */) {
-        return mountElement(vNode, parentDom, lifecycle, context, isSVG);
-    }
-    else if (flags & 28 /* Component */) {
-        return mountComponent(vNode, parentDom, lifecycle, context, isSVG, (flags & 4 /* ComponentClass */) > 0);
-    }
-    else if (flags & 4096 /* Void */) {
-        return mountVoid(vNode, parentDom);
-    }
-    else if (flags & 1 /* Text */) {
-        return mountText(vNode, parentDom);
-    }
-    else {
-        if (process.env.NODE_ENV !== 'production') {
-            if (typeof vNode === 'object') {
-                inferno_shared_1.throwError("mount() received an object that's not a valid VNode, you should stringify it first. Object: \"" + JSON.stringify(vNode) + "\".");
-            }
-            else {
-                inferno_shared_1.throwError("mount() expects a valid VNode, instead it received an object with the type \"" + typeof vNode + "\".");
-            }
-        }
-        inferno_shared_1.throwError();
-    }
-}
-exports.mount = mount;
-function mountText(vNode, parentDom) {
-    var dom = document.createTextNode(vNode.children);
-    vNode.dom = dom;
-    if (!inferno_shared_1.isNull(parentDom)) {
-        utils_1.appendChild(parentDom, dom);
-    }
-    return dom;
-}
-exports.mountText = mountText;
-function mountVoid(vNode, parentDom) {
-    var dom = document.createTextNode('');
-    vNode.dom = dom;
-    if (!inferno_shared_1.isNull(parentDom)) {
-        utils_1.appendChild(parentDom, dom);
-    }
-    return dom;
-}
-exports.mountVoid = mountVoid;
-function mountElement(vNode, parentDom, lifecycle, context, isSVG) {
-    if (options_1.options.recyclingEnabled) {
-        var dom_1 = recycling_1.recycleElement(vNode, lifecycle, context, isSVG);
-        if (!inferno_shared_1.isNull(dom_1)) {
-            if (!inferno_shared_1.isNull(parentDom)) {
-                utils_1.appendChild(parentDom, dom_1);
-            }
-            return dom_1;
-        }
-    }
-    var flags = vNode.flags;
-    isSVG = isSVG || (flags & 128 /* SvgElement */) > 0;
-    var dom = utils_1.documentCreateElement(vNode.type, isSVG);
-    var children = vNode.children;
-    var props = vNode.props;
-    var className = vNode.className;
-    var ref = vNode.ref;
-    vNode.dom = dom;
-    if (!inferno_shared_1.isInvalid(children)) {
-        if (inferno_shared_1.isStringOrNumber(children)) {
-            utils_1.setTextContent(dom, children);
-        }
-        else if (inferno_shared_1.isArray(children)) {
-            mountArrayChildren(children, dom, lifecycle, context, isSVG);
-        }
-        else if (VNodes_1.isVNode(children)) {
-            mount(children, dom, lifecycle, context, isSVG);
-        }
-    }
-    if (!inferno_shared_1.isNull(props)) {
-        var hasControlledValue = false;
-        var isFormElement = (flags & 3584 /* FormElement */) > 0;
-        if (isFormElement) {
-            hasControlledValue = processElement_1.isControlledFormElement(props);
-        }
-        for (var prop in props) {
-            // do not add a hasOwnProperty check here, it affects performance
-            patching_1.patchProp(prop, null, props[prop], dom, isSVG, hasControlledValue);
-        }
-        if (isFormElement) {
-            processElement_1.processElement(flags, vNode, dom, props, true, hasControlledValue);
-        }
-    }
-    if (className !== null) {
-        if (isSVG) {
-            dom.setAttribute('class', className);
-        }
-        else {
-            dom.className = className;
-        }
-    }
-    if (!inferno_shared_1.isNull(ref)) {
-        mountRef(dom, ref, lifecycle);
-    }
-    if (!inferno_shared_1.isNull(parentDom)) {
-        utils_1.appendChild(parentDom, dom);
-    }
-    return dom;
-}
-exports.mountElement = mountElement;
-function mountArrayChildren(children, dom, lifecycle, context, isSVG) {
-    for (var i = 0, len = children.length; i < len; i++) {
-        var child = children[i];
-        // Verify can string/number be here. might cause de-opt. - Normalization takes care of it.
-        if (!inferno_shared_1.isInvalid(child)) {
-            if (child.dom) {
-                children[i] = child = VNodes_1.directClone(child);
-            }
-            mount(children[i], dom, lifecycle, context, isSVG);
-        }
-    }
-}
-exports.mountArrayChildren = mountArrayChildren;
-function mountComponent(vNode, parentDom, lifecycle, context, isSVG, isClass) {
-    if (options_1.options.recyclingEnabled) {
-        var dom_2 = recycling_1.recycleComponent(vNode, lifecycle, context, isSVG);
-        if (!inferno_shared_1.isNull(dom_2)) {
-            if (!inferno_shared_1.isNull(parentDom)) {
-                utils_1.appendChild(parentDom, dom_2);
-            }
-            return dom_2;
-        }
-    }
-    var type = vNode.type;
-    var props = vNode.props || utils_1.EMPTY_OBJ;
-    var ref = vNode.ref;
-    var dom;
-    if (isClass) {
-        var instance = utils_1.createClassComponentInstance(vNode, type, props, context, isSVG, lifecycle);
-        var input = instance._lastInput;
-        instance._vNode = vNode;
-        vNode.dom = dom = mount(input, null, lifecycle, instance._childContext, isSVG);
-        if (!inferno_shared_1.isNull(parentDom)) {
-            utils_1.appendChild(parentDom, dom);
-        }
-        mountClassComponentCallbacks(vNode, ref, instance, lifecycle);
-        instance._updating = false;
-        if (options_1.options.findDOMNodeEnabled) {
-            rendering_1.componentToDOMNodeMap.set(instance, dom);
-        }
-    }
-    else {
-        var input = utils_1.createFunctionalComponentInput(vNode, type, props, context);
-        vNode.dom = dom = mount(input, null, lifecycle, context, isSVG);
-        vNode.children = input;
-        mountFunctionalComponentCallbacks(ref, dom, lifecycle);
-        if (!inferno_shared_1.isNull(parentDom)) {
-            utils_1.appendChild(parentDom, dom);
-        }
-    }
-    return dom;
-}
-exports.mountComponent = mountComponent;
-function mountClassComponentCallbacks(vNode, ref, instance, lifecycle) {
-    if (ref) {
-        if (inferno_shared_1.isFunction(ref)) {
-            ref(instance);
-        }
-        else {
-            if (process.env.NODE_ENV !== 'production') {
-                if (inferno_shared_1.isStringOrNumber(ref)) {
-                    inferno_shared_1.throwError('string "refs" are not supported in Inferno 1.0. Use callback "refs" instead.');
-                }
-                else if (inferno_shared_1.isObject(ref) && (vNode.flags & 4 /* ComponentClass */)) {
-                    inferno_shared_1.throwError('functional component lifecycle events are not supported on ES2015 class components.');
-                }
-                else {
-                    inferno_shared_1.throwError("a bad value for \"ref\" was used on component: \"" + JSON.stringify(ref) + "\"");
-                }
-            }
-            inferno_shared_1.throwError();
-        }
-    }
-    var hasDidMount = !inferno_shared_1.isUndefined(instance.componentDidMount);
-    var afterMount = options_1.options.afterMount;
-    if (hasDidMount || !inferno_shared_1.isNull(afterMount)) {
-        lifecycle.addListener(function () {
-            instance._updating = true;
-            if (afterMount) {
-                afterMount(vNode);
-            }
-            if (hasDidMount) {
-                instance.componentDidMount();
-            }
-            instance._updating = false;
-        });
-    }
-}
-exports.mountClassComponentCallbacks = mountClassComponentCallbacks;
-function mountFunctionalComponentCallbacks(ref, dom, lifecycle) {
-    if (ref) {
-        if (!inferno_shared_1.isNullOrUndef(ref.onComponentWillMount)) {
-            ref.onComponentWillMount();
-        }
-        if (!inferno_shared_1.isNullOrUndef(ref.onComponentDidMount)) {
-            lifecycle.addListener(function () { return ref.onComponentDidMount(dom); });
-        }
-    }
-}
-exports.mountFunctionalComponentCallbacks = mountFunctionalComponentCallbacks;
-function mountRef(dom, value, lifecycle) {
-    if (inferno_shared_1.isFunction(value)) {
-        lifecycle.addListener(function () { return value(dom); });
-    }
-    else {
-        if (inferno_shared_1.isInvalid(value)) {
-            return;
-        }
-        if (process.env.NODE_ENV !== 'production') {
-            inferno_shared_1.throwError('string "refs" are not supported in Inferno 1.0. Use callback "refs" instead.');
-        }
-        inferno_shared_1.throwError();
-    }
-}
-exports.mountRef = mountRef;
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
-
-/***/ }),
-/* 56 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-exports.default = function (graphicsData, webGLData, webGLDataNativeLines) {
-    if (graphicsData.nativeLines) {
-        buildNativeLine(graphicsData, webGLDataNativeLines);
-    } else {
-        buildLine(graphicsData, webGLData);
-    }
-};
-
-var _math = __webpack_require__(7);
-
-var _utils = __webpack_require__(4);
-
-/**
- * Builds a line to draw using the poligon method.
- *
- * Ignored from docs since it is not directly exposed.
- *
- * @ignore
- * @private
- * @param {PIXI.WebGLGraphicsData} graphicsData - The graphics object containing all the necessary properties
- * @param {object} webGLData - an object containing all the webGL-specific information to create this shape
- */
-function buildLine(graphicsData, webGLData) {
-    // TODO OPTIMISE!
-    var points = graphicsData.points;
-
-    if (points.length === 0) {
-        return;
-    }
-    // if the line width is an odd number add 0.5 to align to a whole pixel
-    // commenting this out fixes #711 and #1620
-    // if (graphicsData.lineWidth%2)
-    // {
-    //     for (i = 0; i < points.length; i++)
-    //     {
-    //         points[i] += 0.5;
-    //     }
-    // }
-
-    // get first and last point.. figure out the middle!
-    var firstPoint = new _math.Point(points[0], points[1]);
-    var lastPoint = new _math.Point(points[points.length - 2], points[points.length - 1]);
-
-    // if the first point is the last point - gonna have issues :)
-    if (firstPoint.x === lastPoint.x && firstPoint.y === lastPoint.y) {
-        // need to clone as we are going to slightly modify the shape..
-        points = points.slice();
-
-        points.pop();
-        points.pop();
-
-        lastPoint = new _math.Point(points[points.length - 2], points[points.length - 1]);
-
-        var midPointX = lastPoint.x + (firstPoint.x - lastPoint.x) * 0.5;
-        var midPointY = lastPoint.y + (firstPoint.y - lastPoint.y) * 0.5;
-
-        points.unshift(midPointX, midPointY);
-        points.push(midPointX, midPointY);
-    }
-
-    var verts = webGLData.points;
-    var indices = webGLData.indices;
-    var length = points.length / 2;
-    var indexCount = points.length;
-    var indexStart = verts.length / 6;
-
-    // DRAW the Line
-    var width = graphicsData.lineWidth / 2;
-
-    // sort color
-    var color = (0, _utils.hex2rgb)(graphicsData.lineColor);
-    var alpha = graphicsData.lineAlpha;
-    var r = color[0] * alpha;
-    var g = color[1] * alpha;
-    var b = color[2] * alpha;
-
-    var p1x = points[0];
-    var p1y = points[1];
-    var p2x = points[2];
-    var p2y = points[3];
-    var p3x = 0;
-    var p3y = 0;
-
-    var perpx = -(p1y - p2y);
-    var perpy = p1x - p2x;
-    var perp2x = 0;
-    var perp2y = 0;
-    var perp3x = 0;
-    var perp3y = 0;
-
-    var dist = Math.sqrt(perpx * perpx + perpy * perpy);
-
-    perpx /= dist;
-    perpy /= dist;
-    perpx *= width;
-    perpy *= width;
-
-    // start
-    verts.push(p1x - perpx, p1y - perpy, r, g, b, alpha);
-
-    verts.push(p1x + perpx, p1y + perpy, r, g, b, alpha);
-
-    for (var i = 1; i < length - 1; ++i) {
-        p1x = points[(i - 1) * 2];
-        p1y = points[(i - 1) * 2 + 1];
-
-        p2x = points[i * 2];
-        p2y = points[i * 2 + 1];
-
-        p3x = points[(i + 1) * 2];
-        p3y = points[(i + 1) * 2 + 1];
-
-        perpx = -(p1y - p2y);
-        perpy = p1x - p2x;
-
-        dist = Math.sqrt(perpx * perpx + perpy * perpy);
-        perpx /= dist;
-        perpy /= dist;
-        perpx *= width;
-        perpy *= width;
-
-        perp2x = -(p2y - p3y);
-        perp2y = p2x - p3x;
-
-        dist = Math.sqrt(perp2x * perp2x + perp2y * perp2y);
-        perp2x /= dist;
-        perp2y /= dist;
-        perp2x *= width;
-        perp2y *= width;
-
-        var a1 = -perpy + p1y - (-perpy + p2y);
-        var b1 = -perpx + p2x - (-perpx + p1x);
-        var c1 = (-perpx + p1x) * (-perpy + p2y) - (-perpx + p2x) * (-perpy + p1y);
-        var a2 = -perp2y + p3y - (-perp2y + p2y);
-        var b2 = -perp2x + p2x - (-perp2x + p3x);
-        var c2 = (-perp2x + p3x) * (-perp2y + p2y) - (-perp2x + p2x) * (-perp2y + p3y);
-
-        var denom = a1 * b2 - a2 * b1;
-
-        if (Math.abs(denom) < 0.1) {
-            denom += 10.1;
-            verts.push(p2x - perpx, p2y - perpy, r, g, b, alpha);
-
-            verts.push(p2x + perpx, p2y + perpy, r, g, b, alpha);
-
-            continue;
-        }
-
-        var px = (b1 * c2 - b2 * c1) / denom;
-        var py = (a2 * c1 - a1 * c2) / denom;
-        var pdist = (px - p2x) * (px - p2x) + (py - p2y) * (py - p2y);
-
-        if (pdist > 196 * width * width) {
-            perp3x = perpx - perp2x;
-            perp3y = perpy - perp2y;
-
-            dist = Math.sqrt(perp3x * perp3x + perp3y * perp3y);
-            perp3x /= dist;
-            perp3y /= dist;
-            perp3x *= width;
-            perp3y *= width;
-
-            verts.push(p2x - perp3x, p2y - perp3y);
-            verts.push(r, g, b, alpha);
-
-            verts.push(p2x + perp3x, p2y + perp3y);
-            verts.push(r, g, b, alpha);
-
-            verts.push(p2x - perp3x, p2y - perp3y);
-            verts.push(r, g, b, alpha);
-
-            indexCount++;
-        } else {
-            verts.push(px, py);
-            verts.push(r, g, b, alpha);
-
-            verts.push(p2x - (px - p2x), p2y - (py - p2y));
-            verts.push(r, g, b, alpha);
-        }
-    }
-
-    p1x = points[(length - 2) * 2];
-    p1y = points[(length - 2) * 2 + 1];
-
-    p2x = points[(length - 1) * 2];
-    p2y = points[(length - 1) * 2 + 1];
-
-    perpx = -(p1y - p2y);
-    perpy = p1x - p2x;
-
-    dist = Math.sqrt(perpx * perpx + perpy * perpy);
-    perpx /= dist;
-    perpy /= dist;
-    perpx *= width;
-    perpy *= width;
-
-    verts.push(p2x - perpx, p2y - perpy);
-    verts.push(r, g, b, alpha);
-
-    verts.push(p2x + perpx, p2y + perpy);
-    verts.push(r, g, b, alpha);
-
-    indices.push(indexStart);
-
-    for (var _i = 0; _i < indexCount; ++_i) {
-        indices.push(indexStart++);
-    }
-
-    indices.push(indexStart - 1);
-}
-
-/**
- * Builds a line to draw using the gl.drawArrays(gl.LINES) method
- *
- * Ignored from docs since it is not directly exposed.
- *
- * @ignore
- * @private
- * @param {PIXI.WebGLGraphicsData} graphicsData - The graphics object containing all the necessary properties
- * @param {object} webGLData - an object containing all the webGL-specific information to create this shape
- */
-
-
-/**
- * Builds a line to draw
- *
- * Ignored from docs since it is not directly exposed.
- *
- * @ignore
- * @private
- * @param {PIXI.WebGLGraphicsData} graphicsData - The graphics object containing all the necessary properties
- * @param {object} webGLData - an object containing all the webGL-specific information to create this shape
- * @param {object} webGLDataNativeLines - an object containing all the webGL-specific information to create nativeLines
- */
-function buildNativeLine(graphicsData, webGLData) {
-    var i = 0;
-    var points = graphicsData.points;
-
-    if (points.length === 0) return;
-
-    var verts = webGLData.points;
-    var length = points.length / 2;
-
-    // sort color
-    var color = (0, _utils.hex2rgb)(graphicsData.lineColor);
-    var alpha = graphicsData.lineAlpha;
-    var r = color[0] * alpha;
-    var g = color[1] * alpha;
-    var b = color[2] * alpha;
-
-    for (i = 1; i < length; i++) {
-        var p1x = points[(i - 1) * 2];
-        var p1y = points[(i - 1) * 2 + 1];
-
-        var p2x = points[i * 2];
-        var p2y = points[i * 2 + 1];
-
-        verts.push(p1x, p1y);
-        verts.push(r, g, b, alpha);
-
-        verts.push(p2x, p2y);
-        verts.push(r, g, b, alpha);
-    }
-}
-
-
-/***/ }),
-/* 57 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _SystemRenderer2 = __webpack_require__(176);
-
-var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
-
-var _MaskManager = __webpack_require__(403);
-
-var _MaskManager2 = _interopRequireDefault(_MaskManager);
-
-var _StencilManager = __webpack_require__(404);
-
-var _StencilManager2 = _interopRequireDefault(_StencilManager);
-
-var _FilterManager = __webpack_require__(402);
-
-var _FilterManager2 = _interopRequireDefault(_FilterManager);
-
-var _RenderTarget = __webpack_require__(59);
-
-var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
-
-var _ObjectRenderer = __webpack_require__(58);
-
-var _ObjectRenderer2 = _interopRequireDefault(_ObjectRenderer);
-
-var _TextureManager = __webpack_require__(398);
-
-var _TextureManager2 = _interopRequireDefault(_TextureManager);
-
-var _BaseTexture = __webpack_require__(32);
-
-var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
-
-var _TextureGarbageCollector = __webpack_require__(397);
-
-var _TextureGarbageCollector2 = _interopRequireDefault(_TextureGarbageCollector);
-
-var _WebGLState = __webpack_require__(399);
-
-var _WebGLState2 = _interopRequireDefault(_WebGLState);
-
-var _mapWebGLDrawModesToPixi = __webpack_require__(407);
-
-var _mapWebGLDrawModesToPixi2 = _interopRequireDefault(_mapWebGLDrawModesToPixi);
-
-var _validateContext = __webpack_require__(408);
-
-var _validateContext2 = _interopRequireDefault(_validateContext);
-
-var _utils = __webpack_require__(4);
-
-var _pixiGlCore = __webpack_require__(9);
-
-var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
-
-var _const = __webpack_require__(1);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var CONTEXT_UID = 0;
-
-/**
- * The WebGLRenderer draws the scene and all its content onto a webGL enabled canvas. This renderer
- * should be used for browsers that support webGL. This Render works by automatically managing webGLBatchs.
- * So no need for Sprite Batches or Sprite Clouds.
- * Don't forget to add the view to your DOM or you will not see anything :)
- *
- * @class
- * @memberof PIXI
- * @extends PIXI.SystemRenderer
- */
-
-var WebGLRenderer = function (_SystemRenderer) {
-    _inherits(WebGLRenderer, _SystemRenderer);
-
-    // eslint-disable-next-line valid-jsdoc
-    /**
-     *
-     * @param {object} [options] - The optional renderer parameters
-     * @param {number} [options.width=800] - the width of the screen
-     * @param {number} [options.height=600] - the height of the screen
-     * @param {HTMLCanvasElement} [options.view] - the canvas to use as a view, optional
-     * @param {boolean} [options.transparent=false] - If the render view is transparent, default false
-     * @param {boolean} [options.autoResize=false] - If the render view is automatically resized, default false
-     * @param {boolean} [options.antialias=false] - sets antialias. If not available natively then FXAA
-     *  antialiasing is used
-     * @param {boolean} [options.forceFXAA=false] - forces FXAA antialiasing to be used over native.
-     *  FXAA is faster, but may not always look as great
-     * @param {number} [options.resolution=1] - The resolution / device pixel ratio of the renderer.
-     *  The resolution of the renderer retina would be 2.
-     * @param {boolean} [options.clearBeforeRender=true] - This sets if the renderer will clear
-     *  the canvas or not before the new render pass. If you wish to set this to false, you *must* set
-     *  preserveDrawingBuffer to `true`.
-     * @param {boolean} [options.preserveDrawingBuffer=false] - enables drawing buffer preservation,
-     *  enable this if you need to call toDataUrl on the webgl context.
-     * @param {boolean} [options.roundPixels=false] - If true Pixi will Math.floor() x/y values when
-     *  rendering, stopping pixel interpolation.
-     * @param {number} [options.backgroundColor=0x000000] - The background color of the rendered area
-     *  (shown if not transparent).
-     * @param {boolean} [options.legacy=false] - If true Pixi will aim to ensure compatibility
-     * with older / less advanced devices. If you experiance unexplained flickering try setting this to true.
-     */
-    function WebGLRenderer(options, arg2, arg3) {
-        _classCallCheck(this, WebGLRenderer);
-
-        var _this = _possibleConstructorReturn(this, _SystemRenderer.call(this, 'WebGL', options, arg2, arg3));
-
-        _this.legacy = _this.options.legacy;
-
-        if (_this.legacy) {
-            _pixiGlCore2.default.VertexArrayObject.FORCE_NATIVE = true;
-        }
-
-        /**
-         * The type of this renderer as a standardised const
-         *
-         * @member {number}
-         * @see PIXI.RENDERER_TYPE
-         */
-        _this.type = _const.RENDERER_TYPE.WEBGL;
-
-        _this.handleContextLost = _this.handleContextLost.bind(_this);
-        _this.handleContextRestored = _this.handleContextRestored.bind(_this);
-
-        _this.view.addEventListener('webglcontextlost', _this.handleContextLost, false);
-        _this.view.addEventListener('webglcontextrestored', _this.handleContextRestored, false);
-
-        /**
-         * The options passed in to create a new webgl context.
-         *
-         * @member {object}
-         * @private
-         */
-        _this._contextOptions = {
-            alpha: _this.transparent,
-            antialias: _this.options.antialias,
-            premultipliedAlpha: _this.transparent && _this.transparent !== 'notMultiplied',
-            stencil: true,
-            preserveDrawingBuffer: _this.options.preserveDrawingBuffer
-        };
-
-        _this._backgroundColorRgba[3] = _this.transparent ? 0 : 1;
-
-        /**
-         * Manages the masks using the stencil buffer.
-         *
-         * @member {PIXI.MaskManager}
-         */
-        _this.maskManager = new _MaskManager2.default(_this);
-
-        /**
-         * Manages the stencil buffer.
-         *
-         * @member {PIXI.StencilManager}
-         */
-        _this.stencilManager = new _StencilManager2.default(_this);
-
-        /**
-         * An empty renderer.
-         *
-         * @member {PIXI.ObjectRenderer}
-         */
-        _this.emptyRenderer = new _ObjectRenderer2.default(_this);
-
-        /**
-         * The currently active ObjectRenderer.
-         *
-         * @member {PIXI.ObjectRenderer}
-         */
-        _this.currentRenderer = _this.emptyRenderer;
-
-        _this.initPlugins();
-
-        /**
-         * The current WebGL rendering context, it is created here
-         *
-         * @member {WebGLRenderingContext}
-         */
-        // initialize the context so it is ready for the managers.
-        if (_this.options.context) {
-            // checks to see if a context is valid..
-            (0, _validateContext2.default)(_this.options.context);
-        }
-
-        _this.gl = _this.options.context || _pixiGlCore2.default.createContext(_this.view, _this._contextOptions);
-
-        _this.CONTEXT_UID = CONTEXT_UID++;
-
-        /**
-         * The currently active ObjectRenderer.
-         *
-         * @member {PIXI.WebGLState}
-         */
-        _this.state = new _WebGLState2.default(_this.gl);
-
-        _this.renderingToScreen = true;
-
-        /**
-         * Holds the current state of textures bound to the GPU.
-         * @type {Array}
-         */
-        _this.boundTextures = null;
-
-        /**
-         * Holds the current shader
-         *
-         * @member {PIXI.Shader}
-         */
-        _this._activeShader = null;
-
-        _this._activeVao = null;
-
-        /**
-         * Holds the current render target
-         *
-         * @member {PIXI.RenderTarget}
-         */
-        _this._activeRenderTarget = null;
-
-        _this._initContext();
-
-        /**
-         * Manages the filters.
-         *
-         * @member {PIXI.FilterManager}
-         */
-        _this.filterManager = new _FilterManager2.default(_this);
-        // map some webGL blend and drawmodes..
-        _this.drawModes = (0, _mapWebGLDrawModesToPixi2.default)(_this.gl);
-
-        _this._nextTextureLocation = 0;
-
-        _this.setBlendMode(0);
-
-        /**
-         * Fired after rendering finishes.
-         *
-         * @event PIXI.WebGLRenderer#postrender
-         */
-
-        /**
-         * Fired before rendering starts.
-         *
-         * @event PIXI.WebGLRenderer#prerender
-         */
-
-        /**
-         * Fired when the WebGL context is set.
-         *
-         * @event PIXI.WebGLRenderer#context
-         * @param {WebGLRenderingContext} gl - WebGL context.
-         */
-        return _this;
-    }
-
-    /**
-     * Creates the WebGL context
-     *
-     * @private
-     */
-
-
-    WebGLRenderer.prototype._initContext = function _initContext() {
-        var gl = this.gl;
-
-        // restore a context if it was previously lost
-        if (gl.isContextLost() && gl.getExtension('WEBGL_lose_context')) {
-            gl.getExtension('WEBGL_lose_context').restoreContext();
-        }
-
-        var maxTextures = gl.getParameter(gl.MAX_TEXTURE_IMAGE_UNITS);
-
-        this._activeShader = null;
-        this._activeVao = null;
-
-        this.boundTextures = new Array(maxTextures);
-        this.emptyTextures = new Array(maxTextures);
-
-        // create a texture manager...
-        this.textureManager = new _TextureManager2.default(this);
-        this.textureGC = new _TextureGarbageCollector2.default(this);
-
-        this.state.resetToDefault();
-
-        this.rootRenderTarget = new _RenderTarget2.default(gl, this.width, this.height, null, this.resolution, true);
-        this.rootRenderTarget.clearColor = this._backgroundColorRgba;
-
-        this.bindRenderTarget(this.rootRenderTarget);
-
-        // now lets fill up the textures with empty ones!
-        var emptyGLTexture = new _pixiGlCore2.default.GLTexture.fromData(gl, null, 1, 1);
-
-        var tempObj = { _glTextures: {} };
-
-        tempObj._glTextures[this.CONTEXT_UID] = {};
-
-        for (var i = 0; i < maxTextures; i++) {
-            var empty = new _BaseTexture2.default();
-
-            empty._glTextures[this.CONTEXT_UID] = emptyGLTexture;
-
-            this.boundTextures[i] = tempObj;
-            this.emptyTextures[i] = empty;
-            this.bindTexture(null, i);
-        }
-
-        this.emit('context', gl);
-
-        // setup the width/height properties and gl viewport
-        this.resize(this.screen.width, this.screen.height);
-    };
-
-    /**
-     * Renders the object to its webGL view
-     *
-     * @param {PIXI.DisplayObject} displayObject - the object to be rendered
-     * @param {PIXI.RenderTexture} renderTexture - The render texture to render to.
-     * @param {boolean} [clear] - Should the canvas be cleared before the new render
-     * @param {PIXI.Transform} [transform] - A transform to apply to the render texture before rendering.
-     * @param {boolean} [skipUpdateTransform] - Should we skip the update transform pass?
-     */
-
-
-    WebGLRenderer.prototype.render = function render(displayObject, renderTexture, clear, transform, skipUpdateTransform) {
-        // can be handy to know!
-        this.renderingToScreen = !renderTexture;
-
-        this.emit('prerender');
-
-        // no point rendering if our context has been blown up!
-        if (!this.gl || this.gl.isContextLost()) {
-            return;
-        }
-
-        this._nextTextureLocation = 0;
-
-        if (!renderTexture) {
-            this._lastObjectRendered = displayObject;
-        }
-
-        if (!skipUpdateTransform) {
-            // update the scene graph
-            var cacheParent = displayObject.parent;
-
-            displayObject.parent = this._tempDisplayObjectParent;
-            displayObject.updateTransform();
-            displayObject.parent = cacheParent;
-            // displayObject.hitArea = //TODO add a temp hit area
-        }
-
-        this.bindRenderTexture(renderTexture, transform);
-
-        this.currentRenderer.start();
-
-        if (clear !== undefined ? clear : this.clearBeforeRender) {
-            this._activeRenderTarget.clear();
-        }
-
-        displayObject.renderWebGL(this);
-
-        // apply transform..
-        this.currentRenderer.flush();
-
-        // this.setObjectRenderer(this.emptyRenderer);
-
-        this.textureGC.update();
-
-        this.emit('postrender');
-    };
-
-    /**
-     * Changes the current renderer to the one given in parameter
-     *
-     * @param {PIXI.ObjectRenderer} objectRenderer - The object renderer to use.
-     */
-
-
-    WebGLRenderer.prototype.setObjectRenderer = function setObjectRenderer(objectRenderer) {
-        if (this.currentRenderer === objectRenderer) {
-            return;
-        }
-
-        this.currentRenderer.stop();
-        this.currentRenderer = objectRenderer;
-        this.currentRenderer.start();
-    };
-
-    /**
-     * This should be called if you wish to do some custom rendering
-     * It will basically render anything that may be batched up such as sprites
-     *
-     */
-
-
-    WebGLRenderer.prototype.flush = function flush() {
-        this.setObjectRenderer(this.emptyRenderer);
-    };
-
-    /**
-     * Resizes the webGL view to the specified width and height.
-     *
-     * @param {number} screenWidth - the new width of the screen
-     * @param {number} screenHeight - the new height of the screen
-     */
-
-
-    WebGLRenderer.prototype.resize = function resize(screenWidth, screenHeight) {
-        //  if(width * this.resolution === this.width && height * this.resolution === this.height)return;
-
-        _SystemRenderer3.default.prototype.resize.call(this, screenWidth, screenHeight);
-
-        this.rootRenderTarget.resize(screenWidth, screenHeight);
-
-        if (this._activeRenderTarget === this.rootRenderTarget) {
-            this.rootRenderTarget.activate();
-
-            if (this._activeShader) {
-                this._activeShader.uniforms.projectionMatrix = this.rootRenderTarget.projectionMatrix.toArray(true);
-            }
-        }
-    };
-
-    /**
-     * Resizes the webGL view to the specified width and height.
-     *
-     * @param {number} blendMode - the desired blend mode
-     */
-
-
-    WebGLRenderer.prototype.setBlendMode = function setBlendMode(blendMode) {
-        this.state.setBlendMode(blendMode);
-    };
-
-    /**
-     * Erases the active render target and fills the drawing area with a colour
-     *
-     * @param {number} [clearColor] - The colour
-     */
-
-
-    WebGLRenderer.prototype.clear = function clear(clearColor) {
-        this._activeRenderTarget.clear(clearColor);
-    };
-
-    /**
-     * Sets the transform of the active render target to the given matrix
-     *
-     * @param {PIXI.Matrix} matrix - The transformation matrix
-     */
-
-
-    WebGLRenderer.prototype.setTransform = function setTransform(matrix) {
-        this._activeRenderTarget.transform = matrix;
-    };
-
-    /**
-     * Erases the render texture and fills the drawing area with a colour
-     *
-     * @param {PIXI.RenderTexture} renderTexture - The render texture to clear
-     * @param {number} [clearColor] - The colour
-     * @return {PIXI.WebGLRenderer} Returns itself.
-     */
-
-
-    WebGLRenderer.prototype.clearRenderTexture = function clearRenderTexture(renderTexture, clearColor) {
-        var baseTexture = renderTexture.baseTexture;
-        var renderTarget = baseTexture._glRenderTargets[this.CONTEXT_UID];
-
-        if (renderTarget) {
-            renderTarget.clear(clearColor);
-        }
-
-        return this;
-    };
-
-    /**
-     * Binds a render texture for rendering
-     *
-     * @param {PIXI.RenderTexture} renderTexture - The render texture to render
-     * @param {PIXI.Transform} transform - The transform to be applied to the render texture
-     * @return {PIXI.WebGLRenderer} Returns itself.
-     */
-
-
-    WebGLRenderer.prototype.bindRenderTexture = function bindRenderTexture(renderTexture, transform) {
-        var renderTarget = void 0;
-
-        if (renderTexture) {
-            var baseTexture = renderTexture.baseTexture;
-
-            if (!baseTexture._glRenderTargets[this.CONTEXT_UID]) {
-                // bind the current texture
-                this.textureManager.updateTexture(baseTexture, 0);
-            }
-
-            this.unbindTexture(baseTexture);
-
-            renderTarget = baseTexture._glRenderTargets[this.CONTEXT_UID];
-            renderTarget.setFrame(renderTexture.frame);
-        } else {
-            renderTarget = this.rootRenderTarget;
-        }
-
-        renderTarget.transform = transform;
-        this.bindRenderTarget(renderTarget);
-
-        return this;
-    };
-
-    /**
-     * Changes the current render target to the one given in parameter
-     *
-     * @param {PIXI.RenderTarget} renderTarget - the new render target
-     * @return {PIXI.WebGLRenderer} Returns itself.
-     */
-
-
-    WebGLRenderer.prototype.bindRenderTarget = function bindRenderTarget(renderTarget) {
-        if (renderTarget !== this._activeRenderTarget) {
-            this._activeRenderTarget = renderTarget;
-            renderTarget.activate();
-
-            if (this._activeShader) {
-                this._activeShader.uniforms.projectionMatrix = renderTarget.projectionMatrix.toArray(true);
-            }
-
-            this.stencilManager.setMaskStack(renderTarget.stencilMaskStack);
-        }
-
-        return this;
-    };
-
-    /**
-     * Changes the current shader to the one given in parameter
-     *
-     * @param {PIXI.Shader} shader - the new shader
-     * @param {boolean} [autoProject=true] - Whether automatically set the projection matrix
-     * @return {PIXI.WebGLRenderer} Returns itself.
-     */
-
-
-    WebGLRenderer.prototype.bindShader = function bindShader(shader, autoProject) {
-        // TODO cache
-        if (this._activeShader !== shader) {
-            this._activeShader = shader;
-            shader.bind();
-
-            // `autoProject` normally would be a default parameter set to true
-            // but because of how Babel transpiles default parameters
-            // it hinders the performance of this method.
-            if (autoProject !== false) {
-                // automatically set the projection matrix
-                shader.uniforms.projectionMatrix = this._activeRenderTarget.projectionMatrix.toArray(true);
-            }
-        }
-
-        return this;
-    };
-
-    /**
-     * Binds the texture. This will return the location of the bound texture.
-     * It may not be the same as the one you pass in. This is due to optimisation that prevents
-     * needless binding of textures. For example if the texture is already bound it will return the
-     * current location of the texture instead of the one provided. To bypass this use force location
-     *
-     * @param {PIXI.Texture} texture - the new texture
-     * @param {number} location - the suggested texture location
-     * @param {boolean} forceLocation - force the location
-     * @return {number} bound texture location
-     */
-
-
-    WebGLRenderer.prototype.bindTexture = function bindTexture(texture, location, forceLocation) {
-        texture = texture || this.emptyTextures[location];
-        texture = texture.baseTexture || texture;
-        texture.touched = this.textureGC.count;
-
-        if (!forceLocation) {
-            // TODO - maybe look into adding boundIds.. save us the loop?
-            for (var i = 0; i < this.boundTextures.length; i++) {
-                if (this.boundTextures[i] === texture) {
-                    return i;
-                }
-            }
-
-            if (location === undefined) {
-                this._nextTextureLocation++;
-                this._nextTextureLocation %= this.boundTextures.length;
-                location = this.boundTextures.length - this._nextTextureLocation - 1;
-            }
-        } else {
-            location = location || 0;
-        }
-
-        var gl = this.gl;
-        var glTexture = texture._glTextures[this.CONTEXT_UID];
-
-        if (!glTexture) {
-            // this will also bind the texture..
-            this.textureManager.updateTexture(texture, location);
-        } else {
-            // bind the current texture
-            this.boundTextures[location] = texture;
-            gl.activeTexture(gl.TEXTURE0 + location);
-            gl.bindTexture(gl.TEXTURE_2D, glTexture.texture);
-        }
-
-        return location;
-    };
-
-    /**
-    * unbinds the texture ...
-    *
-    * @param {PIXI.Texture} texture - the texture to unbind
-    * @return {PIXI.WebGLRenderer} Returns itself.
-    */
-
-
-    WebGLRenderer.prototype.unbindTexture = function unbindTexture(texture) {
-        var gl = this.gl;
-
-        texture = texture.baseTexture || texture;
-
-        for (var i = 0; i < this.boundTextures.length; i++) {
-            if (this.boundTextures[i] === texture) {
-                this.boundTextures[i] = this.emptyTextures[i];
-
-                gl.activeTexture(gl.TEXTURE0 + i);
-                gl.bindTexture(gl.TEXTURE_2D, this.emptyTextures[i]._glTextures[this.CONTEXT_UID].texture);
-            }
-        }
-
-        return this;
-    };
-
-    /**
-     * Creates a new VAO from this renderer's context and state.
-     *
-     * @return {VertexArrayObject} The new VAO.
-     */
-
-
-    WebGLRenderer.prototype.createVao = function createVao() {
-        return new _pixiGlCore2.default.VertexArrayObject(this.gl, this.state.attribState);
-    };
-
-    /**
-     * Changes the current Vao to the one given in parameter
-     *
-     * @param {PIXI.VertexArrayObject} vao - the new Vao
-     * @return {PIXI.WebGLRenderer} Returns itself.
-     */
-
-
-    WebGLRenderer.prototype.bindVao = function bindVao(vao) {
-        if (this._activeVao === vao) {
-            return this;
-        }
-
-        if (vao) {
-            vao.bind();
-        } else if (this._activeVao) {
-            // TODO this should always be true i think?
-            this._activeVao.unbind();
-        }
-
-        this._activeVao = vao;
-
-        return this;
-    };
-
-    /**
-     * Resets the WebGL state so you can render things however you fancy!
-     *
-     * @return {PIXI.WebGLRenderer} Returns itself.
-     */
-
-
-    WebGLRenderer.prototype.reset = function reset() {
-        this.setObjectRenderer(this.emptyRenderer);
-
-        this._activeShader = null;
-        this._activeRenderTarget = this.rootRenderTarget;
-
-        // bind the main frame buffer (the screen);
-        this.rootRenderTarget.activate();
-
-        this.state.resetToDefault();
-
-        return this;
-    };
-
-    /**
-     * Handles a lost webgl context
-     *
-     * @private
-     * @param {WebGLContextEvent} event - The context lost event.
-     */
-
-
-    WebGLRenderer.prototype.handleContextLost = function handleContextLost(event) {
-        event.preventDefault();
-    };
-
-    /**
-     * Handles a restored webgl context
-     *
-     * @private
-     */
-
-
-    WebGLRenderer.prototype.handleContextRestored = function handleContextRestored() {
-        this.textureManager.removeAll();
-        this._initContext();
-    };
-
-    /**
-     * Removes everything from the renderer (event listeners, spritebatch, etc...)
-     *
-     * @param {boolean} [removeView=false] - Removes the Canvas element from the DOM.
-     *  See: https://github.com/pixijs/pixi.js/issues/2233
-     */
-
-
-    WebGLRenderer.prototype.destroy = function destroy(removeView) {
-        this.destroyPlugins();
-
-        // remove listeners
-        this.view.removeEventListener('webglcontextlost', this.handleContextLost);
-        this.view.removeEventListener('webglcontextrestored', this.handleContextRestored);
-
-        this.textureManager.destroy();
-
-        // call base destroy
-        _SystemRenderer.prototype.destroy.call(this, removeView);
-
-        this.uid = 0;
-
-        // destroy the managers
-        this.maskManager.destroy();
-        this.stencilManager.destroy();
-        this.filterManager.destroy();
-
-        this.maskManager = null;
-        this.filterManager = null;
-        this.textureManager = null;
-        this.currentRenderer = null;
-
-        this.handleContextLost = null;
-        this.handleContextRestored = null;
-
-        this._contextOptions = null;
-        this.gl.useProgram(null);
-
-        if (this.gl.getExtension('WEBGL_lose_context')) {
-            this.gl.getExtension('WEBGL_lose_context').loseContext();
-        }
-
-        this.gl = null;
-
-        // this = null;
-    };
-
-    return WebGLRenderer;
-}(_SystemRenderer3.default);
-
-/**
- * Collection of installed plugins. These are included by default in PIXI, but can be excluded
- * by creating a custom build. Consult the README for more information about creating custom
- * builds and excluding plugins.
- * @name PIXI.WebGLRenderer#plugins
- * @type {object}
- * @readonly
- * @property {PIXI.accessibility.AccessibilityManager} accessibility Support tabbing interactive elements.
- * @property {PIXI.extract.WebGLExtract} extract Extract image data from renderer.
- * @property {PIXI.interaction.InteractionManager} interaction Handles mouse, touch and pointer events.
- * @property {PIXI.prepare.WebGLPrepare} prepare Pre-render display objects.
- */
-
-/**
- * Adds a plugin to the renderer.
- *
- * @method PIXI.WebGLRenderer#registerPlugin
- * @param {string} pluginName - The name of the plugin.
- * @param {Function} ctor - The constructor function or class for the plugin.
- */
-
-exports.default = WebGLRenderer;
-_utils.pluginTarget.mixin(WebGLRenderer);
-
-
-/***/ }),
-/* 58 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _WebGLManager2 = __webpack_require__(44);
-
-var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * Base for a common object renderer that can be used as a system renderer plugin.
- *
- * @class
- * @extends PIXI.WebGLManager
- * @memberof PIXI
- */
-var ObjectRenderer = function (_WebGLManager) {
-  _inherits(ObjectRenderer, _WebGLManager);
-
-  function ObjectRenderer() {
-    _classCallCheck(this, ObjectRenderer);
-
-    return _possibleConstructorReturn(this, _WebGLManager.apply(this, arguments));
-  }
-
-  /**
-   * Starts the renderer and sets the shader
-   *
-   */
-  ObjectRenderer.prototype.start = function start() {}
-  // set the shader..
-
-
-  /**
-   * Stops the renderer
-   *
-   */
-  ;
-
-  ObjectRenderer.prototype.stop = function stop() {
-    this.flush();
-  };
-
-  /**
-   * Stub method for rendering content and emptying the current batch.
-   *
-   */
-
-
-  ObjectRenderer.prototype.flush = function flush() {}
-  // flush!
-
-
-  /**
-   * Renders an object
-   *
-   * @param {PIXI.DisplayObject} object - The object to render.
-   */
-  ;
-
-  ObjectRenderer.prototype.render = function render(object) // eslint-disable-line no-unused-vars
-  {
-    // render the object
-  };
-
-  return ObjectRenderer;
-}(_WebGLManager3.default);
-
-exports.default = ObjectRenderer;
-
-
-/***/ }),
-/* 59 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _math = __webpack_require__(7);
-
-var _const = __webpack_require__(1);
-
-var _settings = __webpack_require__(6);
-
-var _settings2 = _interopRequireDefault(_settings);
-
-var _pixiGlCore = __webpack_require__(9);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * @class
- * @memberof PIXI
- */
-var RenderTarget = function () {
-  /**
-   * @param {WebGLRenderingContext} gl - The current WebGL drawing context
-   * @param {number} [width=0] - the horizontal range of the filter
-   * @param {number} [height=0] - the vertical range of the filter
-   * @param {number} [scaleMode=PIXI.settings.SCALE_MODE] - See {@link PIXI.SCALE_MODES} for possible values
-   * @param {number} [resolution=1] - The current resolution / device pixel ratio
-   * @param {boolean} [root=false] - Whether this object is the root element or not
-   */
-  function RenderTarget(gl, width, height, scaleMode, resolution, root) {
-    _classCallCheck(this, RenderTarget);
-
-    // TODO Resolution could go here ( eg low res blurs )
-
-    /**
-     * The current WebGL drawing context.
-     *
-     * @member {WebGLRenderingContext}
-     */
-    this.gl = gl;
-
-    // next time to create a frame buffer and texture
-
-    /**
-     * A frame buffer
-     *
-     * @member {PIXI.glCore.GLFramebuffer}
-     */
-    this.frameBuffer = null;
-
-    /**
-     * The texture
-     *
-     * @member {PIXI.glCore.GLTexture}
-     */
-    this.texture = null;
-
-    /**
-     * The background colour of this render target, as an array of [r,g,b,a] values
-     *
-     * @member {number[]}
-     */
-    this.clearColor = [0, 0, 0, 0];
-
-    /**
-     * The size of the object as a rectangle
-     *
-     * @member {PIXI.Rectangle}
-     */
-    this.size = new _math.Rectangle(0, 0, 1, 1);
-
-    /**
-     * The current resolution / device pixel ratio
-     *
-     * @member {number}
-     * @default 1
-     */
-    this.resolution = resolution || _settings2.default.RESOLUTION;
-
-    /**
-     * The projection matrix
-     *
-     * @member {PIXI.Matrix}
-     */
-    this.projectionMatrix = new _math.Matrix();
-
-    /**
-     * The object's transform
-     *
-     * @member {PIXI.Matrix}
-     */
-    this.transform = null;
-
-    /**
-     * The frame.
-     *
-     * @member {PIXI.Rectangle}
-     */
-    this.frame = null;
-
-    /**
-     * The stencil buffer stores masking data for the render target
-     *
-     * @member {glCore.GLBuffer}
-     */
-    this.defaultFrame = new _math.Rectangle();
-    this.destinationFrame = null;
-    this.sourceFrame = null;
-
-    /**
-     * The stencil buffer stores masking data for the render target
-     *
-     * @member {glCore.GLBuffer}
-     */
-    this.stencilBuffer = null;
-
-    /**
-     * The data structure for the stencil masks
-     *
-     * @member {PIXI.Graphics[]}
-     */
-    this.stencilMaskStack = [];
-
-    /**
-     * Stores filter data for the render target
-     *
-     * @member {object[]}
-     */
-    this.filterData = null;
-
-    /**
-     * The scale mode.
-     *
-     * @member {number}
-     * @default PIXI.settings.SCALE_MODE
-     * @see PIXI.SCALE_MODES
-     */
-    this.scaleMode = scaleMode !== undefined ? scaleMode : _settings2.default.SCALE_MODE;
-
-    /**
-     * Whether this object is the root element or not
-     *
-     * @member {boolean}
-     */
-    this.root = root;
-
-    if (!this.root) {
-      this.frameBuffer = _pixiGlCore.GLFramebuffer.createRGBA(gl, 100, 100);
-
-      if (this.scaleMode === _const.SCALE_MODES.NEAREST) {
-        this.frameBuffer.texture.enableNearestScaling();
-      } else {
-        this.frameBuffer.texture.enableLinearScaling();
-      }
-      /*
-          A frame buffer needs a target to render to..
-          create a texture and bind it attach it to the framebuffer..
-       */
-
-      // this is used by the base texture
-      this.texture = this.frameBuffer.texture;
-    } else {
-      // make it a null framebuffer..
-      this.frameBuffer = new _pixiGlCore.GLFramebuffer(gl, 100, 100);
-      this.frameBuffer.framebuffer = null;
-    }
-
-    this.setFrame();
-
-    this.resize(width, height);
-  }
-
-  /**
-   * Clears the filter texture.
-   *
-   * @param {number[]} [clearColor=this.clearColor] - Array of [r,g,b,a] to clear the framebuffer
-   */
-
-
-  RenderTarget.prototype.clear = function clear(clearColor) {
-    var cc = clearColor || this.clearColor;
-
-    this.frameBuffer.clear(cc[0], cc[1], cc[2], cc[3]); // r,g,b,a);
-  };
-
-  /**
-   * Binds the stencil buffer.
-   *
-   */
-
-
-  RenderTarget.prototype.attachStencilBuffer = function attachStencilBuffer() {
-    // TODO check if stencil is done?
-    /**
-     * The stencil buffer is used for masking in pixi
-     * lets create one and then add attach it to the framebuffer..
-     */
-    if (!this.root) {
-      this.frameBuffer.enableStencil();
-    }
-  };
-
-  /**
-   * Sets the frame of the render target.
-   *
-   * @param {Rectangle} destinationFrame - The destination frame.
-   * @param {Rectangle} sourceFrame - The source frame.
-   */
-
-
-  RenderTarget.prototype.setFrame = function setFrame(destinationFrame, sourceFrame) {
-    this.destinationFrame = destinationFrame || this.destinationFrame || this.defaultFrame;
-    this.sourceFrame = sourceFrame || this.sourceFrame || this.destinationFrame;
-  };
-
-  /**
-   * Binds the buffers and initialises the viewport.
-   *
-   */
-
-
-  RenderTarget.prototype.activate = function activate() {
-    // TOOD refactor usage of frame..
-    var gl = this.gl;
-
-    // make sure the texture is unbound!
-    this.frameBuffer.bind();
-
-    this.calculateProjection(this.destinationFrame, this.sourceFrame);
-
-    if (this.transform) {
-      this.projectionMatrix.append(this.transform);
-    }
-
-    // TODO add a check as them may be the same!
-    if (this.destinationFrame !== this.sourceFrame) {
-      gl.enable(gl.SCISSOR_TEST);
-      gl.scissor(this.destinationFrame.x | 0, this.destinationFrame.y | 0, this.destinationFrame.width * this.resolution | 0, this.destinationFrame.height * this.resolution | 0);
-    } else {
-      gl.disable(gl.SCISSOR_TEST);
-    }
-
-    // TODO - does not need to be updated all the time??
-    gl.viewport(this.destinationFrame.x | 0, this.destinationFrame.y | 0, this.destinationFrame.width * this.resolution | 0, this.destinationFrame.height * this.resolution | 0);
-  };
-
-  /**
-   * Updates the projection matrix based on a projection frame (which is a rectangle)
-   *
-   * @param {Rectangle} destinationFrame - The destination frame.
-   * @param {Rectangle} sourceFrame - The source frame.
-   */
-
-
-  RenderTarget.prototype.calculateProjection = function calculateProjection(destinationFrame, sourceFrame) {
-    var pm = this.projectionMatrix;
-
-    sourceFrame = sourceFrame || destinationFrame;
-
-    pm.identity();
-
-    // TODO: make dest scale source
-    if (!this.root) {
-      pm.a = 1 / destinationFrame.width * 2;
-      pm.d = 1 / destinationFrame.height * 2;
-
-      pm.tx = -1 - sourceFrame.x * pm.a;
-      pm.ty = -1 - sourceFrame.y * pm.d;
-    } else {
-      pm.a = 1 / destinationFrame.width * 2;
-      pm.d = -1 / destinationFrame.height * 2;
-
-      pm.tx = -1 - sourceFrame.x * pm.a;
-      pm.ty = 1 - sourceFrame.y * pm.d;
-    }
-  };
-
-  /**
-   * Resizes the texture to the specified width and height
-   *
-   * @param {number} width - the new width of the texture
-   * @param {number} height - the new height of the texture
-   */
-
-
-  RenderTarget.prototype.resize = function resize(width, height) {
-    width = width | 0;
-    height = height | 0;
-
-    if (this.size.width === width && this.size.height === height) {
-      return;
-    }
-
-    this.size.width = width;
-    this.size.height = height;
-
-    this.defaultFrame.width = width;
-    this.defaultFrame.height = height;
-
-    this.frameBuffer.resize(width * this.resolution, height * this.resolution);
-
-    var projectionFrame = this.frame || this.size;
-
-    this.calculateProjection(projectionFrame);
-  };
-
-  /**
-   * Destroys the render target.
-   *
-   */
-
-
-  RenderTarget.prototype.destroy = function destroy() {
-    this.frameBuffer.destroy();
-
-    this.frameBuffer = null;
-    this.texture = null;
-  };
-
-  return RenderTarget;
-}();
-
-exports.default = RenderTarget;
-
-
-/***/ }),
-/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3
@@ -11049,25 +5355,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscor
 
 
 /***/ }),
-/* 61 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(363).default;
-module.exports.default = module.exports;
-
-
-
-/***/ }),
-/* 62 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(371).default;
-module.exports.default = module.exports;
-
-
-
-/***/ }),
-/* 63 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11082,7 +5370,7 @@ exports.default = function (instance, Constructor) {
 };
 
 /***/ }),
-/* 64 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11090,7 +5378,7 @@ exports.default = function (instance, Constructor) {
 
 exports.__esModule = true;
 
-var _defineProperty = __webpack_require__(210);
+var _defineProperty = __webpack_require__(219);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -11115,7 +5403,5810 @@ exports.default = function () {
 }();
 
 /***/ }),
+/* 29 */
+/***/ (function(module, exports) {
+
+var core = module.exports = {version: '2.4.0'};
+if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var dP         = __webpack_require__(20)
+  , createDesc = __webpack_require__(53);
+module.exports = __webpack_require__(18) ? function(object, key, value){
+  return dP.f(object, key, createDesc(1, value));
+} : function(object, key, value){
+  object[key] = value;
+  return object;
+};
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var store      = __webpack_require__(75)('wks')
+  , uid        = __webpack_require__(54)
+  , Symbol     = __webpack_require__(15).Symbol
+  , USE_SYMBOL = typeof Symbol == 'function';
+
+var $exports = module.exports = function(name){
+  return store[name] || (store[name] =
+    USE_SYMBOL && Symbol[name] || (USE_SYMBOL ? Symbol : uid)('Symbol.' + name));
+};
+
+$exports.store = store;
+
+/***/ }),
+/* 32 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
+  return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
+});
+
+
+/***/ }),
+/* 33 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_value__ = __webpack_require__(86);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_value__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_array__ = __webpack_require__(142);
+/* unused harmony reexport interpolateArray */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_basis__ = __webpack_require__(85);
+/* unused harmony reexport interpolateBasis */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__ = __webpack_require__(143);
+/* unused harmony reexport interpolateBasisClosed */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_date__ = __webpack_require__(145);
+/* unused harmony reexport interpolateDate */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_number__ = __webpack_require__(56);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__src_number__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(146);
+/* unused harmony reexport interpolateObject */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(295);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_7__src_round__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(148);
+/* unused harmony reexport interpolateString */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(297);
+/* unused harmony reexport interpolateTransformCss */
+/* unused harmony reexport interpolateTransformSvg */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(299);
+/* unused harmony reexport interpolateZoom */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(147);
+/* unused harmony reexport interpolateRgb */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["a"]; });
+/* unused harmony reexport interpolateRgbBasisClosed */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(292);
+/* unused harmony reexport interpolateHsl */
+/* unused harmony reexport interpolateHslLong */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(293);
+/* unused harmony reexport interpolateLab */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(291);
+/* unused harmony reexport interpolateHcl */
+/* unused harmony reexport interpolateHclLong */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(290);
+/* unused harmony reexport interpolateCubehelix */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(294);
+/* unused harmony reexport quantize */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(335);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleBand", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scalePoint", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(341);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleIdentity", function() { return __WEBPACK_IMPORTED_MODULE_1__src_identity__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_linear__ = __webpack_require__(43);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleLinear", function() { return __WEBPACK_IMPORTED_MODULE_2__src_linear__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(342);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleLog", function() { return __WEBPACK_IMPORTED_MODULE_3__src_log__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_ordinal__ = __webpack_require__(152);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleOrdinal", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleImplicit", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(343);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scalePow", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleSqrt", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(344);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleQuantile", function() { return __WEBPACK_IMPORTED_MODULE_6__src_quantile__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(345);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleQuantize", function() { return __WEBPACK_IMPORTED_MODULE_7__src_quantize__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(348);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleThreshold", function() { return __WEBPACK_IMPORTED_MODULE_8__src_threshold__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_time__ = __webpack_require__(153);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleTime", function() { return __WEBPACK_IMPORTED_MODULE_9__src_time__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(350);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleUtc", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcTime__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_category10__ = __webpack_require__(336);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory10", function() { return __WEBPACK_IMPORTED_MODULE_11__src_category10__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_category20b__ = __webpack_require__(338);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20b", function() { return __WEBPACK_IMPORTED_MODULE_12__src_category20b__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_category20c__ = __webpack_require__(339);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20c", function() { return __WEBPACK_IMPORTED_MODULE_13__src_category20c__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_category20__ = __webpack_require__(337);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20", function() { return __WEBPACK_IMPORTED_MODULE_14__src_category20__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(340);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateCubehelixDefault", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_rainbow__ = __webpack_require__(346);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRainbow", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateWarm", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateCool", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["c"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_viridis__ = __webpack_require__(351);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateViridis", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateMagma", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateInferno", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePlasma", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["d"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential__ = __webpack_require__(347);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleSequential", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+Object.defineProperty(exports, "__esModule", { value: true });
+var inferno_shared_1 = __webpack_require__(5);
+var options_1 = __webpack_require__(17);
+var VNodes_1 = __webpack_require__(24);
+var constants_1 = __webpack_require__(58);
+var delegation_1 = __webpack_require__(370);
+var mounting_1 = __webpack_require__(59);
+var rendering_1 = __webpack_require__(44);
+var unmounting_1 = __webpack_require__(90);
+var utils_1 = __webpack_require__(10);
+var processElement_1 = __webpack_require__(91);
+function patch(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling) {
+    if (lastVNode !== nextVNode) {
+        var lastFlags = lastVNode.flags;
+        var nextFlags = nextVNode.flags;
+        if (nextFlags & 28 /* Component */) {
+            var isClass = (nextFlags & 4 /* ComponentClass */) > 0;
+            if (lastFlags & 28 /* Component */) {
+                patchComponent(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isClass, isRecycling);
+            }
+            else {
+                utils_1.replaceVNode(parentDom, mounting_1.mountComponent(nextVNode, null, lifecycle, context, isSVG, isClass), lastVNode, lifecycle, isRecycling);
+            }
+        }
+        else if (nextFlags & 3970 /* Element */) {
+            if (lastFlags & 3970 /* Element */) {
+                patchElement(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling);
+            }
+            else {
+                utils_1.replaceVNode(parentDom, mounting_1.mountElement(nextVNode, null, lifecycle, context, isSVG), lastVNode, lifecycle, isRecycling);
+            }
+        }
+        else if (nextFlags & 1 /* Text */) {
+            if (lastFlags & 1 /* Text */) {
+                patchText(lastVNode, nextVNode);
+            }
+            else {
+                utils_1.replaceVNode(parentDom, mounting_1.mountText(nextVNode, null), lastVNode, lifecycle, isRecycling);
+            }
+        }
+        else if (nextFlags & 4096 /* Void */) {
+            if (lastFlags & 4096 /* Void */) {
+                patchVoid(lastVNode, nextVNode);
+            }
+            else {
+                utils_1.replaceVNode(parentDom, mounting_1.mountVoid(nextVNode, null), lastVNode, lifecycle, isRecycling);
+            }
+        }
+        else {
+            // Error case: mount new one replacing old one
+            utils_1.replaceLastChildAndUnmount(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling);
+        }
+    }
+}
+exports.patch = patch;
+function unmountChildren(children, dom, lifecycle, isRecycling) {
+    if (VNodes_1.isVNode(children)) {
+        unmounting_1.unmount(children, dom, lifecycle, true, isRecycling);
+    }
+    else if (inferno_shared_1.isArray(children)) {
+        utils_1.removeAllChildren(dom, children, lifecycle, isRecycling);
+    }
+    else {
+        dom.textContent = '';
+    }
+}
+function patchElement(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling) {
+    var nextTag = nextVNode.type;
+    var lastTag = lastVNode.type;
+    if (lastTag !== nextTag) {
+        utils_1.replaceWithNewNode(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling);
+    }
+    else {
+        var dom = lastVNode.dom;
+        var lastProps = lastVNode.props;
+        var nextProps = nextVNode.props;
+        var lastChildren = lastVNode.children;
+        var nextChildren = nextVNode.children;
+        var lastFlags = lastVNode.flags;
+        var nextFlags = nextVNode.flags;
+        var nextRef = nextVNode.ref;
+        var lastClassName = lastVNode.className;
+        var nextClassName = nextVNode.className;
+        nextVNode.dom = dom;
+        isSVG = isSVG || (nextFlags & 128 /* SvgElement */) > 0;
+        if (lastChildren !== nextChildren) {
+            patchChildren(lastFlags, nextFlags, lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling);
+        }
+        // inlined patchProps  -- starts --
+        if (lastProps !== nextProps) {
+            var lastPropsOrEmpty = lastProps || utils_1.EMPTY_OBJ;
+            var nextPropsOrEmpty = nextProps || utils_1.EMPTY_OBJ;
+            var hasControlledValue = false;
+            if (nextPropsOrEmpty !== utils_1.EMPTY_OBJ) {
+                var isFormElement = (nextFlags & 3584 /* FormElement */) > 0;
+                if (isFormElement) {
+                    hasControlledValue = processElement_1.isControlledFormElement(nextPropsOrEmpty);
+                }
+                for (var prop in nextPropsOrEmpty) {
+                    // do not add a hasOwnProperty check here, it affects performance
+                    var nextValue = nextPropsOrEmpty[prop];
+                    var lastValue = lastPropsOrEmpty[prop];
+                    patchProp(prop, lastValue, nextValue, dom, isSVG, hasControlledValue);
+                }
+                if (isFormElement) {
+                    // When inferno is recycling form element, we need to process it like it would be mounting
+                    processElement_1.processElement(nextFlags, nextVNode, dom, nextPropsOrEmpty, isRecycling, hasControlledValue);
+                }
+            }
+            if (lastPropsOrEmpty !== utils_1.EMPTY_OBJ) {
+                for (var prop in lastPropsOrEmpty) {
+                    // do not add a hasOwnProperty check here, it affects performance
+                    if (inferno_shared_1.isNullOrUndef(nextPropsOrEmpty[prop]) && !inferno_shared_1.isNullOrUndef(lastPropsOrEmpty[prop])) {
+                        removeProp(prop, lastPropsOrEmpty[prop], dom);
+                    }
+                }
+            }
+        }
+        // inlined patchProps  -- ends --
+        if (lastClassName !== nextClassName) {
+            if (inferno_shared_1.isNullOrUndef(nextClassName)) {
+                dom.removeAttribute('class');
+            }
+            else {
+                if (isSVG) {
+                    dom.setAttribute('class', nextClassName);
+                }
+                else {
+                    dom.className = nextClassName;
+                }
+            }
+        }
+        if (nextRef) {
+            if (lastVNode.ref !== nextRef || isRecycling) {
+                mounting_1.mountRef(dom, nextRef, lifecycle);
+            }
+        }
+    }
+}
+exports.patchElement = patchElement;
+function patchChildren(lastFlags, nextFlags, lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling) {
+    var patchArray = false;
+    var patchKeyed = false;
+    if (nextFlags & 64 /* HasNonKeyedChildren */) {
+        patchArray = true;
+    }
+    else if ((lastFlags & 32 /* HasKeyedChildren */) > 0 && (nextFlags & 32 /* HasKeyedChildren */) > 0) {
+        patchKeyed = true;
+        patchArray = true;
+    }
+    else if (inferno_shared_1.isInvalid(nextChildren)) {
+        unmountChildren(lastChildren, dom, lifecycle, isRecycling);
+    }
+    else if (inferno_shared_1.isInvalid(lastChildren)) {
+        if (inferno_shared_1.isStringOrNumber(nextChildren)) {
+            utils_1.setTextContent(dom, nextChildren);
+        }
+        else {
+            if (inferno_shared_1.isArray(nextChildren)) {
+                mounting_1.mountArrayChildren(nextChildren, dom, lifecycle, context, isSVG);
+            }
+            else {
+                mounting_1.mount(nextChildren, dom, lifecycle, context, isSVG);
+            }
+        }
+    }
+    else if (inferno_shared_1.isStringOrNumber(nextChildren)) {
+        if (inferno_shared_1.isStringOrNumber(lastChildren)) {
+            utils_1.updateTextContent(dom, nextChildren);
+        }
+        else {
+            unmountChildren(lastChildren, dom, lifecycle, isRecycling);
+            utils_1.setTextContent(dom, nextChildren);
+        }
+    }
+    else if (inferno_shared_1.isArray(nextChildren)) {
+        if (inferno_shared_1.isArray(lastChildren)) {
+            patchArray = true;
+            if (utils_1.isKeyed(lastChildren, nextChildren)) {
+                patchKeyed = true;
+            }
+        }
+        else {
+            unmountChildren(lastChildren, dom, lifecycle, isRecycling);
+            mounting_1.mountArrayChildren(nextChildren, dom, lifecycle, context, isSVG);
+        }
+    }
+    else if (inferno_shared_1.isArray(lastChildren)) {
+        utils_1.removeAllChildren(dom, lastChildren, lifecycle, isRecycling);
+        mounting_1.mount(nextChildren, dom, lifecycle, context, isSVG);
+    }
+    else if (VNodes_1.isVNode(nextChildren)) {
+        if (VNodes_1.isVNode(lastChildren)) {
+            patch(lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling);
+        }
+        else {
+            unmountChildren(lastChildren, dom, lifecycle, isRecycling);
+            mounting_1.mount(nextChildren, dom, lifecycle, context, isSVG);
+        }
+    }
+    if (patchArray) {
+        if (patchKeyed) {
+            patchKeyedChildren(lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling);
+        }
+        else {
+            patchNonKeyedChildren(lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling);
+        }
+    }
+}
+function patchComponent(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isClass, isRecycling) {
+    var lastType = lastVNode.type;
+    var nextType = nextVNode.type;
+    var lastKey = lastVNode.key;
+    var nextKey = nextVNode.key;
+    if (lastType !== nextType || lastKey !== nextKey) {
+        utils_1.replaceWithNewNode(lastVNode, nextVNode, parentDom, lifecycle, context, isSVG, isRecycling);
+        return false;
+    }
+    else {
+        var nextProps = nextVNode.props || utils_1.EMPTY_OBJ;
+        if (isClass) {
+            var instance = lastVNode.children;
+            instance._updating = true;
+            if (instance._unmounted) {
+                if (inferno_shared_1.isNull(parentDom)) {
+                    return true;
+                }
+                utils_1.replaceChild(parentDom, mounting_1.mountComponent(nextVNode, null, lifecycle, context, isSVG, (nextVNode.flags & 4 /* ComponentClass */) > 0), lastVNode.dom);
+            }
+            else {
+                var hasComponentDidUpdate = !inferno_shared_1.isUndefined(instance.componentDidUpdate);
+                var nextState = instance.state;
+                // When component has componentDidUpdate hook, we need to clone lastState or will be modified by reference during update
+                var lastState = hasComponentDidUpdate ? inferno_shared_1.combineFrom(nextState, null) : nextState;
+                var lastProps = instance.props;
+                var childContext = void 0;
+                if (!inferno_shared_1.isUndefined(instance.getChildContext)) {
+                    childContext = instance.getChildContext();
+                }
+                nextVNode.children = instance;
+                instance._isSVG = isSVG;
+                if (inferno_shared_1.isNullOrUndef(childContext)) {
+                    childContext = context;
+                }
+                else {
+                    childContext = inferno_shared_1.combineFrom(context, childContext);
+                }
+                var lastInput = instance._lastInput;
+                var nextInput = instance._updateComponent(lastState, nextState, lastProps, nextProps, context, false, false);
+                var didUpdate = true;
+                instance._childContext = childContext;
+                if (inferno_shared_1.isInvalid(nextInput)) {
+                    nextInput = VNodes_1.createVoidVNode();
+                }
+                else if (nextInput === inferno_shared_1.NO_OP) {
+                    nextInput = lastInput;
+                    didUpdate = false;
+                }
+                else if (inferno_shared_1.isStringOrNumber(nextInput)) {
+                    nextInput = VNodes_1.createTextVNode(nextInput, null);
+                }
+                else if (inferno_shared_1.isArray(nextInput)) {
+                    if (process.env.NODE_ENV !== 'production') {
+                        inferno_shared_1.throwError('a valid Inferno VNode (or null) must be returned from a component render. You may have returned an array or an invalid object.');
+                    }
+                    inferno_shared_1.throwError();
+                }
+                else if (inferno_shared_1.isObject(nextInput)) {
+                    if (!inferno_shared_1.isNull(nextInput.dom)) {
+                        nextInput = VNodes_1.directClone(nextInput);
+                    }
+                }
+                if (nextInput.flags & 28 /* Component */) {
+                    nextInput.parentVNode = nextVNode;
+                }
+                else if (lastInput.flags & 28 /* Component */) {
+                    lastInput.parentVNode = nextVNode;
+                }
+                instance._lastInput = nextInput;
+                instance._vNode = nextVNode;
+                if (didUpdate) {
+                    patch(lastInput, nextInput, parentDom, lifecycle, childContext, isSVG, isRecycling);
+                    if (hasComponentDidUpdate) {
+                        instance.componentDidUpdate(lastProps, lastState);
+                    }
+                    if (!inferno_shared_1.isNull(options_1.options.afterUpdate)) {
+                        options_1.options.afterUpdate(nextVNode);
+                    }
+                    if (options_1.options.findDOMNodeEnabled) {
+                        rendering_1.componentToDOMNodeMap.set(instance, nextInput.dom);
+                    }
+                }
+                nextVNode.dom = nextInput.dom;
+            }
+            instance._updating = false;
+        }
+        else {
+            var shouldUpdate = true;
+            var lastProps = lastVNode.props;
+            var nextHooks = nextVNode.ref;
+            var nextHooksDefined = !inferno_shared_1.isNullOrUndef(nextHooks);
+            var lastInput = lastVNode.children;
+            var nextInput = lastInput;
+            nextVNode.dom = lastVNode.dom;
+            nextVNode.children = lastInput;
+            if (lastKey !== nextKey) {
+                shouldUpdate = true;
+            }
+            else {
+                if (nextHooksDefined && !inferno_shared_1.isNullOrUndef(nextHooks.onComponentShouldUpdate)) {
+                    shouldUpdate = nextHooks.onComponentShouldUpdate(lastProps, nextProps);
+                }
+            }
+            if (shouldUpdate !== false) {
+                if (nextHooksDefined && !inferno_shared_1.isNullOrUndef(nextHooks.onComponentWillUpdate)) {
+                    nextHooks.onComponentWillUpdate(lastProps, nextProps);
+                }
+                nextInput = nextType(nextProps, context);
+                if (inferno_shared_1.isInvalid(nextInput)) {
+                    nextInput = VNodes_1.createVoidVNode();
+                }
+                else if (inferno_shared_1.isStringOrNumber(nextInput) && nextInput !== inferno_shared_1.NO_OP) {
+                    nextInput = VNodes_1.createTextVNode(nextInput, null);
+                }
+                else if (inferno_shared_1.isArray(nextInput)) {
+                    if (process.env.NODE_ENV !== 'production') {
+                        inferno_shared_1.throwError('a valid Inferno VNode (or null) must be returned from a component render. You may have returned an array or an invalid object.');
+                    }
+                    inferno_shared_1.throwError();
+                }
+                else if (inferno_shared_1.isObject(nextInput)) {
+                    if (!inferno_shared_1.isNull(nextInput.dom)) {
+                        nextInput = VNodes_1.directClone(nextInput);
+                    }
+                }
+                if (nextInput !== inferno_shared_1.NO_OP) {
+                    patch(lastInput, nextInput, parentDom, lifecycle, context, isSVG, isRecycling);
+                    nextVNode.children = nextInput;
+                    if (nextHooksDefined && !inferno_shared_1.isNullOrUndef(nextHooks.onComponentDidUpdate)) {
+                        nextHooks.onComponentDidUpdate(lastProps, nextProps);
+                    }
+                    nextVNode.dom = nextInput.dom;
+                }
+            }
+            if (nextInput.flags & 28 /* Component */) {
+                nextInput.parentVNode = nextVNode;
+            }
+            else if (lastInput.flags & 28 /* Component */) {
+                lastInput.parentVNode = nextVNode;
+            }
+        }
+    }
+    return false;
+}
+exports.patchComponent = patchComponent;
+function patchText(lastVNode, nextVNode) {
+    var nextText = nextVNode.children;
+    var dom = lastVNode.dom;
+    nextVNode.dom = dom;
+    if (lastVNode.children !== nextText) {
+        dom.nodeValue = nextText;
+    }
+}
+exports.patchText = patchText;
+function patchVoid(lastVNode, nextVNode) {
+    nextVNode.dom = lastVNode.dom;
+}
+exports.patchVoid = patchVoid;
+function patchNonKeyedChildren(lastChildren, nextChildren, dom, lifecycle, context, isSVG, isRecycling) {
+    var lastChildrenLength = lastChildren.length;
+    var nextChildrenLength = nextChildren.length;
+    var commonLength = lastChildrenLength > nextChildrenLength ? nextChildrenLength : lastChildrenLength;
+    var i = 0;
+    for (; i < commonLength; i++) {
+        var nextChild = nextChildren[i];
+        if (nextChild.dom) {
+            nextChild = nextChildren[i] = VNodes_1.directClone(nextChild);
+        }
+        patch(lastChildren[i], nextChild, dom, lifecycle, context, isSVG, isRecycling);
+    }
+    if (lastChildrenLength < nextChildrenLength) {
+        for (i = commonLength; i < nextChildrenLength; i++) {
+            var nextChild = nextChildren[i];
+            if (nextChild.dom) {
+                nextChild = nextChildren[i] = VNodes_1.directClone(nextChild);
+            }
+            utils_1.appendChild(dom, mounting_1.mount(nextChild, null, lifecycle, context, isSVG));
+        }
+    }
+    else if (nextChildrenLength === 0) {
+        utils_1.removeAllChildren(dom, lastChildren, lifecycle, isRecycling);
+    }
+    else if (lastChildrenLength > nextChildrenLength) {
+        for (i = commonLength; i < lastChildrenLength; i++) {
+            unmounting_1.unmount(lastChildren[i], dom, lifecycle, false, isRecycling);
+        }
+    }
+}
+exports.patchNonKeyedChildren = patchNonKeyedChildren;
+function patchKeyedChildren(a, b, dom, lifecycle, context, isSVG, isRecycling) {
+    var aLength = a.length;
+    var bLength = b.length;
+    var aEnd = aLength - 1;
+    var bEnd = bLength - 1;
+    var aStart = 0;
+    var bStart = 0;
+    var i;
+    var j;
+    var aNode;
+    var bNode;
+    var nextNode;
+    var nextPos;
+    var node;
+    if (aLength === 0) {
+        if (bLength > 0) {
+            mounting_1.mountArrayChildren(b, dom, lifecycle, context, isSVG);
+        }
+        return;
+    }
+    else if (bLength === 0) {
+        utils_1.removeAllChildren(dom, a, lifecycle, isRecycling);
+        return;
+    }
+    var aStartNode = a[aStart];
+    var bStartNode = b[bStart];
+    var aEndNode = a[aEnd];
+    var bEndNode = b[bEnd];
+    if (bStartNode.dom) {
+        b[bStart] = bStartNode = VNodes_1.directClone(bStartNode);
+    }
+    if (bEndNode.dom) {
+        b[bEnd] = bEndNode = VNodes_1.directClone(bEndNode);
+    }
+    // Step 1
+    /* eslint no-constant-condition: 0 */
+    outer: while (true) {
+        // Sync nodes with the same key at the beginning.
+        while (aStartNode.key === bStartNode.key) {
+            patch(aStartNode, bStartNode, dom, lifecycle, context, isSVG, isRecycling);
+            aStart++;
+            bStart++;
+            if (aStart > aEnd || bStart > bEnd) {
+                break outer;
+            }
+            aStartNode = a[aStart];
+            bStartNode = b[bStart];
+            if (bStartNode.dom) {
+                b[bStart] = bStartNode = VNodes_1.directClone(bStartNode);
+            }
+        }
+        // Sync nodes with the same key at the end.
+        while (aEndNode.key === bEndNode.key) {
+            patch(aEndNode, bEndNode, dom, lifecycle, context, isSVG, isRecycling);
+            aEnd--;
+            bEnd--;
+            if (aStart > aEnd || bStart > bEnd) {
+                break outer;
+            }
+            aEndNode = a[aEnd];
+            bEndNode = b[bEnd];
+            if (bEndNode.dom) {
+                b[bEnd] = bEndNode = VNodes_1.directClone(bEndNode);
+            }
+        }
+        // Move and sync nodes from right to left.
+        if (aEndNode.key === bStartNode.key) {
+            patch(aEndNode, bStartNode, dom, lifecycle, context, isSVG, isRecycling);
+            utils_1.insertOrAppend(dom, bStartNode.dom, aStartNode.dom);
+            aEnd--;
+            bStart++;
+            aEndNode = a[aEnd];
+            bStartNode = b[bStart];
+            if (bStartNode.dom) {
+                b[bStart] = bStartNode = VNodes_1.directClone(bStartNode);
+            }
+            continue;
+        }
+        // Move and sync nodes from left to right.
+        if (aStartNode.key === bEndNode.key) {
+            patch(aStartNode, bEndNode, dom, lifecycle, context, isSVG, isRecycling);
+            nextPos = bEnd + 1;
+            nextNode = nextPos < b.length ? b[nextPos].dom : null;
+            utils_1.insertOrAppend(dom, bEndNode.dom, nextNode);
+            aStart++;
+            bEnd--;
+            aStartNode = a[aStart];
+            bEndNode = b[bEnd];
+            if (bEndNode.dom) {
+                b[bEnd] = bEndNode = VNodes_1.directClone(bEndNode);
+            }
+            continue;
+        }
+        break;
+    }
+    if (aStart > aEnd) {
+        if (bStart <= bEnd) {
+            nextPos = bEnd + 1;
+            nextNode = nextPos < b.length ? b[nextPos].dom : null;
+            while (bStart <= bEnd) {
+                node = b[bStart];
+                if (node.dom) {
+                    b[bStart] = node = VNodes_1.directClone(node);
+                }
+                bStart++;
+                utils_1.insertOrAppend(dom, mounting_1.mount(node, null, lifecycle, context, isSVG), nextNode);
+            }
+        }
+    }
+    else if (bStart > bEnd) {
+        while (aStart <= aEnd) {
+            unmounting_1.unmount(a[aStart++], dom, lifecycle, false, isRecycling);
+        }
+    }
+    else {
+        aLength = aEnd - aStart + 1;
+        bLength = bEnd - bStart + 1;
+        var sources = new Array(bLength);
+        // Mark all nodes as inserted.
+        for (i = 0; i < bLength; i++) {
+            sources[i] = -1;
+        }
+        var moved = false;
+        var pos = 0;
+        var patched = 0;
+        // When sizes are small, just loop them through
+        if ((bLength <= 4) || (aLength * bLength <= 16)) {
+            for (i = aStart; i <= aEnd; i++) {
+                aNode = a[i];
+                if (patched < bLength) {
+                    for (j = bStart; j <= bEnd; j++) {
+                        bNode = b[j];
+                        if (aNode.key === bNode.key) {
+                            sources[j - bStart] = i;
+                            if (pos > j) {
+                                moved = true;
+                            }
+                            else {
+                                pos = j;
+                            }
+                            if (bNode.dom) {
+                                b[j] = bNode = VNodes_1.directClone(bNode);
+                            }
+                            patch(aNode, bNode, dom, lifecycle, context, isSVG, isRecycling);
+                            patched++;
+                            a[i] = null;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        else {
+            var keyIndex = new Map();
+            // Map keys by their index in array
+            for (i = bStart; i <= bEnd; i++) {
+                keyIndex.set(b[i].key, i);
+            }
+            // Try to patch same keys
+            for (i = aStart; i <= aEnd; i++) {
+                aNode = a[i];
+                if (patched < bLength) {
+                    j = keyIndex.get(aNode.key);
+                    if (!inferno_shared_1.isUndefined(j)) {
+                        bNode = b[j];
+                        sources[j - bStart] = i;
+                        if (pos > j) {
+                            moved = true;
+                        }
+                        else {
+                            pos = j;
+                        }
+                        if (bNode.dom) {
+                            b[j] = bNode = VNodes_1.directClone(bNode);
+                        }
+                        patch(aNode, bNode, dom, lifecycle, context, isSVG, isRecycling);
+                        patched++;
+                        a[i] = null;
+                    }
+                }
+            }
+        }
+        // fast-path: if nothing patched remove all old and add all new
+        if (aLength === a.length && patched === 0) {
+            utils_1.removeAllChildren(dom, a, lifecycle, isRecycling);
+            while (bStart < bLength) {
+                node = b[bStart];
+                if (node.dom) {
+                    b[bStart] = node = VNodes_1.directClone(node);
+                }
+                bStart++;
+                utils_1.insertOrAppend(dom, mounting_1.mount(node, null, lifecycle, context, isSVG), null);
+            }
+        }
+        else {
+            i = aLength - patched;
+            while (i > 0) {
+                aNode = a[aStart++];
+                if (!inferno_shared_1.isNull(aNode)) {
+                    unmounting_1.unmount(aNode, dom, lifecycle, true, isRecycling);
+                    i--;
+                }
+            }
+            if (moved) {
+                var seq = lis_algorithm(sources);
+                j = seq.length - 1;
+                for (i = bLength - 1; i >= 0; i--) {
+                    if (sources[i] === -1) {
+                        pos = i + bStart;
+                        node = b[pos];
+                        if (node.dom) {
+                            b[pos] = node = VNodes_1.directClone(node);
+                        }
+                        nextPos = pos + 1;
+                        nextNode = nextPos < b.length ? b[nextPos].dom : null;
+                        utils_1.insertOrAppend(dom, mounting_1.mount(node, dom, lifecycle, context, isSVG), nextNode);
+                    }
+                    else {
+                        if (j < 0 || i !== seq[j]) {
+                            pos = i + bStart;
+                            node = b[pos];
+                            nextPos = pos + 1;
+                            nextNode = nextPos < b.length ? b[nextPos].dom : null;
+                            utils_1.insertOrAppend(dom, node.dom, nextNode);
+                        }
+                        else {
+                            j--;
+                        }
+                    }
+                }
+            }
+            else if (patched !== bLength) {
+                // when patched count doesn't match b length we need to insert those new ones
+                // loop backwards so we can use insertBefore
+                for (i = bLength - 1; i >= 0; i--) {
+                    if (sources[i] === -1) {
+                        pos = i + bStart;
+                        node = b[pos];
+                        if (node.dom) {
+                            b[pos] = node = VNodes_1.directClone(node);
+                        }
+                        nextPos = pos + 1;
+                        nextNode = nextPos < b.length ? b[nextPos].dom : null;
+                        utils_1.insertOrAppend(dom, mounting_1.mount(node, null, lifecycle, context, isSVG), nextNode);
+                    }
+                }
+            }
+        }
+    }
+}
+exports.patchKeyedChildren = patchKeyedChildren;
+// // https://en.wikipedia.org/wiki/Longest_increasing_subsequence
+function lis_algorithm(arr) {
+    var p = arr.slice(0);
+    var result = [0];
+    var i;
+    var j;
+    var u;
+    var v;
+    var c;
+    var len = arr.length;
+    for (i = 0; i < len; i++) {
+        var arrI = arr[i];
+        if (arrI === -1) {
+            continue;
+        }
+        j = result[result.length - 1];
+        if (arr[j] < arrI) {
+            p[i] = j;
+            result.push(i);
+            continue;
+        }
+        u = 0;
+        v = result.length - 1;
+        while (u < v) {
+            c = ((u + v) / 2) | 0;
+            if (arr[result[c]] < arrI) {
+                u = c + 1;
+            }
+            else {
+                v = c;
+            }
+        }
+        if (arrI < arr[result[u]]) {
+            if (u > 0) {
+                p[i] = result[u - 1];
+            }
+            result[u] = i;
+        }
+    }
+    u = result.length;
+    v = result[u - 1];
+    while (u-- > 0) {
+        result[u] = v;
+        v = p[v];
+    }
+    return result;
+}
+function isAttrAnEvent(attr) {
+    return attr[0] === 'o' && attr[1] === 'n';
+}
+exports.isAttrAnEvent = isAttrAnEvent;
+function patchProp(prop, lastValue, nextValue, dom, isSVG, hasControlledValue) {
+    if (lastValue !== nextValue) {
+        if (constants_1.skipProps.has(prop) || (hasControlledValue && prop === 'value')) {
+            return;
+        }
+        else if (constants_1.booleanProps.has(prop)) {
+            prop = prop === 'autoFocus' ? prop.toLowerCase() : prop;
+            dom[prop] = !!nextValue;
+        }
+        else if (constants_1.strictProps.has(prop)) {
+            var value = inferno_shared_1.isNullOrUndef(nextValue) ? '' : nextValue;
+            if (dom[prop] !== value) {
+                dom[prop] = value;
+            }
+        }
+        else if (isAttrAnEvent(prop)) {
+            patchEvent(prop, lastValue, nextValue, dom);
+        }
+        else if (inferno_shared_1.isNullOrUndef(nextValue)) {
+            dom.removeAttribute(prop);
+        }
+        else if (prop === 'style') {
+            patchStyle(lastValue, nextValue, dom);
+        }
+        else if (prop === 'dangerouslySetInnerHTML') {
+            var lastHtml = lastValue && lastValue.__html;
+            var nextHtml = nextValue && nextValue.__html;
+            if (lastHtml !== nextHtml) {
+                if (!inferno_shared_1.isNullOrUndef(nextHtml)) {
+                    dom.innerHTML = nextHtml;
+                }
+            }
+        }
+        else {
+            // We optimize for NS being boolean. Its 99.9% time false
+            if (isSVG && constants_1.namespaces.has(prop)) {
+                // If we end up in this path we can read property again
+                dom.setAttributeNS(constants_1.namespaces.get(prop), prop, nextValue);
+            }
+            else {
+                dom.setAttribute(prop, nextValue);
+            }
+        }
+    }
+}
+exports.patchProp = patchProp;
+function patchEvent(name, lastValue, nextValue, dom) {
+    if (lastValue !== nextValue) {
+        if (constants_1.delegatedEvents.has(name)) {
+            delegation_1.handleEvent(name, lastValue, nextValue, dom);
+        }
+        else {
+            var nameLowerCase = name.toLowerCase();
+            var domEvent = dom[nameLowerCase];
+            // if the function is wrapped, that means it's been controlled by a wrapper
+            if (domEvent && domEvent.wrapped) {
+                return;
+            }
+            if (!inferno_shared_1.isFunction(nextValue) && !inferno_shared_1.isNullOrUndef(nextValue)) {
+                var linkEvent_1 = nextValue.event;
+                if (linkEvent_1 && inferno_shared_1.isFunction(linkEvent_1)) {
+                    dom[nameLowerCase] = function (e) {
+                        linkEvent_1(nextValue.data, e);
+                    };
+                }
+                else {
+                    if (process.env.NODE_ENV !== 'production') {
+                        inferno_shared_1.throwError("an event on a VNode \"" + name + "\". was not a function or a valid linkEvent.");
+                    }
+                    inferno_shared_1.throwError();
+                }
+            }
+            else {
+                dom[nameLowerCase] = nextValue;
+            }
+        }
+    }
+}
+exports.patchEvent = patchEvent;
+// We are assuming here that we come from patchProp routine
+// -nextAttrValue cannot be null or undefined
+function patchStyle(lastAttrValue, nextAttrValue, dom) {
+    var domStyle = dom.style;
+    if (inferno_shared_1.isString(nextAttrValue)) {
+        domStyle.cssText = nextAttrValue;
+        return;
+    }
+    for (var style in nextAttrValue) {
+        // do not add a hasOwnProperty check here, it affects performance
+        var value = nextAttrValue[style];
+        if (!inferno_shared_1.isNumber(value) || constants_1.isUnitlessNumber.has(style)) {
+            domStyle[style] = value;
+        }
+        else {
+            domStyle[style] = value + 'px';
+        }
+    }
+    if (!inferno_shared_1.isNullOrUndef(lastAttrValue)) {
+        for (var style in lastAttrValue) {
+            if (inferno_shared_1.isNullOrUndef(nextAttrValue[style])) {
+                domStyle[style] = '';
+            }
+        }
+    }
+}
+exports.patchStyle = patchStyle;
+function removeProp(prop, lastValue, dom) {
+    if (prop === 'value') {
+        dom.value = '';
+    }
+    else if (prop === 'style') {
+        dom.removeAttribute('style');
+    }
+    else if (isAttrAnEvent(prop)) {
+        delegation_1.handleEvent(prop, lastValue, null, dom);
+    }
+    else {
+        dom.removeAttribute(prop);
+    }
+}
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _utils = __webpack_require__(4);
+
+var _settings = __webpack_require__(6);
+
+var _settings2 = _interopRequireDefault(_settings);
+
+var _eventemitter = __webpack_require__(23);
+
+var _eventemitter2 = _interopRequireDefault(_eventemitter);
+
+var _determineCrossOrigin = __webpack_require__(423);
+
+var _determineCrossOrigin2 = _interopRequireDefault(_determineCrossOrigin);
+
+var _bitTwiddle = __webpack_require__(66);
+
+var _bitTwiddle2 = _interopRequireDefault(_bitTwiddle);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * A texture stores the information that represents an image. All textures have a base texture.
+ *
+ * @class
+ * @extends EventEmitter
+ * @memberof PIXI
+ */
+var BaseTexture = function (_EventEmitter) {
+    _inherits(BaseTexture, _EventEmitter);
+
+    /**
+     * @param {HTMLImageElement|HTMLCanvasElement} [source] - the source object of the texture.
+     * @param {number} [scaleMode=PIXI.settings.SCALE_MODE] - See {@link PIXI.SCALE_MODES} for possible values
+     * @param {number} [resolution=1] - The resolution / device pixel ratio of the texture
+     */
+    function BaseTexture(source, scaleMode, resolution) {
+        _classCallCheck(this, BaseTexture);
+
+        var _this = _possibleConstructorReturn(this, _EventEmitter.call(this));
+
+        _this.uid = (0, _utils.uid)();
+
+        _this.touched = 0;
+
+        /**
+         * The resolution / device pixel ratio of the texture
+         *
+         * @member {number}
+         * @default 1
+         */
+        _this.resolution = resolution || _settings2.default.RESOLUTION;
+
+        /**
+         * The width of the base texture set when the image has loaded
+         *
+         * @readonly
+         * @member {number}
+         */
+        _this.width = 100;
+
+        /**
+         * The height of the base texture set when the image has loaded
+         *
+         * @readonly
+         * @member {number}
+         */
+        _this.height = 100;
+
+        // TODO docs
+        // used to store the actual dimensions of the source
+        /**
+         * Used to store the actual width of the source of this texture
+         *
+         * @readonly
+         * @member {number}
+         */
+        _this.realWidth = 100;
+        /**
+         * Used to store the actual height of the source of this texture
+         *
+         * @readonly
+         * @member {number}
+         */
+        _this.realHeight = 100;
+
+        /**
+         * The scale mode to apply when scaling this texture
+         *
+         * @member {number}
+         * @default PIXI.settings.SCALE_MODE
+         * @see PIXI.SCALE_MODES
+         */
+        _this.scaleMode = scaleMode !== undefined ? scaleMode : _settings2.default.SCALE_MODE;
+
+        /**
+         * Set to true once the base texture has successfully loaded.
+         *
+         * This is never true if the underlying source fails to load or has no texture data.
+         *
+         * @readonly
+         * @member {boolean}
+         */
+        _this.hasLoaded = false;
+
+        /**
+         * Set to true if the source is currently loading.
+         *
+         * If an Image source is loading the 'loaded' or 'error' event will be
+         * dispatched when the operation ends. An underyling source that is
+         * immediately-available bypasses loading entirely.
+         *
+         * @readonly
+         * @member {boolean}
+         */
+        _this.isLoading = false;
+
+        /**
+         * The image source that is used to create the texture.
+         *
+         * TODO: Make this a setter that calls loadSource();
+         *
+         * @readonly
+         * @member {HTMLImageElement|HTMLCanvasElement}
+         */
+        _this.source = null; // set in loadSource, if at all
+
+        /**
+         * The image source that is used to create the texture. This is used to
+         * store the original Svg source when it is replaced with a canvas element.
+         *
+         * TODO: Currently not in use but could be used when re-scaling svg.
+         *
+         * @readonly
+         * @member {Image}
+         */
+        _this.origSource = null; // set in loadSvg, if at all
+
+        /**
+         * Type of image defined in source, eg. `png` or `svg`
+         *
+         * @readonly
+         * @member {string}
+         */
+        _this.imageType = null; // set in updateImageType
+
+        /**
+         * Scale for source image. Used with Svg images to scale them before rasterization.
+         *
+         * @readonly
+         * @member {number}
+         */
+        _this.sourceScale = 1.0;
+
+        /**
+         * Controls if RGB channels should be pre-multiplied by Alpha  (WebGL only)
+         * All blend modes, and shaders written for default value. Change it on your own risk.
+         *
+         * @member {boolean}
+         * @default true
+         */
+        _this.premultipliedAlpha = true;
+
+        /**
+         * The image url of the texture
+         *
+         * @member {string}
+         */
+        _this.imageUrl = null;
+
+        /**
+         * Whether or not the texture is a power of two, try to use power of two textures as much
+         * as you can
+         *
+         * @private
+         * @member {boolean}
+         */
+        _this.isPowerOfTwo = false;
+
+        // used for webGL
+
+        /**
+         *
+         * Set this to true if a mipmap of this texture needs to be generated. This value needs
+         * to be set before the texture is used
+         * Also the texture must be a power of two size to work
+         *
+         * @member {boolean}
+         * @see PIXI.MIPMAP_TEXTURES
+         */
+        _this.mipmap = _settings2.default.MIPMAP_TEXTURES;
+
+        /**
+         *
+         * WebGL Texture wrap mode
+         *
+         * @member {number}
+         * @see PIXI.WRAP_MODES
+         */
+        _this.wrapMode = _settings2.default.WRAP_MODE;
+
+        /**
+         * A map of renderer IDs to webgl textures
+         *
+         * @private
+         * @member {object<number, WebGLTexture>}
+         */
+        _this._glTextures = {};
+
+        _this._enabled = 0;
+        _this._virtalBoundId = -1;
+
+        /**
+         * If the object has been destroyed via destroy(). If true, it should not be used.
+         *
+         * @member {boolean}
+         * @private
+         * @readonly
+         */
+        _this._destroyed = false;
+
+        /**
+         * The ids under which this BaseTexture has been added to the base texture cache. This is
+         * automatically set as long as BaseTexture.addToCache is used, but may not be set if a
+         * BaseTexture is added directly to the BaseTextureCache array.
+         *
+         * @member {string[]}
+         */
+        _this.textureCacheIds = [];
+
+        // if no source passed don't try to load
+        if (source) {
+            _this.loadSource(source);
+        }
+
+        /**
+         * Fired when a not-immediately-available source finishes loading.
+         *
+         * @protected
+         * @event PIXI.BaseTexture#loaded
+         * @param {PIXI.BaseTexture} baseTexture - Resource loaded.
+         */
+
+        /**
+         * Fired when a not-immediately-available source fails to load.
+         *
+         * @protected
+         * @event PIXI.BaseTexture#error
+         * @param {PIXI.BaseTexture} baseTexture - Resource errored.
+         */
+
+        /**
+         * Fired when BaseTexture is updated.
+         *
+         * @protected
+         * @event PIXI.BaseTexture#update
+         * @param {PIXI.BaseTexture} baseTexture - Instance of texture being updated.
+         */
+
+        /**
+         * Fired when BaseTexture is destroyed.
+         *
+         * @protected
+         * @event PIXI.BaseTexture#dispose
+         * @param {PIXI.BaseTexture} baseTexture - Instance of texture being destroyed.
+         */
+        return _this;
+    }
+
+    /**
+     * Updates the texture on all the webgl renderers, this also assumes the src has changed.
+     *
+     * @fires PIXI.BaseTexture#update
+     */
+
+
+    BaseTexture.prototype.update = function update() {
+        // Svg size is handled during load
+        if (this.imageType !== 'svg') {
+            this.realWidth = this.source.naturalWidth || this.source.videoWidth || this.source.width;
+            this.realHeight = this.source.naturalHeight || this.source.videoHeight || this.source.height;
+
+            this._updateDimensions();
+        }
+
+        this.emit('update', this);
+    };
+
+    /**
+     * Update dimensions from real values
+     */
+
+
+    BaseTexture.prototype._updateDimensions = function _updateDimensions() {
+        this.width = this.realWidth / this.resolution;
+        this.height = this.realHeight / this.resolution;
+
+        this.isPowerOfTwo = _bitTwiddle2.default.isPow2(this.realWidth) && _bitTwiddle2.default.isPow2(this.realHeight);
+    };
+
+    /**
+     * Load a source.
+     *
+     * If the source is not-immediately-available, such as an image that needs to be
+     * downloaded, then the 'loaded' or 'error' event will be dispatched in the future
+     * and `hasLoaded` will remain false after this call.
+     *
+     * The logic state after calling `loadSource` directly or indirectly (eg. `fromImage`, `new BaseTexture`) is:
+     *
+     *     if (texture.hasLoaded) {
+     *        // texture ready for use
+     *     } else if (texture.isLoading) {
+     *        // listen to 'loaded' and/or 'error' events on texture
+     *     } else {
+     *        // not loading, not going to load UNLESS the source is reloaded
+     *        // (it may still make sense to listen to the events)
+     *     }
+     *
+     * @protected
+     * @param {HTMLImageElement|HTMLCanvasElement} source - the source object of the texture.
+     */
+
+
+    BaseTexture.prototype.loadSource = function loadSource(source) {
+        var wasLoading = this.isLoading;
+
+        this.hasLoaded = false;
+        this.isLoading = false;
+
+        if (wasLoading && this.source) {
+            this.source.onload = null;
+            this.source.onerror = null;
+        }
+
+        var firstSourceLoaded = !this.source;
+
+        this.source = source;
+
+        // Apply source if loaded. Otherwise setup appropriate loading monitors.
+        if ((source.src && source.complete || source.getContext) && source.width && source.height) {
+            this._updateImageType();
+
+            if (this.imageType === 'svg') {
+                this._loadSvgSource();
+            } else {
+                this._sourceLoaded();
+            }
+
+            if (firstSourceLoaded) {
+                // send loaded event if previous source was null and we have been passed a pre-loaded IMG element
+                this.emit('loaded', this);
+            }
+        } else if (!source.getContext) {
+            // Image fail / not ready
+            this.isLoading = true;
+
+            var scope = this;
+
+            source.onload = function () {
+                scope._updateImageType();
+                source.onload = null;
+                source.onerror = null;
+
+                if (!scope.isLoading) {
+                    return;
+                }
+
+                scope.isLoading = false;
+                scope._sourceLoaded();
+
+                if (scope.imageType === 'svg') {
+                    scope._loadSvgSource();
+
+                    return;
+                }
+
+                scope.emit('loaded', scope);
+            };
+
+            source.onerror = function () {
+                source.onload = null;
+                source.onerror = null;
+
+                if (!scope.isLoading) {
+                    return;
+                }
+
+                scope.isLoading = false;
+                scope.emit('error', scope);
+            };
+
+            // Per http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element
+            //   "The value of `complete` can thus change while a script is executing."
+            // So complete needs to be re-checked after the callbacks have been added..
+            // NOTE: complete will be true if the image has no src so best to check if the src is set.
+            if (source.complete && source.src) {
+                // ..and if we're complete now, no need for callbacks
+                source.onload = null;
+                source.onerror = null;
+
+                if (scope.imageType === 'svg') {
+                    scope._loadSvgSource();
+
+                    return;
+                }
+
+                this.isLoading = false;
+
+                if (source.width && source.height) {
+                    this._sourceLoaded();
+
+                    // If any previous subscribers possible
+                    if (wasLoading) {
+                        this.emit('loaded', this);
+                    }
+                }
+                // If any previous subscribers possible
+                else if (wasLoading) {
+                        this.emit('error', this);
+                    }
+            }
+        }
+    };
+
+    /**
+     * Updates type of the source image.
+     */
+
+
+    BaseTexture.prototype._updateImageType = function _updateImageType() {
+        if (!this.imageUrl) {
+            return;
+        }
+
+        var dataUri = (0, _utils.decomposeDataUri)(this.imageUrl);
+        var imageType = void 0;
+
+        if (dataUri && dataUri.mediaType === 'image') {
+            // Check for subType validity
+            var firstSubType = dataUri.subType.split('+')[0];
+
+            imageType = (0, _utils.getUrlFileExtension)('.' + firstSubType);
+
+            if (!imageType) {
+                throw new Error('Invalid image type in data URI.');
+            }
+        } else {
+            imageType = (0, _utils.getUrlFileExtension)(this.imageUrl);
+
+            if (!imageType) {
+                imageType = 'png';
+            }
+        }
+
+        this.imageType = imageType;
+    };
+
+    /**
+     * Checks if `source` is an SVG image and whether it's loaded via a URL or a data URI. Then calls
+     * `_loadSvgSourceUsingDataUri` or `_loadSvgSourceUsingXhr`.
+     */
+
+
+    BaseTexture.prototype._loadSvgSource = function _loadSvgSource() {
+        if (this.imageType !== 'svg') {
+            // Do nothing if source is not svg
+            return;
+        }
+
+        var dataUri = (0, _utils.decomposeDataUri)(this.imageUrl);
+
+        if (dataUri) {
+            this._loadSvgSourceUsingDataUri(dataUri);
+        } else {
+            // We got an URL, so we need to do an XHR to check the svg size
+            this._loadSvgSourceUsingXhr();
+        }
+    };
+
+    /**
+     * Reads an SVG string from data URI and then calls `_loadSvgSourceUsingString`.
+     *
+     * @param {string} dataUri - The data uri to load from.
+     */
+
+
+    BaseTexture.prototype._loadSvgSourceUsingDataUri = function _loadSvgSourceUsingDataUri(dataUri) {
+        var svgString = void 0;
+
+        if (dataUri.encoding === 'base64') {
+            if (!atob) {
+                throw new Error('Your browser doesn\'t support base64 conversions.');
+            }
+            svgString = atob(dataUri.data);
+        } else {
+            svgString = dataUri.data;
+        }
+
+        this._loadSvgSourceUsingString(svgString);
+    };
+
+    /**
+     * Loads an SVG string from `imageUrl` using XHR and then calls `_loadSvgSourceUsingString`.
+     */
+
+
+    BaseTexture.prototype._loadSvgSourceUsingXhr = function _loadSvgSourceUsingXhr() {
+        var _this2 = this;
+
+        var svgXhr = new XMLHttpRequest();
+
+        // This throws error on IE, so SVG Document can't be used
+        // svgXhr.responseType = 'document';
+
+        // This is not needed since we load the svg as string (breaks IE too)
+        // but overrideMimeType() can be used to force the response to be parsed as XML
+        // svgXhr.overrideMimeType('image/svg+xml');
+
+        svgXhr.onload = function () {
+            if (svgXhr.readyState !== svgXhr.DONE || svgXhr.status !== 200) {
+                throw new Error('Failed to load SVG using XHR.');
+            }
+
+            _this2._loadSvgSourceUsingString(svgXhr.response);
+        };
+
+        svgXhr.onerror = function () {
+            return _this2.emit('error', _this2);
+        };
+
+        svgXhr.open('GET', this.imageUrl, true);
+        svgXhr.send();
+    };
+
+    /**
+     * Loads texture using an SVG string. The original SVG Image is stored as `origSource` and the
+     * created canvas is the new `source`. The SVG is scaled using `sourceScale`. Called by
+     * `_loadSvgSourceUsingXhr` or `_loadSvgSourceUsingDataUri`.
+     *
+     * @param  {string} svgString SVG source as string
+     *
+     * @fires PIXI.BaseTexture#loaded
+     */
+
+
+    BaseTexture.prototype._loadSvgSourceUsingString = function _loadSvgSourceUsingString(svgString) {
+        var svgSize = (0, _utils.getSvgSize)(svgString);
+
+        var svgWidth = svgSize.width;
+        var svgHeight = svgSize.height;
+
+        if (!svgWidth || !svgHeight) {
+            throw new Error('The SVG image must have width and height defined (in pixels), canvas API needs them.');
+        }
+
+        // Scale realWidth and realHeight
+        this.realWidth = Math.round(svgWidth * this.sourceScale);
+        this.realHeight = Math.round(svgHeight * this.sourceScale);
+
+        this._updateDimensions();
+
+        // Create a canvas element
+        var canvas = document.createElement('canvas');
+
+        canvas.width = this.realWidth;
+        canvas.height = this.realHeight;
+        canvas._pixiId = 'canvas_' + (0, _utils.uid)();
+
+        // Draw the Svg to the canvas
+        canvas.getContext('2d').drawImage(this.source, 0, 0, svgWidth, svgHeight, 0, 0, this.realWidth, this.realHeight);
+
+        // Replace the original source image with the canvas
+        this.origSource = this.source;
+        this.source = canvas;
+
+        // Add also the canvas in cache (destroy clears by `imageUrl` and `source._pixiId`)
+        BaseTexture.addToCache(this, canvas._pixiId);
+
+        this.isLoading = false;
+        this._sourceLoaded();
+        this.emit('loaded', this);
+    };
+
+    /**
+     * Used internally to update the width, height, and some other tracking vars once
+     * a source has successfully loaded.
+     *
+     * @private
+     */
+
+
+    BaseTexture.prototype._sourceLoaded = function _sourceLoaded() {
+        this.hasLoaded = true;
+        this.update();
+    };
+
+    /**
+     * Destroys this base texture
+     *
+     */
+
+
+    BaseTexture.prototype.destroy = function destroy() {
+        if (this.imageUrl) {
+            delete _utils.TextureCache[this.imageUrl];
+
+            this.imageUrl = null;
+
+            if (!navigator.isCocoonJS) {
+                this.source.src = '';
+            }
+        }
+
+        this.source = null;
+
+        this.dispose();
+
+        BaseTexture.removeFromCache(this);
+        this.textureCacheIds = null;
+
+        this._destroyed = true;
+    };
+
+    /**
+     * Frees the texture from WebGL memory without destroying this texture object.
+     * This means you can still use the texture later which will upload it to GPU
+     * memory again.
+     *
+     * @fires PIXI.BaseTexture#dispose
+     */
+
+
+    BaseTexture.prototype.dispose = function dispose() {
+        this.emit('dispose', this);
+    };
+
+    /**
+     * Changes the source image of the texture.
+     * The original source must be an Image element.
+     *
+     * @param {string} newSrc - the path of the image
+     */
+
+
+    BaseTexture.prototype.updateSourceImage = function updateSourceImage(newSrc) {
+        this.source.src = newSrc;
+
+        this.loadSource(this.source);
+    };
+
+    /**
+     * Helper function that creates a base texture from the given image url.
+     * If the image is not in the base texture cache it will be created and loaded.
+     *
+     * @static
+     * @param {string} imageUrl - The image url of the texture
+     * @param {boolean} [crossorigin=(auto)] - Should use anonymous CORS? Defaults to true if the URL is not a data-URI.
+     * @param {number} [scaleMode=PIXI.settings.SCALE_MODE] - See {@link PIXI.SCALE_MODES} for possible values
+     * @param {number} [sourceScale=(auto)] - Scale for the original image, used with Svg images.
+     * @return {PIXI.BaseTexture} The new base texture.
+     */
+
+
+    BaseTexture.fromImage = function fromImage(imageUrl, crossorigin, scaleMode, sourceScale) {
+        var baseTexture = _utils.BaseTextureCache[imageUrl];
+
+        if (!baseTexture) {
+            // new Image() breaks tex loading in some versions of Chrome.
+            // See https://code.google.com/p/chromium/issues/detail?id=238071
+            var image = new Image(); // document.createElement('img');
+
+            if (crossorigin === undefined && imageUrl.indexOf('data:') !== 0) {
+                image.crossOrigin = (0, _determineCrossOrigin2.default)(imageUrl);
+            } else if (crossorigin) {
+                image.crossOrigin = typeof crossorigin === 'string' ? crossorigin : 'anonymous';
+            }
+
+            baseTexture = new BaseTexture(image, scaleMode);
+            baseTexture.imageUrl = imageUrl;
+
+            if (sourceScale) {
+                baseTexture.sourceScale = sourceScale;
+            }
+
+            // if there is an @2x at the end of the url we are going to assume its a highres image
+            baseTexture.resolution = (0, _utils.getResolutionOfUrl)(imageUrl);
+
+            image.src = imageUrl; // Setting this triggers load
+
+            BaseTexture.addToCache(baseTexture, imageUrl);
+        }
+
+        return baseTexture;
+    };
+
+    /**
+     * Helper function that creates a base texture from the given canvas element.
+     *
+     * @static
+     * @param {HTMLCanvasElement} canvas - The canvas element source of the texture
+     * @param {number} scaleMode - See {@link PIXI.SCALE_MODES} for possible values
+     * @param {string} [origin='canvas'] - A string origin of who created the base texture
+     * @return {PIXI.BaseTexture} The new base texture.
+     */
+
+
+    BaseTexture.fromCanvas = function fromCanvas(canvas, scaleMode) {
+        var origin = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'canvas';
+
+        if (!canvas._pixiId) {
+            canvas._pixiId = origin + '_' + (0, _utils.uid)();
+        }
+
+        var baseTexture = _utils.BaseTextureCache[canvas._pixiId];
+
+        if (!baseTexture) {
+            baseTexture = new BaseTexture(canvas, scaleMode);
+            BaseTexture.addToCache(baseTexture, canvas._pixiId);
+        }
+
+        return baseTexture;
+    };
+
+    /**
+     * Helper function that creates a base texture based on the source you provide.
+     * The source can be - image url, image element, canvas element.
+     *
+     * @static
+     * @param {string|HTMLImageElement|HTMLCanvasElement} source - The source to create base texture from.
+     * @param {number} [scaleMode=PIXI.settings.SCALE_MODE] - See {@link PIXI.SCALE_MODES} for possible values
+     * @param {number} [sourceScale=(auto)] - Scale for the original image, used with Svg images.
+     * @return {PIXI.BaseTexture} The new base texture.
+     */
+
+
+    BaseTexture.from = function from(source, scaleMode, sourceScale) {
+        if (typeof source === 'string') {
+            return BaseTexture.fromImage(source, undefined, scaleMode, sourceScale);
+        } else if (source instanceof HTMLImageElement) {
+            var imageUrl = source.src;
+            var baseTexture = _utils.BaseTextureCache[imageUrl];
+
+            if (!baseTexture) {
+                baseTexture = new BaseTexture(source, scaleMode);
+                baseTexture.imageUrl = imageUrl;
+
+                if (sourceScale) {
+                    baseTexture.sourceScale = sourceScale;
+                }
+
+                // if there is an @2x at the end of the url we are going to assume its a highres image
+                baseTexture.resolution = (0, _utils.getResolutionOfUrl)(imageUrl);
+
+                BaseTexture.addToCache(baseTexture, imageUrl);
+            }
+
+            return baseTexture;
+        } else if (source instanceof HTMLCanvasElement) {
+            return BaseTexture.fromCanvas(source, scaleMode);
+        }
+
+        // lets assume its a base texture!
+        return source;
+    };
+
+    /**
+     * Adds a BaseTexture to the global BaseTextureCache. This cache is shared across the whole PIXI object.
+     *
+     * @static
+     * @param {PIXI.BaseTexture} baseTexture - The BaseTexture to add to the cache.
+     * @param {string} id - The id that the BaseTexture will be stored against.
+     */
+
+
+    BaseTexture.addToCache = function addToCache(baseTexture, id) {
+        if (id) {
+            if (baseTexture.textureCacheIds.indexOf(id) === -1) {
+                baseTexture.textureCacheIds.push(id);
+            }
+
+            // @if DEBUG
+            /* eslint-disable no-console */
+            if (_utils.BaseTextureCache[id]) {
+                console.warn('BaseTexture added to the cache with an id [' + id + '] that already had an entry');
+            }
+            /* eslint-enable no-console */
+            // @endif
+
+            _utils.BaseTextureCache[id] = baseTexture;
+        }
+    };
+
+    /**
+     * Remove a BaseTexture from the global BaseTextureCache.
+     *
+     * @static
+     * @param {string|PIXI.BaseTexture} baseTexture - id of a BaseTexture to be removed, or a BaseTexture instance itself.
+     * @return {PIXI.BaseTexture|null} The BaseTexture that was removed.
+     */
+
+
+    BaseTexture.removeFromCache = function removeFromCache(baseTexture) {
+        if (typeof baseTexture === 'string') {
+            var baseTextureFromCache = _utils.BaseTextureCache[baseTexture];
+
+            if (baseTextureFromCache) {
+                var index = baseTextureFromCache.textureCacheIds.indexOf(baseTexture);
+
+                if (index > -1) {
+                    baseTextureFromCache.textureCacheIds.splice(index, 1);
+                }
+
+                delete _utils.BaseTextureCache[baseTexture];
+
+                return baseTextureFromCache;
+            }
+        } else if (baseTexture && baseTexture.textureCacheIds) {
+            for (var i = 0; i < baseTexture.textureCacheIds.length; ++i) {
+                delete _utils.BaseTextureCache[baseTexture.textureCacheIds[i]];
+            }
+
+            baseTexture.textureCacheIds.length = 0;
+
+            return baseTexture;
+        }
+
+        return null;
+    };
+
+    return BaseTexture;
+}(_eventemitter2.default);
+
+exports.default = BaseTexture;
+
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(39);
+module.exports = function(it){
+  if(!isObject(it))throw TypeError(it + ' is not an object!');
+  return it;
+};
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global    = __webpack_require__(15)
+  , core      = __webpack_require__(29)
+  , ctx       = __webpack_require__(115)
+  , hide      = __webpack_require__(30)
+  , PROTOTYPE = 'prototype';
+
+var $export = function(type, name, source){
+  var IS_FORCED = type & $export.F
+    , IS_GLOBAL = type & $export.G
+    , IS_STATIC = type & $export.S
+    , IS_PROTO  = type & $export.P
+    , IS_BIND   = type & $export.B
+    , IS_WRAP   = type & $export.W
+    , exports   = IS_GLOBAL ? core : core[name] || (core[name] = {})
+    , expProto  = exports[PROTOTYPE]
+    , target    = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE]
+    , key, own, out;
+  if(IS_GLOBAL)source = name;
+  for(key in source){
+    // contains in native
+    own = !IS_FORCED && target && target[key] !== undefined;
+    if(own && key in exports)continue;
+    // export native or passed
+    out = own ? target[key] : source[key];
+    // prevent global pollution for namespaces
+    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
+    // bind timers to global for call from export context
+    : IS_BIND && own ? ctx(out, global)
+    // wrap global constructors for prevent change them in library
+    : IS_WRAP && target[key] == out ? (function(C){
+      var F = function(a, b, c){
+        if(this instanceof C){
+          switch(arguments.length){
+            case 0: return new C;
+            case 1: return new C(a);
+            case 2: return new C(a, b);
+          } return new C(a, b, c);
+        } return C.apply(this, arguments);
+      };
+      F[PROTOTYPE] = C[PROTOTYPE];
+      return F;
+    // make static versions for prototype methods
+    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
+    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%
+    if(IS_PROTO){
+      (exports.virtual || (exports.virtual = {}))[key] = out;
+      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%
+      if(type & $export.R && expProto && !expProto[key])hide(expProto, key, out);
+    }
+  }
+};
+// type bitmap
+$export.F = 1;   // forced
+$export.G = 2;   // global
+$export.S = 4;   // static
+$export.P = 8;   // proto
+$export.B = 16;  // bind
+$export.W = 32;  // wrap
+$export.U = 64;  // safe
+$export.R = 128; // real proto method for `library` 
+module.exports = $export;
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports) {
+
+module.exports = function(it){
+  return typeof it === 'object' ? it !== null : typeof it === 'function';
+};
+
+/***/ }),
+/* 40 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = (function(x) {
+  return x === null ? NaN : +x;
+});
+
+
+/***/ }),
+/* 41 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(144);
+/* harmony export (immutable) */ __webpack_exports__["b"] = hue;
+/* harmony export (immutable) */ __webpack_exports__["c"] = gamma;
+/* harmony export (immutable) */ __webpack_exports__["a"] = nogamma;
+
+
+function linear(a, d) {
+  return function(t) {
+    return a + t * d;
+  };
+}
+
+function exponential(a, b, y) {
+  return a = Math.pow(a, y), b = Math.pow(b, y) - a, y = 1 / y, function(t) {
+    return Math.pow(a + t * b, y);
+  };
+}
+
+function hue(a, b) {
+  var d = b - a;
+  return d ? linear(a, d > 180 || d < -180 ? d - 360 * Math.round(d / 360) : d) : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__constant__["a" /* default */])(isNaN(a) ? b : a);
+}
+
+function gamma(y) {
+  return (y = +y) === 1 ? nogamma : function(a, b) {
+    return b - a ? exponential(a, b, y) : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__constant__["a" /* default */])(isNaN(a) ? b : a);
+  };
+}
+
+function nogamma(a, b) {
+  var d = b - a;
+  return d ? linear(a, d) : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__constant__["a" /* default */])(isNaN(a) ? b : a);
+}
+
+
+/***/ }),
+/* 42 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = (function(s) {
+  return s.match(/.{6}/g).map(function(x) {
+    return "#" + x;
+  });
+});
+
+
+/***/ }),
+/* 43 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(349);
+/* harmony export (immutable) */ __webpack_exports__["b"] = linearish;
+/* harmony export (immutable) */ __webpack_exports__["a"] = linear;
+
+
+
+
+
+function linearish(scale) {
+  var domain = scale.domain;
+
+  scale.ticks = function(count) {
+    var d = domain();
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["a" /* ticks */])(d[0], d[d.length - 1], count == null ? 10 : count);
+  };
+
+  scale.tickFormat = function(count, specifier) {
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__tickFormat__["a" /* default */])(domain(), count, specifier);
+  };
+
+  scale.nice = function(count) {
+    if (count == null) count = 10;
+
+    var d = domain(),
+        i0 = 0,
+        i1 = d.length - 1,
+        start = d[i0],
+        stop = d[i1],
+        step;
+
+    if (stop < start) {
+      step = start, start = stop, stop = step;
+      step = i0, i0 = i1, i1 = step;
+    }
+
+    step = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["b" /* tickIncrement */])(start, stop, count);
+
+    if (step > 0) {
+      start = Math.floor(start / step) * step;
+      stop = Math.ceil(stop / step) * step;
+      step = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["b" /* tickIncrement */])(start, stop, count);
+    } else if (step < 0) {
+      start = Math.ceil(start * step) / step;
+      stop = Math.floor(stop * step) / step;
+      step = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["b" /* tickIncrement */])(start, stop, count);
+    }
+
+    if (step > 0) {
+      d[i0] = Math.floor(start / step) * step;
+      d[i1] = Math.ceil(stop / step) * step;
+      domain(d);
+    } else if (step < 0) {
+      d[i0] = Math.ceil(start * step) / step;
+      d[i1] = Math.floor(stop * step) / step;
+      domain(d);
+    }
+
+    return scale;
+  };
+
+  return scale;
+}
+
+function linear() {
+  var scale = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__continuous__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_2__continuous__["b" /* deinterpolateLinear */], __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__["b" /* interpolateNumber */]);
+
+  scale.copy = function() {
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__continuous__["c" /* copy */])(scale, linear());
+  };
+
+  return linearish(scale);
+}
+
+
+/***/ }),
+/* 44 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+Object.defineProperty(exports, "__esModule", { value: true });
+var inferno_shared_1 = __webpack_require__(5);
+var options_1 = __webpack_require__(17);
+var VNodes_1 = __webpack_require__(24);
+var hydration_1 = __webpack_require__(372);
+var mounting_1 = __webpack_require__(59);
+var patching_1 = __webpack_require__(35);
+var unmounting_1 = __webpack_require__(90);
+var utils_1 = __webpack_require__(10);
+// rather than use a Map, like we did before, we can use an array here
+// given there shouldn't be THAT many roots on the page, the difference
+// in performance is huge: https://esbench.com/bench/5802a691330ab09900a1a2da
+exports.componentToDOMNodeMap = new Map();
+var roots = options_1.options.roots;
+/**
+ * When inferno.options.findDOMNOdeEnabled is true, this function will return DOM Node by component instance
+ * @param ref Component instance
+ * @returns {*|null} returns dom node
+ */
+function findDOMNode(ref) {
+    if (!options_1.options.findDOMNodeEnabled) {
+        if (process.env.NODE_ENV !== 'production') {
+            inferno_shared_1.throwError('findDOMNode() has been disabled, use Inferno.options.findDOMNodeEnabled = true; enabled findDOMNode(). Warning this can significantly impact performance!');
+        }
+        inferno_shared_1.throwError();
+    }
+    var dom = ref && ref.nodeType ? ref : null;
+    return exports.componentToDOMNodeMap.get(ref) || dom;
+}
+exports.findDOMNode = findDOMNode;
+function getRoot(dom) {
+    for (var i = 0, len = roots.length; i < len; i++) {
+        var root = roots[i];
+        if (root.dom === dom) {
+            return root;
+        }
+    }
+    return null;
+}
+function setRoot(dom, input, lifecycle) {
+    var root = {
+        dom: dom,
+        input: input,
+        lifecycle: lifecycle
+    };
+    roots.push(root);
+    return root;
+}
+function removeRoot(root) {
+    for (var i = 0, len = roots.length; i < len; i++) {
+        if (roots[i] === root) {
+            roots.splice(i, 1);
+            return;
+        }
+    }
+}
+if (process.env.NODE_ENV !== 'production') {
+    if (inferno_shared_1.isBrowser && document.body === null) {
+        inferno_shared_1.warning('Inferno warning: you cannot initialize inferno without "document.body". Wait on "DOMContentLoaded" event, add script to bottom of body, or use async/defer attributes on script tag.');
+    }
+}
+var documentBody = inferno_shared_1.isBrowser ? document.body : null;
+/**
+ * Renders virtual node tree into parent node.
+ * @param {VNode | null | string | number} input vNode to be rendered
+ * @param parentDom DOM node which content will be replaced by virtual node
+ * @returns {InfernoChildren} rendered virtual node
+ */
+function render(input, parentDom) {
+    if (documentBody === parentDom) {
+        if (process.env.NODE_ENV !== 'production') {
+            inferno_shared_1.throwError('you cannot render() to the "document.body". Use an empty element as a container instead.');
+        }
+        inferno_shared_1.throwError();
+    }
+    if (input === inferno_shared_1.NO_OP) {
+        return;
+    }
+    var root = getRoot(parentDom);
+    if (inferno_shared_1.isNull(root)) {
+        var lifecycle = new inferno_shared_1.Lifecycle();
+        if (!inferno_shared_1.isInvalid(input)) {
+            if (input.dom) {
+                input = VNodes_1.directClone(input);
+            }
+            if (!hydration_1.hydrateRoot(input, parentDom, lifecycle)) {
+                mounting_1.mount(input, parentDom, lifecycle, utils_1.EMPTY_OBJ, false);
+            }
+            root = setRoot(parentDom, input, lifecycle);
+            lifecycle.trigger();
+        }
+    }
+    else {
+        var lifecycle = root.lifecycle;
+        lifecycle.listeners = [];
+        if (inferno_shared_1.isNullOrUndef(input)) {
+            unmounting_1.unmount(root.input, parentDom, lifecycle, false, false);
+            removeRoot(root);
+        }
+        else {
+            if (input.dom) {
+                input = VNodes_1.directClone(input);
+            }
+            patching_1.patch(root.input, input, parentDom, lifecycle, utils_1.EMPTY_OBJ, false, false);
+        }
+        root.input = input;
+        lifecycle.trigger();
+    }
+    if (root) {
+        var rootInput = root.input;
+        if (rootInput && (rootInput.flags & 28 /* Component */)) {
+            return rootInput.children;
+        }
+    }
+}
+exports.render = render;
+function createRenderer(parentDom) {
+    return function renderer(lastInput, nextInput) {
+        if (!parentDom) {
+            parentDom = lastInput;
+        }
+        render(nextInput, parentDom);
+    };
+}
+exports.createRenderer = createRenderer;
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
+
+/***/ }),
+/* 45 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _pixiGlCore = __webpack_require__(9);
+
+var _settings = __webpack_require__(6);
+
+var _settings2 = _interopRequireDefault(_settings);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function checkPrecision(src, def) {
+    if (src instanceof Array) {
+        if (src[0].substring(0, 9) !== 'precision') {
+            var copy = src.slice(0);
+
+            copy.unshift('precision ' + def + ' float;');
+
+            return copy;
+        }
+    } else if (src.substring(0, 9) !== 'precision') {
+        return 'precision ' + def + ' float;\n' + src;
+    }
+
+    return src;
+}
+
+/**
+ * Wrapper class, webGL Shader for Pixi.
+ * Adds precision string if vertexSrc or fragmentSrc have no mention of it.
+ *
+ * @class
+ * @extends GLShader
+ * @memberof PIXI
+ */
+
+var Shader = function (_GLShader) {
+    _inherits(Shader, _GLShader);
+
+    /**
+     *
+     * @param {WebGLRenderingContext} gl - The current WebGL rendering context
+     * @param {string|string[]} vertexSrc - The vertex shader source as an array of strings.
+     * @param {string|string[]} fragmentSrc - The fragment shader source as an array of strings.
+     */
+    function Shader(gl, vertexSrc, fragmentSrc) {
+        _classCallCheck(this, Shader);
+
+        return _possibleConstructorReturn(this, _GLShader.call(this, gl, checkPrecision(vertexSrc, _settings2.default.PRECISION_VERTEX), checkPrecision(fragmentSrc, _settings2.default.PRECISION_FRAGMENT)));
+    }
+
+    return Shader;
+}(_pixiGlCore.GLShader);
+
+exports.default = Shader;
+
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _utils = __webpack_require__(4);
+
+var _DisplayObject2 = __webpack_require__(175);
+
+var _DisplayObject3 = _interopRequireDefault(_DisplayObject2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * A Container represents a collection of display objects.
+ * It is the base class of all display objects that act as a container for other objects.
+ *
+ *```js
+ * let container = new PIXI.Container();
+ * container.addChild(sprite);
+ * ```
+ *
+ * @class
+ * @extends PIXI.DisplayObject
+ * @memberof PIXI
+ */
+var Container = function (_DisplayObject) {
+    _inherits(Container, _DisplayObject);
+
+    /**
+     *
+     */
+    function Container() {
+        _classCallCheck(this, Container);
+
+        /**
+         * The array of children of this container.
+         *
+         * @member {PIXI.DisplayObject[]}
+         * @readonly
+         */
+        var _this = _possibleConstructorReturn(this, _DisplayObject.call(this));
+
+        _this.children = [];
+        return _this;
+    }
+
+    /**
+     * Overridable method that can be used by Container subclasses whenever the children array is modified
+     *
+     * @private
+     */
+
+
+    Container.prototype.onChildrenChange = function onChildrenChange() {}
+    /* empty */
+
+
+    /**
+     * Adds one or more children to the container.
+     *
+     * Multiple items can be added like so: `myContainer.addChild(thingOne, thingTwo, thingThree)`
+     *
+     * @param {...PIXI.DisplayObject} child - The DisplayObject(s) to add to the container
+     * @return {PIXI.DisplayObject} The first child that was added.
+     */
+    ;
+
+    Container.prototype.addChild = function addChild(child) {
+        var argumentsLength = arguments.length;
+
+        // if there is only one argument we can bypass looping through the them
+        if (argumentsLength > 1) {
+            // loop through the arguments property and add all children
+            // use it the right way (.length and [i]) so that this function can still be optimised by JS runtimes
+            for (var i = 0; i < argumentsLength; i++) {
+                this.addChild(arguments[i]);
+            }
+        } else {
+            // if the child has a parent then lets remove it as Pixi objects can only exist in one place
+            if (child.parent) {
+                child.parent.removeChild(child);
+            }
+
+            child.parent = this;
+            // ensure child transform will be recalculated
+            child.transform._parentID = -1;
+
+            this.children.push(child);
+
+            // ensure bounds will be recalculated
+            this._boundsID++;
+
+            // TODO - lets either do all callbacks or all events.. not both!
+            this.onChildrenChange(this.children.length - 1);
+            child.emit('added', this);
+        }
+
+        return child;
+    };
+
+    /**
+     * Adds a child to the container at a specified index. If the index is out of bounds an error will be thrown
+     *
+     * @param {PIXI.DisplayObject} child - The child to add
+     * @param {number} index - The index to place the child in
+     * @return {PIXI.DisplayObject} The child that was added.
+     */
+
+
+    Container.prototype.addChildAt = function addChildAt(child, index) {
+        if (index < 0 || index > this.children.length) {
+            throw new Error(child + 'addChildAt: The index ' + index + ' supplied is out of bounds ' + this.children.length);
+        }
+
+        if (child.parent) {
+            child.parent.removeChild(child);
+        }
+
+        child.parent = this;
+        // ensure child transform will be recalculated
+        child.transform._parentID = -1;
+
+        this.children.splice(index, 0, child);
+
+        // ensure bounds will be recalculated
+        this._boundsID++;
+
+        // TODO - lets either do all callbacks or all events.. not both!
+        this.onChildrenChange(index);
+        child.emit('added', this);
+
+        return child;
+    };
+
+    /**
+     * Swaps the position of 2 Display Objects within this container.
+     *
+     * @param {PIXI.DisplayObject} child - First display object to swap
+     * @param {PIXI.DisplayObject} child2 - Second display object to swap
+     */
+
+
+    Container.prototype.swapChildren = function swapChildren(child, child2) {
+        if (child === child2) {
+            return;
+        }
+
+        var index1 = this.getChildIndex(child);
+        var index2 = this.getChildIndex(child2);
+
+        this.children[index1] = child2;
+        this.children[index2] = child;
+        this.onChildrenChange(index1 < index2 ? index1 : index2);
+    };
+
+    /**
+     * Returns the index position of a child DisplayObject instance
+     *
+     * @param {PIXI.DisplayObject} child - The DisplayObject instance to identify
+     * @return {number} The index position of the child display object to identify
+     */
+
+
+    Container.prototype.getChildIndex = function getChildIndex(child) {
+        var index = this.children.indexOf(child);
+
+        if (index === -1) {
+            throw new Error('The supplied DisplayObject must be a child of the caller');
+        }
+
+        return index;
+    };
+
+    /**
+     * Changes the position of an existing child in the display object container
+     *
+     * @param {PIXI.DisplayObject} child - The child DisplayObject instance for which you want to change the index number
+     * @param {number} index - The resulting index number for the child display object
+     */
+
+
+    Container.prototype.setChildIndex = function setChildIndex(child, index) {
+        if (index < 0 || index >= this.children.length) {
+            throw new Error('The supplied index is out of bounds');
+        }
+
+        var currentIndex = this.getChildIndex(child);
+
+        (0, _utils.removeItems)(this.children, currentIndex, 1); // remove from old position
+        this.children.splice(index, 0, child); // add at new position
+
+        this.onChildrenChange(index);
+    };
+
+    /**
+     * Returns the child at the specified index
+     *
+     * @param {number} index - The index to get the child at
+     * @return {PIXI.DisplayObject} The child at the given index, if any.
+     */
+
+
+    Container.prototype.getChildAt = function getChildAt(index) {
+        if (index < 0 || index >= this.children.length) {
+            throw new Error('getChildAt: Index (' + index + ') does not exist.');
+        }
+
+        return this.children[index];
+    };
+
+    /**
+     * Removes one or more children from the container.
+     *
+     * @param {...PIXI.DisplayObject} child - The DisplayObject(s) to remove
+     * @return {PIXI.DisplayObject} The first child that was removed.
+     */
+
+
+    Container.prototype.removeChild = function removeChild(child) {
+        var argumentsLength = arguments.length;
+
+        // if there is only one argument we can bypass looping through the them
+        if (argumentsLength > 1) {
+            // loop through the arguments property and add all children
+            // use it the right way (.length and [i]) so that this function can still be optimised by JS runtimes
+            for (var i = 0; i < argumentsLength; i++) {
+                this.removeChild(arguments[i]);
+            }
+        } else {
+            var index = this.children.indexOf(child);
+
+            if (index === -1) return null;
+
+            child.parent = null;
+            // ensure child transform will be recalculated
+            child.transform._parentID = -1;
+            (0, _utils.removeItems)(this.children, index, 1);
+
+            // ensure bounds will be recalculated
+            this._boundsID++;
+
+            // TODO - lets either do all callbacks or all events.. not both!
+            this.onChildrenChange(index);
+            child.emit('removed', this);
+        }
+
+        return child;
+    };
+
+    /**
+     * Removes a child from the specified index position.
+     *
+     * @param {number} index - The index to get the child from
+     * @return {PIXI.DisplayObject} The child that was removed.
+     */
+
+
+    Container.prototype.removeChildAt = function removeChildAt(index) {
+        var child = this.getChildAt(index);
+
+        // ensure child transform will be recalculated..
+        child.parent = null;
+        child.transform._parentID = -1;
+        (0, _utils.removeItems)(this.children, index, 1);
+
+        // ensure bounds will be recalculated
+        this._boundsID++;
+
+        // TODO - lets either do all callbacks or all events.. not both!
+        this.onChildrenChange(index);
+        child.emit('removed', this);
+
+        return child;
+    };
+
+    /**
+     * Removes all children from this container that are within the begin and end indexes.
+     *
+     * @param {number} [beginIndex=0] - The beginning position.
+     * @param {number} [endIndex=this.children.length] - The ending position. Default value is size of the container.
+     * @returns {DisplayObject[]} List of removed children
+     */
+
+
+    Container.prototype.removeChildren = function removeChildren() {
+        var beginIndex = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+        var endIndex = arguments[1];
+
+        var begin = beginIndex;
+        var end = typeof endIndex === 'number' ? endIndex : this.children.length;
+        var range = end - begin;
+        var removed = void 0;
+
+        if (range > 0 && range <= end) {
+            removed = this.children.splice(begin, range);
+
+            for (var i = 0; i < removed.length; ++i) {
+                removed[i].parent = null;
+                if (removed[i].transform) {
+                    removed[i].transform._parentID = -1;
+                }
+            }
+
+            this._boundsID++;
+
+            this.onChildrenChange(beginIndex);
+
+            for (var _i = 0; _i < removed.length; ++_i) {
+                removed[_i].emit('removed', this);
+            }
+
+            return removed;
+        } else if (range === 0 && this.children.length === 0) {
+            return [];
+        }
+
+        throw new RangeError('removeChildren: numeric values are outside the acceptable range.');
+    };
+
+    /**
+     * Updates the transform on all children of this container for rendering
+     */
+
+
+    Container.prototype.updateTransform = function updateTransform() {
+        this._boundsID++;
+
+        this.transform.updateTransform(this.parent.transform);
+
+        // TODO: check render flags, how to process stuff here
+        this.worldAlpha = this.alpha * this.parent.worldAlpha;
+
+        for (var i = 0, j = this.children.length; i < j; ++i) {
+            var child = this.children[i];
+
+            if (child.visible) {
+                child.updateTransform();
+            }
+        }
+    };
+
+    /**
+     * Recalculates the bounds of the container.
+     *
+     */
+
+
+    Container.prototype.calculateBounds = function calculateBounds() {
+        this._bounds.clear();
+
+        this._calculateBounds();
+
+        for (var i = 0; i < this.children.length; i++) {
+            var child = this.children[i];
+
+            if (!child.visible || !child.renderable) {
+                continue;
+            }
+
+            child.calculateBounds();
+
+            // TODO: filter+mask, need to mask both somehow
+            if (child._mask) {
+                child._mask.calculateBounds();
+                this._bounds.addBoundsMask(child._bounds, child._mask._bounds);
+            } else if (child.filterArea) {
+                this._bounds.addBoundsArea(child._bounds, child.filterArea);
+            } else {
+                this._bounds.addBounds(child._bounds);
+            }
+        }
+
+        this._lastBoundsID = this._boundsID;
+    };
+
+    /**
+     * Recalculates the bounds of the object. Override this to
+     * calculate the bounds of the specific object (not including children).
+     *
+     */
+
+
+    Container.prototype._calculateBounds = function _calculateBounds() {}
+    // FILL IN//
+
+
+    /**
+     * Renders the object using the WebGL renderer
+     *
+     * @param {PIXI.WebGLRenderer} renderer - The renderer
+     */
+    ;
+
+    Container.prototype.renderWebGL = function renderWebGL(renderer) {
+        // if the object is not visible or the alpha is 0 then no need to render this element
+        if (!this.visible || this.worldAlpha <= 0 || !this.renderable) {
+            return;
+        }
+
+        // do a quick check to see if this element has a mask or a filter.
+        if (this._mask || this._filters) {
+            this.renderAdvancedWebGL(renderer);
+        } else {
+            this._renderWebGL(renderer);
+
+            // simple render children!
+            for (var i = 0, j = this.children.length; i < j; ++i) {
+                this.children[i].renderWebGL(renderer);
+            }
+        }
+    };
+
+    /**
+     * Render the object using the WebGL renderer and advanced features.
+     *
+     * @private
+     * @param {PIXI.WebGLRenderer} renderer - The renderer
+     */
+
+
+    Container.prototype.renderAdvancedWebGL = function renderAdvancedWebGL(renderer) {
+        renderer.flush();
+
+        var filters = this._filters;
+        var mask = this._mask;
+
+        // push filter first as we need to ensure the stencil buffer is correct for any masking
+        if (filters) {
+            if (!this._enabledFilters) {
+                this._enabledFilters = [];
+            }
+
+            this._enabledFilters.length = 0;
+
+            for (var i = 0; i < filters.length; i++) {
+                if (filters[i].enabled) {
+                    this._enabledFilters.push(filters[i]);
+                }
+            }
+
+            if (this._enabledFilters.length) {
+                renderer.filterManager.pushFilter(this, this._enabledFilters);
+            }
+        }
+
+        if (mask) {
+            renderer.maskManager.pushMask(this, this._mask);
+        }
+
+        // add this object to the batch, only rendered if it has a texture.
+        this._renderWebGL(renderer);
+
+        // now loop through the children and make sure they get rendered
+        for (var _i2 = 0, j = this.children.length; _i2 < j; _i2++) {
+            this.children[_i2].renderWebGL(renderer);
+        }
+
+        renderer.flush();
+
+        if (mask) {
+            renderer.maskManager.popMask(this, this._mask);
+        }
+
+        if (filters && this._enabledFilters && this._enabledFilters.length) {
+            renderer.filterManager.popFilter();
+        }
+    };
+
+    /**
+     * To be overridden by the subclasses.
+     *
+     * @private
+     * @param {PIXI.WebGLRenderer} renderer - The renderer
+     */
+
+
+    Container.prototype._renderWebGL = function _renderWebGL(renderer) // eslint-disable-line no-unused-vars
+    {}
+    // this is where content itself gets rendered...
+
+
+    /**
+     * To be overridden by the subclass
+     *
+     * @private
+     * @param {PIXI.CanvasRenderer} renderer - The renderer
+     */
+    ;
+
+    Container.prototype._renderCanvas = function _renderCanvas(renderer) // eslint-disable-line no-unused-vars
+    {}
+    // this is where content itself gets rendered...
+
+
+    /**
+     * Renders the object using the Canvas renderer
+     *
+     * @param {PIXI.CanvasRenderer} renderer - The renderer
+     */
+    ;
+
+    Container.prototype.renderCanvas = function renderCanvas(renderer) {
+        // if not visible or the alpha is 0 then no need to render this
+        if (!this.visible || this.worldAlpha <= 0 || !this.renderable) {
+            return;
+        }
+
+        if (this._mask) {
+            renderer.maskManager.pushMask(this._mask);
+        }
+
+        this._renderCanvas(renderer);
+        for (var i = 0, j = this.children.length; i < j; ++i) {
+            this.children[i].renderCanvas(renderer);
+        }
+
+        if (this._mask) {
+            renderer.maskManager.popMask(renderer);
+        }
+    };
+
+    /**
+     * Removes all internal references and listeners as well as removes children from the display list.
+     * Do not use a Container after calling `destroy`.
+     *
+     * @param {object|boolean} [options] - Options parameter. A boolean will act as if all options
+     *  have been set to that value
+     * @param {boolean} [options.children=false] - if set to true, all the children will have their destroy
+     *  method called as well. 'options' will be passed on to those calls.
+     * @param {boolean} [options.texture=false] - Only used for child Sprites if options.children is set to true
+     *  Should it destroy the texture of the child sprite
+     * @param {boolean} [options.baseTexture=false] - Only used for child Sprites if options.children is set to true
+     *  Should it destroy the base texture of the child sprite
+     */
+
+
+    Container.prototype.destroy = function destroy(options) {
+        _DisplayObject.prototype.destroy.call(this);
+
+        var destroyChildren = typeof options === 'boolean' ? options : options && options.children;
+
+        var oldChildren = this.removeChildren(0, this.children.length);
+
+        if (destroyChildren) {
+            for (var i = 0; i < oldChildren.length; ++i) {
+                oldChildren[i].destroy(options);
+            }
+        }
+    };
+
+    /**
+     * The width of the Container, setting this will actually modify the scale to achieve the value set
+     *
+     * @member {number}
+     */
+
+
+    _createClass(Container, [{
+        key: 'width',
+        get: function get() {
+            return this.scale.x * this.getLocalBounds().width;
+        },
+        set: function set(value) // eslint-disable-line require-jsdoc
+        {
+            var width = this.getLocalBounds().width;
+
+            if (width !== 0) {
+                this.scale.x = value / width;
+            } else {
+                this.scale.x = 1;
+            }
+
+            this._width = value;
+        }
+
+        /**
+         * The height of the Container, setting this will actually modify the scale to achieve the value set
+         *
+         * @member {number}
+         */
+
+    }, {
+        key: 'height',
+        get: function get() {
+            return this.scale.y * this.getLocalBounds().height;
+        },
+        set: function set(value) // eslint-disable-line require-jsdoc
+        {
+            var height = this.getLocalBounds().height;
+
+            if (height !== 0) {
+                this.scale.y = value / height;
+            } else {
+                this.scale.y = 1;
+            }
+
+            this._height = value;
+        }
+    }]);
+
+    return Container;
+}(_DisplayObject3.default);
+
+// performance increase to avoid using call.. (10x faster)
+
+
+exports.default = Container;
+Container.prototype.containerUpdateTransform = Container.prototype.updateTransform;
+
+
+/***/ }),
+/* 47 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _SystemRenderer2 = __webpack_require__(181);
+
+var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
+
+var _CanvasMaskManager = __webpack_require__(400);
+
+var _CanvasMaskManager2 = _interopRequireDefault(_CanvasMaskManager);
+
+var _CanvasRenderTarget = __webpack_require__(182);
+
+var _CanvasRenderTarget2 = _interopRequireDefault(_CanvasRenderTarget);
+
+var _mapCanvasBlendModesToPixi = __webpack_require__(401);
+
+var _mapCanvasBlendModesToPixi2 = _interopRequireDefault(_mapCanvasBlendModesToPixi);
+
+var _utils = __webpack_require__(4);
+
+var _const = __webpack_require__(1);
+
+var _settings = __webpack_require__(6);
+
+var _settings2 = _interopRequireDefault(_settings);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * The CanvasRenderer draws the scene and all its content onto a 2d canvas. This renderer should
+ * be used for browsers that do not support WebGL. Don't forget to add the CanvasRenderer.view to
+ * your DOM or you will not see anything :)
+ *
+ * @class
+ * @memberof PIXI
+ * @extends PIXI.SystemRenderer
+ */
+var CanvasRenderer = function (_SystemRenderer) {
+    _inherits(CanvasRenderer, _SystemRenderer);
+
+    // eslint-disable-next-line valid-jsdoc
+    /**
+     * @param {object} [options] - The optional renderer parameters
+     * @param {number} [options.width=800] - the width of the screen
+     * @param {number} [options.height=600] - the height of the screen
+     * @param {HTMLCanvasElement} [options.view] - the canvas to use as a view, optional
+     * @param {boolean} [options.transparent=false] - If the render view is transparent, default false
+     * @param {boolean} [options.autoResize=false] - If the render view is automatically resized, default false
+     * @param {boolean} [options.antialias=false] - sets antialias (only applicable in chrome at the moment)
+     * @param {number} [options.resolution=1] - The resolution / device pixel ratio of the renderer. The
+     *  resolution of the renderer retina would be 2.
+     * @param {boolean} [options.preserveDrawingBuffer=false] - enables drawing buffer preservation,
+     *  enable this if you need to call toDataUrl on the webgl context.
+     * @param {boolean} [options.clearBeforeRender=true] - This sets if the renderer will clear the canvas or
+     *      not before the new render pass.
+     * @param {number} [options.backgroundColor=0x000000] - The background color of the rendered area
+     *  (shown if not transparent).
+     * @param {boolean} [options.roundPixels=false] - If true Pixi will Math.floor() x/y values when rendering,
+     *  stopping pixel interpolation.
+     */
+    function CanvasRenderer(options, arg2, arg3) {
+        _classCallCheck(this, CanvasRenderer);
+
+        var _this = _possibleConstructorReturn(this, _SystemRenderer.call(this, 'Canvas', options, arg2, arg3));
+
+        _this.type = _const.RENDERER_TYPE.CANVAS;
+
+        /**
+         * The root canvas 2d context that everything is drawn with.
+         *
+         * @member {CanvasRenderingContext2D}
+         */
+        _this.rootContext = _this.view.getContext('2d', { alpha: _this.transparent });
+
+        /**
+         * The currently active canvas 2d context (could change with renderTextures)
+         *
+         * @member {CanvasRenderingContext2D}
+         */
+        _this.context = _this.rootContext;
+
+        /**
+         * Boolean flag controlling canvas refresh.
+         *
+         * @member {boolean}
+         */
+        _this.refresh = true;
+
+        /**
+         * Instance of a CanvasMaskManager, handles masking when using the canvas renderer.
+         *
+         * @member {PIXI.CanvasMaskManager}
+         */
+        _this.maskManager = new _CanvasMaskManager2.default(_this);
+
+        /**
+         * The canvas property used to set the canvas smoothing property.
+         *
+         * @member {string}
+         */
+        _this.smoothProperty = 'imageSmoothingEnabled';
+
+        if (!_this.rootContext.imageSmoothingEnabled) {
+            if (_this.rootContext.webkitImageSmoothingEnabled) {
+                _this.smoothProperty = 'webkitImageSmoothingEnabled';
+            } else if (_this.rootContext.mozImageSmoothingEnabled) {
+                _this.smoothProperty = 'mozImageSmoothingEnabled';
+            } else if (_this.rootContext.oImageSmoothingEnabled) {
+                _this.smoothProperty = 'oImageSmoothingEnabled';
+            } else if (_this.rootContext.msImageSmoothingEnabled) {
+                _this.smoothProperty = 'msImageSmoothingEnabled';
+            }
+        }
+
+        _this.initPlugins();
+
+        _this.blendModes = (0, _mapCanvasBlendModesToPixi2.default)();
+        _this._activeBlendMode = null;
+
+        _this.renderingToScreen = false;
+
+        _this.resize(_this.options.width, _this.options.height);
+
+        /**
+         * Fired after rendering finishes.
+         *
+         * @event PIXI.CanvasRenderer#postrender
+         */
+
+        /**
+         * Fired before rendering starts.
+         *
+         * @event PIXI.CanvasRenderer#prerender
+         */
+        return _this;
+    }
+
+    /**
+     * Renders the object to this canvas view
+     *
+     * @param {PIXI.DisplayObject} displayObject - The object to be rendered
+     * @param {PIXI.RenderTexture} [renderTexture] - A render texture to be rendered to.
+     *  If unset, it will render to the root context.
+     * @param {boolean} [clear=false] - Whether to clear the canvas before drawing
+     * @param {PIXI.Transform} [transform] - A transformation to be applied
+     * @param {boolean} [skipUpdateTransform=false] - Whether to skip the update transform
+     */
+
+
+    CanvasRenderer.prototype.render = function render(displayObject, renderTexture, clear, transform, skipUpdateTransform) {
+        if (!this.view) {
+            return;
+        }
+
+        // can be handy to know!
+        this.renderingToScreen = !renderTexture;
+
+        this.emit('prerender');
+
+        var rootResolution = this.resolution;
+
+        if (renderTexture) {
+            renderTexture = renderTexture.baseTexture || renderTexture;
+
+            if (!renderTexture._canvasRenderTarget) {
+                renderTexture._canvasRenderTarget = new _CanvasRenderTarget2.default(renderTexture.width, renderTexture.height, renderTexture.resolution);
+                renderTexture.source = renderTexture._canvasRenderTarget.canvas;
+                renderTexture.valid = true;
+            }
+
+            this.context = renderTexture._canvasRenderTarget.context;
+            this.resolution = renderTexture._canvasRenderTarget.resolution;
+        } else {
+            this.context = this.rootContext;
+        }
+
+        var context = this.context;
+
+        if (!renderTexture) {
+            this._lastObjectRendered = displayObject;
+        }
+
+        if (!skipUpdateTransform) {
+            // update the scene graph
+            var cacheParent = displayObject.parent;
+            var tempWt = this._tempDisplayObjectParent.transform.worldTransform;
+
+            if (transform) {
+                transform.copy(tempWt);
+
+                // lets not forget to flag the parent transform as dirty...
+                this._tempDisplayObjectParent.transform._worldID = -1;
+            } else {
+                tempWt.identity();
+            }
+
+            displayObject.parent = this._tempDisplayObjectParent;
+
+            displayObject.updateTransform();
+            displayObject.parent = cacheParent;
+            // displayObject.hitArea = //TODO add a temp hit area
+        }
+
+        context.setTransform(1, 0, 0, 1, 0, 0);
+        context.globalAlpha = 1;
+        context.globalCompositeOperation = this.blendModes[_const.BLEND_MODES.NORMAL];
+
+        if (navigator.isCocoonJS && this.view.screencanvas) {
+            context.fillStyle = 'black';
+            context.clear();
+        }
+
+        if (clear !== undefined ? clear : this.clearBeforeRender) {
+            if (this.renderingToScreen) {
+                if (this.transparent) {
+                    context.clearRect(0, 0, this.width, this.height);
+                } else {
+                    context.fillStyle = this._backgroundColorString;
+                    context.fillRect(0, 0, this.width, this.height);
+                }
+            } // else {
+            // TODO: implement background for CanvasRenderTarget or RenderTexture?
+            // }
+        }
+
+        // TODO RENDER TARGET STUFF HERE..
+        var tempContext = this.context;
+
+        this.context = context;
+        displayObject.renderCanvas(this);
+        this.context = tempContext;
+
+        this.resolution = rootResolution;
+
+        this.emit('postrender');
+    };
+
+    /**
+     * Clear the canvas of renderer.
+     *
+     * @param {string} [clearColor] - Clear the canvas with this color, except the canvas is transparent.
+     */
+
+
+    CanvasRenderer.prototype.clear = function clear(clearColor) {
+        var context = this.context;
+
+        clearColor = clearColor || this._backgroundColorString;
+
+        if (!this.transparent && clearColor) {
+            context.fillStyle = clearColor;
+            context.fillRect(0, 0, this.width, this.height);
+        } else {
+            context.clearRect(0, 0, this.width, this.height);
+        }
+    };
+
+    /**
+     * Sets the blend mode of the renderer.
+     *
+     * @param {number} blendMode - See {@link PIXI.BLEND_MODES} for valid values.
+     */
+
+
+    CanvasRenderer.prototype.setBlendMode = function setBlendMode(blendMode) {
+        if (this._activeBlendMode === blendMode) {
+            return;
+        }
+
+        this._activeBlendMode = blendMode;
+        this.context.globalCompositeOperation = this.blendModes[blendMode];
+    };
+
+    /**
+     * Removes everything from the renderer and optionally removes the Canvas DOM element.
+     *
+     * @param {boolean} [removeView=false] - Removes the Canvas element from the DOM.
+     */
+
+
+    CanvasRenderer.prototype.destroy = function destroy(removeView) {
+        this.destroyPlugins();
+
+        // call the base destroy
+        _SystemRenderer.prototype.destroy.call(this, removeView);
+
+        this.context = null;
+
+        this.refresh = true;
+
+        this.maskManager.destroy();
+        this.maskManager = null;
+
+        this.smoothProperty = null;
+    };
+
+    /**
+     * Resizes the canvas view to the specified width and height.
+     *
+     * @extends PIXI.SystemRenderer#resize
+     *
+     * @param {number} screenWidth - the new width of the screen
+     * @param {number} screenHeight - the new height of the screen
+     */
+
+
+    CanvasRenderer.prototype.resize = function resize(screenWidth, screenHeight) {
+        _SystemRenderer.prototype.resize.call(this, screenWidth, screenHeight);
+
+        // reset the scale mode.. oddly this seems to be reset when the canvas is resized.
+        // surely a browser bug?? Let pixi fix that for you..
+        if (this.smoothProperty) {
+            this.rootContext[this.smoothProperty] = _settings2.default.SCALE_MODE === _const.SCALE_MODES.LINEAR;
+        }
+    };
+
+    return CanvasRenderer;
+}(_SystemRenderer3.default);
+
+/**
+ * Collection of installed plugins. These are included by default in PIXI, but can be excluded
+ * by creating a custom build. Consult the README for more information about creating custom
+ * builds and excluding plugins.
+ * @name PIXI.CanvasRenderer#plugins
+ * @type {object}
+ * @readonly
+ * @property {PIXI.accessibility.AccessibilityManager} accessibility Support tabbing interactive elements.
+ * @property {PIXI.extract.CanvasExtract} extract Extract image data from renderer.
+ * @property {PIXI.interaction.InteractionManager} interaction Handles mouse, touch and pointer events.
+ * @property {PIXI.prepare.CanvasPrepare} prepare Pre-render display objects.
+ */
+
+/**
+ * Adds a plugin to the renderer.
+ *
+ * @method PIXI.CanvasRenderer#registerPlugin
+ * @param {string} pluginName - The name of the plugin.
+ * @param {Function} ctor - The constructor function or class for the plugin.
+ */
+
+exports.default = CanvasRenderer;
+_utils.pluginTarget.mixin(CanvasRenderer);
+
+
+/***/ }),
+/* 48 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * @class
+ * @memberof PIXI
+ */
+var WebGLManager = function () {
+  /**
+   * @param {PIXI.WebGLRenderer} renderer - The renderer this manager works for.
+   */
+  function WebGLManager(renderer) {
+    _classCallCheck(this, WebGLManager);
+
+    /**
+     * The renderer this manager works for.
+     *
+     * @member {PIXI.WebGLRenderer}
+     */
+    this.renderer = renderer;
+
+    this.renderer.on('context', this.onContextChange, this);
+  }
+
+  /**
+   * Generic method called when there is a WebGL context change.
+   *
+   */
+
+
+  WebGLManager.prototype.onContextChange = function onContextChange() {}
+  // do some codes init!
+
+
+  /**
+   * Generic destroy methods to be overridden by the subclass
+   *
+   */
+  ;
+
+  WebGLManager.prototype.destroy = function destroy() {
+    this.renderer.off('context', this.onContextChange, this);
+
+    this.renderer = null;
+  };
+
+  return WebGLManager;
+}();
+
+exports.default = WebGLManager;
+
+
+/***/ }),
+/* 49 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _core = __webpack_require__(2);
+
+var core = _interopRequireWildcard(_core);
+
+var _TextureTransform = __webpack_require__(104);
+
+var _TextureTransform2 = _interopRequireDefault(_TextureTransform);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var tempPoint = new core.Point();
+var tempPolygon = new core.Polygon();
+
+/**
+ * Base mesh class
+ * @class
+ * @extends PIXI.Container
+ * @memberof PIXI.mesh
+ */
+
+var Mesh = function (_core$Container) {
+  _inherits(Mesh, _core$Container);
+
+  /**
+   * @param {PIXI.Texture} texture - The texture to use
+   * @param {Float32Array} [vertices] - if you want to specify the vertices
+   * @param {Float32Array} [uvs] - if you want to specify the uvs
+   * @param {Uint16Array} [indices] - if you want to specify the indices
+   * @param {number} [drawMode] - the drawMode, can be any of the Mesh.DRAW_MODES consts
+   */
+  function Mesh(texture, vertices, uvs, indices, drawMode) {
+    _classCallCheck(this, Mesh);
+
+    /**
+     * The texture of the Mesh
+     *
+     * @member {PIXI.Texture}
+     * @private
+     */
+    var _this = _possibleConstructorReturn(this, _core$Container.call(this));
+
+    _this._texture = texture;
+
+    /**
+     * The Uvs of the Mesh
+     *
+     * @member {Float32Array}
+     */
+    _this.uvs = uvs || new Float32Array([0, 0, 1, 0, 1, 1, 0, 1]);
+
+    /**
+     * An array of vertices
+     *
+     * @member {Float32Array}
+     */
+    _this.vertices = vertices || new Float32Array([0, 0, 100, 0, 100, 100, 0, 100]);
+
+    /**
+     * An array containing the indices of the vertices
+     *
+     * @member {Uint16Array}
+     */
+    //  TODO auto generate this based on draw mode!
+    _this.indices = indices || new Uint16Array([0, 1, 3, 2]);
+
+    /**
+     * Version of mesh uvs are dirty or not
+     *
+     * @member {number}
+     */
+    _this.dirty = 0;
+
+    /**
+     * Version of mesh indices
+     *
+     * @member {number}
+     */
+    _this.indexDirty = 0;
+
+    /**
+     * The blend mode to be applied to the sprite. Set to `PIXI.BLEND_MODES.NORMAL` to remove
+     * any blend mode.
+     *
+     * @member {number}
+     * @default PIXI.BLEND_MODES.NORMAL
+     * @see PIXI.BLEND_MODES
+     */
+    _this.blendMode = core.BLEND_MODES.NORMAL;
+
+    /**
+     * Triangles in canvas mode are automatically antialiased, use this value to force triangles
+     * to overlap a bit with each other.
+     *
+     * @member {number}
+     */
+    _this.canvasPadding = 0;
+
+    /**
+     * The way the Mesh should be drawn, can be any of the {@link PIXI.mesh.Mesh.DRAW_MODES} consts
+     *
+     * @member {number}
+     * @see PIXI.mesh.Mesh.DRAW_MODES
+     */
+    _this.drawMode = drawMode || Mesh.DRAW_MODES.TRIANGLE_MESH;
+
+    /**
+     * The default shader that is used if a mesh doesn't have a more specific one.
+     *
+     * @member {PIXI.Shader}
+     */
+    _this.shader = null;
+
+    /**
+     * The tint applied to the mesh. This is a [r,g,b] value. A value of [1,1,1] will remove any
+     * tint effect.
+     *
+     * @member {number}
+     */
+    _this.tintRgb = new Float32Array([1, 1, 1]);
+
+    /**
+     * A map of renderer IDs to webgl render data
+     *
+     * @private
+     * @member {object<number, object>}
+     */
+    _this._glDatas = {};
+
+    /**
+     * transform that is applied to UV to get the texture coords
+     * its updated independently from texture uvTransform
+     * updates of uvs are tied to that thing
+     *
+     * @member {PIXI.extras.TextureTransform}
+     * @private
+     */
+    _this._uvTransform = new _TextureTransform2.default(texture);
+
+    /**
+     * whether or not upload uvTransform to shader
+     * if its false, then uvs should be pre-multiplied
+     * if you change it for generated mesh, please call 'refresh(true)'
+     * @member {boolean}
+     * @default false
+     */
+    _this.uploadUvTransform = false;
+
+    /**
+     * Plugin that is responsible for rendering this element.
+     * Allows to customize the rendering process without overriding '_renderWebGL' & '_renderCanvas' methods.
+     * @member {string}
+     * @default 'mesh'
+     */
+    _this.pluginName = 'mesh';
+    return _this;
+  }
+
+  /**
+   * Renders the object using the WebGL renderer
+   *
+   * @private
+   * @param {PIXI.WebGLRenderer} renderer - a reference to the WebGL renderer
+   */
+
+
+  Mesh.prototype._renderWebGL = function _renderWebGL(renderer) {
+    this.refresh();
+    renderer.setObjectRenderer(renderer.plugins[this.pluginName]);
+    renderer.plugins[this.pluginName].render(this);
+  };
+
+  /**
+   * Renders the object using the Canvas renderer
+   *
+   * @private
+   * @param {PIXI.CanvasRenderer} renderer - The canvas renderer.
+   */
+
+
+  Mesh.prototype._renderCanvas = function _renderCanvas(renderer) {
+    this.refresh();
+    renderer.plugins[this.pluginName].render(this);
+  };
+
+  /**
+   * When the texture is updated, this event will fire to update the scale and frame
+   *
+   * @private
+   */
+
+
+  Mesh.prototype._onTextureUpdate = function _onTextureUpdate() {
+    this._uvTransform.texture = this._texture;
+    this.refresh();
+  };
+
+  /**
+   * multiplies uvs only if uploadUvTransform is false
+   * call it after you change uvs manually
+   * make sure that texture is valid
+   */
+
+
+  Mesh.prototype.multiplyUvs = function multiplyUvs() {
+    if (!this.uploadUvTransform) {
+      this._uvTransform.multiplyUvs(this.uvs);
+    }
+  };
+
+  /**
+   * Refreshes uvs for generated meshes (rope, plane)
+   * sometimes refreshes vertices too
+   *
+   * @param {boolean} [forceUpdate=false] if true, matrices will be updated any case
+   */
+
+
+  Mesh.prototype.refresh = function refresh(forceUpdate) {
+    if (this._uvTransform.update(forceUpdate)) {
+      this._refresh();
+    }
+  };
+
+  /**
+   * re-calculates mesh coords
+   * @protected
+   */
+
+
+  Mesh.prototype._refresh = function _refresh() {}
+  /* empty */
+
+
+  /**
+   * Returns the bounds of the mesh as a rectangle. The bounds calculation takes the worldTransform into account.
+   *
+   */
+  ;
+
+  Mesh.prototype._calculateBounds = function _calculateBounds() {
+    // TODO - we can cache local bounds and use them if they are dirty (like graphics)
+    this._bounds.addVertices(this.transform, this.vertices, 0, this.vertices.length);
+  };
+
+  /**
+   * Tests if a point is inside this mesh. Works only for TRIANGLE_MESH
+   *
+   * @param {PIXI.Point} point - the point to test
+   * @return {boolean} the result of the test
+   */
+
+
+  Mesh.prototype.containsPoint = function containsPoint(point) {
+    if (!this.getBounds().contains(point.x, point.y)) {
+      return false;
+    }
+
+    this.worldTransform.applyInverse(point, tempPoint);
+
+    var vertices = this.vertices;
+    var points = tempPolygon.points;
+    var indices = this.indices;
+    var len = this.indices.length;
+    var step = this.drawMode === Mesh.DRAW_MODES.TRIANGLES ? 3 : 1;
+
+    for (var i = 0; i + 2 < len; i += step) {
+      var ind0 = indices[i] * 2;
+      var ind1 = indices[i + 1] * 2;
+      var ind2 = indices[i + 2] * 2;
+
+      points[0] = vertices[ind0];
+      points[1] = vertices[ind0 + 1];
+      points[2] = vertices[ind1];
+      points[3] = vertices[ind1 + 1];
+      points[4] = vertices[ind2];
+      points[5] = vertices[ind2 + 1];
+
+      if (tempPolygon.contains(tempPoint.x, tempPoint.y)) {
+        return true;
+      }
+    }
+
+    return false;
+  };
+
+  /**
+   * The texture that the mesh uses.
+   *
+   * @member {PIXI.Texture}
+   */
+
+
+  _createClass(Mesh, [{
+    key: 'texture',
+    get: function get() {
+      return this._texture;
+    },
+    set: function set(value) // eslint-disable-line require-jsdoc
+    {
+      if (this._texture === value) {
+        return;
+      }
+
+      this._texture = value;
+
+      if (value) {
+        // wait for the texture to load
+        if (value.baseTexture.hasLoaded) {
+          this._onTextureUpdate();
+        } else {
+          value.once('update', this._onTextureUpdate, this);
+        }
+      }
+    }
+
+    /**
+     * The tint applied to the mesh. This is a hex value. A value of 0xFFFFFF will remove any tint effect.
+     *
+     * @member {number}
+     * @default 0xFFFFFF
+     */
+
+  }, {
+    key: 'tint',
+    get: function get() {
+      return core.utils.rgb2hex(this.tintRgb);
+    },
+    set: function set(value) // eslint-disable-line require-jsdoc
+    {
+      this.tintRgb = core.utils.hex2rgb(value, this.tintRgb);
+    }
+  }]);
+
+  return Mesh;
+}(core.Container);
+
+/**
+ * Different drawing buffer modes supported
+ *
+ * @static
+ * @constant
+ * @type {object}
+ * @property {number} TRIANGLE_MESH
+ * @property {number} TRIANGLES
+ */
+
+
+exports.default = Mesh;
+Mesh.DRAW_MODES = {
+  TRIANGLE_MESH: 0,
+  TRIANGLES: 1
+};
+
+
+/***/ }),
+/* 50 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// import Loader from './Loader';
+// import Resource from './Resource';
+// import * as async from './async';
+// import * as b64 from './b64';
+
+/* eslint-disable no-undef */
+
+var Loader = __webpack_require__(476).default;
+var Resource = __webpack_require__(106).default;
+var async = __webpack_require__(206);
+var b64 = __webpack_require__(207);
+
+Loader.Resource = Resource;
+Loader.async = async;
+Loader.base64 = b64;
+
+// export manually, and also as default
+module.exports = Loader;
+// export default Loader;
+module.exports.default = Loader;
+
+
+/***/ }),
+/* 51 */
+/***/ (function(module, exports) {
+
+module.exports = function(exec){
+  try {
+    return !!exec();
+  } catch(e){
+    return true;
+  }
+};
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.14 / 15.2.3.14 Object.keys(O)
+var $keys       = __webpack_require__(122)
+  , enumBugKeys = __webpack_require__(68);
+
+module.exports = Object.keys || function keys(O){
+  return $keys(O, enumBugKeys);
+};
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports) {
+
+module.exports = function(bitmap, value){
+  return {
+    enumerable  : !(bitmap & 1),
+    configurable: !(bitmap & 2),
+    writable    : !(bitmap & 4),
+    value       : value
+  };
+};
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports) {
+
+var id = 0
+  , px = Math.random();
+module.exports = function(key){
+  return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + px).toString(36));
+};
+
+/***/ }),
+/* 55 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(84);
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function(x) {
+  return x = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__formatDecimal__["a" /* default */])(Math.abs(x)), x ? x[1] : NaN;
+});
+
+
+/***/ }),
+/* 56 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
+  return a = +a, b -= a, function(t) {
+    return a + b * t;
+  };
+});
+
+
+/***/ }),
+/* 57 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(151);
+/* harmony export (immutable) */ __webpack_exports__["b"] = deinterpolateLinear;
+/* harmony export (immutable) */ __webpack_exports__["c"] = copy;
+/* harmony export (immutable) */ __webpack_exports__["a"] = continuous;
+
+
+
+
+
+
+var unit = [0, 1];
+
+function deinterpolateLinear(a, b) {
+  return (b -= (a = +a))
+      ? function(x) { return (x - a) / b; }
+      : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__constant__["a" /* default */])(b);
+}
+
+function deinterpolateClamp(deinterpolate) {
+  return function(a, b) {
+    var d = deinterpolate(a = +a, b = +b);
+    return function(x) { return x <= a ? 0 : x >= b ? 1 : d(x); };
+  };
+}
+
+function reinterpolateClamp(reinterpolate) {
+  return function(a, b) {
+    var r = reinterpolate(a = +a, b = +b);
+    return function(t) { return t <= 0 ? a : t >= 1 ? b : r(t); };
+  };
+}
+
+function bimap(domain, range, deinterpolate, reinterpolate) {
+  var d0 = domain[0], d1 = domain[1], r0 = range[0], r1 = range[1];
+  if (d1 < d0) d0 = deinterpolate(d1, d0), r0 = reinterpolate(r1, r0);
+  else d0 = deinterpolate(d0, d1), r0 = reinterpolate(r0, r1);
+  return function(x) { return r0(d0(x)); };
+}
+
+function polymap(domain, range, deinterpolate, reinterpolate) {
+  var j = Math.min(domain.length, range.length) - 1,
+      d = new Array(j),
+      r = new Array(j),
+      i = -1;
+
+  // Reverse descending domains.
+  if (domain[j] < domain[0]) {
+    domain = domain.slice().reverse();
+    range = range.slice().reverse();
+  }
+
+  while (++i < j) {
+    d[i] = deinterpolate(domain[i], domain[i + 1]);
+    r[i] = reinterpolate(range[i], range[i + 1]);
+  }
+
+  return function(x) {
+    var i = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_array__["c" /* bisect */])(domain, x, 1, j) - 1;
+    return r[i](d[i](x));
+  };
+}
+
+function copy(source, target) {
+  return target
+      .domain(source.domain())
+      .range(source.range())
+      .interpolate(source.interpolate())
+      .clamp(source.clamp());
+}
+
+// deinterpolate(a, b)(x) takes a domain value x in [a,b] and returns the corresponding parameter t in [0,1].
+// reinterpolate(a, b)(t) takes a parameter t in [0,1] and returns the corresponding domain value x in [a,b].
+function continuous(deinterpolate, reinterpolate) {
+  var domain = unit,
+      range = unit,
+      interpolate = __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__["c" /* interpolate */],
+      clamp = false,
+      piecewise,
+      output,
+      input;
+
+  function rescale() {
+    piecewise = Math.min(domain.length, range.length) > 2 ? polymap : bimap;
+    output = input = null;
+    return scale;
+  }
+
+  function scale(x) {
+    return (output || (output = piecewise(domain, range, clamp ? deinterpolateClamp(deinterpolate) : deinterpolate, interpolate)))(+x);
+  }
+
+  scale.invert = function(y) {
+    return (input || (input = piecewise(range, domain, deinterpolateLinear, clamp ? reinterpolateClamp(reinterpolate) : reinterpolate)))(+y);
+  };
+
+  scale.domain = function(_) {
+    return arguments.length ? (domain = __WEBPACK_IMPORTED_MODULE_2__array__["a" /* map */].call(_, __WEBPACK_IMPORTED_MODULE_4__number__["a" /* default */]), rescale()) : domain.slice();
+  };
+
+  scale.range = function(_) {
+    return arguments.length ? (range = __WEBPACK_IMPORTED_MODULE_2__array__["b" /* slice */].call(_), rescale()) : range.slice();
+  };
+
+  scale.rangeRound = function(_) {
+    return range = __WEBPACK_IMPORTED_MODULE_2__array__["b" /* slice */].call(_), interpolate = __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__["d" /* interpolateRound */], rescale();
+  };
+
+  scale.clamp = function(_) {
+    return arguments.length ? (clamp = !!_, rescale()) : clamp;
+  };
+
+  scale.interpolate = function(_) {
+    return arguments.length ? (interpolate = _, rescale()) : interpolate;
+  };
+
+  return rescale();
+}
+
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.xlinkNS = 'http://www.w3.org/1999/xlink';
+exports.xmlNS = 'http://www.w3.org/XML/1998/namespace';
+exports.svgNS = 'http://www.w3.org/2000/svg';
+exports.strictProps = new Set();
+exports.strictProps.add('volume');
+exports.strictProps.add('defaultChecked');
+exports.booleanProps = new Set();
+exports.booleanProps.add('muted');
+exports.booleanProps.add('scoped');
+exports.booleanProps.add('loop');
+exports.booleanProps.add('open');
+exports.booleanProps.add('checked');
+exports.booleanProps.add('default');
+exports.booleanProps.add('capture');
+exports.booleanProps.add('disabled');
+exports.booleanProps.add('readOnly');
+exports.booleanProps.add('required');
+exports.booleanProps.add('autoplay');
+exports.booleanProps.add('controls');
+exports.booleanProps.add('seamless');
+exports.booleanProps.add('reversed');
+exports.booleanProps.add('allowfullscreen');
+exports.booleanProps.add('novalidate');
+exports.booleanProps.add('hidden');
+exports.booleanProps.add('autoFocus');
+exports.booleanProps.add('selected');
+exports.namespaces = new Map();
+exports.namespaces.set('xlink:href', exports.xlinkNS);
+exports.namespaces.set('xlink:arcrole', exports.xlinkNS);
+exports.namespaces.set('xlink:actuate', exports.xlinkNS);
+exports.namespaces.set('xlink:show', exports.xlinkNS);
+exports.namespaces.set('xlink:role', exports.xlinkNS);
+exports.namespaces.set('xlink:title', exports.xlinkNS);
+exports.namespaces.set('xlink:type', exports.xlinkNS);
+exports.namespaces.set('xml:base', exports.xmlNS);
+exports.namespaces.set('xml:lang', exports.xmlNS);
+exports.namespaces.set('xml:space', exports.xmlNS);
+exports.isUnitlessNumber = new Set();
+exports.isUnitlessNumber.add('animationIterationCount');
+exports.isUnitlessNumber.add('borderImageOutset');
+exports.isUnitlessNumber.add('borderImageSlice');
+exports.isUnitlessNumber.add('borderImageWidth');
+exports.isUnitlessNumber.add('boxFlex');
+exports.isUnitlessNumber.add('boxFlexGroup');
+exports.isUnitlessNumber.add('boxOrdinalGroup');
+exports.isUnitlessNumber.add('columnCount');
+exports.isUnitlessNumber.add('flex');
+exports.isUnitlessNumber.add('flexGrow');
+exports.isUnitlessNumber.add('flexPositive');
+exports.isUnitlessNumber.add('flexShrink');
+exports.isUnitlessNumber.add('flexNegative');
+exports.isUnitlessNumber.add('flexOrder');
+exports.isUnitlessNumber.add('gridRow');
+exports.isUnitlessNumber.add('gridColumn');
+exports.isUnitlessNumber.add('fontWeight');
+exports.isUnitlessNumber.add('lineClamp');
+exports.isUnitlessNumber.add('lineHeight');
+exports.isUnitlessNumber.add('opacity');
+exports.isUnitlessNumber.add('order');
+exports.isUnitlessNumber.add('orphans');
+exports.isUnitlessNumber.add('tabSize');
+exports.isUnitlessNumber.add('widows');
+exports.isUnitlessNumber.add('zIndex');
+exports.isUnitlessNumber.add('zoom');
+exports.isUnitlessNumber.add('fillOpacity');
+exports.isUnitlessNumber.add('floodOpacity');
+exports.isUnitlessNumber.add('stopOpacity');
+exports.isUnitlessNumber.add('strokeDasharray');
+exports.isUnitlessNumber.add('strokeDashoffset');
+exports.isUnitlessNumber.add('strokeMiterlimit');
+exports.isUnitlessNumber.add('strokeOpacity');
+exports.isUnitlessNumber.add('strokeWidth');
+exports.skipProps = new Set();
+exports.skipProps.add('children');
+exports.skipProps.add('childrenType');
+exports.skipProps.add('defaultValue');
+exports.skipProps.add('ref');
+exports.skipProps.add('key');
+exports.skipProps.add('checked');
+exports.skipProps.add('multiple');
+exports.delegatedEvents = new Set();
+exports.delegatedEvents.add('onClick');
+exports.delegatedEvents.add('onMouseDown');
+exports.delegatedEvents.add('onMouseUp');
+exports.delegatedEvents.add('onMouseMove');
+exports.delegatedEvents.add('onSubmit');
+exports.delegatedEvents.add('onDblClick');
+exports.delegatedEvents.add('onKeyDown');
+exports.delegatedEvents.add('onKeyUp');
+exports.delegatedEvents.add('onKeyPress');
+
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+Object.defineProperty(exports, "__esModule", { value: true });
+var inferno_shared_1 = __webpack_require__(5);
+var options_1 = __webpack_require__(17);
+var VNodes_1 = __webpack_require__(24);
+var patching_1 = __webpack_require__(35);
+var recycling_1 = __webpack_require__(159);
+var rendering_1 = __webpack_require__(44);
+var utils_1 = __webpack_require__(10);
+var processElement_1 = __webpack_require__(91);
+function mount(vNode, parentDom, lifecycle, context, isSVG) {
+    var flags = vNode.flags;
+    if (flags & 3970 /* Element */) {
+        return mountElement(vNode, parentDom, lifecycle, context, isSVG);
+    }
+    else if (flags & 28 /* Component */) {
+        return mountComponent(vNode, parentDom, lifecycle, context, isSVG, (flags & 4 /* ComponentClass */) > 0);
+    }
+    else if (flags & 4096 /* Void */) {
+        return mountVoid(vNode, parentDom);
+    }
+    else if (flags & 1 /* Text */) {
+        return mountText(vNode, parentDom);
+    }
+    else {
+        if (process.env.NODE_ENV !== 'production') {
+            if (typeof vNode === 'object') {
+                inferno_shared_1.throwError("mount() received an object that's not a valid VNode, you should stringify it first. Object: \"" + JSON.stringify(vNode) + "\".");
+            }
+            else {
+                inferno_shared_1.throwError("mount() expects a valid VNode, instead it received an object with the type \"" + typeof vNode + "\".");
+            }
+        }
+        inferno_shared_1.throwError();
+    }
+}
+exports.mount = mount;
+function mountText(vNode, parentDom) {
+    var dom = document.createTextNode(vNode.children);
+    vNode.dom = dom;
+    if (!inferno_shared_1.isNull(parentDom)) {
+        utils_1.appendChild(parentDom, dom);
+    }
+    return dom;
+}
+exports.mountText = mountText;
+function mountVoid(vNode, parentDom) {
+    var dom = document.createTextNode('');
+    vNode.dom = dom;
+    if (!inferno_shared_1.isNull(parentDom)) {
+        utils_1.appendChild(parentDom, dom);
+    }
+    return dom;
+}
+exports.mountVoid = mountVoid;
+function mountElement(vNode, parentDom, lifecycle, context, isSVG) {
+    if (options_1.options.recyclingEnabled) {
+        var dom_1 = recycling_1.recycleElement(vNode, lifecycle, context, isSVG);
+        if (!inferno_shared_1.isNull(dom_1)) {
+            if (!inferno_shared_1.isNull(parentDom)) {
+                utils_1.appendChild(parentDom, dom_1);
+            }
+            return dom_1;
+        }
+    }
+    var flags = vNode.flags;
+    isSVG = isSVG || (flags & 128 /* SvgElement */) > 0;
+    var dom = utils_1.documentCreateElement(vNode.type, isSVG);
+    var children = vNode.children;
+    var props = vNode.props;
+    var className = vNode.className;
+    var ref = vNode.ref;
+    vNode.dom = dom;
+    if (!inferno_shared_1.isInvalid(children)) {
+        if (inferno_shared_1.isStringOrNumber(children)) {
+            utils_1.setTextContent(dom, children);
+        }
+        else if (inferno_shared_1.isArray(children)) {
+            mountArrayChildren(children, dom, lifecycle, context, isSVG);
+        }
+        else if (VNodes_1.isVNode(children)) {
+            mount(children, dom, lifecycle, context, isSVG);
+        }
+    }
+    if (!inferno_shared_1.isNull(props)) {
+        var hasControlledValue = false;
+        var isFormElement = (flags & 3584 /* FormElement */) > 0;
+        if (isFormElement) {
+            hasControlledValue = processElement_1.isControlledFormElement(props);
+        }
+        for (var prop in props) {
+            // do not add a hasOwnProperty check here, it affects performance
+            patching_1.patchProp(prop, null, props[prop], dom, isSVG, hasControlledValue);
+        }
+        if (isFormElement) {
+            processElement_1.processElement(flags, vNode, dom, props, true, hasControlledValue);
+        }
+    }
+    if (className !== null) {
+        if (isSVG) {
+            dom.setAttribute('class', className);
+        }
+        else {
+            dom.className = className;
+        }
+    }
+    if (!inferno_shared_1.isNull(ref)) {
+        mountRef(dom, ref, lifecycle);
+    }
+    if (!inferno_shared_1.isNull(parentDom)) {
+        utils_1.appendChild(parentDom, dom);
+    }
+    return dom;
+}
+exports.mountElement = mountElement;
+function mountArrayChildren(children, dom, lifecycle, context, isSVG) {
+    for (var i = 0, len = children.length; i < len; i++) {
+        var child = children[i];
+        // Verify can string/number be here. might cause de-opt. - Normalization takes care of it.
+        if (!inferno_shared_1.isInvalid(child)) {
+            if (child.dom) {
+                children[i] = child = VNodes_1.directClone(child);
+            }
+            mount(children[i], dom, lifecycle, context, isSVG);
+        }
+    }
+}
+exports.mountArrayChildren = mountArrayChildren;
+function mountComponent(vNode, parentDom, lifecycle, context, isSVG, isClass) {
+    if (options_1.options.recyclingEnabled) {
+        var dom_2 = recycling_1.recycleComponent(vNode, lifecycle, context, isSVG);
+        if (!inferno_shared_1.isNull(dom_2)) {
+            if (!inferno_shared_1.isNull(parentDom)) {
+                utils_1.appendChild(parentDom, dom_2);
+            }
+            return dom_2;
+        }
+    }
+    var type = vNode.type;
+    var props = vNode.props || utils_1.EMPTY_OBJ;
+    var ref = vNode.ref;
+    var dom;
+    if (isClass) {
+        var instance = utils_1.createClassComponentInstance(vNode, type, props, context, isSVG, lifecycle);
+        var input = instance._lastInput;
+        instance._vNode = vNode;
+        vNode.dom = dom = mount(input, null, lifecycle, instance._childContext, isSVG);
+        if (!inferno_shared_1.isNull(parentDom)) {
+            utils_1.appendChild(parentDom, dom);
+        }
+        mountClassComponentCallbacks(vNode, ref, instance, lifecycle);
+        instance._updating = false;
+        if (options_1.options.findDOMNodeEnabled) {
+            rendering_1.componentToDOMNodeMap.set(instance, dom);
+        }
+    }
+    else {
+        var input = utils_1.createFunctionalComponentInput(vNode, type, props, context);
+        vNode.dom = dom = mount(input, null, lifecycle, context, isSVG);
+        vNode.children = input;
+        mountFunctionalComponentCallbacks(ref, dom, lifecycle);
+        if (!inferno_shared_1.isNull(parentDom)) {
+            utils_1.appendChild(parentDom, dom);
+        }
+    }
+    return dom;
+}
+exports.mountComponent = mountComponent;
+function mountClassComponentCallbacks(vNode, ref, instance, lifecycle) {
+    if (ref) {
+        if (inferno_shared_1.isFunction(ref)) {
+            ref(instance);
+        }
+        else {
+            if (process.env.NODE_ENV !== 'production') {
+                if (inferno_shared_1.isStringOrNumber(ref)) {
+                    inferno_shared_1.throwError('string "refs" are not supported in Inferno 1.0. Use callback "refs" instead.');
+                }
+                else if (inferno_shared_1.isObject(ref) && (vNode.flags & 4 /* ComponentClass */)) {
+                    inferno_shared_1.throwError('functional component lifecycle events are not supported on ES2015 class components.');
+                }
+                else {
+                    inferno_shared_1.throwError("a bad value for \"ref\" was used on component: \"" + JSON.stringify(ref) + "\"");
+                }
+            }
+            inferno_shared_1.throwError();
+        }
+    }
+    var hasDidMount = !inferno_shared_1.isUndefined(instance.componentDidMount);
+    var afterMount = options_1.options.afterMount;
+    if (hasDidMount || !inferno_shared_1.isNull(afterMount)) {
+        lifecycle.addListener(function () {
+            instance._updating = true;
+            if (afterMount) {
+                afterMount(vNode);
+            }
+            if (hasDidMount) {
+                instance.componentDidMount();
+            }
+            instance._updating = false;
+        });
+    }
+}
+exports.mountClassComponentCallbacks = mountClassComponentCallbacks;
+function mountFunctionalComponentCallbacks(ref, dom, lifecycle) {
+    if (ref) {
+        if (!inferno_shared_1.isNullOrUndef(ref.onComponentWillMount)) {
+            ref.onComponentWillMount();
+        }
+        if (!inferno_shared_1.isNullOrUndef(ref.onComponentDidMount)) {
+            lifecycle.addListener(function () { return ref.onComponentDidMount(dom); });
+        }
+    }
+}
+exports.mountFunctionalComponentCallbacks = mountFunctionalComponentCallbacks;
+function mountRef(dom, value, lifecycle) {
+    if (inferno_shared_1.isFunction(value)) {
+        lifecycle.addListener(function () { return value(dom); });
+    }
+    else {
+        if (inferno_shared_1.isInvalid(value)) {
+            return;
+        }
+        if (process.env.NODE_ENV !== 'production') {
+            inferno_shared_1.throwError('string "refs" are not supported in Inferno 1.0. Use callback "refs" instead.');
+        }
+        inferno_shared_1.throwError();
+    }
+}
+exports.mountRef = mountRef;
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+exports.default = function (graphicsData, webGLData, webGLDataNativeLines) {
+    if (graphicsData.nativeLines) {
+        buildNativeLine(graphicsData, webGLDataNativeLines);
+    } else {
+        buildLine(graphicsData, webGLData);
+    }
+};
+
+var _math = __webpack_require__(7);
+
+var _utils = __webpack_require__(4);
+
+/**
+ * Builds a line to draw using the poligon method.
+ *
+ * Ignored from docs since it is not directly exposed.
+ *
+ * @ignore
+ * @private
+ * @param {PIXI.WebGLGraphicsData} graphicsData - The graphics object containing all the necessary properties
+ * @param {object} webGLData - an object containing all the webGL-specific information to create this shape
+ */
+function buildLine(graphicsData, webGLData) {
+    // TODO OPTIMISE!
+    var points = graphicsData.points;
+
+    if (points.length === 0) {
+        return;
+    }
+    // if the line width is an odd number add 0.5 to align to a whole pixel
+    // commenting this out fixes #711 and #1620
+    // if (graphicsData.lineWidth%2)
+    // {
+    //     for (i = 0; i < points.length; i++)
+    //     {
+    //         points[i] += 0.5;
+    //     }
+    // }
+
+    // get first and last point.. figure out the middle!
+    var firstPoint = new _math.Point(points[0], points[1]);
+    var lastPoint = new _math.Point(points[points.length - 2], points[points.length - 1]);
+
+    // if the first point is the last point - gonna have issues :)
+    if (firstPoint.x === lastPoint.x && firstPoint.y === lastPoint.y) {
+        // need to clone as we are going to slightly modify the shape..
+        points = points.slice();
+
+        points.pop();
+        points.pop();
+
+        lastPoint = new _math.Point(points[points.length - 2], points[points.length - 1]);
+
+        var midPointX = lastPoint.x + (firstPoint.x - lastPoint.x) * 0.5;
+        var midPointY = lastPoint.y + (firstPoint.y - lastPoint.y) * 0.5;
+
+        points.unshift(midPointX, midPointY);
+        points.push(midPointX, midPointY);
+    }
+
+    var verts = webGLData.points;
+    var indices = webGLData.indices;
+    var length = points.length / 2;
+    var indexCount = points.length;
+    var indexStart = verts.length / 6;
+
+    // DRAW the Line
+    var width = graphicsData.lineWidth / 2;
+
+    // sort color
+    var color = (0, _utils.hex2rgb)(graphicsData.lineColor);
+    var alpha = graphicsData.lineAlpha;
+    var r = color[0] * alpha;
+    var g = color[1] * alpha;
+    var b = color[2] * alpha;
+
+    var p1x = points[0];
+    var p1y = points[1];
+    var p2x = points[2];
+    var p2y = points[3];
+    var p3x = 0;
+    var p3y = 0;
+
+    var perpx = -(p1y - p2y);
+    var perpy = p1x - p2x;
+    var perp2x = 0;
+    var perp2y = 0;
+    var perp3x = 0;
+    var perp3y = 0;
+
+    var dist = Math.sqrt(perpx * perpx + perpy * perpy);
+
+    perpx /= dist;
+    perpy /= dist;
+    perpx *= width;
+    perpy *= width;
+
+    // start
+    verts.push(p1x - perpx, p1y - perpy, r, g, b, alpha);
+
+    verts.push(p1x + perpx, p1y + perpy, r, g, b, alpha);
+
+    for (var i = 1; i < length - 1; ++i) {
+        p1x = points[(i - 1) * 2];
+        p1y = points[(i - 1) * 2 + 1];
+
+        p2x = points[i * 2];
+        p2y = points[i * 2 + 1];
+
+        p3x = points[(i + 1) * 2];
+        p3y = points[(i + 1) * 2 + 1];
+
+        perpx = -(p1y - p2y);
+        perpy = p1x - p2x;
+
+        dist = Math.sqrt(perpx * perpx + perpy * perpy);
+        perpx /= dist;
+        perpy /= dist;
+        perpx *= width;
+        perpy *= width;
+
+        perp2x = -(p2y - p3y);
+        perp2y = p2x - p3x;
+
+        dist = Math.sqrt(perp2x * perp2x + perp2y * perp2y);
+        perp2x /= dist;
+        perp2y /= dist;
+        perp2x *= width;
+        perp2y *= width;
+
+        var a1 = -perpy + p1y - (-perpy + p2y);
+        var b1 = -perpx + p2x - (-perpx + p1x);
+        var c1 = (-perpx + p1x) * (-perpy + p2y) - (-perpx + p2x) * (-perpy + p1y);
+        var a2 = -perp2y + p3y - (-perp2y + p2y);
+        var b2 = -perp2x + p2x - (-perp2x + p3x);
+        var c2 = (-perp2x + p3x) * (-perp2y + p2y) - (-perp2x + p2x) * (-perp2y + p3y);
+
+        var denom = a1 * b2 - a2 * b1;
+
+        if (Math.abs(denom) < 0.1) {
+            denom += 10.1;
+            verts.push(p2x - perpx, p2y - perpy, r, g, b, alpha);
+
+            verts.push(p2x + perpx, p2y + perpy, r, g, b, alpha);
+
+            continue;
+        }
+
+        var px = (b1 * c2 - b2 * c1) / denom;
+        var py = (a2 * c1 - a1 * c2) / denom;
+        var pdist = (px - p2x) * (px - p2x) + (py - p2y) * (py - p2y);
+
+        if (pdist > 196 * width * width) {
+            perp3x = perpx - perp2x;
+            perp3y = perpy - perp2y;
+
+            dist = Math.sqrt(perp3x * perp3x + perp3y * perp3y);
+            perp3x /= dist;
+            perp3y /= dist;
+            perp3x *= width;
+            perp3y *= width;
+
+            verts.push(p2x - perp3x, p2y - perp3y);
+            verts.push(r, g, b, alpha);
+
+            verts.push(p2x + perp3x, p2y + perp3y);
+            verts.push(r, g, b, alpha);
+
+            verts.push(p2x - perp3x, p2y - perp3y);
+            verts.push(r, g, b, alpha);
+
+            indexCount++;
+        } else {
+            verts.push(px, py);
+            verts.push(r, g, b, alpha);
+
+            verts.push(p2x - (px - p2x), p2y - (py - p2y));
+            verts.push(r, g, b, alpha);
+        }
+    }
+
+    p1x = points[(length - 2) * 2];
+    p1y = points[(length - 2) * 2 + 1];
+
+    p2x = points[(length - 1) * 2];
+    p2y = points[(length - 1) * 2 + 1];
+
+    perpx = -(p1y - p2y);
+    perpy = p1x - p2x;
+
+    dist = Math.sqrt(perpx * perpx + perpy * perpy);
+    perpx /= dist;
+    perpy /= dist;
+    perpx *= width;
+    perpy *= width;
+
+    verts.push(p2x - perpx, p2y - perpy);
+    verts.push(r, g, b, alpha);
+
+    verts.push(p2x + perpx, p2y + perpy);
+    verts.push(r, g, b, alpha);
+
+    indices.push(indexStart);
+
+    for (var _i = 0; _i < indexCount; ++_i) {
+        indices.push(indexStart++);
+    }
+
+    indices.push(indexStart - 1);
+}
+
+/**
+ * Builds a line to draw using the gl.drawArrays(gl.LINES) method
+ *
+ * Ignored from docs since it is not directly exposed.
+ *
+ * @ignore
+ * @private
+ * @param {PIXI.WebGLGraphicsData} graphicsData - The graphics object containing all the necessary properties
+ * @param {object} webGLData - an object containing all the webGL-specific information to create this shape
+ */
+
+
+/**
+ * Builds a line to draw
+ *
+ * Ignored from docs since it is not directly exposed.
+ *
+ * @ignore
+ * @private
+ * @param {PIXI.WebGLGraphicsData} graphicsData - The graphics object containing all the necessary properties
+ * @param {object} webGLData - an object containing all the webGL-specific information to create this shape
+ * @param {object} webGLDataNativeLines - an object containing all the webGL-specific information to create nativeLines
+ */
+function buildNativeLine(graphicsData, webGLData) {
+    var i = 0;
+    var points = graphicsData.points;
+
+    if (points.length === 0) return;
+
+    var verts = webGLData.points;
+    var length = points.length / 2;
+
+    // sort color
+    var color = (0, _utils.hex2rgb)(graphicsData.lineColor);
+    var alpha = graphicsData.lineAlpha;
+    var r = color[0] * alpha;
+    var g = color[1] * alpha;
+    var b = color[2] * alpha;
+
+    for (i = 1; i < length; i++) {
+        var p1x = points[(i - 1) * 2];
+        var p1y = points[(i - 1) * 2 + 1];
+
+        var p2x = points[i * 2];
+        var p2y = points[i * 2 + 1];
+
+        verts.push(p1x, p1y);
+        verts.push(r, g, b, alpha);
+
+        verts.push(p2x, p2y);
+        verts.push(r, g, b, alpha);
+    }
+}
+
+
+/***/ }),
+/* 61 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _SystemRenderer2 = __webpack_require__(181);
+
+var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
+
+var _MaskManager = __webpack_require__(408);
+
+var _MaskManager2 = _interopRequireDefault(_MaskManager);
+
+var _StencilManager = __webpack_require__(409);
+
+var _StencilManager2 = _interopRequireDefault(_StencilManager);
+
+var _FilterManager = __webpack_require__(407);
+
+var _FilterManager2 = _interopRequireDefault(_FilterManager);
+
+var _RenderTarget = __webpack_require__(63);
+
+var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
+
+var _ObjectRenderer = __webpack_require__(62);
+
+var _ObjectRenderer2 = _interopRequireDefault(_ObjectRenderer);
+
+var _TextureManager = __webpack_require__(403);
+
+var _TextureManager2 = _interopRequireDefault(_TextureManager);
+
+var _BaseTexture = __webpack_require__(36);
+
+var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
+
+var _TextureGarbageCollector = __webpack_require__(402);
+
+var _TextureGarbageCollector2 = _interopRequireDefault(_TextureGarbageCollector);
+
+var _WebGLState = __webpack_require__(404);
+
+var _WebGLState2 = _interopRequireDefault(_WebGLState);
+
+var _mapWebGLDrawModesToPixi = __webpack_require__(412);
+
+var _mapWebGLDrawModesToPixi2 = _interopRequireDefault(_mapWebGLDrawModesToPixi);
+
+var _validateContext = __webpack_require__(413);
+
+var _validateContext2 = _interopRequireDefault(_validateContext);
+
+var _utils = __webpack_require__(4);
+
+var _pixiGlCore = __webpack_require__(9);
+
+var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
+
+var _const = __webpack_require__(1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var CONTEXT_UID = 0;
+
+/**
+ * The WebGLRenderer draws the scene and all its content onto a webGL enabled canvas. This renderer
+ * should be used for browsers that support webGL. This Render works by automatically managing webGLBatchs.
+ * So no need for Sprite Batches or Sprite Clouds.
+ * Don't forget to add the view to your DOM or you will not see anything :)
+ *
+ * @class
+ * @memberof PIXI
+ * @extends PIXI.SystemRenderer
+ */
+
+var WebGLRenderer = function (_SystemRenderer) {
+    _inherits(WebGLRenderer, _SystemRenderer);
+
+    // eslint-disable-next-line valid-jsdoc
+    /**
+     *
+     * @param {object} [options] - The optional renderer parameters
+     * @param {number} [options.width=800] - the width of the screen
+     * @param {number} [options.height=600] - the height of the screen
+     * @param {HTMLCanvasElement} [options.view] - the canvas to use as a view, optional
+     * @param {boolean} [options.transparent=false] - If the render view is transparent, default false
+     * @param {boolean} [options.autoResize=false] - If the render view is automatically resized, default false
+     * @param {boolean} [options.antialias=false] - sets antialias. If not available natively then FXAA
+     *  antialiasing is used
+     * @param {boolean} [options.forceFXAA=false] - forces FXAA antialiasing to be used over native.
+     *  FXAA is faster, but may not always look as great
+     * @param {number} [options.resolution=1] - The resolution / device pixel ratio of the renderer.
+     *  The resolution of the renderer retina would be 2.
+     * @param {boolean} [options.clearBeforeRender=true] - This sets if the renderer will clear
+     *  the canvas or not before the new render pass. If you wish to set this to false, you *must* set
+     *  preserveDrawingBuffer to `true`.
+     * @param {boolean} [options.preserveDrawingBuffer=false] - enables drawing buffer preservation,
+     *  enable this if you need to call toDataUrl on the webgl context.
+     * @param {boolean} [options.roundPixels=false] - If true Pixi will Math.floor() x/y values when
+     *  rendering, stopping pixel interpolation.
+     * @param {number} [options.backgroundColor=0x000000] - The background color of the rendered area
+     *  (shown if not transparent).
+     * @param {boolean} [options.legacy=false] - If true Pixi will aim to ensure compatibility
+     * with older / less advanced devices. If you experiance unexplained flickering try setting this to true.
+     */
+    function WebGLRenderer(options, arg2, arg3) {
+        _classCallCheck(this, WebGLRenderer);
+
+        var _this = _possibleConstructorReturn(this, _SystemRenderer.call(this, 'WebGL', options, arg2, arg3));
+
+        _this.legacy = _this.options.legacy;
+
+        if (_this.legacy) {
+            _pixiGlCore2.default.VertexArrayObject.FORCE_NATIVE = true;
+        }
+
+        /**
+         * The type of this renderer as a standardised const
+         *
+         * @member {number}
+         * @see PIXI.RENDERER_TYPE
+         */
+        _this.type = _const.RENDERER_TYPE.WEBGL;
+
+        _this.handleContextLost = _this.handleContextLost.bind(_this);
+        _this.handleContextRestored = _this.handleContextRestored.bind(_this);
+
+        _this.view.addEventListener('webglcontextlost', _this.handleContextLost, false);
+        _this.view.addEventListener('webglcontextrestored', _this.handleContextRestored, false);
+
+        /**
+         * The options passed in to create a new webgl context.
+         *
+         * @member {object}
+         * @private
+         */
+        _this._contextOptions = {
+            alpha: _this.transparent,
+            antialias: _this.options.antialias,
+            premultipliedAlpha: _this.transparent && _this.transparent !== 'notMultiplied',
+            stencil: true,
+            preserveDrawingBuffer: _this.options.preserveDrawingBuffer
+        };
+
+        _this._backgroundColorRgba[3] = _this.transparent ? 0 : 1;
+
+        /**
+         * Manages the masks using the stencil buffer.
+         *
+         * @member {PIXI.MaskManager}
+         */
+        _this.maskManager = new _MaskManager2.default(_this);
+
+        /**
+         * Manages the stencil buffer.
+         *
+         * @member {PIXI.StencilManager}
+         */
+        _this.stencilManager = new _StencilManager2.default(_this);
+
+        /**
+         * An empty renderer.
+         *
+         * @member {PIXI.ObjectRenderer}
+         */
+        _this.emptyRenderer = new _ObjectRenderer2.default(_this);
+
+        /**
+         * The currently active ObjectRenderer.
+         *
+         * @member {PIXI.ObjectRenderer}
+         */
+        _this.currentRenderer = _this.emptyRenderer;
+
+        _this.initPlugins();
+
+        /**
+         * The current WebGL rendering context, it is created here
+         *
+         * @member {WebGLRenderingContext}
+         */
+        // initialize the context so it is ready for the managers.
+        if (_this.options.context) {
+            // checks to see if a context is valid..
+            (0, _validateContext2.default)(_this.options.context);
+        }
+
+        _this.gl = _this.options.context || _pixiGlCore2.default.createContext(_this.view, _this._contextOptions);
+
+        _this.CONTEXT_UID = CONTEXT_UID++;
+
+        /**
+         * The currently active ObjectRenderer.
+         *
+         * @member {PIXI.WebGLState}
+         */
+        _this.state = new _WebGLState2.default(_this.gl);
+
+        _this.renderingToScreen = true;
+
+        /**
+         * Holds the current state of textures bound to the GPU.
+         * @type {Array}
+         */
+        _this.boundTextures = null;
+
+        /**
+         * Holds the current shader
+         *
+         * @member {PIXI.Shader}
+         */
+        _this._activeShader = null;
+
+        _this._activeVao = null;
+
+        /**
+         * Holds the current render target
+         *
+         * @member {PIXI.RenderTarget}
+         */
+        _this._activeRenderTarget = null;
+
+        _this._initContext();
+
+        /**
+         * Manages the filters.
+         *
+         * @member {PIXI.FilterManager}
+         */
+        _this.filterManager = new _FilterManager2.default(_this);
+        // map some webGL blend and drawmodes..
+        _this.drawModes = (0, _mapWebGLDrawModesToPixi2.default)(_this.gl);
+
+        _this._nextTextureLocation = 0;
+
+        _this.setBlendMode(0);
+
+        /**
+         * Fired after rendering finishes.
+         *
+         * @event PIXI.WebGLRenderer#postrender
+         */
+
+        /**
+         * Fired before rendering starts.
+         *
+         * @event PIXI.WebGLRenderer#prerender
+         */
+
+        /**
+         * Fired when the WebGL context is set.
+         *
+         * @event PIXI.WebGLRenderer#context
+         * @param {WebGLRenderingContext} gl - WebGL context.
+         */
+        return _this;
+    }
+
+    /**
+     * Creates the WebGL context
+     *
+     * @private
+     */
+
+
+    WebGLRenderer.prototype._initContext = function _initContext() {
+        var gl = this.gl;
+
+        // restore a context if it was previously lost
+        if (gl.isContextLost() && gl.getExtension('WEBGL_lose_context')) {
+            gl.getExtension('WEBGL_lose_context').restoreContext();
+        }
+
+        var maxTextures = gl.getParameter(gl.MAX_TEXTURE_IMAGE_UNITS);
+
+        this._activeShader = null;
+        this._activeVao = null;
+
+        this.boundTextures = new Array(maxTextures);
+        this.emptyTextures = new Array(maxTextures);
+
+        // create a texture manager...
+        this.textureManager = new _TextureManager2.default(this);
+        this.textureGC = new _TextureGarbageCollector2.default(this);
+
+        this.state.resetToDefault();
+
+        this.rootRenderTarget = new _RenderTarget2.default(gl, this.width, this.height, null, this.resolution, true);
+        this.rootRenderTarget.clearColor = this._backgroundColorRgba;
+
+        this.bindRenderTarget(this.rootRenderTarget);
+
+        // now lets fill up the textures with empty ones!
+        var emptyGLTexture = new _pixiGlCore2.default.GLTexture.fromData(gl, null, 1, 1);
+
+        var tempObj = { _glTextures: {} };
+
+        tempObj._glTextures[this.CONTEXT_UID] = {};
+
+        for (var i = 0; i < maxTextures; i++) {
+            var empty = new _BaseTexture2.default();
+
+            empty._glTextures[this.CONTEXT_UID] = emptyGLTexture;
+
+            this.boundTextures[i] = tempObj;
+            this.emptyTextures[i] = empty;
+            this.bindTexture(null, i);
+        }
+
+        this.emit('context', gl);
+
+        // setup the width/height properties and gl viewport
+        this.resize(this.screen.width, this.screen.height);
+    };
+
+    /**
+     * Renders the object to its webGL view
+     *
+     * @param {PIXI.DisplayObject} displayObject - the object to be rendered
+     * @param {PIXI.RenderTexture} renderTexture - The render texture to render to.
+     * @param {boolean} [clear] - Should the canvas be cleared before the new render
+     * @param {PIXI.Transform} [transform] - A transform to apply to the render texture before rendering.
+     * @param {boolean} [skipUpdateTransform] - Should we skip the update transform pass?
+     */
+
+
+    WebGLRenderer.prototype.render = function render(displayObject, renderTexture, clear, transform, skipUpdateTransform) {
+        // can be handy to know!
+        this.renderingToScreen = !renderTexture;
+
+        this.emit('prerender');
+
+        // no point rendering if our context has been blown up!
+        if (!this.gl || this.gl.isContextLost()) {
+            return;
+        }
+
+        this._nextTextureLocation = 0;
+
+        if (!renderTexture) {
+            this._lastObjectRendered = displayObject;
+        }
+
+        if (!skipUpdateTransform) {
+            // update the scene graph
+            var cacheParent = displayObject.parent;
+
+            displayObject.parent = this._tempDisplayObjectParent;
+            displayObject.updateTransform();
+            displayObject.parent = cacheParent;
+            // displayObject.hitArea = //TODO add a temp hit area
+        }
+
+        this.bindRenderTexture(renderTexture, transform);
+
+        this.currentRenderer.start();
+
+        if (clear !== undefined ? clear : this.clearBeforeRender) {
+            this._activeRenderTarget.clear();
+        }
+
+        displayObject.renderWebGL(this);
+
+        // apply transform..
+        this.currentRenderer.flush();
+
+        // this.setObjectRenderer(this.emptyRenderer);
+
+        this.textureGC.update();
+
+        this.emit('postrender');
+    };
+
+    /**
+     * Changes the current renderer to the one given in parameter
+     *
+     * @param {PIXI.ObjectRenderer} objectRenderer - The object renderer to use.
+     */
+
+
+    WebGLRenderer.prototype.setObjectRenderer = function setObjectRenderer(objectRenderer) {
+        if (this.currentRenderer === objectRenderer) {
+            return;
+        }
+
+        this.currentRenderer.stop();
+        this.currentRenderer = objectRenderer;
+        this.currentRenderer.start();
+    };
+
+    /**
+     * This should be called if you wish to do some custom rendering
+     * It will basically render anything that may be batched up such as sprites
+     *
+     */
+
+
+    WebGLRenderer.prototype.flush = function flush() {
+        this.setObjectRenderer(this.emptyRenderer);
+    };
+
+    /**
+     * Resizes the webGL view to the specified width and height.
+     *
+     * @param {number} screenWidth - the new width of the screen
+     * @param {number} screenHeight - the new height of the screen
+     */
+
+
+    WebGLRenderer.prototype.resize = function resize(screenWidth, screenHeight) {
+        //  if(width * this.resolution === this.width && height * this.resolution === this.height)return;
+
+        _SystemRenderer3.default.prototype.resize.call(this, screenWidth, screenHeight);
+
+        this.rootRenderTarget.resize(screenWidth, screenHeight);
+
+        if (this._activeRenderTarget === this.rootRenderTarget) {
+            this.rootRenderTarget.activate();
+
+            if (this._activeShader) {
+                this._activeShader.uniforms.projectionMatrix = this.rootRenderTarget.projectionMatrix.toArray(true);
+            }
+        }
+    };
+
+    /**
+     * Resizes the webGL view to the specified width and height.
+     *
+     * @param {number} blendMode - the desired blend mode
+     */
+
+
+    WebGLRenderer.prototype.setBlendMode = function setBlendMode(blendMode) {
+        this.state.setBlendMode(blendMode);
+    };
+
+    /**
+     * Erases the active render target and fills the drawing area with a colour
+     *
+     * @param {number} [clearColor] - The colour
+     */
+
+
+    WebGLRenderer.prototype.clear = function clear(clearColor) {
+        this._activeRenderTarget.clear(clearColor);
+    };
+
+    /**
+     * Sets the transform of the active render target to the given matrix
+     *
+     * @param {PIXI.Matrix} matrix - The transformation matrix
+     */
+
+
+    WebGLRenderer.prototype.setTransform = function setTransform(matrix) {
+        this._activeRenderTarget.transform = matrix;
+    };
+
+    /**
+     * Erases the render texture and fills the drawing area with a colour
+     *
+     * @param {PIXI.RenderTexture} renderTexture - The render texture to clear
+     * @param {number} [clearColor] - The colour
+     * @return {PIXI.WebGLRenderer} Returns itself.
+     */
+
+
+    WebGLRenderer.prototype.clearRenderTexture = function clearRenderTexture(renderTexture, clearColor) {
+        var baseTexture = renderTexture.baseTexture;
+        var renderTarget = baseTexture._glRenderTargets[this.CONTEXT_UID];
+
+        if (renderTarget) {
+            renderTarget.clear(clearColor);
+        }
+
+        return this;
+    };
+
+    /**
+     * Binds a render texture for rendering
+     *
+     * @param {PIXI.RenderTexture} renderTexture - The render texture to render
+     * @param {PIXI.Transform} transform - The transform to be applied to the render texture
+     * @return {PIXI.WebGLRenderer} Returns itself.
+     */
+
+
+    WebGLRenderer.prototype.bindRenderTexture = function bindRenderTexture(renderTexture, transform) {
+        var renderTarget = void 0;
+
+        if (renderTexture) {
+            var baseTexture = renderTexture.baseTexture;
+
+            if (!baseTexture._glRenderTargets[this.CONTEXT_UID]) {
+                // bind the current texture
+                this.textureManager.updateTexture(baseTexture, 0);
+            }
+
+            this.unbindTexture(baseTexture);
+
+            renderTarget = baseTexture._glRenderTargets[this.CONTEXT_UID];
+            renderTarget.setFrame(renderTexture.frame);
+        } else {
+            renderTarget = this.rootRenderTarget;
+        }
+
+        renderTarget.transform = transform;
+        this.bindRenderTarget(renderTarget);
+
+        return this;
+    };
+
+    /**
+     * Changes the current render target to the one given in parameter
+     *
+     * @param {PIXI.RenderTarget} renderTarget - the new render target
+     * @return {PIXI.WebGLRenderer} Returns itself.
+     */
+
+
+    WebGLRenderer.prototype.bindRenderTarget = function bindRenderTarget(renderTarget) {
+        if (renderTarget !== this._activeRenderTarget) {
+            this._activeRenderTarget = renderTarget;
+            renderTarget.activate();
+
+            if (this._activeShader) {
+                this._activeShader.uniforms.projectionMatrix = renderTarget.projectionMatrix.toArray(true);
+            }
+
+            this.stencilManager.setMaskStack(renderTarget.stencilMaskStack);
+        }
+
+        return this;
+    };
+
+    /**
+     * Changes the current shader to the one given in parameter
+     *
+     * @param {PIXI.Shader} shader - the new shader
+     * @param {boolean} [autoProject=true] - Whether automatically set the projection matrix
+     * @return {PIXI.WebGLRenderer} Returns itself.
+     */
+
+
+    WebGLRenderer.prototype.bindShader = function bindShader(shader, autoProject) {
+        // TODO cache
+        if (this._activeShader !== shader) {
+            this._activeShader = shader;
+            shader.bind();
+
+            // `autoProject` normally would be a default parameter set to true
+            // but because of how Babel transpiles default parameters
+            // it hinders the performance of this method.
+            if (autoProject !== false) {
+                // automatically set the projection matrix
+                shader.uniforms.projectionMatrix = this._activeRenderTarget.projectionMatrix.toArray(true);
+            }
+        }
+
+        return this;
+    };
+
+    /**
+     * Binds the texture. This will return the location of the bound texture.
+     * It may not be the same as the one you pass in. This is due to optimisation that prevents
+     * needless binding of textures. For example if the texture is already bound it will return the
+     * current location of the texture instead of the one provided. To bypass this use force location
+     *
+     * @param {PIXI.Texture} texture - the new texture
+     * @param {number} location - the suggested texture location
+     * @param {boolean} forceLocation - force the location
+     * @return {number} bound texture location
+     */
+
+
+    WebGLRenderer.prototype.bindTexture = function bindTexture(texture, location, forceLocation) {
+        texture = texture || this.emptyTextures[location];
+        texture = texture.baseTexture || texture;
+        texture.touched = this.textureGC.count;
+
+        if (!forceLocation) {
+            // TODO - maybe look into adding boundIds.. save us the loop?
+            for (var i = 0; i < this.boundTextures.length; i++) {
+                if (this.boundTextures[i] === texture) {
+                    return i;
+                }
+            }
+
+            if (location === undefined) {
+                this._nextTextureLocation++;
+                this._nextTextureLocation %= this.boundTextures.length;
+                location = this.boundTextures.length - this._nextTextureLocation - 1;
+            }
+        } else {
+            location = location || 0;
+        }
+
+        var gl = this.gl;
+        var glTexture = texture._glTextures[this.CONTEXT_UID];
+
+        if (!glTexture) {
+            // this will also bind the texture..
+            this.textureManager.updateTexture(texture, location);
+        } else {
+            // bind the current texture
+            this.boundTextures[location] = texture;
+            gl.activeTexture(gl.TEXTURE0 + location);
+            gl.bindTexture(gl.TEXTURE_2D, glTexture.texture);
+        }
+
+        return location;
+    };
+
+    /**
+    * unbinds the texture ...
+    *
+    * @param {PIXI.Texture} texture - the texture to unbind
+    * @return {PIXI.WebGLRenderer} Returns itself.
+    */
+
+
+    WebGLRenderer.prototype.unbindTexture = function unbindTexture(texture) {
+        var gl = this.gl;
+
+        texture = texture.baseTexture || texture;
+
+        for (var i = 0; i < this.boundTextures.length; i++) {
+            if (this.boundTextures[i] === texture) {
+                this.boundTextures[i] = this.emptyTextures[i];
+
+                gl.activeTexture(gl.TEXTURE0 + i);
+                gl.bindTexture(gl.TEXTURE_2D, this.emptyTextures[i]._glTextures[this.CONTEXT_UID].texture);
+            }
+        }
+
+        return this;
+    };
+
+    /**
+     * Creates a new VAO from this renderer's context and state.
+     *
+     * @return {VertexArrayObject} The new VAO.
+     */
+
+
+    WebGLRenderer.prototype.createVao = function createVao() {
+        return new _pixiGlCore2.default.VertexArrayObject(this.gl, this.state.attribState);
+    };
+
+    /**
+     * Changes the current Vao to the one given in parameter
+     *
+     * @param {PIXI.VertexArrayObject} vao - the new Vao
+     * @return {PIXI.WebGLRenderer} Returns itself.
+     */
+
+
+    WebGLRenderer.prototype.bindVao = function bindVao(vao) {
+        if (this._activeVao === vao) {
+            return this;
+        }
+
+        if (vao) {
+            vao.bind();
+        } else if (this._activeVao) {
+            // TODO this should always be true i think?
+            this._activeVao.unbind();
+        }
+
+        this._activeVao = vao;
+
+        return this;
+    };
+
+    /**
+     * Resets the WebGL state so you can render things however you fancy!
+     *
+     * @return {PIXI.WebGLRenderer} Returns itself.
+     */
+
+
+    WebGLRenderer.prototype.reset = function reset() {
+        this.setObjectRenderer(this.emptyRenderer);
+
+        this._activeShader = null;
+        this._activeRenderTarget = this.rootRenderTarget;
+
+        // bind the main frame buffer (the screen);
+        this.rootRenderTarget.activate();
+
+        this.state.resetToDefault();
+
+        return this;
+    };
+
+    /**
+     * Handles a lost webgl context
+     *
+     * @private
+     * @param {WebGLContextEvent} event - The context lost event.
+     */
+
+
+    WebGLRenderer.prototype.handleContextLost = function handleContextLost(event) {
+        event.preventDefault();
+    };
+
+    /**
+     * Handles a restored webgl context
+     *
+     * @private
+     */
+
+
+    WebGLRenderer.prototype.handleContextRestored = function handleContextRestored() {
+        this.textureManager.removeAll();
+        this._initContext();
+    };
+
+    /**
+     * Removes everything from the renderer (event listeners, spritebatch, etc...)
+     *
+     * @param {boolean} [removeView=false] - Removes the Canvas element from the DOM.
+     *  See: https://github.com/pixijs/pixi.js/issues/2233
+     */
+
+
+    WebGLRenderer.prototype.destroy = function destroy(removeView) {
+        this.destroyPlugins();
+
+        // remove listeners
+        this.view.removeEventListener('webglcontextlost', this.handleContextLost);
+        this.view.removeEventListener('webglcontextrestored', this.handleContextRestored);
+
+        this.textureManager.destroy();
+
+        // call base destroy
+        _SystemRenderer.prototype.destroy.call(this, removeView);
+
+        this.uid = 0;
+
+        // destroy the managers
+        this.maskManager.destroy();
+        this.stencilManager.destroy();
+        this.filterManager.destroy();
+
+        this.maskManager = null;
+        this.filterManager = null;
+        this.textureManager = null;
+        this.currentRenderer = null;
+
+        this.handleContextLost = null;
+        this.handleContextRestored = null;
+
+        this._contextOptions = null;
+        this.gl.useProgram(null);
+
+        if (this.gl.getExtension('WEBGL_lose_context')) {
+            this.gl.getExtension('WEBGL_lose_context').loseContext();
+        }
+
+        this.gl = null;
+
+        // this = null;
+    };
+
+    return WebGLRenderer;
+}(_SystemRenderer3.default);
+
+/**
+ * Collection of installed plugins. These are included by default in PIXI, but can be excluded
+ * by creating a custom build. Consult the README for more information about creating custom
+ * builds and excluding plugins.
+ * @name PIXI.WebGLRenderer#plugins
+ * @type {object}
+ * @readonly
+ * @property {PIXI.accessibility.AccessibilityManager} accessibility Support tabbing interactive elements.
+ * @property {PIXI.extract.WebGLExtract} extract Extract image data from renderer.
+ * @property {PIXI.interaction.InteractionManager} interaction Handles mouse, touch and pointer events.
+ * @property {PIXI.prepare.WebGLPrepare} prepare Pre-render display objects.
+ */
+
+/**
+ * Adds a plugin to the renderer.
+ *
+ * @method PIXI.WebGLRenderer#registerPlugin
+ * @param {string} pluginName - The name of the plugin.
+ * @param {Function} ctor - The constructor function or class for the plugin.
+ */
+
+exports.default = WebGLRenderer;
+_utils.pluginTarget.mixin(WebGLRenderer);
+
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _WebGLManager2 = __webpack_require__(48);
+
+var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * Base for a common object renderer that can be used as a system renderer plugin.
+ *
+ * @class
+ * @extends PIXI.WebGLManager
+ * @memberof PIXI
+ */
+var ObjectRenderer = function (_WebGLManager) {
+  _inherits(ObjectRenderer, _WebGLManager);
+
+  function ObjectRenderer() {
+    _classCallCheck(this, ObjectRenderer);
+
+    return _possibleConstructorReturn(this, _WebGLManager.apply(this, arguments));
+  }
+
+  /**
+   * Starts the renderer and sets the shader
+   *
+   */
+  ObjectRenderer.prototype.start = function start() {}
+  // set the shader..
+
+
+  /**
+   * Stops the renderer
+   *
+   */
+  ;
+
+  ObjectRenderer.prototype.stop = function stop() {
+    this.flush();
+  };
+
+  /**
+   * Stub method for rendering content and emptying the current batch.
+   *
+   */
+
+
+  ObjectRenderer.prototype.flush = function flush() {}
+  // flush!
+
+
+  /**
+   * Renders an object
+   *
+   * @param {PIXI.DisplayObject} object - The object to render.
+   */
+  ;
+
+  ObjectRenderer.prototype.render = function render(object) // eslint-disable-line no-unused-vars
+  {
+    // render the object
+  };
+
+  return ObjectRenderer;
+}(_WebGLManager3.default);
+
+exports.default = ObjectRenderer;
+
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _math = __webpack_require__(7);
+
+var _const = __webpack_require__(1);
+
+var _settings = __webpack_require__(6);
+
+var _settings2 = _interopRequireDefault(_settings);
+
+var _pixiGlCore = __webpack_require__(9);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * @class
+ * @memberof PIXI
+ */
+var RenderTarget = function () {
+  /**
+   * @param {WebGLRenderingContext} gl - The current WebGL drawing context
+   * @param {number} [width=0] - the horizontal range of the filter
+   * @param {number} [height=0] - the vertical range of the filter
+   * @param {number} [scaleMode=PIXI.settings.SCALE_MODE] - See {@link PIXI.SCALE_MODES} for possible values
+   * @param {number} [resolution=1] - The current resolution / device pixel ratio
+   * @param {boolean} [root=false] - Whether this object is the root element or not
+   */
+  function RenderTarget(gl, width, height, scaleMode, resolution, root) {
+    _classCallCheck(this, RenderTarget);
+
+    // TODO Resolution could go here ( eg low res blurs )
+
+    /**
+     * The current WebGL drawing context.
+     *
+     * @member {WebGLRenderingContext}
+     */
+    this.gl = gl;
+
+    // next time to create a frame buffer and texture
+
+    /**
+     * A frame buffer
+     *
+     * @member {PIXI.glCore.GLFramebuffer}
+     */
+    this.frameBuffer = null;
+
+    /**
+     * The texture
+     *
+     * @member {PIXI.glCore.GLTexture}
+     */
+    this.texture = null;
+
+    /**
+     * The background colour of this render target, as an array of [r,g,b,a] values
+     *
+     * @member {number[]}
+     */
+    this.clearColor = [0, 0, 0, 0];
+
+    /**
+     * The size of the object as a rectangle
+     *
+     * @member {PIXI.Rectangle}
+     */
+    this.size = new _math.Rectangle(0, 0, 1, 1);
+
+    /**
+     * The current resolution / device pixel ratio
+     *
+     * @member {number}
+     * @default 1
+     */
+    this.resolution = resolution || _settings2.default.RESOLUTION;
+
+    /**
+     * The projection matrix
+     *
+     * @member {PIXI.Matrix}
+     */
+    this.projectionMatrix = new _math.Matrix();
+
+    /**
+     * The object's transform
+     *
+     * @member {PIXI.Matrix}
+     */
+    this.transform = null;
+
+    /**
+     * The frame.
+     *
+     * @member {PIXI.Rectangle}
+     */
+    this.frame = null;
+
+    /**
+     * The stencil buffer stores masking data for the render target
+     *
+     * @member {glCore.GLBuffer}
+     */
+    this.defaultFrame = new _math.Rectangle();
+    this.destinationFrame = null;
+    this.sourceFrame = null;
+
+    /**
+     * The stencil buffer stores masking data for the render target
+     *
+     * @member {glCore.GLBuffer}
+     */
+    this.stencilBuffer = null;
+
+    /**
+     * The data structure for the stencil masks
+     *
+     * @member {PIXI.Graphics[]}
+     */
+    this.stencilMaskStack = [];
+
+    /**
+     * Stores filter data for the render target
+     *
+     * @member {object[]}
+     */
+    this.filterData = null;
+
+    /**
+     * The scale mode.
+     *
+     * @member {number}
+     * @default PIXI.settings.SCALE_MODE
+     * @see PIXI.SCALE_MODES
+     */
+    this.scaleMode = scaleMode !== undefined ? scaleMode : _settings2.default.SCALE_MODE;
+
+    /**
+     * Whether this object is the root element or not
+     *
+     * @member {boolean}
+     */
+    this.root = root;
+
+    if (!this.root) {
+      this.frameBuffer = _pixiGlCore.GLFramebuffer.createRGBA(gl, 100, 100);
+
+      if (this.scaleMode === _const.SCALE_MODES.NEAREST) {
+        this.frameBuffer.texture.enableNearestScaling();
+      } else {
+        this.frameBuffer.texture.enableLinearScaling();
+      }
+      /*
+          A frame buffer needs a target to render to..
+          create a texture and bind it attach it to the framebuffer..
+       */
+
+      // this is used by the base texture
+      this.texture = this.frameBuffer.texture;
+    } else {
+      // make it a null framebuffer..
+      this.frameBuffer = new _pixiGlCore.GLFramebuffer(gl, 100, 100);
+      this.frameBuffer.framebuffer = null;
+    }
+
+    this.setFrame();
+
+    this.resize(width, height);
+  }
+
+  /**
+   * Clears the filter texture.
+   *
+   * @param {number[]} [clearColor=this.clearColor] - Array of [r,g,b,a] to clear the framebuffer
+   */
+
+
+  RenderTarget.prototype.clear = function clear(clearColor) {
+    var cc = clearColor || this.clearColor;
+
+    this.frameBuffer.clear(cc[0], cc[1], cc[2], cc[3]); // r,g,b,a);
+  };
+
+  /**
+   * Binds the stencil buffer.
+   *
+   */
+
+
+  RenderTarget.prototype.attachStencilBuffer = function attachStencilBuffer() {
+    // TODO check if stencil is done?
+    /**
+     * The stencil buffer is used for masking in pixi
+     * lets create one and then add attach it to the framebuffer..
+     */
+    if (!this.root) {
+      this.frameBuffer.enableStencil();
+    }
+  };
+
+  /**
+   * Sets the frame of the render target.
+   *
+   * @param {Rectangle} destinationFrame - The destination frame.
+   * @param {Rectangle} sourceFrame - The source frame.
+   */
+
+
+  RenderTarget.prototype.setFrame = function setFrame(destinationFrame, sourceFrame) {
+    this.destinationFrame = destinationFrame || this.destinationFrame || this.defaultFrame;
+    this.sourceFrame = sourceFrame || this.sourceFrame || this.destinationFrame;
+  };
+
+  /**
+   * Binds the buffers and initialises the viewport.
+   *
+   */
+
+
+  RenderTarget.prototype.activate = function activate() {
+    // TOOD refactor usage of frame..
+    var gl = this.gl;
+
+    // make sure the texture is unbound!
+    this.frameBuffer.bind();
+
+    this.calculateProjection(this.destinationFrame, this.sourceFrame);
+
+    if (this.transform) {
+      this.projectionMatrix.append(this.transform);
+    }
+
+    // TODO add a check as them may be the same!
+    if (this.destinationFrame !== this.sourceFrame) {
+      gl.enable(gl.SCISSOR_TEST);
+      gl.scissor(this.destinationFrame.x | 0, this.destinationFrame.y | 0, this.destinationFrame.width * this.resolution | 0, this.destinationFrame.height * this.resolution | 0);
+    } else {
+      gl.disable(gl.SCISSOR_TEST);
+    }
+
+    // TODO - does not need to be updated all the time??
+    gl.viewport(this.destinationFrame.x | 0, this.destinationFrame.y | 0, this.destinationFrame.width * this.resolution | 0, this.destinationFrame.height * this.resolution | 0);
+  };
+
+  /**
+   * Updates the projection matrix based on a projection frame (which is a rectangle)
+   *
+   * @param {Rectangle} destinationFrame - The destination frame.
+   * @param {Rectangle} sourceFrame - The source frame.
+   */
+
+
+  RenderTarget.prototype.calculateProjection = function calculateProjection(destinationFrame, sourceFrame) {
+    var pm = this.projectionMatrix;
+
+    sourceFrame = sourceFrame || destinationFrame;
+
+    pm.identity();
+
+    // TODO: make dest scale source
+    if (!this.root) {
+      pm.a = 1 / destinationFrame.width * 2;
+      pm.d = 1 / destinationFrame.height * 2;
+
+      pm.tx = -1 - sourceFrame.x * pm.a;
+      pm.ty = -1 - sourceFrame.y * pm.d;
+    } else {
+      pm.a = 1 / destinationFrame.width * 2;
+      pm.d = -1 / destinationFrame.height * 2;
+
+      pm.tx = -1 - sourceFrame.x * pm.a;
+      pm.ty = 1 - sourceFrame.y * pm.d;
+    }
+  };
+
+  /**
+   * Resizes the texture to the specified width and height
+   *
+   * @param {number} width - the new width of the texture
+   * @param {number} height - the new height of the texture
+   */
+
+
+  RenderTarget.prototype.resize = function resize(width, height) {
+    width = width | 0;
+    height = height | 0;
+
+    if (this.size.width === width && this.size.height === height) {
+      return;
+    }
+
+    this.size.width = width;
+    this.size.height = height;
+
+    this.defaultFrame.width = width;
+    this.defaultFrame.height = height;
+
+    this.frameBuffer.resize(width * this.resolution, height * this.resolution);
+
+    var projectionFrame = this.frame || this.size;
+
+    this.calculateProjection(projectionFrame);
+  };
+
+  /**
+   * Destroys the render target.
+   *
+   */
+
+
+  RenderTarget.prototype.destroy = function destroy() {
+    this.frameBuffer.destroy();
+
+    this.frameBuffer = null;
+    this.texture = null;
+  };
+
+  return RenderTarget;
+}();
+
+exports.default = RenderTarget;
+
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(368).default;
+module.exports.default = module.exports;
+
+
+
+/***/ }),
 /* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(376).default;
+module.exports.default = module.exports;
+
+
+
+/***/ }),
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11326,7 +11417,7 @@ exports.nextCombination = function(v) {
 
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports) {
 
 // 7.2.1 RequireObjectCoercible(argument)
@@ -11336,7 +11427,7 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports) {
 
 // IE 8- don't enum bug keys
@@ -11345,39 +11436,39 @@ module.exports = (
 ).split(',');
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports) {
 
 module.exports = {};
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports) {
 
 module.exports = true;
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-var anObject    = __webpack_require__(33)
-  , dPs         = __webpack_require__(232)
-  , enumBugKeys = __webpack_require__(67)
-  , IE_PROTO    = __webpack_require__(73)('IE_PROTO')
+var anObject    = __webpack_require__(37)
+  , dPs         = __webpack_require__(239)
+  , enumBugKeys = __webpack_require__(68)
+  , IE_PROTO    = __webpack_require__(74)('IE_PROTO')
   , Empty       = function(){ /* empty */ }
   , PROTOTYPE   = 'prototype';
 
 // Create object with fake `null` prototype: use iframe Object with cleared prototype
 var createDict = function(){
   // Thrash, waste and sodomy: IE GC bug
-  var iframe = __webpack_require__(113)('iframe')
+  var iframe = __webpack_require__(116)('iframe')
     , i      = enumBugKeys.length
     , lt     = '<'
     , gt     = '>'
     , iframeDocument;
   iframe.style.display = 'none';
-  __webpack_require__(225).appendChild(iframe);
+  __webpack_require__(232).appendChild(iframe);
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -11404,35 +11495,35 @@ module.exports = Object.create || function create(O, Properties){
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports) {
 
 exports.f = {}.propertyIsEnumerable;
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var def = __webpack_require__(20).f
   , has = __webpack_require__(19)
-  , TAG = __webpack_require__(28)('toStringTag');
+  , TAG = __webpack_require__(31)('toStringTag');
 
 module.exports = function(it, tag, stat){
   if(it && !has(it = stat ? it : it.prototype, TAG))def(it, TAG, {configurable: true, value: tag});
 };
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var shared = __webpack_require__(74)('keys')
-  , uid    = __webpack_require__(50);
+var shared = __webpack_require__(75)('keys')
+  , uid    = __webpack_require__(54);
 module.exports = function(key){
   return shared[key] || (shared[key] = uid(key));
 };
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(15)
@@ -11443,7 +11534,7 @@ module.exports = function(key){
 };
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports) {
 
 // 7.1.4 ToInteger
@@ -11454,11 +11545,11 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
-var isObject = __webpack_require__(35);
+var isObject = __webpack_require__(39);
 // instead of the ES6 spec version, we didn't implement @@toPrimitive case
 // and the second argument - flag - preferred type is a string
 module.exports = function(it, S){
@@ -11471,13 +11562,13 @@ module.exports = function(it, S){
 };
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global         = __webpack_require__(15)
-  , core           = __webpack_require__(26)
-  , LIBRARY        = __webpack_require__(69)
-  , wksExt         = __webpack_require__(78)
+  , core           = __webpack_require__(29)
+  , LIBRARY        = __webpack_require__(70)
+  , wksExt         = __webpack_require__(79)
   , defineProperty = __webpack_require__(20).f;
 module.exports = function(name){
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
@@ -11485,17 +11576,17 @@ module.exports = function(name){
 };
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports.f = __webpack_require__(28);
+exports.f = __webpack_require__(31);
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(40);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values, p, valueof) {
@@ -11513,7 +11604,7 @@ exports.f = __webpack_require__(28);
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11596,11 +11687,11 @@ function map(object, f) {
 
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(83);
 /* harmony export (immutable) */ __webpack_exports__["c"] = Color;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return darker; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return brighter; });
@@ -11943,7 +12034,7 @@ function hsl2rgb(h, m1, m2) {
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11961,7 +12052,7 @@ function extend(parent, definition) {
 
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11982,7 +12073,7 @@ function extend(parent, definition) {
 
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12009,18 +12100,18 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rgb__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__date__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__string__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__constant__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rgb__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__date__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__string__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__constant__ = __webpack_require__(144);
 
 
 
@@ -12044,97 +12135,6 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 86 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(329);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleBand", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scalePoint", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(335);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleIdentity", function() { return __WEBPACK_IMPORTED_MODULE_1__src_identity__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_linear__ = __webpack_require__(39);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleLinear", function() { return __WEBPACK_IMPORTED_MODULE_2__src_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(336);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleLog", function() { return __WEBPACK_IMPORTED_MODULE_3__src_log__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_ordinal__ = __webpack_require__(148);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleOrdinal", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleImplicit", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(337);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scalePow", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleSqrt", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(338);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleQuantile", function() { return __WEBPACK_IMPORTED_MODULE_6__src_quantile__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(339);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleQuantize", function() { return __WEBPACK_IMPORTED_MODULE_7__src_quantize__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(342);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleThreshold", function() { return __WEBPACK_IMPORTED_MODULE_8__src_threshold__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_time__ = __webpack_require__(149);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleTime", function() { return __WEBPACK_IMPORTED_MODULE_9__src_time__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(344);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleUtc", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcTime__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_category10__ = __webpack_require__(330);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory10", function() { return __WEBPACK_IMPORTED_MODULE_11__src_category10__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_category20b__ = __webpack_require__(332);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20b", function() { return __WEBPACK_IMPORTED_MODULE_12__src_category20b__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_category20c__ = __webpack_require__(333);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20c", function() { return __WEBPACK_IMPORTED_MODULE_13__src_category20c__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_category20__ = __webpack_require__(331);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20", function() { return __WEBPACK_IMPORTED_MODULE_14__src_category20__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(334);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateCubehelixDefault", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_rainbow__ = __webpack_require__(340);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRainbow", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateWarm", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateCool", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_viridis__ = __webpack_require__(345);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateViridis", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateMagma", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateInferno", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePlasma", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["d"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential__ = __webpack_require__(341);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleSequential", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
 /* 87 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12151,7 +12151,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(156);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return timeFormat; });
 /* unused harmony export timeParse */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return utcFormat; });
@@ -12193,26 +12193,26 @@ function defaultLocale(definition) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_interval__ = __webpack_require__(8);
 /* unused harmony reexport timeInterval */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(355);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* unused harmony reexport timeMilliseconds */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* unused harmony reexport utcMilliseconds */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(358);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* unused harmony reexport timeSeconds */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* unused harmony reexport utcSeconds */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(356);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_3__src_minute__["a"]; });
 /* unused harmony reexport timeMinutes */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(354);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_4__src_hour__["a"]; });
 /* unused harmony reexport timeHours */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(353);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_5__src_day__["a"]; });
 /* unused harmony reexport timeDays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(365);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["a"]; });
 /* unused harmony reexport timeWeeks */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["a"]; });
@@ -12229,22 +12229,22 @@ function defaultLocale(definition) {
 /* unused harmony reexport timeFridays */
 /* unused harmony reexport timeSaturday */
 /* unused harmony reexport timeSaturdays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(357);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_7__src_month__["a"]; });
 /* unused harmony reexport timeMonths */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(366);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_8__src_year__["a"]; });
 /* unused harmony reexport timeYears */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(361);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__["a"]; });
 /* unused harmony reexport utcMinutes */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(360);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcHour__["a"]; });
 /* unused harmony reexport utcHours */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(359);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_11__src_utcDay__["a"]; });
 /* unused harmony reexport utcDays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(363);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["a"]; });
 /* unused harmony reexport utcWeeks */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["a"]; });
@@ -12261,10 +12261,10 @@ function defaultLocale(definition) {
 /* unused harmony reexport utcFridays */
 /* unused harmony reexport utcSaturday */
 /* unused harmony reexport utcSaturdays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(362);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__["a"]; });
 /* unused harmony reexport utcMonths */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(364);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_14__src_utcYear__["a"]; });
 /* unused harmony reexport utcYears */
 
@@ -12307,9 +12307,9 @@ function defaultLocale(definition) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var inferno_shared_1 = __webpack_require__(5);
 var options_1 = __webpack_require__(17);
-var patching_1 = __webpack_require__(31);
-var recycling_1 = __webpack_require__(154);
-var rendering_1 = __webpack_require__(40);
+var patching_1 = __webpack_require__(35);
+var recycling_1 = __webpack_require__(159);
+var rendering_1 = __webpack_require__(44);
 var utils_1 = __webpack_require__(10);
 function unmount(vNode, parentDom, lifecycle, canRecycle, isRecycling) {
     var flags = vNode.flags;
@@ -12443,9 +12443,9 @@ function unmountRef(ref) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var inferno_shared_1 = __webpack_require__(5);
-var InputWrapper_1 = __webpack_require__(368);
-var SelectWrapper_1 = __webpack_require__(369);
-var TextareaWrapper_1 = __webpack_require__(370);
+var InputWrapper_1 = __webpack_require__(373);
+var SelectWrapper_1 = __webpack_require__(374);
+var TextareaWrapper_1 = __webpack_require__(375);
 /**
  * There is currently no support for switching same input between controlled and nonControlled
  * If that ever becomes a real issue, then re design controlled elements
@@ -14028,7 +14028,7 @@ var _Texture = __webpack_require__(25);
 
 var _Texture2 = _interopRequireDefault(_Texture);
 
-var _Container2 = __webpack_require__(42);
+var _Container2 = __webpack_require__(46);
 
 var _Container3 = _interopRequireDefault(_Container2);
 
@@ -14645,7 +14645,7 @@ exports.__esModule = true;
 
 var _utils = __webpack_require__(4);
 
-var _canUseNewCanvasBlendModes = __webpack_require__(178);
+var _canUseNewCanvasBlendModes = __webpack_require__(183);
 
 var _canUseNewCanvasBlendModes2 = _interopRequireDefault(_canUseNewCanvasBlendModes);
 
@@ -14893,7 +14893,7 @@ exports.default = CanvasTinter;
 
 exports.__esModule = true;
 
-var _BaseRenderTexture = __webpack_require__(184);
+var _BaseRenderTexture = __webpack_require__(189);
 
 var _BaseRenderTexture2 = _interopRequireDefault(_BaseRenderTexture);
 
@@ -15050,7 +15050,7 @@ exports.default = RenderTexture;
 exports.__esModule = true;
 exports.Ticker = exports.shared = undefined;
 
-var _Ticker = __webpack_require__(415);
+var _Ticker = __webpack_require__(420);
 
 var _Ticker2 = _interopRequireDefault(_Ticker);
 
@@ -15341,7 +15341,7 @@ var _core = __webpack_require__(2);
 
 var core = _interopRequireWildcard(_core);
 
-var _CountLimiter = __webpack_require__(199);
+var _CountLimiter = __webpack_require__(205);
 
 var _CountLimiter2 = _interopRequireDefault(_CountLimiter);
 
@@ -15832,11 +15832,11 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _parseUri = __webpack_require__(157);
+var _parseUri = __webpack_require__(162);
 
 var _parseUri2 = _interopRequireDefault(_parseUri);
 
-var _miniSignals = __webpack_require__(156);
+var _miniSignals = __webpack_require__(161);
 
 var _miniSignals2 = _interopRequireDefault(_miniSignals);
 
@@ -17015,11 +17015,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.D3Colors = undefined;
 
-var _d3Scale = __webpack_require__(86);
+var _d3Scale = __webpack_require__(34);
 
 var d3_scale = _interopRequireWildcard(_d3Scale);
 
-var _d3ScaleChromatic = __webpack_require__(293);
+var _d3ScaleChromatic = __webpack_require__(149);
 
 var d3_scale_chromatic = _interopRequireWildcard(_d3ScaleChromatic);
 
@@ -17140,11 +17140,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.makeCanvas = exports.colorToHex = exports.makeScales = exports.makeLink = exports.makeNode = undefined;
 
-var _underscore = __webpack_require__(60);
+var _underscore = __webpack_require__(26);
 
 var _underscore2 = _interopRequireDefault(_underscore);
 
-var _d3Scale = __webpack_require__(86);
+var _d3Scale = __webpack_require__(34);
 
 var d3_scale = _interopRequireWildcard(_d3Scale);
 
@@ -17155,23 +17155,24 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // Create a new node object
 var makeNode = exports.makeNode = function makeNode(object_id) {
     return {
-        status: 'added',
         id: object_id,
         scale: 0,
         weight: 0,
         x: object_id % 3000 - 3000 / 2,
-        y: object_id % 3000 - 3000 / 2
+        y: object_id % 3000 - 3000 / 2,
+        status: 'added',
+        linksById: {}
     };
 };
 // Create a new link object
 var makeLink = exports.makeLink = function makeLink(edge, fromNode, toNode) {
     return {
-        status: 'added',
         id: edge.from + ',' + edge.to,
         scale: 0,
         source: fromNode,
         target: toNode,
-        weight: edge.weight
+        weight: edge.weight,
+        status: 'added'
     };
 };
 // Use nodes/links to generate min/max weight scales
@@ -17228,13 +17229,169 @@ var makeCanvas = exports.makeCanvas = function makeCanvas(width, height) {
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.makeCanvas = exports.colorToHex = exports.makeScales = exports.makeLink = exports.makeNode = undefined;
+
+var _underscore = __webpack_require__(26);
+
+var _underscore2 = _interopRequireDefault(_underscore);
+
+var _d3Scale = __webpack_require__(34);
+
+var d3_scale = _interopRequireWildcard(_d3Scale);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Create a new node object
+var makeNode = exports.makeNode = function makeNode(object_id) {
+    return {
+        id: object_id,
+        scale: 0,
+        weight: 0,
+        x: object_id % 3000 - 3000 / 2,
+        y: object_id % 3000 - 3000 / 2,
+        status: 'added',
+        linksById: {}
+    };
+};
+// Create a new link object
+var makeLink = exports.makeLink = function makeLink(edge, fromNode, toNode) {
+    return {
+        id: edge.from + ',' + edge.to,
+        scale: 0,
+        source: fromNode,
+        target: toNode,
+        weight: edge.weight,
+        status: 'added'
+    };
+};
+// Use nodes/links to generate min/max weight scales
+var makeScales = exports.makeScales = function makeScales(nodes, links) {
+    var maxNodeWeight = -Infinity;
+    var minNodeWeight = Infinity;
+    _underscore2.default.each(nodes, function (node) {
+        maxNodeWeight = Math.max(maxNodeWeight, node.weight);
+        minNodeWeight = Math.min(minNodeWeight, node.weight);
+    });
+    var maxLinkWeight = -Infinity;
+    var minLinkWeight = Infinity;
+    _underscore2.default.each(links, function (link) {
+        maxLinkWeight = Math.max(maxLinkWeight, link.weight);
+        minLinkWeight = Math.min(minLinkWeight, link.weight);
+    });
+    var nodeScale = d3_scale.scaleLog().domain([minNodeWeight, maxNodeWeight]).range([0, 1]);
+    var linkScale = d3_scale.scaleLog().domain([minLinkWeight, maxLinkWeight]).range([0, 1]);
+    return { nodeScale: nodeScale, linkScale: linkScale };
+};
+// Convert hex or rgb string to hex number
+var colorToHex = exports.colorToHex = function colorToHex(color) {
+    var hex = void 0;
+    if (!color || !color.length) {
+        // null value
+        hex = '0xFFFFFF';
+    } else if (color.indexOf('#') === 0) {
+        // hex string
+        hex = '0x' + color.split('#')[1];
+    } else {
+        // rgb string
+        var a = color.split('(')[1].split(')')[0].split(',');
+        var b = a.map(function (x) {
+            x = parseInt(x).toString(16);
+            return x.length === 1 ? '0' + x : x;
+        });
+        hex = '0x' + b.join('');
+    }
+    return parseInt(hex, 16);
+};
+// Create a canvas element
+var makeCanvas = exports.makeCanvas = function makeCanvas(width, height) {
+    var element = document.createElement('canvas');
+    var context = element.getContext('2d');
+    element.width = width;
+    element.height = height;
+    return { element: element, context: context };
+};
+
+/***/ }),
+/* 111 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
 exports.__esModule = true;
 
-var _iterator = __webpack_require__(213);
+var _setPrototypeOf = __webpack_require__(220);
+
+var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
+
+var _create = __webpack_require__(218);
+
+var _create2 = _interopRequireDefault(_create);
+
+var _typeof2 = __webpack_require__(113);
+
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : (0, _typeof3.default)(superClass)));
+  }
+
+  subClass.prototype = (0, _create2.default)(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) _setPrototypeOf2.default ? (0, _setPrototypeOf2.default)(subClass, superClass) : subClass.__proto__ = superClass;
+};
+
+/***/ }),
+/* 112 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _typeof2 = __webpack_require__(113);
+
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return call && ((typeof call === "undefined" ? "undefined" : (0, _typeof3.default)(call)) === "object" || typeof call === "function") ? call : self;
+};
+
+/***/ }),
+/* 113 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _iterator = __webpack_require__(222);
 
 var _iterator2 = _interopRequireDefault(_iterator);
 
-var _symbol = __webpack_require__(212);
+var _symbol = __webpack_require__(221);
 
 var _symbol2 = _interopRequireDefault(_symbol);
 
@@ -17249,7 +17406,7 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 };
 
 /***/ }),
-/* 111 */
+/* 114 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -17259,11 +17416,11 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 112 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
-var aFunction = __webpack_require__(221);
+var aFunction = __webpack_require__(228);
 module.exports = function(fn, that, length){
   aFunction(fn);
   if(that === undefined)return fn;
@@ -17284,10 +17441,10 @@ module.exports = function(fn, that, length){
 };
 
 /***/ }),
-/* 113 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(35)
+var isObject = __webpack_require__(39)
   , document = __webpack_require__(15).document
   // in old IE typeof document.createElement is 'object'
   , is = isObject(document) && isObject(document.createElement);
@@ -17296,29 +17453,29 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 114 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = !__webpack_require__(18) && !__webpack_require__(47)(function(){
-  return Object.defineProperty(__webpack_require__(113)('div'), 'a', {get: function(){ return 7; }}).a != 7;
+module.exports = !__webpack_require__(18) && !__webpack_require__(51)(function(){
+  return Object.defineProperty(__webpack_require__(116)('div'), 'a', {get: function(){ return 7; }}).a != 7;
 });
 
 /***/ }),
-/* 115 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var LIBRARY        = __webpack_require__(69)
-  , $export        = __webpack_require__(34)
-  , redefine       = __webpack_require__(120)
-  , hide           = __webpack_require__(27)
+var LIBRARY        = __webpack_require__(70)
+  , $export        = __webpack_require__(38)
+  , redefine       = __webpack_require__(123)
+  , hide           = __webpack_require__(30)
   , has            = __webpack_require__(19)
-  , Iterators      = __webpack_require__(68)
-  , $iterCreate    = __webpack_require__(228)
-  , setToStringTag = __webpack_require__(72)
-  , getPrototypeOf = __webpack_require__(234)
-  , ITERATOR       = __webpack_require__(28)('iterator')
+  , Iterators      = __webpack_require__(69)
+  , $iterCreate    = __webpack_require__(235)
+  , setToStringTag = __webpack_require__(73)
+  , getPrototypeOf = __webpack_require__(241)
+  , ITERATOR       = __webpack_require__(31)('iterator')
   , BUGGY          = !([].keys && 'next' in [].keys()) // Safari has buggy iterators w/o `next`
   , FF_ITERATOR    = '@@iterator'
   , KEYS           = 'keys'
@@ -17380,15 +17537,15 @@ module.exports = function(Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED
 };
 
 /***/ }),
-/* 116 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var pIE            = __webpack_require__(71)
-  , createDesc     = __webpack_require__(49)
+var pIE            = __webpack_require__(72)
+  , createDesc     = __webpack_require__(53)
   , toIObject      = __webpack_require__(21)
-  , toPrimitive    = __webpack_require__(76)
+  , toPrimitive    = __webpack_require__(77)
   , has            = __webpack_require__(19)
-  , IE8_DOM_DEFINE = __webpack_require__(114)
+  , IE8_DOM_DEFINE = __webpack_require__(117)
   , gOPD           = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(18) ? gOPD : function getOwnPropertyDescriptor(O, P){
@@ -17401,31 +17558,31 @@ exports.f = __webpack_require__(18) ? gOPD : function getOwnPropertyDescriptor(O
 };
 
 /***/ }),
-/* 117 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys      = __webpack_require__(119)
-  , hiddenKeys = __webpack_require__(67).concat('length', 'prototype');
+var $keys      = __webpack_require__(122)
+  , hiddenKeys = __webpack_require__(68).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O){
   return $keys(O, hiddenKeys);
 };
 
 /***/ }),
-/* 118 */
+/* 121 */
 /***/ (function(module, exports) {
 
 exports.f = Object.getOwnPropertySymbols;
 
 /***/ }),
-/* 119 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var has          = __webpack_require__(19)
   , toIObject    = __webpack_require__(21)
-  , arrayIndexOf = __webpack_require__(223)(false)
-  , IE_PROTO     = __webpack_require__(73)('IE_PROTO');
+  , arrayIndexOf = __webpack_require__(230)(false)
+  , IE_PROTO     = __webpack_require__(74)('IE_PROTO');
 
 module.exports = function(object, names){
   var O      = toIObject(object)
@@ -17441,13 +17598,13 @@ module.exports = function(object, names){
 };
 
 /***/ }),
-/* 120 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(27);
+module.exports = __webpack_require__(30);
 
 /***/ }),
-/* 121 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17460,12 +17617,12 @@ var map = array.map;
 
 
 /***/ }),
-/* 122 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisector__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisector__ = __webpack_require__(126);
 /* unused harmony export bisectRight */
 /* unused harmony export bisectLeft */
 
@@ -17478,11 +17635,11 @@ var bisectLeft = ascendingBisect.left;
 
 
 /***/ }),
-/* 123 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(32);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(compare) {
@@ -17519,11 +17676,11 @@ function ascendingComparator(f) {
 
 
 /***/ }),
-/* 124 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__variance__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__variance__ = __webpack_require__(135);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(array, f) {
@@ -17533,7 +17690,7 @@ function ascendingComparator(f) {
 
 
 /***/ }),
-/* 125 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17577,7 +17734,7 @@ function ascendingComparator(f) {
 
 
 /***/ }),
-/* 126 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17618,7 +17775,7 @@ function ascendingComparator(f) {
 
 
 /***/ }),
-/* 127 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17636,7 +17793,7 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 128 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17656,7 +17813,7 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 129 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17666,7 +17823,7 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 130 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17725,11 +17882,11 @@ function tickStep(start, stop, count) {
 
 
 /***/ }),
-/* 131 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__min__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__min__ = __webpack_require__(129);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(matrix) {
@@ -17748,11 +17905,11 @@ function length(d) {
 
 
 /***/ }),
-/* 132 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(40);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values, valueof) {
@@ -17789,7 +17946,7 @@ function length(d) {
 
 
 /***/ }),
-/* 133 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17800,23 +17957,23 @@ var rad2deg = 180 / Math.PI;
 
 
 /***/ }),
-/* 134 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(281);
 /* unused harmony reexport formatDefaultLocale */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(141);
 /* unused harmony reexport formatLocale */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(139);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(287);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(288);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(289);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__["a"]; });
 
 
@@ -17827,11 +17984,11 @@ var rad2deg = 180 / Math.PI;
 
 
 /***/ }),
-/* 135 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(84);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return prefixExponent; });
 
 
@@ -17852,11 +18009,11 @@ var prefixExponent;
 
 
 /***/ }),
-/* 136 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatTypes__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatTypes__ = __webpack_require__(140);
 /* harmony export (immutable) */ __webpack_exports__["a"] = formatSpecifier;
 
 
@@ -17917,13 +18074,13 @@ FormatSpecifier.prototype.toString = function() {
 
 
 /***/ }),
-/* 137 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(285);
 
 
 
@@ -17947,17 +18104,17 @@ FormatSpecifier.prototype.toString = function() {
 
 
 /***/ }),
-/* 138 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(277);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(286);
 
 
 
@@ -18089,11 +18246,11 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 139 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(86);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
@@ -18114,11 +18271,11 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 140 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(85);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values) {
@@ -18135,7 +18292,7 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 141 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18147,7 +18304,7 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 142 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18160,11 +18317,11 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 143 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(86);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
@@ -18191,14 +18348,14 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 144 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basisClosed__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__color__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basisClosed__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__color__ = __webpack_require__(41);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return rgbBasis; });
 /* unused harmony export rgbBasisClosed */
 
@@ -18259,11 +18416,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 145 */
+/* 148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(56);
 
 
 var reA = /[-+]?(?:\d+\.?\d*|\.?\d+)(?:[eE][-+]?\d+)?/g,
@@ -18331,7 +18488,147 @@ function one(b) {
 
 
 /***/ }),
-/* 146 */
+/* 149 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_categorical_Accent__ = __webpack_require__(300);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeAccent", function() { return __WEBPACK_IMPORTED_MODULE_0__src_categorical_Accent__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_categorical_Dark2__ = __webpack_require__(301);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeDark2", function() { return __WEBPACK_IMPORTED_MODULE_1__src_categorical_Dark2__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_categorical_Paired__ = __webpack_require__(302);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePaired", function() { return __WEBPACK_IMPORTED_MODULE_2__src_categorical_Paired__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_categorical_Pastel1__ = __webpack_require__(303);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePastel1", function() { return __WEBPACK_IMPORTED_MODULE_3__src_categorical_Pastel1__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel2__ = __webpack_require__(304);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePastel2", function() { return __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel2__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_categorical_Set1__ = __webpack_require__(305);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeSet1", function() { return __WEBPACK_IMPORTED_MODULE_5__src_categorical_Set1__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set2__ = __webpack_require__(306);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeSet2", function() { return __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set2__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set3__ = __webpack_require__(307);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeSet3", function() { return __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set3__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_diverging_BrBG__ = __webpack_require__(308);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateBrBG", function() { return __WEBPACK_IMPORTED_MODULE_8__src_diverging_BrBG__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeBrBG", function() { return __WEBPACK_IMPORTED_MODULE_8__src_diverging_BrBG__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_diverging_PRGn__ = __webpack_require__(309);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePRGn", function() { return __WEBPACK_IMPORTED_MODULE_9__src_diverging_PRGn__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePRGn", function() { return __WEBPACK_IMPORTED_MODULE_9__src_diverging_PRGn__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_diverging_PiYG__ = __webpack_require__(310);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePiYG", function() { return __WEBPACK_IMPORTED_MODULE_10__src_diverging_PiYG__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePiYG", function() { return __WEBPACK_IMPORTED_MODULE_10__src_diverging_PiYG__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_diverging_PuOr__ = __webpack_require__(311);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePuOr", function() { return __WEBPACK_IMPORTED_MODULE_11__src_diverging_PuOr__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePuOr", function() { return __WEBPACK_IMPORTED_MODULE_11__src_diverging_PuOr__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_diverging_RdBu__ = __webpack_require__(312);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdBu", function() { return __WEBPACK_IMPORTED_MODULE_12__src_diverging_RdBu__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdBu", function() { return __WEBPACK_IMPORTED_MODULE_12__src_diverging_RdBu__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdGy__ = __webpack_require__(313);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdGy", function() { return __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdGy__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdGy", function() { return __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdGy__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdYlBu__ = __webpack_require__(314);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdYlBu", function() { return __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdYlBu__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdYlBu", function() { return __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdYlBu__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlGn__ = __webpack_require__(315);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdYlGn", function() { return __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlGn__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdYlGn", function() { return __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlGn__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_diverging_Spectral__ = __webpack_require__(316);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateSpectral", function() { return __WEBPACK_IMPORTED_MODULE_16__src_diverging_Spectral__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeSpectral", function() { return __WEBPACK_IMPORTED_MODULE_16__src_diverging_Spectral__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_sequential_multi_BuGn__ = __webpack_require__(317);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateBuGn", function() { return __WEBPACK_IMPORTED_MODULE_17__src_sequential_multi_BuGn__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeBuGn", function() { return __WEBPACK_IMPORTED_MODULE_17__src_sequential_multi_BuGn__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuPu__ = __webpack_require__(318);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateBuPu", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuPu__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeBuPu", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuPu__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_GnBu__ = __webpack_require__(319);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateGnBu", function() { return __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_GnBu__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeGnBu", function() { return __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_GnBu__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_OrRd__ = __webpack_require__(320);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateOrRd", function() { return __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_OrRd__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeOrRd", function() { return __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_OrRd__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_PuBuGn__ = __webpack_require__(322);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePuBuGn", function() { return __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_PuBuGn__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePuBuGn", function() { return __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_PuBuGn__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBu__ = __webpack_require__(321);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePuBu", function() { return __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBu__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePuBu", function() { return __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBu__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuRd__ = __webpack_require__(323);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePuRd", function() { return __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuRd__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePuRd", function() { return __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuRd__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_RdPu__ = __webpack_require__(324);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdPu", function() { return __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_RdPu__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdPu", function() { return __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_RdPu__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_YlGnBu__ = __webpack_require__(326);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateYlGnBu", function() { return __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_YlGnBu__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeYlGnBu", function() { return __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_YlGnBu__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGn__ = __webpack_require__(325);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateYlGn", function() { return __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGn__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeYlGn", function() { return __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGn__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlOrBr__ = __webpack_require__(327);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateYlOrBr", function() { return __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlOrBr__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeYlOrBr", function() { return __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlOrBr__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrRd__ = __webpack_require__(328);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateYlOrRd", function() { return __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrRd__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeYlOrRd", function() { return __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrRd__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_sequential_single_Blues__ = __webpack_require__(329);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateBlues", function() { return __WEBPACK_IMPORTED_MODULE_29__src_sequential_single_Blues__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeBlues", function() { return __WEBPACK_IMPORTED_MODULE_29__src_sequential_single_Blues__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Greens__ = __webpack_require__(330);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateGreens", function() { return __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Greens__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeGreens", function() { return __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Greens__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greys__ = __webpack_require__(331);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateGreys", function() { return __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greys__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeGreys", function() { return __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greys__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Purples__ = __webpack_require__(333);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePurples", function() { return __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Purples__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePurples", function() { return __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Purples__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Reds__ = __webpack_require__(334);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateReds", function() { return __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Reds__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeReds", function() { return __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Reds__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Oranges__ = __webpack_require__(332);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateOranges", function() { return __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Oranges__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeOranges", function() { return __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Oranges__["b"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18356,7 +18653,7 @@ function one(b) {
 
 
 /***/ }),
-/* 147 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18366,11 +18663,11 @@ function one(b) {
 
 
 /***/ }),
-/* 148 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(273);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return implicit; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = ordinal;
@@ -18423,17 +18720,17 @@ function ordinal(range) {
 
 
 /***/ }),
-/* 149 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_time_format__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_time_format__ = __webpack_require__(154);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__array__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__continuous__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nice__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__continuous__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nice__ = __webpack_require__(150);
 /* harmony export (immutable) */ __webpack_exports__["b"] = calendar;
 
 
@@ -18573,7 +18870,7 @@ function calendar(year, month, week, day, hour, minute, second, millisecond, for
 
 
 /***/ }),
-/* 150 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18583,11 +18880,11 @@ function calendar(year, month, week, day, hour, minute, second, millisecond, for
 /* unused harmony reexport timeParse */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["a"]; });
 /* unused harmony reexport utcParse */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(156);
 /* unused harmony reexport timeFormatLocale */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__ = __webpack_require__(155);
 /* unused harmony reexport isoFormat */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(352);
 /* unused harmony reexport isoParse */
 
 
@@ -18596,7 +18893,7 @@ function calendar(year, month, week, day, hour, minute, second, millisecond, for
 
 
 /***/ }),
-/* 151 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18618,7 +18915,7 @@ var formatIso = Date.prototype.toISOString
 
 
 /***/ }),
-/* 152 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19156,7 +19453,7 @@ function formatLiteralPercent() {
 
 
 /***/ }),
-/* 153 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19807,14 +20104,23 @@ earcut.flatten = function (data) {
 
 
 /***/ }),
-/* 154 */
+/* 158 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(367).default;
+module.exports.default = module.exports;
+
+
+
+/***/ }),
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var inferno_shared_1 = __webpack_require__(5);
-var patching_1 = __webpack_require__(31);
+var patching_1 = __webpack_require__(35);
 var componentPools = new Map();
 var elementPools = new Map();
 function recycleElement(vNode, lifecycle, context, isSVG) {
@@ -19914,7 +20220,7 @@ exports.poolComponent = poolComponent;
 
 
 /***/ }),
-/* 155 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20114,7 +20420,7 @@ exports.normalize = normalize;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 156 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20286,7 +20592,7 @@ module.exports = exports['default'];
 
 
 /***/ }),
-/* 157 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20323,7 +20629,7 @@ module.exports = function parseURI (str, opts) {
 
 
 /***/ }),
-/* 158 */
+/* 163 */
 /***/ (function(module, exports) {
 
 
@@ -20662,7 +20968,7 @@ module.exports = Texture;
 
 
 /***/ }),
-/* 159 */
+/* 164 */
 /***/ (function(module, exports) {
 
 // var GL_MAP = {};
@@ -20723,7 +21029,7 @@ module.exports = setVertexAttribArrays;
 
 
 /***/ }),
-/* 160 */
+/* 165 */
 /***/ (function(module, exports) {
 
 
@@ -20809,7 +21115,7 @@ module.exports = compileProgram;
 
 
 /***/ }),
-/* 161 */
+/* 166 */
 /***/ (function(module, exports) {
 
 /**
@@ -20893,12 +21199,12 @@ module.exports = defaultValue;
 
 
 /***/ }),
-/* 162 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
 var mapType = __webpack_require__(93);
-var mapSize = __webpack_require__(165);
+var mapSize = __webpack_require__(170);
 
 /**
  * Extracts the attributes
@@ -20940,11 +21246,11 @@ module.exports = extractAttributes;
 
 
 /***/ }),
-/* 163 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var mapType = __webpack_require__(93);
-var defaultValue = __webpack_require__(161);
+var defaultValue = __webpack_require__(166);
 
 /**
  * Extracts the uniforms
@@ -20981,7 +21287,7 @@ module.exports = extractUniforms;
 
 
 /***/ }),
-/* 164 */
+/* 169 */
 /***/ (function(module, exports) {
 
 /**
@@ -21128,7 +21434,7 @@ module.exports = generateUniformAccessObject;
 
 
 /***/ }),
-/* 165 */
+/* 170 */
 /***/ (function(module, exports) {
 
 /**
@@ -21170,7 +21476,7 @@ module.exports = mapSize;
 
 
 /***/ }),
-/* 166 */
+/* 171 */
 /***/ (function(module, exports) {
 
 /**
@@ -21194,7 +21500,7 @@ module.exports = setPrecision;
 
 
 /***/ }),
-/* 167 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21257,7 +21563,7 @@ exports.default = {
 
 
 /***/ }),
-/* 168 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21267,9 +21573,9 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _autoDetectRenderer = __webpack_require__(169);
+var _autoDetectRenderer = __webpack_require__(174);
 
-var _Container = __webpack_require__(42);
+var _Container = __webpack_require__(46);
 
 var _Container2 = _interopRequireDefault(_Container);
 
@@ -21477,7 +21783,7 @@ exports.default = Application;
 
 
 /***/ }),
-/* 169 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21490,11 +21796,11 @@ var _utils = __webpack_require__(4);
 
 var utils = _interopRequireWildcard(_utils);
 
-var _CanvasRenderer = __webpack_require__(43);
+var _CanvasRenderer = __webpack_require__(47);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(57);
+var _WebGLRenderer = __webpack_require__(61);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -21549,7 +21855,7 @@ function autoDetectRenderer(options, arg1, arg2, arg3) {
 
 
 /***/ }),
-/* 170 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21569,11 +21875,11 @@ var _settings = __webpack_require__(6);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _TransformStatic = __webpack_require__(172);
+var _TransformStatic = __webpack_require__(177);
 
 var _TransformStatic2 = _interopRequireDefault(_TransformStatic);
 
-var _Transform = __webpack_require__(171);
+var _Transform = __webpack_require__(176);
 
 var _Transform2 = _interopRequireDefault(_Transform);
 
@@ -22246,7 +22552,7 @@ DisplayObject.prototype.displayObjectUpdateTransform = DisplayObject.prototype.u
 
 
 /***/ }),
-/* 171 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22432,7 +22738,7 @@ exports.default = Transform;
 
 
 /***/ }),
-/* 172 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22647,7 +22953,7 @@ exports.default = TransformStatic;
 
 
 /***/ }),
-/* 173 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22774,7 +23080,7 @@ exports.default = GraphicsData;
 
 
 /***/ }),
-/* 174 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22971,7 +23277,7 @@ exports.default = GroupD8;
 
 
 /***/ }),
-/* 175 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23093,7 +23399,7 @@ exports.default = ObservablePoint;
 
 
 /***/ }),
-/* 176 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23113,7 +23419,7 @@ var _settings = __webpack_require__(6);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _Container = __webpack_require__(42);
+var _Container = __webpack_require__(46);
 
 var _Container2 = _interopRequireDefault(_Container);
 
@@ -23461,7 +23767,7 @@ exports.default = SystemRenderer;
 
 
 /***/ }),
-/* 177 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23590,7 +23896,7 @@ exports.default = CanvasRenderTarget;
 
 
 /***/ }),
-/* 178 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23656,7 +23962,7 @@ function canUseNewCanvasBlendModes() {
 
 
 /***/ }),
-/* 179 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23666,7 +23972,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _extractUniformsFromSrc = __webpack_require__(400);
+var _extractUniformsFromSrc = __webpack_require__(405);
 
 var _extractUniformsFromSrc2 = _interopRequireDefault(_extractUniformsFromSrc);
 
@@ -23837,7 +24143,7 @@ exports.default = Filter;
 
 
 /***/ }),
-/* 180 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23845,7 +24151,7 @@ exports.default = Filter;
 
 exports.__esModule = true;
 
-var _Filter2 = __webpack_require__(179);
+var _Filter2 = __webpack_require__(184);
 
 var _Filter3 = _interopRequireDefault(_Filter2);
 
@@ -23914,7 +24220,7 @@ exports.default = SpriteMaskFilter;
 
 
 /***/ }),
-/* 181 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24100,7 +24406,7 @@ exports.default = Quad;
 
 
 /***/ }),
-/* 182 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24407,7 +24713,7 @@ TextMetrics._fonts = {};
 
 
 /***/ }),
-/* 183 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24946,7 +25252,7 @@ function areArraysEqual(array1, array2) {
 
 
 /***/ }),
-/* 184 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24954,7 +25260,7 @@ function areArraysEqual(array1, array2) {
 
 exports.__esModule = true;
 
-var _BaseTexture2 = __webpack_require__(32);
+var _BaseTexture2 = __webpack_require__(36);
 
 var _BaseTexture3 = _interopRequireDefault(_BaseTexture2);
 
@@ -25110,7 +25416,7 @@ exports.default = BaseRenderTexture;
 
 
 /***/ }),
-/* 185 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25118,7 +25424,7 @@ exports.default = BaseRenderTexture;
 
 exports.__esModule = true;
 
-var _GroupD = __webpack_require__(174);
+var _GroupD = __webpack_require__(179);
 
 var _GroupD2 = _interopRequireDefault(_GroupD);
 
@@ -25220,7 +25526,7 @@ exports.default = TextureUvs;
 
 
 /***/ }),
-/* 186 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25230,7 +25536,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _BaseTexture2 = __webpack_require__(32);
+var _BaseTexture2 = __webpack_require__(36);
 
 var _BaseTexture3 = _interopRequireDefault(_BaseTexture2);
 
@@ -25550,7 +25856,7 @@ function createSource(path, type) {
 
 
 /***/ }),
-/* 187 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25559,7 +25865,7 @@ function createSource(path, type) {
 exports.__esModule = true;
 exports.BitmapText = exports.TilingSpriteRenderer = exports.TilingSprite = exports.TextureTransform = exports.AnimatedSprite = undefined;
 
-var _AnimatedSprite = __webpack_require__(428);
+var _AnimatedSprite = __webpack_require__(433);
 
 Object.defineProperty(exports, 'AnimatedSprite', {
   enumerable: true,
@@ -25577,7 +25883,7 @@ Object.defineProperty(exports, 'TextureTransform', {
   }
 });
 
-var _TilingSprite = __webpack_require__(430);
+var _TilingSprite = __webpack_require__(435);
 
 Object.defineProperty(exports, 'TilingSprite', {
   enumerable: true,
@@ -25586,7 +25892,7 @@ Object.defineProperty(exports, 'TilingSprite', {
   }
 });
 
-var _TilingSpriteRenderer = __webpack_require__(434);
+var _TilingSpriteRenderer = __webpack_require__(439);
 
 Object.defineProperty(exports, 'TilingSpriteRenderer', {
   enumerable: true,
@@ -25595,7 +25901,7 @@ Object.defineProperty(exports, 'TilingSpriteRenderer', {
   }
 });
 
-var _BitmapText = __webpack_require__(429);
+var _BitmapText = __webpack_require__(434);
 
 Object.defineProperty(exports, 'BitmapText', {
   enumerable: true,
@@ -25604,11 +25910,11 @@ Object.defineProperty(exports, 'BitmapText', {
   }
 });
 
-__webpack_require__(431);
+__webpack_require__(436);
 
-__webpack_require__(432);
+__webpack_require__(437);
 
-__webpack_require__(433);
+__webpack_require__(438);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25616,7 +25922,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 188 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25630,15 +25936,15 @@ var _core = __webpack_require__(2);
 
 var core = _interopRequireWildcard(_core);
 
-var _generateBlurVertSource = __webpack_require__(191);
+var _generateBlurVertSource = __webpack_require__(196);
 
 var _generateBlurVertSource2 = _interopRequireDefault(_generateBlurVertSource);
 
-var _generateBlurFragSource = __webpack_require__(190);
+var _generateBlurFragSource = __webpack_require__(195);
 
 var _generateBlurFragSource2 = _interopRequireDefault(_generateBlurFragSource);
 
-var _getMaxBlurKernelSize = __webpack_require__(192);
+var _getMaxBlurKernelSize = __webpack_require__(197);
 
 var _getMaxBlurKernelSize2 = _interopRequireDefault(_getMaxBlurKernelSize);
 
@@ -25787,7 +26093,7 @@ exports.default = BlurXFilter;
 
 
 /***/ }),
-/* 189 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25801,15 +26107,15 @@ var _core = __webpack_require__(2);
 
 var core = _interopRequireWildcard(_core);
 
-var _generateBlurVertSource = __webpack_require__(191);
+var _generateBlurVertSource = __webpack_require__(196);
 
 var _generateBlurVertSource2 = _interopRequireDefault(_generateBlurVertSource);
 
-var _generateBlurFragSource = __webpack_require__(190);
+var _generateBlurFragSource = __webpack_require__(195);
 
 var _generateBlurFragSource2 = _interopRequireDefault(_generateBlurFragSource);
 
-var _getMaxBlurKernelSize = __webpack_require__(192);
+var _getMaxBlurKernelSize = __webpack_require__(197);
 
 var _getMaxBlurKernelSize2 = _interopRequireDefault(_getMaxBlurKernelSize);
 
@@ -25957,7 +26263,7 @@ exports.default = BlurYFilter;
 
 
 /***/ }),
-/* 190 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26009,7 +26315,7 @@ function generateFragBlurSource(kernelSize) {
 
 
 /***/ }),
-/* 191 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26058,7 +26364,7 @@ function generateVertBlurSource(kernelSize, x) {
 
 
 /***/ }),
-/* 192 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26079,7 +26385,125 @@ function getMaxKernelSize(gl) {
 
 
 /***/ }),
-/* 193 */
+/* 198 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+exports.__esModule = true;
+exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
+
+var _polyfill = __webpack_require__(465);
+
+Object.keys(_polyfill).forEach(function (key) {
+    if (key === "default" || key === "__esModule") return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _polyfill[key];
+        }
+    });
+});
+
+var _core = __webpack_require__(2);
+
+Object.keys(_core).forEach(function (key) {
+    if (key === "default" || key === "__esModule") return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _core[key];
+        }
+    });
+});
+
+var _deprecation = __webpack_require__(429);
+
+var _deprecation2 = _interopRequireDefault(_deprecation);
+
+var _accessibility = __webpack_require__(385);
+
+var accessibility = _interopRequireWildcard(_accessibility);
+
+var _extract = __webpack_require__(431);
+
+var extract = _interopRequireWildcard(_extract);
+
+var _extras = __webpack_require__(192);
+
+var extras = _interopRequireWildcard(_extras);
+
+var _filters = __webpack_require__(444);
+
+var filters = _interopRequireWildcard(_filters);
+
+var _interaction = __webpack_require__(450);
+
+var interaction = _interopRequireWildcard(_interaction);
+
+var _loaders = __webpack_require__(451);
+
+var loaders = _interopRequireWildcard(_loaders);
+
+var _mesh = __webpack_require__(456);
+
+var mesh = _interopRequireWildcard(_mesh);
+
+var _particles = __webpack_require__(459);
+
+var particles = _interopRequireWildcard(_particles);
+
+var _prepare = __webpack_require__(468);
+
+var prepare = _interopRequireWildcard(_prepare);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// export core
+_core.utils.mixins.performMixins();
+
+/**
+ * Alias for {@link PIXI.loaders.shared}.
+ * @name loader
+ * @memberof PIXI
+ * @type {PIXI.loader.Loader}
+ */
+
+
+// handle mixins now, after all code has been added, including deprecation
+
+
+// export libs
+// import polyfills. Done as an export to make sure polyfills are imported first
+var loader = loaders.shared || null;
+
+exports.accessibility = accessibility;
+exports.extract = extract;
+exports.extras = extras;
+exports.filters = filters;
+exports.interaction = interaction;
+exports.loaders = loaders;
+exports.mesh = mesh;
+exports.particles = particles;
+exports.prepare = prepare;
+exports.loader = loader;
+
+// Apply the deprecations
+
+if (typeof _deprecation2.default === 'function') {
+    (0, _deprecation2.default)(exports);
+}
+
+// Always export pixi globally.
+global.PIXI = exports; // eslint-disable-line
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(107)))
+
+/***/ }),
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26308,7 +26732,7 @@ exports.default = InteractionData;
 
 
 /***/ }),
-/* 194 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26430,7 +26854,7 @@ exports.default = {
 
 
 /***/ }),
-/* 195 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26507,9 +26931,9 @@ var path = _interopRequireWildcard(_path);
 
 var _core = __webpack_require__(2);
 
-var _resourceLoader = __webpack_require__(46);
+var _resourceLoader = __webpack_require__(50);
 
-var _extras = __webpack_require__(187);
+var _extras = __webpack_require__(192);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -26527,7 +26951,7 @@ function parse(resource, texture) {
 
 
 /***/ }),
-/* 196 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26570,9 +26994,9 @@ exports.default = function () {
 
 exports.getResourcePath = getResourcePath;
 
-var _resourceLoader = __webpack_require__(46);
+var _resourceLoader = __webpack_require__(50);
 
-var _url = __webpack_require__(202);
+var _url = __webpack_require__(208);
 
 var _url2 = _interopRequireDefault(_url);
 
@@ -26591,7 +27015,7 @@ function getResourcePath(resource, baseUrl) {
 
 
 /***/ }),
-/* 197 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26609,7 +27033,7 @@ exports.default = function () {
     };
 };
 
-var _resourceLoader = __webpack_require__(46);
+var _resourceLoader = __webpack_require__(50);
 
 var _Texture = __webpack_require__(25);
 
@@ -26619,7 +27043,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 198 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26627,7 +27051,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.__esModule = true;
 
-var _Mesh2 = __webpack_require__(45);
+var _Mesh2 = __webpack_require__(49);
 
 var _Mesh3 = _interopRequireDefault(_Mesh2);
 
@@ -26763,7 +27187,7 @@ exports.default = Plane;
 
 
 /***/ }),
-/* 199 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26826,7 +27250,7 @@ exports.default = CountLimiter;
 
 
 /***/ }),
-/* 200 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27040,7 +27464,7 @@ function queue(worker, concurrency) {
 
 
 /***/ }),
-/* 201 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27113,7 +27537,7 @@ function encodeBinary(input) {
 
 
 /***/ }),
-/* 202 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27140,8 +27564,8 @@ function encodeBinary(input) {
 
 
 
-var punycode = __webpack_require__(467);
-var util = __webpack_require__(474);
+var punycode = __webpack_require__(471);
+var util = __webpack_require__(478);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -27216,7 +27640,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(470);
+    querystring = __webpack_require__(474);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -27852,32 +28276,7 @@ Url.prototype.parseHost = function() {
 
 
 /***/ }),
-/* 203 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _infernoCreateElement = __webpack_require__(61);
-
-var _infernoCreateElement2 = _interopRequireDefault(_infernoCreateElement);
-
-var _PixiFrame = __webpack_require__(204);
-
-var _PixiFrame2 = _interopRequireDefault(_PixiFrame);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function () {
-  return (0, _infernoCreateElement2.default)(_PixiFrame2.default, null);
-};
-
-/***/ }),
-/* 204 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27887,41 +28286,141 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _classCallCheck2 = __webpack_require__(63);
+var _classCallCheck2 = __webpack_require__(27);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(64);
+var _createClass2 = __webpack_require__(28);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(215);
+var _possibleConstructorReturn2 = __webpack_require__(112);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(214);
+var _inherits2 = __webpack_require__(111);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _underscore = __webpack_require__(60);
-
-var _underscore2 = _interopRequireDefault(_underscore);
-
-var _infernoCreateElement = __webpack_require__(61);
+var _infernoCreateElement = __webpack_require__(64);
 
 var _infernoCreateElement2 = _interopRequireDefault(_infernoCreateElement);
 
-var _infernoComponent = __webpack_require__(362);
+var _infernoComponent = __webpack_require__(158);
 
 var _infernoComponent2 = _interopRequireDefault(_infernoComponent);
 
-var _data = __webpack_require__(205);
+var _PixiFrame = __webpack_require__(210);
+
+var _PixiFrame2 = _interopRequireDefault(_PixiFrame);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var getMapName = function getMapName() {
+    return window.location.hash.length && window.location.hash.slice(1);
+};
+var setMapName = function setMapName(mapName) {
+    window.location.hash = mapName;
+};
+var mapExists = {
+    'pixi-map': true,
+    'pixi-map-hover': true
+};
+
+var Client = function (_InfernoComponent) {
+    (0, _inherits3.default)(Client, _InfernoComponent);
+
+    function Client() {
+        (0, _classCallCheck3.default)(this, Client);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (Client.__proto__ || Object.getPrototypeOf(Client)).call(this));
+
+        _this.state = { mapName: getMapName() };
+        _this.handleHashChange = function () {
+            _this.setState({ mapName: getMapName() });
+        };
+        return _this;
+    }
+
+    (0, _createClass3.default)(Client, [{
+        key: 'render',
+        value: function render() {
+            var mapName = this.state.mapName;
+            return (0, _infernoCreateElement2.default)("div", { style: {
+                    height: '100%',
+                    width: '100%'
+                } }, mapName === 'pixi-map' && (0, _infernoCreateElement2.default)(_PixiFrame2.default, null), mapName === 'pixi-map-hover' && (0, _infernoCreateElement2.default)(_PixiFrame2.default, { hover: true }), !mapExists[mapName] && (0, _infernoCreateElement2.default)("fieldset", null, (0, _infernoCreateElement2.default)("legend", null, "Choose a map visualization"), (0, _infernoCreateElement2.default)("button", { onClick: function onClick() {
+                    return setMapName('pixi-map');
+                } }, "Pixi Map"), '\xA0', (0, _infernoCreateElement2.default)("button", { onClick: function onClick() {
+                    return setMapName('pixi-map-hover');
+                } }, "Pixi Map (+hover)")));
+        }
+    }, {
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            window.addEventListener('hashchange', this.handleHashChange);
+        }
+    }, {
+        key: 'componentWillUnmount',
+        value: function componentWillUnmount() {
+            window.removeEventListener('hashchange', this.handleHashChange);
+        }
+    }]);
+    return Client;
+}(_infernoComponent2.default);
+
+exports.default = Client;
+
+/***/ }),
+/* 210 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(27);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(28);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(112);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(111);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _underscore = __webpack_require__(26);
+
+var _underscore2 = _interopRequireDefault(_underscore);
+
+var _infernoCreateElement = __webpack_require__(64);
+
+var _infernoCreateElement2 = _interopRequireDefault(_infernoCreateElement);
+
+var _infernoComponent = __webpack_require__(158);
+
+var _infernoComponent2 = _interopRequireDefault(_infernoComponent);
+
+var _data = __webpack_require__(211);
 
 var _data2 = _interopRequireDefault(_data);
 
-var _Module = __webpack_require__(208);
+var _PixiMap = __webpack_require__(214);
 
-var _Module2 = _interopRequireDefault(_Module);
+var _PixiMap2 = _interopRequireDefault(_PixiMap);
+
+var _PixiMap3 = __webpack_require__(216);
+
+var _PixiMap4 = _interopRequireDefault(_PixiMap3);
 
 var _constants = __webpack_require__(108);
 
@@ -27930,10 +28429,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var PixiFrame = function (_InfernoComponent) {
     (0, _inherits3.default)(PixiFrame, _InfernoComponent);
 
-    function PixiFrame() {
+    function PixiFrame(props) {
         (0, _classCallCheck3.default)(this, PixiFrame);
 
-        var _this = (0, _possibleConstructorReturn3.default)(this, (PixiFrame.__proto__ || Object.getPrototypeOf(PixiFrame)).call(this));
+        var _this = (0, _possibleConstructorReturn3.default)(this, (PixiFrame.__proto__ || Object.getPrototypeOf(PixiFrame)).call(this, props));
 
         _this.state = {
             colorKey: 'Magma',
@@ -28010,7 +28509,7 @@ var PixiFrame = function (_InfernoComponent) {
         key: 'componentDidMount',
         value: function componentDidMount() {
             var bounds = this.container.getBoundingClientRect();
-            this.map = new _Module2.default(bounds.width, bounds.height, this.canvas);
+            this.map = this.props.hover ? new _PixiMap4.default(bounds.width, bounds.height, this.canvas) : new _PixiMap2.default(bounds.width, bounds.height, this.canvas);
             this.map.update(generateEdges(this.state.multiplier));
             window.addEventListener('resize', this.handleResize);
         }
@@ -28044,7 +28543,7 @@ var generateEdges = function generateEdges(multiplier) {
 };
 
 /***/ }),
-/* 205 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28056,21 +28555,21 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = { jsonrpc: '2.0', id: 0, result: { old_from: 0, old_until: 0, from: 1497288236282, until: 1497388236282, edges: [{ from: 2107, to: 899, weight: 2856, annotations: [{ proto: 'DNS', weight: 2856 }] }, { from: 6177, to: 899, weight: 202442, annotations: [{ proto: 'DNS', weight: 202442 }] }, { from: 4026, to: 899, weight: 33889, annotations: [{ proto: 'DNS', weight: 33889 }] }, { from: 6243, to: 171, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 3591, to: 10531, weight: 10617, annotations: [{ proto: 'DNS', weight: 10617 }] }, { from: 3591, to: 899, weight: 126880, annotations: [{ proto: 'DNS', weight: 126880 }] }, { from: 2172, to: 899, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 8185, to: 899, weight: 87887, annotations: [{ proto: 'DNS', weight: 87887 }] }, { from: 10267, to: 899, weight: 223456, annotations: [{ proto: 'DNS', weight: 223456 }] }, { from: 11514, to: 899, weight: 65895, annotations: [{ proto: 'DNS', weight: 65895 }] }, { from: 8660, to: 10531, weight: 18522, annotations: [{ proto: 'DNS', weight: 18522 }] }, { from: 9302, to: 899, weight: 18250, annotations: [{ proto: 'DNS', weight: 18250 }] }, { from: 3169, to: 10531, weight: 7478, annotations: [{ proto: 'DNS', weight: 7478 }] }, { from: 3169, to: 899, weight: 44816, annotations: [{ proto: 'DNS', weight: 44816 }] }, { from: 3169, to: 171, weight: 850, annotations: [{ proto: 'DNS', weight: 850 }] }, { from: 5895, to: 10531, weight: 4314, annotations: [{ proto: 'DNS', weight: 4314 }] }, { from: 5895, to: 899, weight: 35144, annotations: [{ proto: 'DNS', weight: 35144 }] }, { from: 5895, to: 171, weight: 4598, annotations: [{ proto: 'DNS', weight: 4598 }] }, { from: 674, to: 171, weight: 131489, annotations: [{ proto: 'DNS', weight: 131489 }] }, { from: 674, to: 10531, weight: 142805, annotations: [{ proto: 'DNS', weight: 142805 }] }, { from: 674, to: 899, weight: 109649, annotations: [{ proto: 'DNS', weight: 109649 }] }, { from: 2249, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 11689, to: 899, weight: 11568, annotations: [{ proto: 'DNS', weight: 11568 }] }, { from: 1486, to: 2872, weight: 50707, annotations: [{ proto: 'DNS', weight: 50707 }] }, { from: 1486, to: 2871, weight: 9119, annotations: [{ proto: 'DNS', weight: 9119 }] }, { from: 2124, to: 10531, weight: 235562, annotations: [{ proto: 'DNS', weight: 235562 }] }, { from: 2124, to: 899, weight: 306436, annotations: [{ proto: 'DNS', weight: 306436 }] }, { from: 2124, to: 171, weight: 212082, annotations: [{ proto: 'DNS', weight: 212082 }] }, { from: 1410, to: 10531, weight: 69578, annotations: [{ proto: 'DNS', weight: 69578 }] }, { from: 1410, to: 899, weight: 266581, annotations: [{ proto: 'DNS', weight: 266581 }] }, { from: 1410, to: 171, weight: 231266, annotations: [{ proto: 'DNS', weight: 231266 }] }, { from: 2279, to: 899, weight: 3192, annotations: [{ proto: 'DNS', weight: 3192 }] }, { from: 11144, to: 899, weight: 8556, annotations: [{ proto: 'DNS', weight: 8556 }] }, { from: 934, to: 899, weight: 6086, annotations: [{ proto: 'DNS', weight: 6086 }] }, { from: 8562, to: 2872, weight: 204740, annotations: [{ proto: 'DNS', weight: 204740 }] }, { from: 8562, to: 2871, weight: 18944, annotations: [{ proto: 'DNS', weight: 18944 }] }, { from: 2357, to: 10531, weight: 3933, annotations: [{ proto: 'DNS', weight: 3933 }] }, { from: 2357, to: 899, weight: 318101, annotations: [{ proto: 'DNS', weight: 318101 }] }, { from: 2357, to: 171, weight: 1476, annotations: [{ proto: 'DNS', weight: 1476 }] }, { from: 11224, to: 899, weight: 11202, annotations: [{ proto: 'DNS', weight: 11202 }] }, { from: 7751, to: 899, weight: 8620, annotations: [{ proto: 'DNS', weight: 8620 }] }, { from: 1534, to: 899, weight: 10549, annotations: [{ proto: 'DNS', weight: 10549 }] }, { from: 9986, to: 10531, weight: 296, annotations: [{ proto: 'DNS', weight: 296 }] }, { from: 9986, to: 899, weight: 1348211, annotations: [{ proto: 'DNS', weight: 1348211 }] }, { from: 11025, to: 899, weight: 4840, annotations: [{ proto: 'DNS', weight: 4840 }] }, { from: 5449, to: 899, weight: 31378, annotations: [{ proto: 'DNS', weight: 31378 }] }, { from: 5449, to: 171, weight: 264, annotations: [{ proto: 'DNS', weight: 264 }] }, { from: 1447, to: 899, weight: 22068, annotations: [{ proto: 'DNS', weight: 22068 }] }, { from: 3462, to: 2871, weight: 291, annotations: [{ proto: 'DNS', weight: 291 }] }, { from: 3462, to: 2872, weight: 62418, annotations: [{ proto: 'DNS', weight: 62418 }] }, { from: 5478, to: 10531, weight: 17160, annotations: [{ proto: 'DNS', weight: 17160 }] }, { from: 986, to: 10531, weight: 14955, annotations: [{ proto: 'DNS', weight: 14955 }] }, { from: 986, to: 899, weight: 479202, annotations: [{ proto: 'DNS', weight: 479202 }] }, { from: 986, to: 171, weight: 146647, annotations: [{ proto: 'DNS', weight: 146647 }] }, { from: 1092, to: 171, weight: 23120, annotations: [{ proto: 'DNS', weight: 23120 }] }, { from: 8630, to: 10531, weight: 5730, annotations: [{ proto: 'DNS', weight: 5730 }] }, { from: 8630, to: 899, weight: 1893027, annotations: [{ proto: 'DNS', weight: 1893027 }] }, { from: 10277, to: 10531, weight: 4930, annotations: [{ proto: 'DNS', weight: 4930 }] }, { from: 10277, to: 899, weight: 1092303, annotations: [{ proto: 'DNS', weight: 1092303 }] }, { from: 10277, to: 171, weight: 1024, annotations: [{ proto: 'DNS', weight: 1024 }] }, { from: 7935, to: 899, weight: 7418, annotations: [{ proto: 'DNS', weight: 7418 }] }, { from: 5980, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 3631, to: 899, weight: 22810, annotations: [{ proto: 'DNS', weight: 22810 }] }, { from: 3631, to: 171, weight: 3088, annotations: [{ proto: 'DNS', weight: 3088 }] }, { from: 2270, to: 171, weight: 2366, annotations: [{ proto: 'DNS', weight: 2366 }] }, { from: 1770, to: 10531, weight: 5262843, annotations: [{ proto: 'DNS', weight: 5262843 }] }, { from: 11916, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 9614, to: 899, weight: 8676, annotations: [{ proto: 'DNS', weight: 8676 }] }, { from: 1169, to: 899, weight: 11648, annotations: [{ proto: 'DNS', weight: 11648 }] }, { from: 10464, to: 899, weight: 269026, annotations: [{ proto: 'DNS', weight: 269026 }] }, { from: 2021, to: 171, weight: 4321, annotations: [{ proto: 'DNS', weight: 4321 }] }, { from: 6630, to: 10531, weight: 177204, annotations: [{ proto: 'DNS', weight: 177204 }] }, { from: 6630, to: 899, weight: 503697, annotations: [{ proto: 'DNS', weight: 503697 }] }, { from: 3756, to: 10531, weight: 32879, annotations: [{ proto: 'DNS', weight: 32879 }] }, { from: 3756, to: 899, weight: 1614228, annotations: [{ proto: 'DNS', weight: 1614228 }] }, { from: 2111, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 761, to: 899, weight: 8158, annotations: [{ proto: 'DNS', weight: 8158 }] }, { from: 11042, to: 899, weight: 11456, annotations: [{ proto: 'DNS', weight: 11456 }] }, { from: 9780, to: 422, weight: 20257, annotations: [{ proto: 'DNS', weight: 20257 }] }, { from: 645, to: 422, weight: 6623, annotations: [{ proto: 'DNS', weight: 6623 }] }, { from: 645, to: 387, weight: 655538, annotations: [{ proto: 'DNS', weight: 655538 }] }, { from: 645, to: 957, weight: 53596, annotations: [{ proto: 'DNS', weight: 53596 }] }, { from: 6235, to: 2872, weight: 113199, annotations: [{ proto: 'DNS', weight: 113199 }] }, { from: 1457, to: 10531, weight: 322, annotations: [{ proto: 'DNS', weight: 322 }] }, { from: 1457, to: 899, weight: 3388, annotations: [{ proto: 'DNS', weight: 3388 }] }, { from: 9940, to: 10531, weight: 826, annotations: [{ proto: 'DNS', weight: 826 }] }, { from: 9940, to: 899, weight: 26948, annotations: [{ proto: 'DNS', weight: 26948 }] }, { from: 7932, to: 10531, weight: 41465, annotations: [{ proto: 'DNS', weight: 41465 }] }, { from: 7932, to: 899, weight: 272048, annotations: [{ proto: 'DNS', weight: 272048 }] }, { from: 7932, to: 171, weight: 21424, annotations: [{ proto: 'DNS', weight: 21424 }] }, { from: 11931, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 5499, to: 899, weight: 8676, annotations: [{ proto: 'DNS', weight: 8676 }] }, { from: 9169, to: 171, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 2775, to: 2872, weight: 9469, annotations: [{ proto: 'DNS', weight: 9469 }] }, { from: 1522, to: 10531, weight: 208071, annotations: [{ proto: 'DNS', weight: 208071 }] }, { from: 1522, to: 899, weight: 157519, annotations: [{ proto: 'DNS', weight: 157519 }] }, { from: 1522, to: 171, weight: 513572, annotations: [{ proto: 'DNS', weight: 513572 }] }, { from: 1522, to: 422, weight: 332, annotations: [{ proto: 'DNS', weight: 332 }] }, { from: 2161, to: 10531, weight: 570910, annotations: [{ proto: 'DNS', weight: 570910 }] }, { from: 2161, to: 899, weight: 622727, annotations: [{ proto: 'DNS', weight: 622727 }] }, { from: 2161, to: 171, weight: 562220, annotations: [{ proto: 'DNS', weight: 562220 }] }, { from: 2161, to: 422, weight: 4954, annotations: [{ proto: 'DNS', weight: 4954 }] }, { from: 2161, to: 2872, weight: 333, annotations: [{ proto: 'DNS', weight: 333 }] }, { from: 2161, to: 2871, weight: 333, annotations: [{ proto: 'DNS', weight: 333 }] }, { from: 11942, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1478, to: 899, weight: 8604, annotations: [{ proto: 'DNS', weight: 8604 }] }, { from: 8715, to: 899, weight: 11568, annotations: [{ proto: 'DNS', weight: 11568 }] }, { from: 1391, to: 899, weight: 59454, annotations: [{ proto: 'DNS', weight: 59454 }] }, { from: 2699, to: 10531, weight: 86502, annotations: [{ proto: 'DNS', weight: 86502 }] }, { from: 2699, to: 899, weight: 321561, annotations: [{ proto: 'DNS', weight: 321561 }] }, { from: 2699, to: 171, weight: 69121, annotations: [{ proto: 'DNS', weight: 69121 }] }, { from: 1067, to: 899, weight: 8676, annotations: [{ proto: 'DNS', weight: 8676 }] }, { from: 1652, to: 899, weight: 231696, annotations: [{ proto: 'DNS', weight: 231696 }] }, { from: 1652, to: 171, weight: 1372, annotations: [{ proto: 'DNS', weight: 1372 }] }, { from: 1484, to: 10531, weight: 22041, annotations: [{ proto: 'DNS', weight: 22041 }] }, { from: 1484, to: 899, weight: 64316, annotations: [{ proto: 'DNS', weight: 64316 }] }, { from: 1484, to: 171, weight: 622, annotations: [{ proto: 'DNS', weight: 622 }] }, { from: 1484, to: 422, weight: 2442, annotations: [{ proto: 'DNS', weight: 2442 }] }, { from: 11887, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1953, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 1069, to: 899, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 1332, to: 899, weight: 11664, annotations: [{ proto: 'DNS', weight: 11664 }] }, { from: 5508, to: 10531, weight: 396, annotations: [{ proto: 'DNS', weight: 396 }] }, { from: 5508, to: 899, weight: 383069, annotations: [{ proto: 'DNS', weight: 383069 }] }, { from: 4228, to: 10531, weight: 130363, annotations: [{ proto: 'DNS', weight: 130363 }] }, { from: 4228, to: 899, weight: 654023, annotations: [{ proto: 'DNS', weight: 654023 }] }, { from: 4228, to: 422, weight: 3868, annotations: [{ proto: 'DNS', weight: 3868 }] }, { from: 1611, to: 899, weight: 10452, annotations: [{ proto: 'DNS', weight: 10452 }] }, { from: 7453, to: 899, weight: 26532, annotations: [{ proto: 'DNS', weight: 26532 }] }, { from: 2221, to: 171, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 2423, to: 10531, weight: 450947, annotations: [{ proto: 'DNS', weight: 450947 }] }, { from: 2423, to: 899, weight: 675571, annotations: [{ proto: 'DNS', weight: 675571 }] }, { from: 2423, to: 171, weight: 837949, annotations: [{ proto: 'DNS', weight: 837949 }] }, { from: 2423, to: 2872, weight: 144, annotations: [{ proto: 'DNS', weight: 144 }] }, { from: 11884, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2110, to: 171, weight: 3038, annotations: [{ proto: 'DNS', weight: 3038 }] }, { from: 8527, to: 10531, weight: 1004, annotations: [{ proto: 'DNS', weight: 1004 }] }, { from: 8527, to: 899, weight: 20794, annotations: [{ proto: 'DNS', weight: 20794 }] }, { from: 11724, to: 899, weight: 6902, annotations: [{ proto: 'DNS', weight: 6902 }] }, { from: 10721, to: 899, weight: 8748, annotations: [{ proto: 'DNS', weight: 8748 }] }, { from: 740, to: 899, weight: 163767, annotations: [{ proto: 'DNS', weight: 163767 }] }, { from: 992, to: 899, weight: 8837, annotations: [{ proto: 'DNS', weight: 8837 }] }, { from: 1670, to: 171, weight: 8524, annotations: [{ proto: 'DNS', weight: 8524 }] }, { from: 2052, to: 171, weight: 19688, annotations: [{ proto: 'DNS', weight: 19688 }] }, { from: 1390, to: 10531, weight: 361591, annotations: [{ proto: 'DNS', weight: 361591 }] }, { from: 1390, to: 899, weight: 292584, annotations: [{ proto: 'DNS', weight: 292584 }] }, { from: 1390, to: 171, weight: 265406, annotations: [{ proto: 'DNS', weight: 265406 }] }, { from: 1390, to: 422, weight: 209284, annotations: [{ proto: 'DNS', weight: 209284 }] }, { from: 1507, to: 899, weight: 56614, annotations: [{ proto: 'DNS', weight: 56614 }] }, { from: 1902, to: 899, weight: 3738, annotations: [{ proto: 'DNS', weight: 3738 }] }, { from: 11432, to: 899, weight: 194328, annotations: [{ proto: 'DNS', weight: 194328 }] }, { from: 9534, to: 899, weight: 4525463, annotations: [{ proto: 'DNS', weight: 4525463 }] }, { from: 5470, to: 171, weight: 1051190, annotations: [{ proto: 'DNS', weight: 1051190 }] }, { from: 2385, to: 10531, weight: 10484, annotations: [{ proto: 'DNS', weight: 10484 }] }, { from: 2385, to: 899, weight: 112716, annotations: [{ proto: 'DNS', weight: 112716 }] }, { from: 6537, to: 899, weight: 9604, annotations: [{ proto: 'DNS', weight: 9604 }] }, { from: 895, to: 899, weight: 259656, annotations: [{ proto: 'DNS', weight: 259656 }] }, { from: 11498, to: 899, weight: 189831, annotations: [{ proto: 'DNS', weight: 189831 }] }, { from: 10445, to: 899, weight: 10198, annotations: [{ proto: 'DNS', weight: 10198 }] }, { from: 8700, to: 10531, weight: 280027, annotations: [{ proto: 'DNS', weight: 280027 }] }, { from: 8700, to: 899, weight: 231977, annotations: [{ proto: 'DNS', weight: 231977 }] }, { from: 8700, to: 171, weight: 188078, annotations: [{ proto: 'DNS', weight: 188078 }] }, { from: 8700, to: 422, weight: 1286, annotations: [{ proto: 'DNS', weight: 1286 }] }, { from: 1353, to: 899, weight: 541863, annotations: [{ proto: 'DNS', weight: 541863 }] }, { from: 2763, to: 899, weight: 27374, annotations: [{ proto: 'DNS', weight: 27374 }] }, { from: 783, to: 899, weight: 5298, annotations: [{ proto: 'DNS', weight: 5298 }] }, { from: 11722, to: 2871, weight: 426, annotations: [{ proto: 'DNS', weight: 426 }] }, { from: 11722, to: 2872, weight: 90346, annotations: [{ proto: 'DNS', weight: 90346 }] }, { from: 1510, to: 171, weight: 92744, annotations: [{ proto: 'DNS', weight: 92744 }] }, { from: 1510, to: 10531, weight: 8907, annotations: [{ proto: 'DNS', weight: 8907 }] }, { from: 1510, to: 899, weight: 46063, annotations: [{ proto: 'DNS', weight: 46063 }] }, { from: 5231, to: 2872, weight: 46758, annotations: [{ proto: 'DNS', weight: 46758 }] }, { from: 5231, to: 2871, weight: 215, annotations: [{ proto: 'DNS', weight: 215 }] }, { from: 2140, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 1621, to: 171, weight: 11408, annotations: [{ proto: 'DNS', weight: 11408 }] }, { from: 532, to: 10531, weight: 2388, annotations: [{ proto: 'DNS', weight: 2388 }] }, { from: 532, to: 899, weight: 1934, annotations: [{ proto: 'DNS', weight: 1934 }] }, { from: 532, to: 171, weight: 2044, annotations: [{ proto: 'DNS', weight: 2044 }] }, { from: 3464, to: 10531, weight: 361818, annotations: [{ proto: 'DNS', weight: 361818 }] }, { from: 3464, to: 899, weight: 341585, annotations: [{ proto: 'DNS', weight: 341585 }] }, { from: 3464, to: 171, weight: 537716, annotations: [{ proto: 'DNS', weight: 537716 }] }, { from: 3464, to: 422, weight: 7609, annotations: [{ proto: 'DNS', weight: 7609 }] }, { from: 3464, to: 2872, weight: 576, annotations: [{ proto: 'DNS', weight: 576 }] }, { from: 1653, to: 10531, weight: 393703, annotations: [{ proto: 'DNS', weight: 393703 }] }, { from: 1653, to: 899, weight: 455142, annotations: [{ proto: 'DNS', weight: 455142 }] }, { from: 1653, to: 171, weight: 566752, annotations: [{ proto: 'DNS', weight: 566752 }] }, { from: 1653, to: 422, weight: 736, annotations: [{ proto: 'DNS', weight: 736 }] }, { from: 1475, to: 10531, weight: 35970, annotations: [{ proto: 'DNS', weight: 35970 }] }, { from: 1475, to: 899, weight: 314771, annotations: [{ proto: 'DNS', weight: 314771 }] }, { from: 1475, to: 171, weight: 7800, annotations: [{ proto: 'DNS', weight: 7800 }] }, { from: 1054, to: 899, weight: 20616, annotations: [{ proto: 'DNS', weight: 20616 }] }, { from: 1614, to: 899, weight: 12502, annotations: [{ proto: 'DNS', weight: 12502 }] }, { from: 2208, to: 171, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 11879, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 3609, to: 899, weight: 11660, annotations: [{ proto: 'DNS', weight: 11660 }] }, { from: 2209, to: 171, weight: 14236, annotations: [{ proto: 'DNS', weight: 14236 }] }, { from: 1497, to: 10531, weight: 582, annotations: [{ proto: 'DNS', weight: 582 }] }, { from: 1497, to: 899, weight: 27459, annotations: [{ proto: 'DNS', weight: 27459 }] }, { from: 2271, to: 899, weight: 3038, annotations: [{ proto: 'DNS', weight: 3038 }] }, { from: 2027, to: 171, weight: 37820, annotations: [{ proto: 'DNS', weight: 37820 }] }, { from: 1464, to: 10531, weight: 8508, annotations: [{ proto: 'DNS', weight: 8508 }] }, { from: 1464, to: 899, weight: 479395, annotations: [{ proto: 'DNS', weight: 479395 }] }, { from: 1464, to: 171, weight: 178, annotations: [{ proto: 'DNS', weight: 178 }] }, { from: 5271, to: 899, weight: 5390, annotations: [{ proto: 'DNS', weight: 5390 }] }, { from: 1208, to: 899, weight: 10022, annotations: [{ proto: 'DNS', weight: 10022 }] }, { from: 1729, to: 171, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 2043, to: 171, weight: 277553, annotations: [{ proto: 'DNS', weight: 277553 }] }, { from: 9767, to: 171, weight: 10762, annotations: [{ proto: 'DNS', weight: 10762 }] }, { from: 11221, to: 10531, weight: 923, annotations: [{ proto: 'DNS', weight: 923 }] }, { from: 11221, to: 899, weight: 1846, annotations: [{ proto: 'DNS', weight: 1846 }] }, { from: 11950, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11848, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11868, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11794, to: 899, weight: 284, annotations: [{ proto: 'DNS', weight: 284 }] }, { from: 11914, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1413, to: 899, weight: 6836, annotations: [{ proto: 'DNS', weight: 6836 }] }, { from: 2280, to: 171, weight: 3094, annotations: [{ proto: 'DNS', weight: 3094 }] }, { from: 5332, to: 2872, weight: 71138, annotations: [{ proto: 'DNS', weight: 71138 }] }, { from: 5332, to: 2871, weight: 5139, annotations: [{ proto: 'DNS', weight: 5139 }] }, { from: 2044, to: 171, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 1095, to: 10531, weight: 1131, annotations: [{ proto: 'DNS', weight: 1131 }] }, { from: 1095, to: 899, weight: 96580, annotations: [{ proto: 'DNS', weight: 96580 }] }, { from: 1095, to: 171, weight: 1748, annotations: [{ proto: 'DNS', weight: 1748 }] }, { from: 2948, to: 10531, weight: 7134, annotations: [{ proto: 'DNS', weight: 7134 }] }, { from: 2948, to: 899, weight: 559736, annotations: [{ proto: 'DNS', weight: 559736 }] }, { from: 2948, to: 171, weight: 4712, annotations: [{ proto: 'DNS', weight: 4712 }] }, { from: 2359, to: 422, weight: 754, annotations: [{ proto: 'DNS', weight: 754 }] }, { from: 2359, to: 10531, weight: 363336, annotations: [{ proto: 'DNS', weight: 363336 }] }, { from: 2359, to: 899, weight: 1042995, annotations: [{ proto: 'DNS', weight: 1042995 }] }, { from: 2359, to: 171, weight: 755796, annotations: [{ proto: 'DNS', weight: 755796 }] }, { from: 866, to: 899, weight: 8142, annotations: [{ proto: 'DNS', weight: 8142 }] }, { from: 1006, to: 899, weight: 38110, annotations: [{ proto: 'DNS', weight: 38110 }] }, { from: 10537, to: 899, weight: 194372, annotations: [{ proto: 'DNS', weight: 194372 }] }, { from: 10849, to: 899, weight: 217243, annotations: [{ proto: 'DNS', weight: 217243 }] }, { from: 11912, to: 10531, weight: 8364, annotations: [{ proto: 'DNS', weight: 8364 }] }, { from: 11912, to: 899, weight: 143848, annotations: [{ proto: 'DNS', weight: 143848 }] }, { from: 11912, to: 171, weight: 992, annotations: [{ proto: 'DNS', weight: 992 }] }, { from: 11805, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11134, to: 899, weight: 11066, annotations: [{ proto: 'DNS', weight: 11066 }] }, { from: 2904, to: 899, weight: 39742, annotations: [{ proto: 'DNS', weight: 39742 }] }, { from: 3067, to: 2872, weight: 46153, annotations: [{ proto: 'DNS', weight: 46153 }] }, { from: 3067, to: 2871, weight: 705, annotations: [{ proto: 'DNS', weight: 705 }] }, { from: 9427, to: 171, weight: 25276, annotations: [{ proto: 'DNS', weight: 25276 }] }, { from: 9427, to: 10531, weight: 208211, annotations: [{ proto: 'DNS', weight: 208211 }] }, { from: 9427, to: 899, weight: 199931, annotations: [{ proto: 'DNS', weight: 199931 }] }, { from: 1661, to: 899, weight: 817151, annotations: [{ proto: 'DNS', weight: 817151 }] }, { from: 2855, to: 899, weight: 11660, annotations: [{ proto: 'DNS', weight: 11660 }] }, { from: 901, to: 171, weight: 112134, annotations: [{ proto: 'DNS', weight: 112134 }] }, { from: 1213, to: 10531, weight: 63773, annotations: [{ proto: 'DNS', weight: 63773 }] }, { from: 1213, to: 899, weight: 900839, annotations: [{ proto: 'DNS', weight: 900839 }] }, { from: 1213, to: 171, weight: 1330, annotations: [{ proto: 'DNS', weight: 1330 }] }, { from: 2203, to: 171, weight: 2520, annotations: [{ proto: 'DNS', weight: 2520 }] }, { from: 1221, to: 10531, weight: 5811, annotations: [{ proto: 'DNS', weight: 5811 }] }, { from: 1221, to: 899, weight: 988819, annotations: [{ proto: 'DNS', weight: 988819 }] }, { from: 6588, to: 899, weight: 682083, annotations: [{ proto: 'DNS', weight: 682083 }] }, { from: 6588, to: 10531, weight: 8769, annotations: [{ proto: 'DNS', weight: 8769 }] }, { from: 1405, to: 171, weight: 406, annotations: [{ proto: 'DNS', weight: 406 }] }, { from: 1405, to: 10531, weight: 3294, annotations: [{ proto: 'DNS', weight: 3294 }] }, { from: 1405, to: 899, weight: 127030, annotations: [{ proto: 'DNS', weight: 127030 }] }, { from: 3066, to: 10531, weight: 91952, annotations: [{ proto: 'DNS', weight: 91952 }] }, { from: 3066, to: 899, weight: 448768, annotations: [{ proto: 'DNS', weight: 448768 }] }, { from: 3066, to: 171, weight: 78801, annotations: [{ proto: 'DNS', weight: 78801 }] }, { from: 2226, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 11512, to: 899, weight: 21346, annotations: [{ proto: 'DNS', weight: 21346 }] }, { from: 1011, to: 10531, weight: 990, annotations: [{ proto: 'DNS', weight: 990 }] }, { from: 1011, to: 899, weight: 90970, annotations: [{ proto: 'DNS', weight: 90970 }] }, { from: 1769, to: 899, weight: 221414, annotations: [{ proto: 'DNS', weight: 221414 }] }, { from: 1769, to: 422, weight: 2807, annotations: [{ proto: 'DNS', weight: 2807 }] }, { from: 1769, to: 10531, weight: 24381, annotations: [{ proto: 'DNS', weight: 24381 }] }, { from: 2211, to: 171, weight: 454873, annotations: [{ proto: 'DNS', weight: 454873 }] }, { from: 2211, to: 422, weight: 2079, annotations: [{ proto: 'DNS', weight: 2079 }] }, { from: 2211, to: 10531, weight: 349764, annotations: [{ proto: 'DNS', weight: 349764 }] }, { from: 2211, to: 899, weight: 572248, annotations: [{ proto: 'DNS', weight: 572248 }] }, { from: 2289, to: 171, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 1361, to: 10531, weight: 377612, annotations: [{ proto: 'DNS', weight: 377612 }] }, { from: 1361, to: 899, weight: 412482, annotations: [{ proto: 'DNS', weight: 412482 }] }, { from: 1361, to: 171, weight: 361713, annotations: [{ proto: 'DNS', weight: 361713 }] }, { from: 1361, to: 422, weight: 3360, annotations: [{ proto: 'DNS', weight: 3360 }] }, { from: 11863, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11791, to: 899, weight: 2962, annotations: [{ proto: 'DNS', weight: 2962 }] }, { from: 1664, to: 899, weight: 17352, annotations: [{ proto: 'DNS', weight: 17352 }] }, { from: 1699, to: 2871, weight: 167, annotations: [{ proto: 'DNS', weight: 167 }] }, { from: 1699, to: 2872, weight: 44993, annotations: [{ proto: 'DNS', weight: 44993 }] }, { from: 6244, to: 10531, weight: 4125, annotations: [{ proto: 'DNS', weight: 4125 }] }, { from: 6244, to: 899, weight: 49385, annotations: [{ proto: 'DNS', weight: 49385 }] }, { from: 2340, to: 10531, weight: 10347, annotations: [{ proto: 'DNS', weight: 10347 }] }, { from: 2340, to: 899, weight: 1056539, annotations: [{ proto: 'DNS', weight: 1056539 }] }, { from: 2340, to: 171, weight: 640, annotations: [{ proto: 'DNS', weight: 640 }] }, { from: 215, to: 10531, weight: 191977, annotations: [{ proto: 'DNS', weight: 191977 }] }, { from: 215, to: 899, weight: 21314, annotations: [{ proto: 'DNS', weight: 21314 }] }, { from: 1137, to: 899, weight: 6336, annotations: [{ proto: 'DNS', weight: 6336 }] }, { from: 11559, to: 899, weight: 23125, annotations: [{ proto: 'DNS', weight: 23125 }] }, { from: 5821, to: 899, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 1918, to: 171, weight: 8556, annotations: [{ proto: 'DNS', weight: 8556 }] }, { from: 8294, to: 171, weight: 6813, annotations: [{ proto: 'DNS', weight: 6813 }] }, { from: 2963, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 7829, to: 899, weight: 90374, annotations: [{ proto: 'DNS', weight: 90374 }] }, { from: 5982, to: 899, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 10265, to: 899, weight: 128369, annotations: [{ proto: 'DNS', weight: 128369 }] }, { from: 2398, to: 899, weight: 707800, annotations: [{ proto: 'DNS', weight: 707800 }] }, { from: 2398, to: 171, weight: 16356, annotations: [{ proto: 'DNS', weight: 16356 }] }, { from: 2398, to: 2872, weight: 8454, annotations: [{ proto: 'DNS', weight: 8454 }] }, { from: 5466, to: 2872, weight: 91872, annotations: [{ proto: 'DNS', weight: 91872 }] }, { from: 5466, to: 2871, weight: 301, annotations: [{ proto: 'DNS', weight: 301 }] }, { from: 2873, to: 10531, weight: 2094, annotations: [{ proto: 'DNS', weight: 2094 }] }, { from: 2873, to: 899, weight: 37115, annotations: [{ proto: 'DNS', weight: 37115 }] }, { from: 2873, to: 171, weight: 4036, annotations: [{ proto: 'DNS', weight: 4036 }] }, { from: 8743, to: 2872, weight: 225326, annotations: [{ proto: 'DNS', weight: 225326 }] }, { from: 8743, to: 2871, weight: 11908, annotations: [{ proto: 'DNS', weight: 11908 }] }, { from: 8001, to: 2872, weight: 150002, annotations: [{ proto: 'DNS', weight: 150002 }] }, { from: 2117, to: 10531, weight: 822, annotations: [{ proto: 'DNS', weight: 822 }] }, { from: 2117, to: 899, weight: 350333, annotations: [{ proto: 'DNS', weight: 350333 }] }, { from: 2117, to: 422, weight: 1788, annotations: [{ proto: 'DNS', weight: 1788 }] }, { from: 2101, to: 10531, weight: 2706, annotations: [{ proto: 'DNS', weight: 2706 }] }, { from: 2101, to: 899, weight: 14786, annotations: [{ proto: 'DNS', weight: 14786 }] }, { from: 2707, to: 10531, weight: 9900, annotations: [{ proto: 'DNS', weight: 9900 }] }, { from: 2707, to: 899, weight: 156133, annotations: [{ proto: 'DNS', weight: 156133 }] }, { from: 2707, to: 171, weight: 9022, annotations: [{ proto: 'DNS', weight: 9022 }] }, { from: 2051, to: 899, weight: 1974, annotations: [{ proto: 'DNS', weight: 1974 }] }, { from: 11447, to: 899, weight: 8676, annotations: [{ proto: 'DNS', weight: 8676 }] }, { from: 1754, to: 899, weight: 8628, annotations: [{ proto: 'DNS', weight: 8628 }] }, { from: 1007, to: 2872, weight: 7746, annotations: [{ proto: 'DNS', weight: 7746 }] }, { from: 722, to: 10531, weight: 117290, annotations: [{ proto: 'DNS', weight: 117290 }] }, { from: 722, to: 899, weight: 172553, annotations: [{ proto: 'DNS', weight: 172553 }] }, { from: 722, to: 422, weight: 3948, annotations: [{ proto: 'DNS', weight: 3948 }] }, { from: 2113, to: 899, weight: 13408, annotations: [{ proto: 'DNS', weight: 13408 }] }, { from: 2095, to: 10531, weight: 4914, annotations: [{ proto: 'DNS', weight: 4914 }] }, { from: 2095, to: 899, weight: 5460, annotations: [{ proto: 'DNS', weight: 5460 }] }, { from: 175, to: 422, weight: 18538, annotations: [{ proto: 'DNS', weight: 18538 }] }, { from: 175, to: 899, weight: 537230, annotations: [{ proto: 'DNS', weight: 537230 }] }, { from: 2151, to: 171, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 6404, to: 10531, weight: 125293, annotations: [{ proto: 'DNS', weight: 125293 }] }, { from: 6404, to: 899, weight: 590853, annotations: [{ proto: 'DNS', weight: 590853 }] }, { from: 6404, to: 171, weight: 14330, annotations: [{ proto: 'DNS', weight: 14330 }] }, { from: 11897, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11782, to: 899, weight: 21208, annotations: [{ proto: 'DNS', weight: 21208 }] }, { from: 779, to: 10531, weight: 300, annotations: [{ proto: 'DNS', weight: 300 }] }, { from: 779, to: 899, weight: 168916, annotations: [{ proto: 'DNS', weight: 168916 }] }, { from: 2306, to: 10531, weight: 463316, annotations: [{ proto: 'DNS', weight: 463316 }] }, { from: 2306, to: 899, weight: 832675, annotations: [{ proto: 'DNS', weight: 832675 }] }, { from: 2306, to: 171, weight: 725249, annotations: [{ proto: 'DNS', weight: 725249 }] }, { from: 2306, to: 422, weight: 2346, annotations: [{ proto: 'DNS', weight: 2346 }] }, { from: 2103, to: 899, weight: 686, annotations: [{ proto: 'DNS', weight: 686 }] }, { from: 1648, to: 899, weight: 16364, annotations: [{ proto: 'DNS', weight: 16364 }] }, { from: 10455, to: 899, weight: 240764, annotations: [{ proto: 'DNS', weight: 240764 }] }, { from: 1138, to: 899, weight: 856975, annotations: [{ proto: 'DNS', weight: 856975 }] }, { from: 2081, to: 171, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 10520, to: 10531, weight: 11408, annotations: [{ proto: 'DNS', weight: 11408 }] }, { from: 1241, to: 10531, weight: 454281, annotations: [{ proto: 'DNS', weight: 454281 }] }, { from: 1241, to: 899, weight: 1532071, annotations: [{ proto: 'DNS', weight: 1532071 }] }, { from: 1241, to: 171, weight: 2294, annotations: [{ proto: 'DNS', weight: 2294 }] }, { from: 1755, to: 899, weight: 3094, annotations: [{ proto: 'DNS', weight: 3094 }] }, { from: 1651, to: 2872, weight: 178989, annotations: [{ proto: 'DNS', weight: 178989 }] }, { from: 1651, to: 2871, weight: 1368, annotations: [{ proto: 'DNS', weight: 1368 }] }, { from: 5594, to: 10531, weight: 6123, annotations: [{ proto: 'DNS', weight: 6123 }] }, { from: 5594, to: 899, weight: 179632, annotations: [{ proto: 'DNS', weight: 179632 }] }, { from: 1442, to: 899, weight: 23216, annotations: [{ proto: 'DNS', weight: 23216 }] }, { from: 10531, to: 637, weight: 739837, annotations: [{ proto: 'DNS', weight: 739837 }] }, { from: 10531, to: 1061, weight: 1844, annotations: [{ proto: 'DNS', weight: 1844 }] }, { from: 10531, to: 1417, weight: 66730, annotations: [{ proto: 'DNS', weight: 66730 }] }, { from: 10531, to: 2872, weight: 1904071, annotations: [{ proto: 'DNS', weight: 1904071 }] }, { from: 10531, to: 2871, weight: 1944359, annotations: [{ proto: 'DNS', weight: 1944359 }] }, { from: 10531, to: 957, weight: 2898, annotations: [{ proto: 'DNS', weight: 2898 }] }, { from: 10531, to: 10056, weight: 263670, annotations: [{ proto: 'DNS', weight: 263670 }] }, { from: 10531, to: 615, weight: 733273, annotations: [{ proto: 'DNS', weight: 733273 }] }, { from: 10531, to: 387, weight: 1232, annotations: [{ proto: 'DNS', weight: 1232 }] }, { from: 11951, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 9917, to: 899, weight: 3584, annotations: [{ proto: 'DNS', weight: 3584 }] }, { from: 893, to: 899, weight: 195, annotations: [{ proto: 'DNS', weight: 195 }] }, { from: 893, to: 171, weight: 9712, annotations: [{ proto: 'DNS', weight: 9712 }] }, { from: 2134, to: 899, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 597, to: 899, weight: 41100, annotations: [{ proto: 'DNS', weight: 41100 }] }, { from: 11317, to: 899, weight: 23328, annotations: [{ proto: 'DNS', weight: 23328 }] }, { from: 1217, to: 899, weight: 179889, annotations: [{ proto: 'DNS', weight: 179889 }] }, { from: 1345, to: 899, weight: 11050, annotations: [{ proto: 'DNS', weight: 11050 }] }, { from: 10819, to: 10531, weight: 1923, annotations: [{ proto: 'DNS', weight: 1923 }] }, { from: 10819, to: 899, weight: 131052, annotations: [{ proto: 'DNS', weight: 131052 }] }, { from: 10819, to: 171, weight: 1058, annotations: [{ proto: 'DNS', weight: 1058 }] }, { from: 10819, to: 2872, weight: 461, annotations: [{ proto: 'DNS', weight: 461 }] }, { from: 11890, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2793, to: 899, weight: 5940, annotations: [{ proto: 'DNS', weight: 5940 }] }, { from: 1282, to: 899, weight: 8676, annotations: [{ proto: 'DNS', weight: 8676 }] }, { from: 9625, to: 899, weight: 108184, annotations: [{ proto: 'DNS', weight: 108184 }] }, { from: 1489, to: 10531, weight: 39984, annotations: [{ proto: 'DNS', weight: 39984 }] }, { from: 1489, to: 899, weight: 657827, annotations: [{ proto: 'DNS', weight: 657827 }] }, { from: 1489, to: 171, weight: 28288, annotations: [{ proto: 'DNS', weight: 28288 }] }, { from: 1587, to: 899, weight: 154534, annotations: [{ proto: 'DNS', weight: 154534 }] }, { from: 1450, to: 899, weight: 7387, annotations: [{ proto: 'DNS', weight: 7387 }] }, { from: 1031, to: 387, weight: 977188, annotations: [{ proto: 'DNS', weight: 977188 }] }, { from: 1031, to: 957, weight: 114960, annotations: [{ proto: 'DNS', weight: 114960 }] }, { from: 11665, to: 899, weight: 63402, annotations: [{ proto: 'DNS', weight: 63402 }] }, { from: 10512, to: 899, weight: 11764, annotations: [{ proto: 'DNS', weight: 11764 }] }, { from: 2195, to: 171, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 8570, to: 2872, weight: 55797, annotations: [{ proto: 'DNS', weight: 55797 }] }, { from: 8570, to: 2871, weight: 714, annotations: [{ proto: 'DNS', weight: 714 }] }, { from: 7377, to: 10531, weight: 11490, annotations: [{ proto: 'DNS', weight: 11490 }] }, { from: 7377, to: 899, weight: 461683, annotations: [{ proto: 'DNS', weight: 461683 }] }, { from: 11105, to: 899, weight: 9696, annotations: [{ proto: 'DNS', weight: 9696 }] }, { from: 1842, to: 899, weight: 51330, annotations: [{ proto: 'DNS', weight: 51330 }] }, { from: 1254, to: 2872, weight: 44852, annotations: [{ proto: 'DNS', weight: 44852 }] }, { from: 1254, to: 2871, weight: 164, annotations: [{ proto: 'DNS', weight: 164 }] }, { from: 7656, to: 2872, weight: 44061, annotations: [{ proto: 'DNS', weight: 44061 }] }, { from: 5233, to: 2872, weight: 32087, annotations: [{ proto: 'DNS', weight: 32087 }] }, { from: 5233, to: 2871, weight: 2193, annotations: [{ proto: 'DNS', weight: 2193 }] }, { from: 11939, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11835, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2071, to: 171, weight: 5720, annotations: [{ proto: 'DNS', weight: 5720 }] }, { from: 11876, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 10748, to: 899, weight: 8660, annotations: [{ proto: 'DNS', weight: 8660 }] }, { from: 9729, to: 899, weight: 243670, annotations: [{ proto: 'DNS', weight: 243670 }] }, { from: 1097, to: 10531, weight: 8226, annotations: [{ proto: 'DNS', weight: 8226 }] }, { from: 1097, to: 899, weight: 418785, annotations: [{ proto: 'DNS', weight: 418785 }] }, { from: 946, to: 899, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 1944, to: 171, weight: 9958, annotations: [{ proto: 'DNS', weight: 9958 }] }, { from: 2065, to: 171, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 5721, to: 171, weight: 10810, annotations: [{ proto: 'DNS', weight: 10810 }] }, { from: 6347, to: 2872, weight: 35401, annotations: [{ proto: 'DNS', weight: 35401 }] }, { from: 9495, to: 899, weight: 1990556, annotations: [{ proto: 'DNS', weight: 1990556 }] }, { from: 9495, to: 171, weight: 4638, annotations: [{ proto: 'DNS', weight: 4638 }] }, { from: 9495, to: 422, weight: 3388, annotations: [{ proto: 'DNS', weight: 3388 }] }, { from: 9495, to: 10531, weight: 34245, annotations: [{ proto: 'DNS', weight: 34245 }] }, { from: 925, to: 899, weight: 195, annotations: [{ proto: 'DNS', weight: 195 }] }, { from: 925, to: 171, weight: 982, annotations: [{ proto: 'DNS', weight: 982 }] }, { from: 2088, to: 899, weight: 882, annotations: [{ proto: 'DNS', weight: 882 }] }, { from: 714, to: 899, weight: 11527, annotations: [{ proto: 'DNS', weight: 11527 }] }, { from: 1233, to: 899, weight: 11650, annotations: [{ proto: 'DNS', weight: 11650 }] }, { from: 8457, to: 899, weight: 8110, annotations: [{ proto: 'DNS', weight: 8110 }] }, { from: 5689, to: 2872, weight: 6049, annotations: [{ proto: 'DNS', weight: 6049 }] }, { from: 5689, to: 2871, weight: 512, annotations: [{ proto: 'DNS', weight: 512 }] }, { from: 499, to: 899, weight: 555, annotations: [{ proto: 'DNS', weight: 555 }] }, { from: 11946, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 8455, to: 899, weight: 16818, annotations: [{ proto: 'DNS', weight: 16818 }] }, { from: 11882, to: 2872, weight: 18931, annotations: [{ proto: 'DNS', weight: 18931 }] }, { from: 11882, to: 2871, weight: 1115, annotations: [{ proto: 'DNS', weight: 1115 }] }, { from: 5185, to: 2872, weight: 89607, annotations: [{ proto: 'DNS', weight: 89607 }] }, { from: 1234, to: 2872, weight: 28876, annotations: [{ proto: 'DNS', weight: 28876 }] }, { from: 1234, to: 2871, weight: 1130, annotations: [{ proto: 'DNS', weight: 1130 }] }, { from: 8442, to: 10531, weight: 19559, annotations: [{ proto: 'DNS', weight: 19559 }] }, { from: 2511, to: 10531, weight: 115480, annotations: [{ proto: 'DNS', weight: 115480 }] }, { from: 2511, to: 899, weight: 197775, annotations: [{ proto: 'DNS', weight: 197775 }] }, { from: 2511, to: 171, weight: 18497, annotations: [{ proto: 'DNS', weight: 18497 }] }, { from: 11918, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 712, to: 615, weight: 98714, annotations: [{ proto: 'DNS', weight: 98714 }] }, { from: 712, to: 899, weight: 22192, annotations: [{ proto: 'DNS', weight: 22192 }] }, { from: 712, to: 171, weight: 27422, annotations: [{ proto: 'DNS', weight: 27422 }] }, { from: 712, to: 637, weight: 99035, annotations: [{ proto: 'DNS', weight: 99035 }] }, { from: 2268, to: 171, weight: 2366, annotations: [{ proto: 'DNS', weight: 2366 }] }, { from: 74, to: 171, weight: 900781, annotations: [{ proto: 'DNS', weight: 900781 }] }, { from: 1088, to: 422, weight: 2624, annotations: [{ proto: 'DNS', weight: 2624 }] }, { from: 1088, to: 387, weight: 572248, annotations: [{ proto: 'DNS', weight: 572248 }] }, { from: 1088, to: 957, weight: 39074, annotations: [{ proto: 'DNS', weight: 39074 }] }, { from: 968, to: 171, weight: 48522, annotations: [{ proto: 'DNS', weight: 48522 }] }, { from: 968, to: 10531, weight: 7728, annotations: [{ proto: 'DNS', weight: 7728 }] }, { from: 968, to: 899, weight: 1130163, annotations: [{ proto: 'DNS', weight: 1130163 }] }, { from: 2761, to: 899, weight: 56573, annotations: [{ proto: 'DNS', weight: 56573 }] }, { from: 10505, to: 899, weight: 111743, annotations: [{ proto: 'DNS', weight: 111743 }] }, { from: 1912, to: 899, weight: 181406, annotations: [{ proto: 'DNS', weight: 181406 }] }, { from: 3516, to: 10531, weight: 210871, annotations: [{ proto: 'DNS', weight: 210871 }] }, { from: 3516, to: 899, weight: 211773, annotations: [{ proto: 'DNS', weight: 211773 }] }, { from: 3516, to: 171, weight: 212868, annotations: [{ proto: 'DNS', weight: 212868 }] }, { from: 3516, to: 422, weight: 1909, annotations: [{ proto: 'DNS', weight: 1909 }] }, { from: 11953, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 469, to: 899, weight: 60530, annotations: [{ proto: 'DNS', weight: 60530 }] }, { from: 737, to: 899, weight: 166801, annotations: [{ proto: 'DNS', weight: 166801 }] }, { from: 737, to: 422, weight: 2017, annotations: [{ proto: 'DNS', weight: 2017 }] }, { from: 737, to: 10531, weight: 117782, annotations: [{ proto: 'DNS', weight: 117782 }] }, { from: 6743, to: 899, weight: 1724, annotations: [{ proto: 'DNS', weight: 1724 }] }, { from: 2246, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 7945, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 2175, to: 899, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 7235, to: 2872, weight: 4339, annotations: [{ proto: 'DNS', weight: 4339 }] }, { from: 2067, to: 10531, weight: 15569, annotations: [{ proto: 'DNS', weight: 15569 }] }, { from: 2067, to: 899, weight: 10102, annotations: [{ proto: 'DNS', weight: 10102 }] }, { from: 2067, to: 171, weight: 10791, annotations: [{ proto: 'DNS', weight: 10791 }] }, { from: 1697, to: 10531, weight: 8544820, annotations: [{ proto: 'DNS', weight: 8544820 }] }, { from: 1697, to: 1417, weight: 1, annotations: [{ proto: 'DNS', weight: 1 }] }, { from: 11058, to: 899, weight: 56770, annotations: [{ proto: 'DNS', weight: 56770 }] }, { from: 693, to: 899, weight: 161840, annotations: [{ proto: 'DNS', weight: 161840 }] }, { from: 1618, to: 171, weight: 5940, annotations: [{ proto: 'DNS', weight: 5940 }] }, { from: 6417, to: 2872, weight: 279213, annotations: [{ proto: 'DNS', weight: 279213 }] }, { from: 6417, to: 2871, weight: 395, annotations: [{ proto: 'DNS', weight: 395 }] }, { from: 8655, to: 10531, weight: 8010, annotations: [{ proto: 'DNS', weight: 8010 }] }, { from: 8655, to: 899, weight: 176947, annotations: [{ proto: 'DNS', weight: 176947 }] }, { from: 2269, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 2182, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 10056, to: 899, weight: 14352482, annotations: [{ proto: 'DNS', weight: 14352482 }] }, { from: 1242, to: 2872, weight: 1240, annotations: [{ proto: 'DNS', weight: 1240 }] }, { from: 11831, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1921, to: 899, weight: 36160, annotations: [{ proto: 'DNS', weight: 36160 }] }, { from: 8563, to: 899, weight: 1203295, annotations: [{ proto: 'DNS', weight: 1203295 }] }, { from: 1937, to: 422, weight: 1052, annotations: [{ proto: 'DNS', weight: 1052 }] }, { from: 1937, to: 387, weight: 1121194, annotations: [{ proto: 'DNS', weight: 1121194 }] }, { from: 1937, to: 957, weight: 122839, annotations: [{ proto: 'DNS', weight: 122839 }] }, { from: 2404, to: 422, weight: 131, annotations: [{ proto: 'DNS', weight: 131 }] }, { from: 2404, to: 10531, weight: 521359, annotations: [{ proto: 'DNS', weight: 521359 }] }, { from: 2404, to: 899, weight: 1602415, annotations: [{ proto: 'DNS', weight: 1602415 }] }, { from: 2404, to: 171, weight: 1374826, annotations: [{ proto: 'DNS', weight: 1374826 }] }, { from: 900, to: 10531, weight: 28701, annotations: [{ proto: 'DNS', weight: 28701 }] }, { from: 900, to: 899, weight: 1025260, annotations: [{ proto: 'DNS', weight: 1025260 }] }, { from: 900, to: 171, weight: 6444, annotations: [{ proto: 'DNS', weight: 6444 }] }, { from: 2114, to: 10531, weight: 520063, annotations: [{ proto: 'DNS', weight: 520063 }] }, { from: 2114, to: 899, weight: 736464, annotations: [{ proto: 'DNS', weight: 736464 }] }, { from: 2114, to: 171, weight: 1168942, annotations: [{ proto: 'DNS', weight: 1168942 }] }, { from: 2114, to: 422, weight: 129, annotations: [{ proto: 'DNS', weight: 129 }] }, { from: 2264, to: 899, weight: 4620, annotations: [{ proto: 'DNS', weight: 4620 }] }, { from: 2264, to: 171, weight: 6230, annotations: [{ proto: 'DNS', weight: 6230 }] }, { from: 6108, to: 899, weight: 13130, annotations: [{ proto: 'DNS', weight: 13130 }] }, { from: 2054, to: 171, weight: 27751, annotations: [{ proto: 'DNS', weight: 27751 }] }, { from: 4329, to: 2872, weight: 455, annotations: [{ proto: 'DNS', weight: 455 }] }, { from: 4329, to: 2871, weight: 91, annotations: [{ proto: 'DNS', weight: 91 }] }, { from: 1414, to: 899, weight: 26806, annotations: [{ proto: 'DNS', weight: 26806 }] }, { from: 1155, to: 10531, weight: 5805, annotations: [{ proto: 'DNS', weight: 5805 }] }, { from: 1155, to: 899, weight: 719685, annotations: [{ proto: 'DNS', weight: 719685 }] }, { from: 9143, to: 899, weight: 8716, annotations: [{ proto: 'DNS', weight: 8716 }] }, { from: 1855, to: 899, weight: 31436, annotations: [{ proto: 'DNS', weight: 31436 }] }, { from: 1445, to: 171, weight: 200, annotations: [{ proto: 'DNS', weight: 200 }] }, { from: 1862, to: 171, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 1568, to: 2872, weight: 41910, annotations: [{ proto: 'DNS', weight: 41910 }] }, { from: 1568, to: 2871, weight: 711, annotations: [{ proto: 'DNS', weight: 711 }] }, { from: 3594, to: 2872, weight: 43226, annotations: [{ proto: 'DNS', weight: 43226 }] }, { from: 3594, to: 2871, weight: 1216, annotations: [{ proto: 'DNS', weight: 1216 }] }, { from: 1068, to: 899, weight: 429696, annotations: [{ proto: 'DNS', weight: 429696 }] }, { from: 1068, to: 171, weight: 76316, annotations: [{ proto: 'DNS', weight: 76316 }] }, { from: 1068, to: 10531, weight: 326334, annotations: [{ proto: 'DNS', weight: 326334 }] }, { from: 1041, to: 899, weight: 8420, annotations: [{ proto: 'DNS', weight: 8420 }] }, { from: 5722, to: 899, weight: 16968, annotations: [{ proto: 'DNS', weight: 16968 }] }, { from: 11146, to: 899, weight: 8556, annotations: [{ proto: 'DNS', weight: 8556 }] }, { from: 634, to: 899, weight: 1208356, annotations: [{ proto: 'DNS', weight: 1208356 }] }, { from: 1121, to: 171, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 3946, to: 899, weight: 20568, annotations: [{ proto: 'DNS', weight: 20568 }] }, { from: 5831, to: 10531, weight: 16344, annotations: [{ proto: 'DNS', weight: 16344 }] }, { from: 5831, to: 899, weight: 558094, annotations: [{ proto: 'DNS', weight: 558094 }] }, { from: 5831, to: 171, weight: 21246, annotations: [{ proto: 'DNS', weight: 21246 }] }, { from: 2201, to: 899, weight: 3094, annotations: [{ proto: 'DNS', weight: 3094 }] }, { from: 3162, to: 899, weight: 107435, annotations: [{ proto: 'DNS', weight: 107435 }] }, { from: 6116, to: 899, weight: 23296, annotations: [{ proto: 'DNS', weight: 23296 }] }, { from: 3802, to: 10531, weight: 1848, annotations: [{ proto: 'DNS', weight: 1848 }] }, { from: 3802, to: 899, weight: 117099, annotations: [{ proto: 'DNS', weight: 117099 }] }, { from: 1487, to: 10531, weight: 12066, annotations: [{ proto: 'DNS', weight: 12066 }] }, { from: 1487, to: 899, weight: 325259, annotations: [{ proto: 'DNS', weight: 325259 }] }, { from: 8762, to: 899, weight: 19228, annotations: [{ proto: 'DNS', weight: 19228 }] }, { from: 7850, to: 899, weight: 6373, annotations: [{ proto: 'DNS', weight: 6373 }] }, { from: 7703, to: 899, weight: 165381, annotations: [{ proto: 'DNS', weight: 165381 }] }, { from: 7703, to: 171, weight: 244, annotations: [{ proto: 'DNS', weight: 244 }] }, { from: 2235, to: 171, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 2232, to: 10531, weight: 301019, annotations: [{ proto: 'DNS', weight: 301019 }] }, { from: 2232, to: 899, weight: 514739, annotations: [{ proto: 'DNS', weight: 514739 }] }, { from: 2232, to: 171, weight: 769000, annotations: [{ proto: 'DNS', weight: 769000 }] }, { from: 2232, to: 2872, weight: 1512, annotations: [{ proto: 'DNS', weight: 1512 }] }, { from: 11200, to: 899, weight: 13074, annotations: [{ proto: 'DNS', weight: 13074 }] }, { from: 1762, to: 899, weight: 32940, annotations: [{ proto: 'DNS', weight: 32940 }] }, { from: 141, to: 957, weight: 23288, annotations: [{ proto: 'DNS', weight: 23288 }] }, { from: 141, to: 422, weight: 185, annotations: [{ proto: 'DNS', weight: 185 }] }, { from: 141, to: 387, weight: 273795, annotations: [{ proto: 'DNS', weight: 273795 }] }, { from: 7287, to: 2872, weight: 77399, annotations: [{ proto: 'DNS', weight: 77399 }] }, { from: 7287, to: 2871, weight: 1143, annotations: [{ proto: 'DNS', weight: 1143 }] }, { from: 2778, to: 2872, weight: 55917, annotations: [{ proto: 'DNS', weight: 55917 }] }, { from: 2778, to: 2871, weight: 6824, annotations: [{ proto: 'DNS', weight: 6824 }] }, { from: 1509, to: 10531, weight: 8385, annotations: [{ proto: 'DNS', weight: 8385 }] }, { from: 1509, to: 899, weight: 85112, annotations: [{ proto: 'DNS', weight: 85112 }] }, { from: 1509, to: 171, weight: 15634, annotations: [{ proto: 'DNS', weight: 15634 }] }, { from: 1147, to: 10531, weight: 236969, annotations: [{ proto: 'DNS', weight: 236969 }] }, { from: 1147, to: 899, weight: 830961, annotations: [{ proto: 'DNS', weight: 830961 }] }, { from: 1147, to: 171, weight: 14529, annotations: [{ proto: 'DNS', weight: 14529 }] }, { from: 11306, to: 899, weight: 9680, annotations: [{ proto: 'DNS', weight: 9680 }] }, { from: 1152, to: 899, weight: 697496, annotations: [{ proto: 'DNS', weight: 697496 }] }, { from: 11925, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 3396, to: 299, weight: 548, annotations: [{ proto: 'DNS', weight: 548 }] }, { from: 2070, to: 422, weight: 3229, annotations: [{ proto: 'DNS', weight: 3229 }] }, { from: 2070, to: 387, weight: 607871, annotations: [{ proto: 'DNS', weight: 607871 }] }, { from: 2070, to: 957, weight: 84052, annotations: [{ proto: 'DNS', weight: 84052 }] }, { from: 1062, to: 899, weight: 620913, annotations: [{ proto: 'DNS', weight: 620913 }] }, { from: 1062, to: 10531, weight: 1191, annotations: [{ proto: 'DNS', weight: 1191 }] }, { from: 1482, to: 171, weight: 42251, annotations: [{ proto: 'DNS', weight: 42251 }] }, { from: 1482, to: 10531, weight: 90140, annotations: [{ proto: 'DNS', weight: 90140 }] }, { from: 1482, to: 899, weight: 958720, annotations: [{ proto: 'DNS', weight: 958720 }] }, { from: 1540, to: 899, weight: 17496, annotations: [{ proto: 'DNS', weight: 17496 }] }, { from: 11725, to: 899, weight: 19125, annotations: [{ proto: 'DNS', weight: 19125 }] }, { from: 11725, to: 171, weight: 31958, annotations: [{ proto: 'DNS', weight: 31958 }] }, { from: 11725, to: 10531, weight: 44608, annotations: [{ proto: 'DNS', weight: 44608 }] }, { from: 1458, to: 387, weight: 484215, annotations: [{ proto: 'DNS', weight: 484215 }] }, { from: 1458, to: 957, weight: 61892, annotations: [{ proto: 'DNS', weight: 61892 }] }, { from: 358, to: 171, weight: 17499, annotations: [{ proto: 'DNS', weight: 17499 }] }, { from: 358, to: 2872, weight: 144, annotations: [{ proto: 'DNS', weight: 144 }] }, { from: 358, to: 10531, weight: 34731, annotations: [{ proto: 'DNS', weight: 34731 }] }, { from: 358, to: 899, weight: 512622, annotations: [{ proto: 'DNS', weight: 512622 }] }, { from: 11893, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11787, to: 899, weight: 6994, annotations: [{ proto: 'DNS', weight: 6994 }] }, { from: 10460, to: 899, weight: 8604, annotations: [{ proto: 'DNS', weight: 8604 }] }, { from: 1935, to: 171, weight: 8732, annotations: [{ proto: 'DNS', weight: 8732 }] }, { from: 744, to: 899, weight: 162, annotations: [{ proto: 'DNS', weight: 162 }] }, { from: 2244, to: 171, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 2695, to: 2872, weight: 44904, annotations: [{ proto: 'DNS', weight: 44904 }] }, { from: 2309, to: 10531, weight: 87820, annotations: [{ proto: 'DNS', weight: 87820 }] }, { from: 2309, to: 899, weight: 998274, annotations: [{ proto: 'DNS', weight: 998274 }] }, { from: 2309, to: 171, weight: 7308, annotations: [{ proto: 'DNS', weight: 7308 }] }, { from: 2309, to: 422, weight: 9353, annotations: [{ proto: 'DNS', weight: 9353 }] }, { from: 8354, to: 899, weight: 9374, annotations: [{ proto: 'DNS', weight: 9374 }] }, { from: 8148, to: 899, weight: 4510, annotations: [{ proto: 'DNS', weight: 4510 }] }, { from: 5609, to: 2872, weight: 19114, annotations: [{ proto: 'DNS', weight: 19114 }] }, { from: 1411, to: 2871, weight: 298, annotations: [{ proto: 'DNS', weight: 298 }] }, { from: 1411, to: 2872, weight: 51103, annotations: [{ proto: 'DNS', weight: 51103 }] }, { from: 723, to: 171, weight: 344260, annotations: [{ proto: 'DNS', weight: 344260 }] }, { from: 723, to: 422, weight: 741, annotations: [{ proto: 'DNS', weight: 741 }] }, { from: 723, to: 10531, weight: 394935, annotations: [{ proto: 'DNS', weight: 394935 }] }, { from: 723, to: 899, weight: 352952, annotations: [{ proto: 'DNS', weight: 352952 }] }, { from: 10875, to: 899, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 4129, to: 899, weight: 1996556, annotations: [{ proto: 'DNS', weight: 1996556 }] }, { from: 5692, to: 2872, weight: 390749, annotations: [{ proto: 'DNS', weight: 390749 }] }, { from: 5692, to: 2871, weight: 9250, annotations: [{ proto: 'DNS', weight: 9250 }] }, { from: 678, to: 899, weight: 247589, annotations: [{ proto: 'DNS', weight: 247589 }] }, { from: 3898, to: 899, weight: 18292, annotations: [{ proto: 'DNS', weight: 18292 }] }, { from: 77, to: 10531, weight: 93401, annotations: [{ proto: 'DNS', weight: 93401 }] }, { from: 77, to: 899, weight: 184068, annotations: [{ proto: 'DNS', weight: 184068 }] }, { from: 77, to: 422, weight: 760, annotations: [{ proto: 'DNS', weight: 760 }] }, { from: 11843, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11041, to: 899, weight: 6652, annotations: [{ proto: 'DNS', weight: 6652 }] }, { from: 7486, to: 899, weight: 108329, annotations: [{ proto: 'DNS', weight: 108329 }] }, { from: 803, to: 899, weight: 845104, annotations: [{ proto: 'DNS', weight: 845104 }] }, { from: 502, to: 899, weight: 257995, annotations: [{ proto: 'DNS', weight: 257995 }] }, { from: 502, to: 171, weight: 1675519, annotations: [{ proto: 'DNS', weight: 1675519 }] }, { from: 4625, to: 899, weight: 4966, annotations: [{ proto: 'DNS', weight: 4966 }] }, { from: 4625, to: 171, weight: 150, annotations: [{ proto: 'DNS', weight: 150 }] }, { from: 4625, to: 10531, weight: 300, annotations: [{ proto: 'DNS', weight: 300 }] }, { from: 1867, to: 10531, weight: 14409, annotations: [{ proto: 'DNS', weight: 14409 }] }, { from: 1867, to: 899, weight: 1239185, annotations: [{ proto: 'DNS', weight: 1239185 }] }, { from: 11859, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11020, to: 899, weight: 8748, annotations: [{ proto: 'DNS', weight: 8748 }] }, { from: 11274, to: 899, weight: 39238, annotations: [{ proto: 'DNS', weight: 39238 }] }, { from: 3983, to: 899, weight: 16808, annotations: [{ proto: 'DNS', weight: 16808 }] }, { from: 9353, to: 899, weight: 11552, annotations: [{ proto: 'DNS', weight: 11552 }] }, { from: 1874, to: 171, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 1582, to: 171, weight: 852825, annotations: [{ proto: 'DNS', weight: 852825 }] }, { from: 2504, to: 899, weight: 54822, annotations: [{ proto: 'DNS', weight: 54822 }] }, { from: 2504, to: 171, weight: 83220, annotations: [{ proto: 'DNS', weight: 83220 }] }, { from: 2504, to: 10531, weight: 38637, annotations: [{ proto: 'DNS', weight: 38637 }] }, { from: 5608, to: 899, weight: 10752, annotations: [{ proto: 'DNS', weight: 10752 }] }, { from: 5355, to: 171, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 799, to: 10531, weight: 345, annotations: [{ proto: 'DNS', weight: 345 }] }, { from: 799, to: 899, weight: 112725, annotations: [{ proto: 'DNS', weight: 112725 }] }, { from: 2668, to: 10531, weight: 3585, annotations: [{ proto: 'DNS', weight: 3585 }] }, { from: 2668, to: 899, weight: 489540, annotations: [{ proto: 'DNS', weight: 489540 }] }, { from: 2668, to: 171, weight: 1256, annotations: [{ proto: 'DNS', weight: 1256 }] }, { from: 2487, to: 899, weight: 415887, annotations: [{ proto: 'DNS', weight: 415887 }] }, { from: 2487, to: 171, weight: 3076730, annotations: [{ proto: 'DNS', weight: 3076730 }] }, { from: 1051, to: 171, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 1161, to: 899, weight: 110590, annotations: [{ proto: 'DNS', weight: 110590 }] }, { from: 10829, to: 10531, weight: 3096, annotations: [{ proto: 'DNS', weight: 3096 }] }, { from: 10829, to: 899, weight: 27670, annotations: [{ proto: 'DNS', weight: 27670 }] }, { from: 150, to: 10531, weight: 108812, annotations: [{ proto: 'DNS', weight: 108812 }] }, { from: 150, to: 899, weight: 167979, annotations: [{ proto: 'DNS', weight: 167979 }] }, { from: 150, to: 422, weight: 881, annotations: [{ proto: 'DNS', weight: 881 }] }, { from: 1933, to: 899, weight: 22324, annotations: [{ proto: 'DNS', weight: 22324 }] }, { from: 2125, to: 171, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 5525, to: 2872, weight: 31012, annotations: [{ proto: 'DNS', weight: 31012 }] }, { from: 5525, to: 2871, weight: 283, annotations: [{ proto: 'DNS', weight: 283 }] }, { from: 1955, to: 899, weight: 26460, annotations: [{ proto: 'DNS', weight: 26460 }] }, { from: 11954, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11924, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1180, to: 899, weight: 4950, annotations: [{ proto: 'DNS', weight: 4950 }] }, { from: 11688, to: 899, weight: 245698, annotations: [{ proto: 'DNS', weight: 245698 }] }, { from: 1257, to: 171, weight: 231892, annotations: [{ proto: 'DNS', weight: 231892 }] }, { from: 11878, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11255, to: 899, weight: 2916, annotations: [{ proto: 'DNS', weight: 2916 }] }, { from: 592, to: 10531, weight: 112753, annotations: [{ proto: 'DNS', weight: 112753 }] }, { from: 592, to: 899, weight: 165806, annotations: [{ proto: 'DNS', weight: 165806 }] }, { from: 592, to: 422, weight: 1824, annotations: [{ proto: 'DNS', weight: 1824 }] }, { from: 2234, to: 10531, weight: 242920, annotations: [{ proto: 'DNS', weight: 242920 }] }, { from: 2234, to: 899, weight: 186215, annotations: [{ proto: 'DNS', weight: 186215 }] }, { from: 2234, to: 171, weight: 389938, annotations: [{ proto: 'DNS', weight: 389938 }] }, { from: 2234, to: 2872, weight: 144, annotations: [{ proto: 'DNS', weight: 144 }] }, { from: 991, to: 899, weight: 195, annotations: [{ proto: 'DNS', weight: 195 }] }, { from: 991, to: 171, weight: 195, annotations: [{ proto: 'DNS', weight: 195 }] }, { from: 1706, to: 899, weight: 8588, annotations: [{ proto: 'DNS', weight: 8588 }] }, { from: 9734, to: 899, weight: 373568, annotations: [{ proto: 'DNS', weight: 373568 }] }, { from: 11006, to: 899, weight: 1448999, annotations: [{ proto: 'DNS', weight: 1448999 }] }, { from: 2259, to: 171, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 1975, to: 899, weight: 236606, annotations: [{ proto: 'DNS', weight: 236606 }] }, { from: 940, to: 10531, weight: 9816, annotations: [{ proto: 'DNS', weight: 9816 }] }, { from: 940, to: 899, weight: 132772, annotations: [{ proto: 'DNS', weight: 132772 }] }, { from: 940, to: 171, weight: 42879, annotations: [{ proto: 'DNS', weight: 42879 }] }, { from: 1714, to: 10531, weight: 7014, annotations: [{ proto: 'DNS', weight: 7014 }] }, { from: 1714, to: 899, weight: 5740, annotations: [{ proto: 'DNS', weight: 5740 }] }, { from: 1129, to: 10531, weight: 1088908, annotations: [{ proto: 'DNS', weight: 1088908 }] }, { from: 2115, to: 899, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 11867, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2227, to: 899, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 11339, to: 899, weight: 8468, annotations: [{ proto: 'DNS', weight: 8468 }] }, { from: 2030, to: 899, weight: 10126, annotations: [{ proto: 'DNS', weight: 10126 }] }, { from: 1538, to: 899, weight: 6468, annotations: [{ proto: 'DNS', weight: 6468 }] }, { from: 1352, to: 899, weight: 493273, annotations: [{ proto: 'DNS', weight: 493273 }] }, { from: 2099, to: 2872, weight: 87653, annotations: [{ proto: 'DNS', weight: 87653 }] }, { from: 10764, to: 10531, weight: 2121, annotations: [{ proto: 'DNS', weight: 2121 }] }, { from: 10764, to: 899, weight: 25244, annotations: [{ proto: 'DNS', weight: 25244 }] }, { from: 1667, to: 899, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 11943, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 3467, to: 899, weight: 5940, annotations: [{ proto: 'DNS', weight: 5940 }] }, { from: 1767, to: 899, weight: 43928, annotations: [{ proto: 'DNS', weight: 43928 }] }, { from: 2204, to: 171, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 5729, to: 10531, weight: 960, annotations: [{ proto: 'DNS', weight: 960 }] }, { from: 5729, to: 899, weight: 100903, annotations: [{ proto: 'DNS', weight: 100903 }] }, { from: 5729, to: 171, weight: 284, annotations: [{ proto: 'DNS', weight: 284 }] }, { from: 9323, to: 899, weight: 1063199, annotations: [{ proto: 'DNS', weight: 1063199 }] }, { from: 9323, to: 10531, weight: 6681, annotations: [{ proto: 'DNS', weight: 6681 }] }, { from: 2225, to: 10531, weight: 26511, annotations: [{ proto: 'DNS', weight: 26511 }] }, { from: 2225, to: 899, weight: 676022, annotations: [{ proto: 'DNS', weight: 676022 }] }, { from: 11, to: 171, weight: 30018, annotations: [{ proto: 'DNS', weight: 30018 }] }, { from: 11, to: 10531, weight: 445358, annotations: [{ proto: 'DNS', weight: 445358 }] }, { from: 11, to: 899, weight: 31311, annotations: [{ proto: 'DNS', weight: 31311 }] }, { from: 3636, to: 899, weight: 11552, annotations: [{ proto: 'DNS', weight: 11552 }] }, { from: 11709, to: 899, weight: 74967, annotations: [{ proto: 'DNS', weight: 74967 }] }, { from: 10710, to: 899, weight: 8484, annotations: [{ proto: 'DNS', weight: 8484 }] }, { from: 3441, to: 2872, weight: 23571, annotations: [{ proto: 'DNS', weight: 23571 }] }, { from: 10961, to: 10531, weight: 11000, annotations: [{ proto: 'DNS', weight: 11000 }] }, { from: 3836, to: 899, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 920, to: 2872, weight: 42628, annotations: [{ proto: 'DNS', weight: 42628 }] }, { from: 812, to: 10531, weight: 478095, annotations: [{ proto: 'DNS', weight: 478095 }] }, { from: 812, to: 899, weight: 701590, annotations: [{ proto: 'DNS', weight: 701590 }] }, { from: 812, to: 171, weight: 773076, annotations: [{ proto: 'DNS', weight: 773076 }] }, { from: 812, to: 422, weight: 2172, annotations: [{ proto: 'DNS', weight: 2172 }] }, { from: 11938, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 5226, to: 899, weight: 836854, annotations: [{ proto: 'DNS', weight: 836854 }] }, { from: 1496, to: 899, weight: 47198, annotations: [{ proto: 'DNS', weight: 47198 }] }, { from: 1496, to: 422, weight: 2759, annotations: [{ proto: 'DNS', weight: 2759 }] }, { from: 5892, to: 10531, weight: 984, annotations: [{ proto: 'DNS', weight: 984 }] }, { from: 5892, to: 899, weight: 757332, annotations: [{ proto: 'DNS', weight: 757332 }] }, { from: 5892, to: 2872, weight: 144, annotations: [{ proto: 'DNS', weight: 144 }] }, { from: 2131, to: 899, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 1275, to: 10531, weight: 209471, annotations: [{ proto: 'DNS', weight: 209471 }] }, { from: 11660, to: 899, weight: 26536, annotations: [{ proto: 'DNS', weight: 26536 }] }, { from: 11660, to: 422, weight: 298, annotations: [{ proto: 'DNS', weight: 298 }] }, { from: 6442, to: 899, weight: 118731, annotations: [{ proto: 'DNS', weight: 118731 }] }, { from: 3202, to: 899, weight: 165788, annotations: [{ proto: 'DNS', weight: 165788 }] }, { from: 3202, to: 171, weight: 8860, annotations: [{ proto: 'DNS', weight: 8860 }] }, { from: 10346, to: 10531, weight: 12246, annotations: [{ proto: 'DNS', weight: 12246 }] }, { from: 330, to: 10531, weight: 536960, annotations: [{ proto: 'DNS', weight: 536960 }] }, { from: 330, to: 899, weight: 1965083, annotations: [{ proto: 'DNS', weight: 1965083 }] }, { from: 330, to: 422, weight: 3353, annotations: [{ proto: 'DNS', weight: 3353 }] }, { from: 3584, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 2120, to: 899, weight: 2856, annotations: [{ proto: 'DNS', weight: 2856 }] }, { from: 1851, to: 899, weight: 15562, annotations: [{ proto: 'DNS', weight: 15562 }] }, { from: 749, to: 171, weight: 14942, annotations: [{ proto: 'DNS', weight: 14942 }] }, { from: 8351, to: 10531, weight: 3588, annotations: [{ proto: 'DNS', weight: 3588 }] }, { from: 8351, to: 899, weight: 572799, annotations: [{ proto: 'DNS', weight: 572799 }] }, { from: 2189, to: 10531, weight: 6699, annotations: [{ proto: 'DNS', weight: 6699 }] }, { from: 2189, to: 899, weight: 6230, annotations: [{ proto: 'DNS', weight: 6230 }] }, { from: 0, to: 899, weight: 364, annotations: [{ proto: 'DNS', weight: 364 }] }, { from: 0, to: 171, weight: 6286, annotations: [{ proto: 'DNS', weight: 6286 }] }, { from: 4472, to: 899, weight: 166918, annotations: [{ proto: 'DNS', weight: 166918 }] }, { from: 10282, to: 899, weight: 464267, annotations: [{ proto: 'DNS', weight: 464267 }] }, { from: 2714, to: 899, weight: 736959, annotations: [{ proto: 'DNS', weight: 736959 }] }, { from: 2714, to: 171, weight: 15076, annotations: [{ proto: 'DNS', weight: 15076 }] }, { from: 2714, to: 422, weight: 1101, annotations: [{ proto: 'DNS', weight: 1101 }] }, { from: 2714, to: 10531, weight: 12081, annotations: [{ proto: 'DNS', weight: 12081 }] }, { from: 773, to: 899, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 1223, to: 899, weight: 141164, annotations: [{ proto: 'DNS', weight: 141164 }] }, { from: 1752, to: 171, weight: 1750, annotations: [{ proto: 'DNS', weight: 1750 }] }, { from: 387, to: 171, weight: 3675525, annotations: [{ proto: 'DNS', weight: 3675525 }] }, { from: 387, to: 957, weight: 2196, annotations: [{ proto: 'DNS', weight: 2196 }] }, { from: 2200, to: 899, weight: 3430, annotations: [{ proto: 'DNS', weight: 3430 }] }, { from: 10524, to: 899, weight: 8230, annotations: [{ proto: 'DNS', weight: 8230 }] }, { from: 2109, to: 171, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 1465, to: 10531, weight: 222, annotations: [{ proto: 'DNS', weight: 222 }] }, { from: 1465, to: 899, weight: 143164, annotations: [{ proto: 'DNS', weight: 143164 }] }, { from: 11237, to: 10531, weight: 975, annotations: [{ proto: 'DNS', weight: 975 }] }, { from: 11237, to: 899, weight: 110277, annotations: [{ proto: 'DNS', weight: 110277 }] }, { from: 11237, to: 2872, weight: 404, annotations: [{ proto: 'DNS', weight: 404 }] }, { from: 1511, to: 10531, weight: 177319, annotations: [{ proto: 'DNS', weight: 177319 }] }, { from: 1511, to: 899, weight: 1181554, annotations: [{ proto: 'DNS', weight: 1181554 }] }, { from: 1511, to: 171, weight: 146827, annotations: [{ proto: 'DNS', weight: 146827 }] }, { from: 311, to: 899, weight: 18448, annotations: [{ proto: 'DNS', weight: 18448 }] }, { from: 2609, to: 899, weight: 9647, annotations: [{ proto: 'DNS', weight: 9647 }] }, { from: 1521, to: 899, weight: 46848, annotations: [{ proto: 'DNS', weight: 46848 }] }, { from: 1028, to: 899, weight: 726206, annotations: [{ proto: 'DNS', weight: 726206 }] }, { from: 1289, to: 2872, weight: 74483, annotations: [{ proto: 'DNS', weight: 74483 }] }, { from: 1289, to: 2871, weight: 2363, annotations: [{ proto: 'DNS', weight: 2363 }] }, { from: 1646, to: 10531, weight: 1277121, annotations: [{ proto: 'DNS', weight: 1277121 }] }, { from: 883, to: 10531, weight: 94888, annotations: [{ proto: 'DNS', weight: 94888 }] }, { from: 883, to: 899, weight: 180820, annotations: [{ proto: 'DNS', weight: 180820 }] }, { from: 883, to: 422, weight: 3142, annotations: [{ proto: 'DNS', weight: 3142 }] }, { from: 4371, to: 899, weight: 94901, annotations: [{ proto: 'DNS', weight: 94901 }] }, { from: 10711, to: 899, weight: 22810, annotations: [{ proto: 'DNS', weight: 22810 }] }, { from: 5425, to: 171, weight: 3038, annotations: [{ proto: 'DNS', weight: 3038 }] }, { from: 445, to: 171, weight: 16412, annotations: [{ proto: 'DNS', weight: 16412 }] }, { from: 9436, to: 899, weight: 71621, annotations: [{ proto: 'DNS', weight: 71621 }] }, { from: 2285, to: 171, weight: 2548, annotations: [{ proto: 'DNS', weight: 2548 }] }, { from: 5387, to: 2872, weight: 10983, annotations: [{ proto: 'DNS', weight: 10983 }] }, { from: 5387, to: 2871, weight: 2074, annotations: [{ proto: 'DNS', weight: 2074 }] }, { from: 11449, to: 899, weight: 6286, annotations: [{ proto: 'DNS', weight: 6286 }] }, { from: 1671, to: 899, weight: 11440, annotations: [{ proto: 'DNS', weight: 11440 }] }, { from: 1526, to: 171, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 11155, to: 422, weight: 675564, annotations: [{ proto: 'DNS', weight: 675564 }] }, { from: 8579, to: 2872, weight: 121833, annotations: [{ proto: 'DNS', weight: 121833 }] }, { from: 8579, to: 2871, weight: 481, annotations: [{ proto: 'DNS', weight: 481 }] }, { from: 4183, to: 10531, weight: 227883, annotations: [{ proto: 'DNS', weight: 227883 }] }, { from: 1347, to: 10531, weight: 257780, annotations: [{ proto: 'DNS', weight: 257780 }] }, { from: 1347, to: 899, weight: 281108, annotations: [{ proto: 'DNS', weight: 281108 }] }, { from: 1347, to: 171, weight: 268136, annotations: [{ proto: 'DNS', weight: 268136 }] }, { from: 1347, to: 422, weight: 290, annotations: [{ proto: 'DNS', weight: 290 }] }, { from: 1370, to: 899, weight: 40992, annotations: [{ proto: 'DNS', weight: 40992 }] }, { from: 2272, to: 171, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 1398, to: 2872, weight: 50607, annotations: [{ proto: 'DNS', weight: 50607 }] }, { from: 9129, to: 10531, weight: 17682, annotations: [{ proto: 'DNS', weight: 17682 }] }, { from: 11930, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1592, to: 899, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 11477, to: 899, weight: 10700, annotations: [{ proto: 'DNS', weight: 10700 }] }, { from: 1601, to: 899, weight: 30118, annotations: [{ proto: 'DNS', weight: 30118 }] }, { from: 9869, to: 2872, weight: 166747, annotations: [{ proto: 'DNS', weight: 166747 }] }, { from: 9869, to: 2871, weight: 14074, annotations: [{ proto: 'DNS', weight: 14074 }] }, { from: 1991, to: 899, weight: 27540, annotations: [{ proto: 'DNS', weight: 27540 }] }, { from: 1338, to: 899, weight: 16348, annotations: [{ proto: 'DNS', weight: 16348 }] }, { from: 2283, to: 171, weight: 2548, annotations: [{ proto: 'DNS', weight: 2548 }] }, { from: 8347, to: 2871, weight: 927, annotations: [{ proto: 'DNS', weight: 927 }] }, { from: 8347, to: 2872, weight: 30083, annotations: [{ proto: 'DNS', weight: 30083 }] }, { from: 11716, to: 899, weight: 7090, annotations: [{ proto: 'DNS', weight: 7090 }] }, { from: 5458, to: 899, weight: 531000, annotations: [{ proto: 'DNS', weight: 531000 }] }, { from: 835, to: 899, weight: 240120, annotations: [{ proto: 'DNS', weight: 240120 }] }, { from: 835, to: 171, weight: 1400, annotations: [{ proto: 'DNS', weight: 1400 }] }, { from: 1852, to: 171, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 8752, to: 10531, weight: 2529, annotations: [{ proto: 'DNS', weight: 2529 }] }, { from: 8752, to: 899, weight: 354691, annotations: [{ proto: 'DNS', weight: 354691 }] }, { from: 6041, to: 10531, weight: 8169, annotations: [{ proto: 'DNS', weight: 8169 }] }, { from: 6041, to: 899, weight: 125317, annotations: [{ proto: 'DNS', weight: 125317 }] }, { from: 9749, to: 899, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 442, to: 899, weight: 43146977, annotations: [{ proto: 'DNS', weight: 43146977 }] }, { from: 442, to: 171, weight: 44448, annotations: [{ proto: 'DNS', weight: 44448 }] }, { from: 442, to: 637, weight: 43956, annotations: [{ proto: 'DNS', weight: 43956 }] }, { from: 442, to: 11, weight: 120687, annotations: [{ proto: 'DNS', weight: 120687 }] }, { from: 442, to: 10056, weight: 27486, annotations: [{ proto: 'DNS', weight: 27486 }] }, { from: 442, to: 712, weight: 53186, annotations: [{ proto: 'DNS', weight: 53186 }] }, { from: 442, to: 615, weight: 43216, annotations: [{ proto: 'DNS', weight: 43216 }] }, { from: 1803, to: 899, weight: 18750, annotations: [{ proto: 'DNS', weight: 18750 }] }, { from: 283, to: 899, weight: 172488, annotations: [{ proto: 'DNS', weight: 172488 }] }, { from: 2237, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 1056, to: 899, weight: 10560, annotations: [{ proto: 'DNS', weight: 10560 }] }, { from: 6991, to: 899, weight: 60905, annotations: [{ proto: 'DNS', weight: 60905 }] }, { from: 504, to: 899, weight: 1229976, annotations: [{ proto: 'DNS', weight: 1229976 }] }, { from: 1598, to: 171, weight: 5280, annotations: [{ proto: 'DNS', weight: 5280 }] }, { from: 3075, to: 2872, weight: 32723, annotations: [{ proto: 'DNS', weight: 32723 }] }, { from: 3075, to: 2871, weight: 10097, annotations: [{ proto: 'DNS', weight: 10097 }] }, { from: 2627, to: 899, weight: 16900, annotations: [{ proto: 'DNS', weight: 16900 }] }, { from: 11507, to: 899, weight: 381117, annotations: [{ proto: 'DNS', weight: 381117 }] }, { from: 591, to: 899, weight: 22296, annotations: [{ proto: 'DNS', weight: 22296 }] }, { from: 1418, to: 899, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 1004, to: 899, weight: 60910, annotations: [{ proto: 'DNS', weight: 60910 }] }, { from: 9835, to: 899, weight: 23216, annotations: [{ proto: 'DNS', weight: 23216 }] }, { from: 11926, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11844, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 860, to: 899, weight: 154756, annotations: [{ proto: 'DNS', weight: 154756 }] }, { from: 2266, to: 171, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 5412, to: 10531, weight: 618, annotations: [{ proto: 'DNS', weight: 618 }] }, { from: 6871, to: 899, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 10687, to: 899, weight: 52209, annotations: [{ proto: 'DNS', weight: 52209 }] }, { from: 9852, to: 171, weight: 3038, annotations: [{ proto: 'DNS', weight: 3038 }] }, { from: 551, to: 10531, weight: 278228, annotations: [{ proto: 'DNS', weight: 278228 }] }, { from: 551, to: 899, weight: 345209, annotations: [{ proto: 'DNS', weight: 345209 }] }, { from: 551, to: 171, weight: 300682, annotations: [{ proto: 'DNS', weight: 300682 }] }, { from: 551, to: 422, weight: 824, annotations: [{ proto: 'DNS', weight: 824 }] }, { from: 2267, to: 899, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 2331, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 949, to: 899, weight: 20723, annotations: [{ proto: 'DNS', weight: 20723 }] }, { from: 687, to: 171, weight: 127265, annotations: [{ proto: 'DNS', weight: 127265 }] }, { from: 1871, to: 10531, weight: 324, annotations: [{ proto: 'DNS', weight: 324 }] }, { from: 1871, to: 899, weight: 71548, annotations: [{ proto: 'DNS', weight: 71548 }] }, { from: 5992, to: 10531, weight: 11304, annotations: [{ proto: 'DNS', weight: 11304 }] }, { from: 5992, to: 899, weight: 192305, annotations: [{ proto: 'DNS', weight: 192305 }] }, { from: 5992, to: 171, weight: 228306, annotations: [{ proto: 'DNS', weight: 228306 }] }, { from: 3995, to: 2872, weight: 31728, annotations: [{ proto: 'DNS', weight: 31728 }] }, { from: 3995, to: 2871, weight: 1268, annotations: [{ proto: 'DNS', weight: 1268 }] }, { from: 1650, to: 387, weight: 26646, annotations: [{ proto: 'DNS', weight: 26646 }] }, { from: 1650, to: 957, weight: 1417, annotations: [{ proto: 'DNS', weight: 1417 }] }, { from: 10676, to: 10531, weight: 5649, annotations: [{ proto: 'DNS', weight: 5649 }] }, { from: 10676, to: 899, weight: 131896, annotations: [{ proto: 'DNS', weight: 131896 }] }, { from: 10676, to: 171, weight: 6180, annotations: [{ proto: 'DNS', weight: 6180 }] }, { from: 11826, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 7787, to: 899, weight: 4723, annotations: [{ proto: 'DNS', weight: 4723 }] }, { from: 984, to: 899, weight: 156196, annotations: [{ proto: 'DNS', weight: 156196 }] }, { from: 636, to: 10531, weight: 11000, annotations: [{ proto: 'DNS', weight: 11000 }] }, { from: 810, to: 10531, weight: 102957, annotations: [{ proto: 'DNS', weight: 102957 }] }, { from: 810, to: 899, weight: 181081, annotations: [{ proto: 'DNS', weight: 181081 }] }, { from: 810, to: 422, weight: 1934, annotations: [{ proto: 'DNS', weight: 1934 }] }, { from: 2247, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 3608, to: 899, weight: 6288, annotations: [{ proto: 'DNS', weight: 6288 }] }, { from: 41, to: 899, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 10725, to: 899, weight: 8604, annotations: [{ proto: 'DNS', weight: 8604 }] }, { from: 10662, to: 899, weight: 11472, annotations: [{ proto: 'DNS', weight: 11472 }] }, { from: 6955, to: 899, weight: 22666, annotations: [{ proto: 'DNS', weight: 22666 }] }, { from: 827, to: 899, weight: 28311, annotations: [{ proto: 'DNS', weight: 28311 }] }, { from: 2377, to: 2872, weight: 34838, annotations: [{ proto: 'DNS', weight: 34838 }] }, { from: 2389, to: 10531, weight: 5418, annotations: [{ proto: 'DNS', weight: 5418 }] }, { from: 2389, to: 899, weight: 4886, annotations: [{ proto: 'DNS', weight: 4886 }] }, { from: 9340, to: 10531, weight: 85880, annotations: [{ proto: 'DNS', weight: 85880 }] }, { from: 9340, to: 899, weight: 235077, annotations: [{ proto: 'DNS', weight: 235077 }] }, { from: 9340, to: 171, weight: 15758, annotations: [{ proto: 'DNS', weight: 15758 }] }, { from: 11871, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 972, to: 899, weight: 470049, annotations: [{ proto: 'DNS', weight: 470049 }] }, { from: 1675, to: 171, weight: 35380, annotations: [{ proto: 'DNS', weight: 35380 }] }, { from: 7063, to: 171, weight: 22592, annotations: [{ proto: 'DNS', weight: 22592 }] }, { from: 1693, to: 387, weight: 697337, annotations: [{ proto: 'DNS', weight: 697337 }] }, { from: 1693, to: 957, weight: 85354, annotations: [{ proto: 'DNS', weight: 85354 }] }, { from: 1693, to: 422, weight: 2485, annotations: [{ proto: 'DNS', weight: 2485 }] }, { from: 2127, to: 10531, weight: 597, annotations: [{ proto: 'DNS', weight: 597 }] }, { from: 2127, to: 899, weight: 398, annotations: [{ proto: 'DNS', weight: 398 }] }, { from: 2127, to: 171, weight: 1837, annotations: [{ proto: 'DNS', weight: 1837 }] }, { from: 11839, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2276, to: 899, weight: 2512, annotations: [{ proto: 'DNS', weight: 2512 }] }, { from: 10456, to: 899, weight: 248846, annotations: [{ proto: 'DNS', weight: 248846 }] }, { from: 1456, to: 171, weight: 4620, annotations: [{ proto: 'DNS', weight: 4620 }] }, { from: 2392, to: 299, weight: 204, annotations: [{ proto: 'DNS', weight: 204 }] }, { from: 8916, to: 2872, weight: 26122, annotations: [{ proto: 'DNS', weight: 26122 }] }, { from: 1017, to: 10531, weight: 1978, annotations: [{ proto: 'DNS', weight: 1978 }] }, { from: 1017, to: 899, weight: 708037, annotations: [{ proto: 'DNS', weight: 708037 }] }, { from: 1017, to: 171, weight: 30019, annotations: [{ proto: 'DNS', weight: 30019 }] }, { from: 4420, to: 10531, weight: 144579, annotations: [{ proto: 'DNS', weight: 144579 }] }, { from: 4420, to: 899, weight: 1263674, annotations: [{ proto: 'DNS', weight: 1263674 }] }, { from: 4420, to: 171, weight: 125982, annotations: [{ proto: 'DNS', weight: 125982 }] }, { from: 2159, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 408, to: 2872, weight: 171191, annotations: [{ proto: 'DNS', weight: 171191 }] }, { from: 408, to: 2871, weight: 3615, annotations: [{ proto: 'DNS', weight: 3615 }] }, { from: 2236, to: 10531, weight: 273, annotations: [{ proto: 'DNS', weight: 273 }] }, { from: 2236, to: 899, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 1437, to: 10531, weight: 436404, annotations: [{ proto: 'DNS', weight: 436404 }] }, { from: 1437, to: 899, weight: 1113222, annotations: [{ proto: 'DNS', weight: 1113222 }] }, { from: 1437, to: 171, weight: 682266, annotations: [{ proto: 'DNS', weight: 682266 }] }, { from: 1437, to: 422, weight: 1302, annotations: [{ proto: 'DNS', weight: 1302 }] }, { from: 10424, to: 171, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 3025, to: 899, weight: 1533755, annotations: [{ proto: 'DNS', weight: 1533755 }] }, { from: 3025, to: 171, weight: 238038, annotations: [{ proto: 'DNS', weight: 238038 }] }, { from: 9859, to: 2872, weight: 74795, annotations: [{ proto: 'DNS', weight: 74795 }] }, { from: 9859, to: 2871, weight: 300, annotations: [{ proto: 'DNS', weight: 300 }] }, { from: 5361, to: 2872, weight: 74902, annotations: [{ proto: 'DNS', weight: 74902 }] }, { from: 9343, to: 10531, weight: 17259, annotations: [{ proto: 'DNS', weight: 17259 }] }, { from: 9343, to: 899, weight: 1114410, annotations: [{ proto: 'DNS', weight: 1114410 }] }, { from: 2304, to: 10531, weight: 518435, annotations: [{ proto: 'DNS', weight: 518435 }] }, { from: 2304, to: 899, weight: 592734, annotations: [{ proto: 'DNS', weight: 592734 }] }, { from: 2304, to: 171, weight: 869891, annotations: [{ proto: 'DNS', weight: 869891 }] }, { from: 8529, to: 899, weight: 6483, annotations: [{ proto: 'DNS', weight: 6483 }] }, { from: 11793, to: 899, weight: 360, annotations: [{ proto: 'DNS', weight: 360 }] }, { from: 1098, to: 899, weight: 5500, annotations: [{ proto: 'DNS', weight: 5500 }] }, { from: 5582, to: 899, weight: 8628, annotations: [{ proto: 'DNS', weight: 8628 }] }, { from: 10150, to: 899, weight: 11664, annotations: [{ proto: 'DNS', weight: 11664 }] }, { from: 454, to: 10531, weight: 6468, annotations: [{ proto: 'DNS', weight: 6468 }] }, { from: 454, to: 899, weight: 5768, annotations: [{ proto: 'DNS', weight: 5768 }] }, { from: 7672, to: 899, weight: 27052, annotations: [{ proto: 'DNS', weight: 27052 }] }, { from: 1037, to: 171, weight: 5390, annotations: [{ proto: 'DNS', weight: 5390 }] }, { from: 1796, to: 899, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 11147, to: 899, weight: 7258, annotations: [{ proto: 'DNS', weight: 7258 }] }, { from: 1099, to: 10531, weight: 89040, annotations: [{ proto: 'DNS', weight: 89040 }] }, { from: 1099, to: 899, weight: 185830, annotations: [{ proto: 'DNS', weight: 185830 }] }, { from: 1099, to: 171, weight: 15914, annotations: [{ proto: 'DNS', weight: 15914 }] }, { from: 10052, to: 899, weight: 5816, annotations: [{ proto: 'DNS', weight: 5816 }] }, { from: 2138, to: 899, weight: 2730, annotations: [{ proto: 'DNS', weight: 2730 }] }, { from: 2118, to: 899, weight: 49774, annotations: [{ proto: 'DNS', weight: 49774 }] }, { from: 2181, to: 171, weight: 2807, annotations: [{ proto: 'DNS', weight: 2807 }] }, { from: 9527, to: 2872, weight: 12893, annotations: [{ proto: 'DNS', weight: 12893 }] }, { from: 8312, to: 10531, weight: 21924, annotations: [{ proto: 'DNS', weight: 21924 }] }, { from: 8312, to: 899, weight: 1012031, annotations: [{ proto: 'DNS', weight: 1012031 }] }, { from: 8312, to: 171, weight: 432, annotations: [{ proto: 'DNS', weight: 432 }] }, { from: 11935, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 871, to: 899, weight: 2112951, annotations: [{ proto: 'DNS', weight: 2112951 }] }, { from: 3173, to: 2872, weight: 44275, annotations: [{ proto: 'DNS', weight: 44275 }] }, { from: 5289, to: 899, weight: 5704, annotations: [{ proto: 'DNS', weight: 5704 }] }, { from: 4285, to: 899, weight: 18844, annotations: [{ proto: 'DNS', weight: 18844 }] }, { from: 6653, to: 899, weight: 256456, annotations: [{ proto: 'DNS', weight: 256456 }] }, { from: 6653, to: 171, weight: 9766, annotations: [{ proto: 'DNS', weight: 9766 }] }, { from: 2650, to: 10531, weight: 195810, annotations: [{ proto: 'DNS', weight: 195810 }] }, { from: 2650, to: 899, weight: 258387, annotations: [{ proto: 'DNS', weight: 258387 }] }, { from: 2650, to: 171, weight: 101135, annotations: [{ proto: 'DNS', weight: 101135 }] }, { from: 11692, to: 899, weight: 8676, annotations: [{ proto: 'DNS', weight: 8676 }] }, { from: 1117, to: 10531, weight: 12216, annotations: [{ proto: 'DNS', weight: 12216 }] }, { from: 1117, to: 899, weight: 318940, annotations: [{ proto: 'DNS', weight: 318940 }] }, { from: 1117, to: 422, weight: 1176, annotations: [{ proto: 'DNS', weight: 1176 }] }, { from: 1376, to: 899, weight: 53276, annotations: [{ proto: 'DNS', weight: 53276 }] }, { from: 11776, to: 899, weight: 283971, annotations: [{ proto: 'DNS', weight: 283971 }] }, { from: 2228, to: 171, weight: 2520, annotations: [{ proto: 'DNS', weight: 2520 }] }, { from: 2430, to: 2872, weight: 26666, annotations: [{ proto: 'DNS', weight: 26666 }] }, { from: 1466, to: 171, weight: 55952, annotations: [{ proto: 'DNS', weight: 55952 }] }, { from: 1466, to: 10531, weight: 20790, annotations: [{ proto: 'DNS', weight: 20790 }] }, { from: 1466, to: 899, weight: 31898, annotations: [{ proto: 'DNS', weight: 31898 }] }, { from: 11589, to: 899, weight: 8556, annotations: [{ proto: 'DNS', weight: 8556 }] }, { from: 1188, to: 899, weight: 2628, annotations: [{ proto: 'DNS', weight: 2628 }] }, { from: 11715, to: 899, weight: 19272, annotations: [{ proto: 'DNS', weight: 19272 }] }, { from: 1323, to: 899, weight: 153098, annotations: [{ proto: 'DNS', weight: 153098 }] }, { from: 2177, to: 171, weight: 3038, annotations: [{ proto: 'DNS', weight: 3038 }] }, { from: 6595, to: 2872, weight: 28103, annotations: [{ proto: 'DNS', weight: 28103 }] }, { from: 6595, to: 2871, weight: 473, annotations: [{ proto: 'DNS', weight: 473 }] }, { from: 2652, to: 10531, weight: 4440, annotations: [{ proto: 'DNS', weight: 4440 }] }, { from: 2652, to: 899, weight: 675699, annotations: [{ proto: 'DNS', weight: 675699 }] }, { from: 1314, to: 899, weight: 9608, annotations: [{ proto: 'DNS', weight: 9608 }] }, { from: 1820, to: 899, weight: 6082, annotations: [{ proto: 'DNS', weight: 6082 }] }, { from: 9045, to: 899, weight: 16492, annotations: [{ proto: 'DNS', weight: 16492 }] }, { from: 2072, to: 171, weight: 51496, annotations: [{ proto: 'DNS', weight: 51496 }] }, { from: 9939, to: 899, weight: 5270, annotations: [{ proto: 'DNS', weight: 5270 }] }, { from: 9939, to: 10531, weight: 200, annotations: [{ proto: 'DNS', weight: 200 }] }, { from: 11773, to: 899, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 7062, to: 899, weight: 21460, annotations: [{ proto: 'DNS', weight: 21460 }] }, { from: 8575, to: 899, weight: 5234, annotations: [{ proto: 'DNS', weight: 5234 }] }, { from: 1732, to: 899, weight: 81390, annotations: [{ proto: 'DNS', weight: 81390 }] }, { from: 1732, to: 10531, weight: 1362, annotations: [{ proto: 'DNS', weight: 1362 }] }, { from: 1226, to: 10531, weight: 656535, annotations: [{ proto: 'DNS', weight: 656535 }] }, { from: 1226, to: 899, weight: 1143366, annotations: [{ proto: 'DNS', weight: 1143366 }] }, { from: 1226, to: 171, weight: 804291, annotations: [{ proto: 'DNS', weight: 804291 }] }, { from: 1226, to: 422, weight: 671, annotations: [{ proto: 'DNS', weight: 671 }] }, { from: 10859, to: 899, weight: 9304, annotations: [{ proto: 'DNS', weight: 9304 }] }, { from: 1726, to: 899, weight: 55960, annotations: [{ proto: 'DNS', weight: 55960 }] }, { from: 1000, to: 899, weight: 224946, annotations: [{ proto: 'DNS', weight: 224946 }] }, { from: 2685, to: 2872, weight: 4540, annotations: [{ proto: 'DNS', weight: 4540 }] }, { from: 2258, to: 899, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 11799, to: 2872, weight: 33468, annotations: [{ proto: 'DNS', weight: 33468 }] }, { from: 1898, to: 2872, weight: 31093, annotations: [{ proto: 'DNS', weight: 31093 }] }, { from: 1898, to: 2871, weight: 817, annotations: [{ proto: 'DNS', weight: 817 }] }, { from: 5356, to: 171, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 1174, to: 10531, weight: 906, annotations: [{ proto: 'DNS', weight: 906 }] }, { from: 1174, to: 899, weight: 594837, annotations: [{ proto: 'DNS', weight: 594837 }] }, { from: 1472, to: 10531, weight: 21981, annotations: [{ proto: 'DNS', weight: 21981 }] }, { from: 1472, to: 899, weight: 367661, annotations: [{ proto: 'DNS', weight: 367661 }] }, { from: 1472, to: 171, weight: 320, annotations: [{ proto: 'DNS', weight: 320 }] }, { from: 843, to: 10531, weight: 94264, annotations: [{ proto: 'DNS', weight: 94264 }] }, { from: 843, to: 899, weight: 179227, annotations: [{ proto: 'DNS', weight: 179227 }] }, { from: 843, to: 422, weight: 1779, annotations: [{ proto: 'DNS', weight: 1779 }] }, { from: 9944, to: 899, weight: 1694, annotations: [{ proto: 'DNS', weight: 1694 }] }, { from: 9945, to: 899, weight: 1823, annotations: [{ proto: 'DNS', weight: 1823 }] }, { from: 6212, to: 899, weight: 10170, annotations: [{ proto: 'DNS', weight: 10170 }] }, { from: 10133, to: 899, weight: 176377, annotations: [{ proto: 'DNS', weight: 176377 }] }, { from: 899, to: 957, weight: 46026, annotations: [{ proto: 'DNS', weight: 46026 }] }, { from: 899, to: 1061, weight: 214375, annotations: [{ proto: 'DNS', weight: 214375 }] }, { from: 899, to: 1417, weight: 1071, annotations: [{ proto: 'DNS', weight: 1071 }] }, { from: 899, to: 11, weight: 162, annotations: [{ proto: 'DNS', weight: 162 }] }, { from: 899, to: 10056, weight: 3095612, annotations: [{ proto: 'DNS', weight: 3095612 }] }, { from: 899, to: 615, weight: 6486068, annotations: [{ proto: 'DNS', weight: 6486068 }] }, { from: 899, to: 387, weight: 49124, annotations: [{ proto: 'DNS', weight: 49124 }] }, { from: 8007, to: 10531, weight: 4239, annotations: [{ proto: 'DNS', weight: 4239 }] }, { from: 8007, to: 899, weight: 577901, annotations: [{ proto: 'DNS', weight: 577901 }] }, { from: 11814, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 977, to: 10531, weight: 558, annotations: [{ proto: 'DNS', weight: 558 }] }, { from: 977, to: 899, weight: 91136, annotations: [{ proto: 'DNS', weight: 91136 }] }, { from: 1125, to: 899, weight: 438216, annotations: [{ proto: 'DNS', weight: 438216 }] }, { from: 1125, to: 10531, weight: 1764, annotations: [{ proto: 'DNS', weight: 1764 }] }, { from: 2590, to: 10531, weight: 11397, annotations: [{ proto: 'DNS', weight: 11397 }] }, { from: 2590, to: 899, weight: 888539, annotations: [{ proto: 'DNS', weight: 888539 }] }, { from: 2590, to: 171, weight: 306, annotations: [{ proto: 'DNS', weight: 306 }] }, { from: 2207, to: 10531, weight: 235806, annotations: [{ proto: 'DNS', weight: 235806 }] }, { from: 2207, to: 899, weight: 447822, annotations: [{ proto: 'DNS', weight: 447822 }] }, { from: 2207, to: 171, weight: 303560, annotations: [{ proto: 'DNS', weight: 303560 }] }, { from: 2207, to: 422, weight: 719, annotations: [{ proto: 'DNS', weight: 719 }] }, { from: 1525, to: 899, weight: 38650, annotations: [{ proto: 'DNS', weight: 38650 }] }, { from: 8506, to: 899, weight: 22566, annotations: [{ proto: 'DNS', weight: 22566 }] }, { from: 6803, to: 2872, weight: 28472, annotations: [{ proto: 'DNS', weight: 28472 }] }, { from: 6803, to: 2871, weight: 9068, annotations: [{ proto: 'DNS', weight: 9068 }] }, { from: 1560, to: 10531, weight: 4640, annotations: [{ proto: 'DNS', weight: 4640 }] }, { from: 1560, to: 899, weight: 19724, annotations: [{ proto: 'DNS', weight: 19724 }] }, { from: 682, to: 10531, weight: 105847, annotations: [{ proto: 'DNS', weight: 105847 }] }, { from: 682, to: 899, weight: 177458, annotations: [{ proto: 'DNS', weight: 177458 }] }, { from: 682, to: 422, weight: 1796, annotations: [{ proto: 'DNS', weight: 1796 }] }, { from: 11148, to: 899, weight: 8604, annotations: [{ proto: 'DNS', weight: 8604 }] }, { from: 2637, to: 899, weight: 32682, annotations: [{ proto: 'DNS', weight: 32682 }] }, { from: 4409, to: 899, weight: 103068, annotations: [{ proto: 'DNS', weight: 103068 }] }, { from: 2202, to: 171, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 8183, to: 2872, weight: 22078, annotations: [{ proto: 'DNS', weight: 22078 }] }, { from: 8183, to: 2871, weight: 416, annotations: [{ proto: 'DNS', weight: 416 }] }, { from: 7368, to: 10531, weight: 4609, annotations: [{ proto: 'DNS', weight: 4609 }] }, { from: 7368, to: 899, weight: 50016, annotations: [{ proto: 'DNS', weight: 50016 }] }, { from: 1303, to: 899, weight: 472, annotations: [{ proto: 'DNS', weight: 472 }] }, { from: 2141, to: 171, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 1807, to: 171, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 914, to: 10531, weight: 26991, annotations: [{ proto: 'DNS', weight: 26991 }] }, { from: 914, to: 899, weight: 1195638, annotations: [{ proto: 'DNS', weight: 1195638 }] }, { from: 914, to: 171, weight: 50336, annotations: [{ proto: 'DNS', weight: 50336 }] }, { from: 434, to: 899, weight: 35044, annotations: [{ proto: 'DNS', weight: 35044 }] }, { from: 11721, to: 899, weight: 11664, annotations: [{ proto: 'DNS', weight: 11664 }] }, { from: 11513, to: 899, weight: 32436, annotations: [{ proto: 'DNS', weight: 32436 }] }, { from: 9454, to: 899, weight: 11220, annotations: [{ proto: 'DNS', weight: 11220 }] }, { from: 1578, to: 899, weight: 10970, annotations: [{ proto: 'DNS', weight: 10970 }] }, { from: 956, to: 899, weight: 91450, annotations: [{ proto: 'DNS', weight: 91450 }] }, { from: 8577, to: 899, weight: 8604, annotations: [{ proto: 'DNS', weight: 8604 }] }, { from: 2251, to: 171, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 54, to: 899, weight: 174500, annotations: [{ proto: 'DNS', weight: 174500 }] }, { from: 1110, to: 10531, weight: 345172, annotations: [{ proto: 'DNS', weight: 345172 }] }, { from: 1654, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2121, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 936, to: 899, weight: 17336, annotations: [{ proto: 'DNS', weight: 17336 }] }, { from: 11203, to: 899, weight: 5832, annotations: [{ proto: 'DNS', weight: 5832 }] }, { from: 11634, to: 899, weight: 6318, annotations: [{ proto: 'DNS', weight: 6318 }] }, { from: 11131, to: 899, weight: 9106, annotations: [{ proto: 'DNS', weight: 9106 }] }, { from: 1888, to: 899, weight: 6158, annotations: [{ proto: 'DNS', weight: 6158 }] }, { from: 2026, to: 171, weight: 133646, annotations: [{ proto: 'DNS', weight: 133646 }] }, { from: 11495, to: 2872, weight: 27204, annotations: [{ proto: 'DNS', weight: 27204 }] }, { from: 7000, to: 2871, weight: 364, annotations: [{ proto: 'DNS', weight: 364 }] }, { from: 7000, to: 2872, weight: 16155, annotations: [{ proto: 'DNS', weight: 16155 }] }, { from: 4355, to: 899, weight: 69304, annotations: [{ proto: 'DNS', weight: 69304 }] }, { from: 2383, to: 10531, weight: 567471, annotations: [{ proto: 'DNS', weight: 567471 }] }, { from: 2383, to: 899, weight: 4573454, annotations: [{ proto: 'DNS', weight: 4573454 }] }, { from: 2383, to: 171, weight: 5082046, annotations: [{ proto: 'DNS', weight: 5082046 }] }, { from: 704, to: 10531, weight: 352532, annotations: [{ proto: 'DNS', weight: 352532 }] }, { from: 11847, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 5421, to: 899, weight: 502, annotations: [{ proto: 'DNS', weight: 502 }] }, { from: 5421, to: 171, weight: 7154, annotations: [{ proto: 'DNS', weight: 7154 }] }, { from: 7167, to: 899, weight: 5752, annotations: [{ proto: 'DNS', weight: 5752 }] }, { from: 1235, to: 899, weight: 5736, annotations: [{ proto: 'DNS', weight: 5736 }] }, { from: 1235, to: 171, weight: 21486, annotations: [{ proto: 'DNS', weight: 21486 }] }, { from: 8271, to: 899, weight: 11536, annotations: [{ proto: 'DNS', weight: 11536 }] }, { from: 2265, to: 171, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 8289, to: 171, weight: 265706, annotations: [{ proto: 'DNS', weight: 265706 }] }, { from: 1787, to: 10531, weight: 14074, annotations: [{ proto: 'DNS', weight: 14074 }] }, { from: 1787, to: 899, weight: 13286, annotations: [{ proto: 'DNS', weight: 13286 }] }, { from: 1787, to: 171, weight: 9631, annotations: [{ proto: 'DNS', weight: 9631 }] }, { from: 1385, to: 10531, weight: 348900, annotations: [{ proto: 'DNS', weight: 348900 }] }, { from: 5699, to: 2872, weight: 14022, annotations: [{ proto: 'DNS', weight: 14022 }] }, { from: 5699, to: 2871, weight: 289, annotations: [{ proto: 'DNS', weight: 289 }] }, { from: 10825, to: 10531, weight: 7647, annotations: [{ proto: 'DNS', weight: 7647 }] }, { from: 10825, to: 899, weight: 340572, annotations: [{ proto: 'DNS', weight: 340572 }] }, { from: 10825, to: 422, weight: 401, annotations: [{ proto: 'DNS', weight: 401 }] }, { from: 2411, to: 10531, weight: 232851, annotations: [{ proto: 'DNS', weight: 232851 }] }, { from: 2411, to: 899, weight: 197864, annotations: [{ proto: 'DNS', weight: 197864 }] }, { from: 2411, to: 171, weight: 224716, annotations: [{ proto: 'DNS', weight: 224716 }] }, { from: 10919, to: 899, weight: 8556, annotations: [{ proto: 'DNS', weight: 8556 }] }, { from: 1535, to: 899, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 2050, to: 171, weight: 217535, annotations: [{ proto: 'DNS', weight: 217535 }] }, { from: 10230, to: 899, weight: 11220, annotations: [{ proto: 'DNS', weight: 11220 }] }, { from: 1890, to: 899, weight: 8436, annotations: [{ proto: 'DNS', weight: 8436 }] }, { from: 8543, to: 899, weight: 9058, annotations: [{ proto: 'DNS', weight: 9058 }] }, { from: 2015, to: 899, weight: 11296, annotations: [{ proto: 'DNS', weight: 11296 }] }, { from: 1133, to: 171, weight: 5720, annotations: [{ proto: 'DNS', weight: 5720 }] }, { from: 117, to: 10531, weight: 24513, annotations: [{ proto: 'DNS', weight: 24513 }] }, { from: 117, to: 899, weight: 141101, annotations: [{ proto: 'DNS', weight: 141101 }] }, { from: 117, to: 171, weight: 5033, annotations: [{ proto: 'DNS', weight: 5033 }] }, { from: 5420, to: 899, weight: 5720, annotations: [{ proto: 'DNS', weight: 5720 }] }, { from: 816, to: 899, weight: 73772, annotations: [{ proto: 'DNS', weight: 73772 }] }, { from: 1792, to: 899, weight: 1725793, annotations: [{ proto: 'DNS', weight: 1725793 }] }, { from: 1312, to: 899, weight: 7389, annotations: [{ proto: 'DNS', weight: 7389 }] }, { from: 8216, to: 899, weight: 7656, annotations: [{ proto: 'DNS', weight: 7656 }] }, { from: 8131, to: 2872, weight: 139577, annotations: [{ proto: 'DNS', weight: 139577 }] }, { from: 8131, to: 2871, weight: 165, annotations: [{ proto: 'DNS', weight: 165 }] }, { from: 1473, to: 10531, weight: 3369, annotations: [{ proto: 'DNS', weight: 3369 }] }, { from: 1473, to: 899, weight: 102150, annotations: [{ proto: 'DNS', weight: 102150 }] }, { from: 1473, to: 171, weight: 692, annotations: [{ proto: 'DNS', weight: 692 }] }, { from: 561, to: 10531, weight: 337375, annotations: [{ proto: 'DNS', weight: 337375 }] }, { from: 561, to: 899, weight: 600615, annotations: [{ proto: 'DNS', weight: 600615 }] }, { from: 561, to: 171, weight: 390019, annotations: [{ proto: 'DNS', weight: 390019 }] }, { from: 561, to: 422, weight: 4066, annotations: [{ proto: 'DNS', weight: 4066 }] }, { from: 1182, to: 899, weight: 62988, annotations: [{ proto: 'DNS', weight: 62988 }] }, { from: 2688, to: 899, weight: 136860, annotations: [{ proto: 'DNS', weight: 136860 }] }, { from: 2688, to: 171, weight: 156, annotations: [{ proto: 'DNS', weight: 156 }] }, { from: 5677, to: 171, weight: 16968, annotations: [{ proto: 'DNS', weight: 16968 }] }, { from: 1409, to: 2872, weight: 79846, annotations: [{ proto: 'DNS', weight: 79846 }] }, { from: 1409, to: 2871, weight: 415, annotations: [{ proto: 'DNS', weight: 415 }] }, { from: 11795, to: 2872, weight: 23529, annotations: [{ proto: 'DNS', weight: 23529 }] }, { from: 903, to: 171, weight: 11330, annotations: [{ proto: 'DNS', weight: 11330 }] }, { from: 2720, to: 899, weight: 502, annotations: [{ proto: 'DNS', weight: 502 }] }, { from: 2720, to: 171, weight: 18300, annotations: [{ proto: 'DNS', weight: 18300 }] }, { from: 1940, to: 899, weight: 8238, annotations: [{ proto: 'DNS', weight: 8238 }] }, { from: 891, to: 899, weight: 538878, annotations: [{ proto: 'DNS', weight: 538878 }] }, { from: 2777, to: 10531, weight: 3687, annotations: [{ proto: 'DNS', weight: 3687 }] }, { from: 2777, to: 899, weight: 291052, annotations: [{ proto: 'DNS', weight: 291052 }] }, { from: 1077, to: 10531, weight: 3031472, annotations: [{ proto: 'DNS', weight: 3031472 }] }, { from: 6820, to: 10531, weight: 1230, annotations: [{ proto: 'DNS', weight: 1230 }] }, { from: 6820, to: 899, weight: 55934, annotations: [{ proto: 'DNS', weight: 55934 }] }, { from: 770, to: 10531, weight: 100533, annotations: [{ proto: 'DNS', weight: 100533 }] }, { from: 770, to: 899, weight: 177639, annotations: [{ proto: 'DNS', weight: 177639 }] }, { from: 770, to: 422, weight: 878, annotations: [{ proto: 'DNS', weight: 878 }] }, { from: 1350, to: 899, weight: 8484, annotations: [{ proto: 'DNS', weight: 8484 }] }, { from: 3686, to: 899, weight: 48766, annotations: [{ proto: 'DNS', weight: 48766 }] }, { from: 9685, to: 899, weight: 376541, annotations: [{ proto: 'DNS', weight: 376541 }] }, { from: 2857, to: 2872, weight: 44149, annotations: [{ proto: 'DNS', weight: 44149 }] }, { from: 2857, to: 2871, weight: 2499, annotations: [{ proto: 'DNS', weight: 2499 }] }, { from: 3024, to: 10531, weight: 41106, annotations: [{ proto: 'DNS', weight: 41106 }] }, { from: 3024, to: 899, weight: 976277, annotations: [{ proto: 'DNS', weight: 976277 }] }, { from: 6344, to: 10531, weight: 13077, annotations: [{ proto: 'DNS', weight: 13077 }] }, { from: 6344, to: 899, weight: 300406, annotations: [{ proto: 'DNS', weight: 300406 }] }, { from: 6344, to: 171, weight: 852, annotations: [{ proto: 'DNS', weight: 852 }] }, { from: 11151, to: 899, weight: 8572, annotations: [{ proto: 'DNS', weight: 8572 }] }, { from: 5450, to: 899, weight: 36540, annotations: [{ proto: 'DNS', weight: 36540 }] }, { from: 885, to: 899, weight: 168970, annotations: [{ proto: 'DNS', weight: 168970 }] }, { from: 5563, to: 2872, weight: 135108, annotations: [{ proto: 'DNS', weight: 135108 }] }, { from: 11220, to: 10531, weight: 471, annotations: [{ proto: 'DNS', weight: 471 }] }, { from: 11220, to: 899, weight: 67597, annotations: [{ proto: 'DNS', weight: 67597 }] }, { from: 11220, to: 171, weight: 3424, annotations: [{ proto: 'DNS', weight: 3424 }] }, { from: 11851, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11340, to: 899, weight: 7712, annotations: [{ proto: 'DNS', weight: 7712 }] }, { from: 1645, to: 899, weight: 16816, annotations: [{ proto: 'DNS', weight: 16816 }] }, { from: 3762, to: 2872, weight: 236197, annotations: [{ proto: 'DNS', weight: 236197 }] }, { from: 1527, to: 387, weight: 325090, annotations: [{ proto: 'DNS', weight: 325090 }] }, { from: 1527, to: 957, weight: 25634, annotations: [{ proto: 'DNS', weight: 25634 }] }, { from: 1782, to: 899, weight: 7154, annotations: [{ proto: 'DNS', weight: 7154 }] }, { from: 7421, to: 899, weight: 88573, annotations: [{ proto: 'DNS', weight: 88573 }] }, { from: 1034, to: 899, weight: 763347, annotations: [{ proto: 'DNS', weight: 763347 }] }, { from: 1034, to: 171, weight: 43090, annotations: [{ proto: 'DNS', weight: 43090 }] }, { from: 1168, to: 387, weight: 17479, annotations: [{ proto: 'DNS', weight: 17479 }] }, { from: 11707, to: 899, weight: 800709, annotations: [{ proto: 'DNS', weight: 800709 }] }, { from: 11244, to: 10531, weight: 2986, annotations: [{ proto: 'DNS', weight: 2986 }] }, { from: 11244, to: 899, weight: 29382, annotations: [{ proto: 'DNS', weight: 29382 }] }, { from: 4309, to: 10531, weight: 942, annotations: [{ proto: 'DNS', weight: 942 }] }, { from: 4309, to: 899, weight: 25076, annotations: [{ proto: 'DNS', weight: 25076 }] }, { from: 4309, to: 171, weight: 4186, annotations: [{ proto: 'DNS', weight: 4186 }] }, { from: 6739, to: 899, weight: 21556, annotations: [{ proto: 'DNS', weight: 21556 }] }, { from: 6739, to: 10531, weight: 10758, annotations: [{ proto: 'DNS', weight: 10758 }] }, { from: 462, to: 10531, weight: 141910, annotations: [{ proto: 'DNS', weight: 141910 }] }, { from: 1764, to: 899, weight: 8174, annotations: [{ proto: 'DNS', weight: 8174 }] }, { from: 1549, to: 899, weight: 5500, annotations: [{ proto: 'DNS', weight: 5500 }] }, { from: 5783, to: 899, weight: 123811, annotations: [{ proto: 'DNS', weight: 123811 }] }, { from: 2281, to: 171, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 11899, to: 2871, weight: 244, annotations: [{ proto: 'DNS', weight: 244 }] }, { from: 11899, to: 2872, weight: 11740, annotations: [{ proto: 'DNS', weight: 11740 }] }, { from: 875, to: 10531, weight: 115196, annotations: [{ proto: 'DNS', weight: 115196 }] }, { from: 875, to: 899, weight: 173855, annotations: [{ proto: 'DNS', weight: 173855 }] }, { from: 875, to: 422, weight: 2582, annotations: [{ proto: 'DNS', weight: 2582 }] }, { from: 6810, to: 899, weight: 8230, annotations: [{ proto: 'DNS', weight: 8230 }] }, { from: 1783, to: 899, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 10284, to: 899, weight: 5940, annotations: [{ proto: 'DNS', weight: 5940 }] }, { from: 2091, to: 171, weight: 2610, annotations: [{ proto: 'DNS', weight: 2610 }] }, { from: 2080, to: 171, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 8182, to: 2872, weight: 65482, annotations: [{ proto: 'DNS', weight: 65482 }] }, { from: 8182, to: 2871, weight: 811, annotations: [{ proto: 'DNS', weight: 811 }] }, { from: 10614, to: 10531, weight: 5331, annotations: [{ proto: 'DNS', weight: 5331 }] }, { from: 10614, to: 899, weight: 119932, annotations: [{ proto: 'DNS', weight: 119932 }] }, { from: 10614, to: 171, weight: 2042, annotations: [{ proto: 'DNS', weight: 2042 }] }, { from: 11856, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1981, to: 899, weight: 8660, annotations: [{ proto: 'DNS', weight: 8660 }] }, { from: 464, to: 899, weight: 1808837, annotations: [{ proto: 'DNS', weight: 1808837 }] }, { from: 2370, to: 899, weight: 41202, annotations: [{ proto: 'DNS', weight: 41202 }] }, { from: 1396, to: 899, weight: 116001, annotations: [{ proto: 'DNS', weight: 116001 }] }, { from: 7573, to: 899, weight: 112020, annotations: [{ proto: 'DNS', weight: 112020 }] }, { from: 1267, to: 2872, weight: 66501, annotations: [{ proto: 'DNS', weight: 66501 }] }, { from: 1267, to: 2871, weight: 172, annotations: [{ proto: 'DNS', weight: 172 }] }, { from: 2183, to: 171, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 2119, to: 422, weight: 7913, annotations: [{ proto: 'DNS', weight: 7913 }] }, { from: 2119, to: 10531, weight: 87543, annotations: [{ proto: 'DNS', weight: 87543 }] }, { from: 2119, to: 899, weight: 783289, annotations: [{ proto: 'DNS', weight: 783289 }] }, { from: 10777, to: 10531, weight: 77088, annotations: [{ proto: 'DNS', weight: 77088 }] }, { from: 10777, to: 899, weight: 502555, annotations: [{ proto: 'DNS', weight: 502555 }] }, { from: 10777, to: 171, weight: 66748, annotations: [{ proto: 'DNS', weight: 66748 }] }, { from: 11815, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1215, to: 899, weight: 6562, annotations: [{ proto: 'DNS', weight: 6562 }] }, { from: 9895, to: 899, weight: 569660, annotations: [{ proto: 'DNS', weight: 569660 }] }, { from: 2239, to: 171, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 2046, to: 171, weight: 5720, annotations: [{ proto: 'DNS', weight: 5720 }] }, { from: 2075, to: 171, weight: 8572, annotations: [{ proto: 'DNS', weight: 8572 }] }, { from: 3319, to: 10531, weight: 17160, annotations: [{ proto: 'DNS', weight: 17160 }] }, { from: 2242, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 2212, to: 899, weight: 2520, annotations: [{ proto: 'DNS', weight: 2520 }] }, { from: 1554, to: 899, weight: 8914, annotations: [{ proto: 'DNS', weight: 8914 }] }, { from: 6253, to: 899, weight: 239070, annotations: [{ proto: 'DNS', weight: 239070 }] }, { from: 1354, to: 171, weight: 51482, annotations: [{ proto: 'DNS', weight: 51482 }] }, { from: 1417, to: 171, weight: 112239, annotations: [{ proto: 'DNS', weight: 112239 }] }, { from: 10822, to: 899, weight: 77084, annotations: [{ proto: 'DNS', weight: 77084 }] }, { from: 5299, to: 899, weight: 148006, annotations: [{ proto: 'DNS', weight: 148006 }] }, { from: 2217, to: 171, weight: 2912, annotations: [{ proto: 'DNS', weight: 2912 }] }, { from: 331, to: 171, weight: 187184, annotations: [{ proto: 'DNS', weight: 187184 }] }, { from: 331, to: 2872, weight: 4686, annotations: [{ proto: 'DNS', weight: 4686 }] }, { from: 1589, to: 171, weight: 47523, annotations: [{ proto: 'DNS', weight: 47523 }] }, { from: 2489, to: 2871, weight: 42747525, annotations: [{ proto: 'DNS', weight: 42747525 }] }, { from: 2489, to: 307, weight: 23684024, annotations: [{ proto: 'DNS', weight: 23684024 }] }, { from: 2489, to: 2872, weight: 64124288, annotations: [{ proto: 'DNS', weight: 64124288 }] }, { from: 1096, to: 10531, weight: 927, annotations: [{ proto: 'DNS', weight: 927 }] }, { from: 1096, to: 899, weight: 8150, annotations: [{ proto: 'DNS', weight: 8150 }] }, { from: 1128, to: 10531, weight: 11847, annotations: [{ proto: 'DNS', weight: 11847 }] }, { from: 1128, to: 899, weight: 744887, annotations: [{ proto: 'DNS', weight: 744887 }] }, { from: 1128, to: 171, weight: 1304, annotations: [{ proto: 'DNS', weight: 1304 }] }, { from: 692, to: 10531, weight: 97311, annotations: [{ proto: 'DNS', weight: 97311 }] }, { from: 692, to: 899, weight: 178509, annotations: [{ proto: 'DNS', weight: 178509 }] }, { from: 692, to: 422, weight: 2019, annotations: [{ proto: 'DNS', weight: 2019 }] }, { from: 11875, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 7064, to: 899, weight: 13064, annotations: [{ proto: 'DNS', weight: 13064 }] }, { from: 7064, to: 171, weight: 748, annotations: [{ proto: 'DNS', weight: 748 }] }, { from: 1335, to: 899, weight: 94282, annotations: [{ proto: 'DNS', weight: 94282 }] }, { from: 957, to: 899, weight: 670262, annotations: [{ proto: 'DNS', weight: 670262 }] }, { from: 957, to: 387, weight: 5220, annotations: [{ proto: 'DNS', weight: 5220 }] }, { from: 851, to: 957, weight: 17872, annotations: [{ proto: 'DNS', weight: 17872 }] }, { from: 851, to: 387, weight: 443506, annotations: [{ proto: 'DNS', weight: 443506 }] }, { from: 10122, to: 171, weight: 4578, annotations: [{ proto: 'DNS', weight: 4578 }] }, { from: 10122, to: 10531, weight: 8697, annotations: [{ proto: 'DNS', weight: 8697 }] }, { from: 10122, to: 899, weight: 819499, annotations: [{ proto: 'DNS', weight: 819499 }] }, { from: 767, to: 10531, weight: 100857, annotations: [{ proto: 'DNS', weight: 100857 }] }, { from: 767, to: 899, weight: 173515, annotations: [{ proto: 'DNS', weight: 173515 }] }, { from: 767, to: 422, weight: 586, annotations: [{ proto: 'DNS', weight: 586 }] }, { from: 11860, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1908, to: 899, weight: 20282, annotations: [{ proto: 'DNS', weight: 20282 }] }, { from: 2880, to: 899, weight: 460588, annotations: [{ proto: 'DNS', weight: 460588 }] }, { from: 2056, to: 2872, weight: 70580, annotations: [{ proto: 'DNS', weight: 70580 }] }, { from: 2056, to: 2871, weight: 1601, annotations: [{ proto: 'DNS', weight: 1601 }] }, { from: 2439, to: 899, weight: 8144, annotations: [{ proto: 'DNS', weight: 8144 }] }, { from: 2439, to: 171, weight: 8800, annotations: [{ proto: 'DNS', weight: 8800 }] }, { from: 2621, to: 899, weight: 57160, annotations: [{ proto: 'DNS', weight: 57160 }] }, { from: 11263, to: 2872, weight: 14516, annotations: [{ proto: 'DNS', weight: 14516 }] }, { from: 2286, to: 171, weight: 2856, annotations: [{ proto: 'DNS', weight: 2856 }] }, { from: 2198, to: 10531, weight: 17820, annotations: [{ proto: 'DNS', weight: 17820 }] }, { from: 2198, to: 899, weight: 11880, annotations: [{ proto: 'DNS', weight: 11880 }] }, { from: 2198, to: 171, weight: 11880, annotations: [{ proto: 'DNS', weight: 11880 }] }, { from: 11145, to: 899, weight: 8780, annotations: [{ proto: 'DNS', weight: 8780 }] }, { from: 5528, to: 2872, weight: 32788, annotations: [{ proto: 'DNS', weight: 32788 }] }, { from: 5528, to: 2871, weight: 247, annotations: [{ proto: 'DNS', weight: 247 }] }, { from: 3600, to: 2872, weight: 148163, annotations: [{ proto: 'DNS', weight: 148163 }] }, { from: 2446, to: 171, weight: 11818, annotations: [{ proto: 'DNS', weight: 11818 }] }, { from: 2446, to: 10531, weight: 10455, annotations: [{ proto: 'DNS', weight: 10455 }] }, { from: 2446, to: 899, weight: 239996, annotations: [{ proto: 'DNS', weight: 239996 }] }, { from: 2014, to: 899, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 1772, to: 899, weight: 8580, annotations: [{ proto: 'DNS', weight: 8580 }] }, { from: 11040, to: 899, weight: 9050, annotations: [{ proto: 'DNS', weight: 9050 }] }, { from: 1061, to: 10531, weight: 2042, annotations: [{ proto: 'DNS', weight: 2042 }] }, { from: 1061, to: 899, weight: 142340, annotations: [{ proto: 'DNS', weight: 142340 }] }, { from: 518, to: 10531, weight: 109470, annotations: [{ proto: 'DNS', weight: 109470 }] }, { from: 518, to: 899, weight: 178716, annotations: [{ proto: 'DNS', weight: 178716 }] }, { from: 518, to: 422, weight: 1810, annotations: [{ proto: 'DNS', weight: 1810 }] }, { from: 872, to: 899, weight: 5390, annotations: [{ proto: 'DNS', weight: 5390 }] }, { from: 11687, to: 899, weight: 8676, annotations: [{ proto: 'DNS', weight: 8676 }] }, { from: 11760, to: 899, weight: 33407, annotations: [{ proto: 'DNS', weight: 33407 }] }, { from: 2222, to: 171, weight: 136026, annotations: [{ proto: 'DNS', weight: 136026 }] }, { from: 2222, to: 10531, weight: 108357, annotations: [{ proto: 'DNS', weight: 108357 }] }, { from: 2222, to: 899, weight: 100688, annotations: [{ proto: 'DNS', weight: 100688 }] }, { from: 11828, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2893, to: 899, weight: 13794, annotations: [{ proto: 'DNS', weight: 13794 }] }, { from: 1273, to: 899, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 3038, to: 171, weight: 45176, annotations: [{ proto: 'DNS', weight: 45176 }] }, { from: 11797, to: 2872, weight: 29316, annotations: [{ proto: 'DNS', weight: 29316 }] }, { from: 11797, to: 2871, weight: 1124, annotations: [{ proto: 'DNS', weight: 1124 }] }, { from: 993, to: 10531, weight: 4448, annotations: [{ proto: 'DNS', weight: 4448 }] }, { from: 993, to: 899, weight: 533523, annotations: [{ proto: 'DNS', weight: 533523 }] }, { from: 993, to: 171, weight: 2152, annotations: [{ proto: 'DNS', weight: 2152 }] }, { from: 1508, to: 899, weight: 122839, annotations: [{ proto: 'DNS', weight: 122839 }] }, { from: 1508, to: 171, weight: 216652, annotations: [{ proto: 'DNS', weight: 216652 }] }, { from: 1508, to: 10531, weight: 388749, annotations: [{ proto: 'DNS', weight: 388749 }] }, { from: 11259, to: 10531, weight: 84966, annotations: [{ proto: 'DNS', weight: 84966 }] }, { from: 11259, to: 899, weight: 229676, annotations: [{ proto: 'DNS', weight: 229676 }] }, { from: 11259, to: 171, weight: 55428, annotations: [{ proto: 'DNS', weight: 55428 }] }, { from: 11259, to: 2872, weight: 22192, annotations: [{ proto: 'DNS', weight: 22192 }] }, { from: 11259, to: 2871, weight: 22192, annotations: [{ proto: 'DNS', weight: 22192 }] }, { from: 2288, to: 899, weight: 2247, annotations: [{ proto: 'DNS', weight: 2247 }] }, { from: 2257, to: 899, weight: 3738, annotations: [{ proto: 'DNS', weight: 3738 }] }, { from: 9822, to: 10531, weight: 44169, annotations: [{ proto: 'DNS', weight: 44169 }] }, { from: 9822, to: 899, weight: 36113, annotations: [{ proto: 'DNS', weight: 36113 }] }, { from: 1033, to: 10531, weight: 91848, annotations: [{ proto: 'DNS', weight: 91848 }] }, { from: 1033, to: 899, weight: 545775, annotations: [{ proto: 'DNS', weight: 545775 }] }, { from: 1875, to: 10531, weight: 160288, annotations: [{ proto: 'DNS', weight: 160288 }] }, { from: 1272, to: 899, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 1541, to: 899, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 7080, to: 2872, weight: 15311, annotations: [{ proto: 'DNS', weight: 15311 }] }, { from: 7080, to: 2871, weight: 4106, annotations: [{ proto: 'DNS', weight: 4106 }] }, { from: 10921, to: 899, weight: 13408, annotations: [{ proto: 'DNS', weight: 13408 }] }, { from: 1680, to: 899, weight: 51850, annotations: [{ proto: 'DNS', weight: 51850 }] }, { from: 8235, to: 899, weight: 11220, annotations: [{ proto: 'DNS', weight: 11220 }] }, { from: 8235, to: 171, weight: 11220, annotations: [{ proto: 'DNS', weight: 11220 }] }, { from: 8235, to: 10531, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 798, to: 171, weight: 3686, annotations: [{ proto: 'DNS', weight: 3686 }] }, { from: 798, to: 10531, weight: 15926890, annotations: [{ proto: 'DNS', weight: 15926890 }] }, { from: 798, to: 899, weight: 3780, annotations: [{ proto: 'DNS', weight: 3780 }] }, { from: 2074, to: 171, weight: 76994, annotations: [{ proto: 'DNS', weight: 76994 }] }, { from: 11894, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2252, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 7763, to: 899, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 2275, to: 171, weight: 2674, annotations: [{ proto: 'DNS', weight: 2674 }] }, { from: 1727, to: 2872, weight: 91299, annotations: [{ proto: 'DNS', weight: 91299 }] }, { from: 1727, to: 2871, weight: 270, annotations: [{ proto: 'DNS', weight: 270 }] }, { from: 10866, to: 2872, weight: 145436, annotations: [{ proto: 'DNS', weight: 145436 }] }, { from: 1785, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 11717, to: 899, weight: 437588, annotations: [{ proto: 'DNS', weight: 437588 }] }, { from: 857, to: 899, weight: 108554, annotations: [{ proto: 'DNS', weight: 108554 }] }, { from: 2023, to: 171, weight: 5390, annotations: [{ proto: 'DNS', weight: 5390 }] }, { from: 475, to: 171, weight: 1620773, annotations: [{ proto: 'DNS', weight: 1620773 }] }, { from: 8713, to: 422, weight: 1094, annotations: [{ proto: 'DNS', weight: 1094 }] }, { from: 8713, to: 10531, weight: 13587, annotations: [{ proto: 'DNS', weight: 13587 }] }, { from: 8713, to: 899, weight: 1538144, annotations: [{ proto: 'DNS', weight: 1538144 }] }, { from: 8713, to: 171, weight: 790, annotations: [{ proto: 'DNS', weight: 790 }] }, { from: 10221, to: 899, weight: 564769, annotations: [{ proto: 'DNS', weight: 564769 }] }, { from: 10221, to: 422, weight: 202, annotations: [{ proto: 'DNS', weight: 202 }] }, { from: 10221, to: 387, weight: 24548, annotations: [{ proto: 'DNS', weight: 24548 }] }, { from: 10221, to: 957, weight: 17036, annotations: [{ proto: 'DNS', weight: 17036 }] }, { from: 10221, to: 10531, weight: 89247, annotations: [{ proto: 'DNS', weight: 89247 }] }, { from: 8040, to: 899, weight: 5832, annotations: [{ proto: 'DNS', weight: 5832 }] }, { from: 1607, to: 899, weight: 195, annotations: [{ proto: 'DNS', weight: 195 }] }, { from: 1607, to: 171, weight: 1169, annotations: [{ proto: 'DNS', weight: 1169 }] }, { from: 2102, to: 899, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 2093, to: 10531, weight: 35796, annotations: [{ proto: 'DNS', weight: 35796 }] }, { from: 2093, to: 899, weight: 48116, annotations: [{ proto: 'DNS', weight: 48116 }] }, { from: 2093, to: 171, weight: 70842, annotations: [{ proto: 'DNS', weight: 70842 }] }, { from: 90, to: 10531, weight: 413397, annotations: [{ proto: 'DNS', weight: 413397 }] }, { from: 90, to: 899, weight: 647782, annotations: [{ proto: 'DNS', weight: 647782 }] }, { from: 90, to: 171, weight: 826571, annotations: [{ proto: 'DNS', weight: 826571 }] }, { from: 6729, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 2210, to: 171, weight: 3038, annotations: [{ proto: 'DNS', weight: 3038 }] }, { from: 1791, to: 171, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 10412, to: 10531, weight: 10404, annotations: [{ proto: 'DNS', weight: 10404 }] }, { from: 10412, to: 899, weight: 964831, annotations: [{ proto: 'DNS', weight: 964831 }] }, { from: 10412, to: 171, weight: 568, annotations: [{ proto: 'DNS', weight: 568 }] }, { from: 9226, to: 899, weight: 3402, annotations: [{ proto: 'DNS', weight: 3402 }] }, { from: 11113, to: 899, weight: 5940, annotations: [{ proto: 'DNS', weight: 5940 }] }, { from: 2287, to: 171, weight: 2912, annotations: [{ proto: 'DNS', weight: 2912 }] }, { from: 1485, to: 171, weight: 21830, annotations: [{ proto: 'DNS', weight: 21830 }] }, { from: 11827, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 10020, to: 899, weight: 6262, annotations: [{ proto: 'DNS', weight: 6262 }] }, { from: 9943, to: 899, weight: 120595, annotations: [{ proto: 'DNS', weight: 120595 }] }, { from: 1470, to: 899, weight: 13650, annotations: [{ proto: 'DNS', weight: 13650 }] }, { from: 6518, to: 2871, weight: 1092, annotations: [{ proto: 'DNS', weight: 1092 }] }, { from: 6518, to: 2872, weight: 138035, annotations: [{ proto: 'DNS', weight: 138035 }] }, { from: 5643, to: 2872, weight: 151523, annotations: [{ proto: 'DNS', weight: 151523 }] }, { from: 5643, to: 2871, weight: 51929, annotations: [{ proto: 'DNS', weight: 51929 }] }, { from: 10722, to: 10531, weight: 3009, annotations: [{ proto: 'DNS', weight: 3009 }] }, { from: 10722, to: 899, weight: 163857, annotations: [{ proto: 'DNS', weight: 163857 }] }, { from: 2062, to: 10531, weight: 57611, annotations: [{ proto: 'DNS', weight: 57611 }] }, { from: 2062, to: 899, weight: 134032, annotations: [{ proto: 'DNS', weight: 134032 }] }, { from: 2062, to: 171, weight: 1934, annotations: [{ proto: 'DNS', weight: 1934 }] }, { from: 11823, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2625, to: 899, weight: 25682, annotations: [{ proto: 'DNS', weight: 25682 }] }, { from: 1501, to: 899, weight: 14496, annotations: [{ proto: 'DNS', weight: 14496 }] }, { from: 1501, to: 171, weight: 1564, annotations: [{ proto: 'DNS', weight: 1564 }] }, { from: 1516, to: 899, weight: 256190, annotations: [{ proto: 'DNS', weight: 256190 }] }, { from: 1516, to: 171, weight: 2810, annotations: [{ proto: 'DNS', weight: 2810 }] }, { from: 11683, to: 2872, weight: 15669, annotations: [{ proto: 'DNS', weight: 15669 }] }, { from: 11683, to: 2871, weight: 6491, annotations: [{ proto: 'DNS', weight: 6491 }] }, { from: 8144, to: 899, weight: 5925, annotations: [{ proto: 'DNS', weight: 5925 }] }, { from: 2041, to: 10531, weight: 1320, annotations: [{ proto: 'DNS', weight: 1320 }] }, { from: 2041, to: 899, weight: 543887, annotations: [{ proto: 'DNS', weight: 543887 }] }, { from: 7699, to: 10531, weight: 15096, annotations: [{ proto: 'DNS', weight: 15096 }] }, { from: 7699, to: 899, weight: 821507, annotations: [{ proto: 'DNS', weight: 821507 }] }, { from: 419, to: 10531, weight: 376160, annotations: [{ proto: 'DNS', weight: 376160 }] }, { from: 419, to: 899, weight: 1249802, annotations: [{ proto: 'DNS', weight: 1249802 }] }, { from: 419, to: 171, weight: 922614, annotations: [{ proto: 'DNS', weight: 922614 }] }, { from: 1177, to: 10531, weight: 9240, annotations: [{ proto: 'DNS', weight: 9240 }] }, { from: 1177, to: 899, weight: 4620, annotations: [{ proto: 'DNS', weight: 4620 }] }, { from: 1177, to: 171, weight: 4730, annotations: [{ proto: 'DNS', weight: 4730 }] }, { from: 11864, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 8353, to: 899, weight: 10224, annotations: [{ proto: 'DNS', weight: 10224 }] }, { from: 1302, to: 899, weight: 5940, annotations: [{ proto: 'DNS', weight: 5940 }] }, { from: 189, to: 899, weight: 816870, annotations: [{ proto: 'DNS', weight: 816870 }] }, { from: 703, to: 899, weight: 155202, annotations: [{ proto: 'DNS', weight: 155202 }] }, { from: 1952, to: 899, weight: 26460, annotations: [{ proto: 'DNS', weight: 26460 }] }, { from: 1926, to: 171, weight: 7113, annotations: [{ proto: 'DNS', weight: 7113 }] }, { from: 2672, to: 2872, weight: 49720, annotations: [{ proto: 'DNS', weight: 49720 }] }, { from: 2672, to: 2871, weight: 1119, annotations: [{ proto: 'DNS', weight: 1119 }] }, { from: 1596, to: 171, weight: 551262, annotations: [{ proto: 'DNS', weight: 551262 }] }, { from: 1596, to: 2872, weight: 393, annotations: [{ proto: 'DNS', weight: 393 }] }, { from: 1596, to: 10531, weight: 1029, annotations: [{ proto: 'DNS', weight: 1029 }] }, { from: 1993, to: 10531, weight: 7014, annotations: [{ proto: 'DNS', weight: 7014 }] }, { from: 1993, to: 899, weight: 5530, annotations: [{ proto: 'DNS', weight: 5530 }] }, { from: 11907, to: 899, weight: 122, annotations: [{ proto: 'DNS', weight: 122 }] }, { from: 11178, to: 899, weight: 5390, annotations: [{ proto: 'DNS', weight: 5390 }] }, { from: 7441, to: 171, weight: 2804, annotations: [{ proto: 'DNS', weight: 2804 }] }, { from: 10, to: 171, weight: 1825499, annotations: [{ proto: 'DNS', weight: 1825499 }] }, { from: 9966, to: 10531, weight: 618, annotations: [{ proto: 'DNS', weight: 618 }] }, { from: 9966, to: 899, weight: 1941816, annotations: [{ proto: 'DNS', weight: 1941816 }] }, { from: 9966, to: 422, weight: 4053, annotations: [{ proto: 'DNS', weight: 4053 }] }, { from: 2261, to: 171, weight: 2856, annotations: [{ proto: 'DNS', weight: 2856 }] }, { from: 7551, to: 2872, weight: 94953, annotations: [{ proto: 'DNS', weight: 94953 }] }, { from: 11898, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 3573, to: 899, weight: 195, annotations: [{ proto: 'DNS', weight: 195 }] }, { from: 3573, to: 171, weight: 530, annotations: [{ proto: 'DNS', weight: 530 }] }, { from: 1949, to: 171, weight: 10508, annotations: [{ proto: 'DNS', weight: 10508 }] }, { from: 397, to: 899, weight: 2823317, annotations: [{ proto: 'DNS', weight: 2823317 }] }, { from: 3079, to: 10531, weight: 6018, annotations: [{ proto: 'DNS', weight: 6018 }] }, { from: 3079, to: 899, weight: 84539, annotations: [{ proto: 'DNS', weight: 84539 }] }, { from: 1325, to: 10531, weight: 12930, annotations: [{ proto: 'DNS', weight: 12930 }] }, { from: 1325, to: 899, weight: 757362, annotations: [{ proto: 'DNS', weight: 757362 }] }, { from: 1325, to: 422, weight: 4177, annotations: [{ proto: 'DNS', weight: 4177 }] }, { from: 1477, to: 10531, weight: 2538, annotations: [{ proto: 'DNS', weight: 2538 }] }, { from: 1477, to: 899, weight: 415618, annotations: [{ proto: 'DNS', weight: 415618 }] }, { from: 11544, to: 10531, weight: 2283, annotations: [{ proto: 'DNS', weight: 2283 }] }, { from: 11544, to: 899, weight: 51404, annotations: [{ proto: 'DNS', weight: 51404 }] }, { from: 11544, to: 171, weight: 496, annotations: [{ proto: 'DNS', weight: 496 }] }, { from: 11921, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11812, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 6932, to: 899, weight: 17256, annotations: [{ proto: 'DNS', weight: 17256 }] }, { from: 25, to: 10531, weight: 88767, annotations: [{ proto: 'DNS', weight: 88767 }] }, { from: 25, to: 899, weight: 181156, annotations: [{ proto: 'DNS', weight: 181156 }] }, { from: 25, to: 422, weight: 1933, annotations: [{ proto: 'DNS', weight: 1933 }] }, { from: 11886, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1204, to: 899, weight: 3080, annotations: [{ proto: 'DNS', weight: 3080 }] }, { from: 8352, to: 899, weight: 15428, annotations: [{ proto: 'DNS', weight: 15428 }] }, { from: 10805, to: 899, weight: 59738, annotations: [{ proto: 'DNS', weight: 59738 }] }, { from: 1705, to: 422, weight: 9989, annotations: [{ proto: 'DNS', weight: 9989 }] }, { from: 1705, to: 387, weight: 468027, annotations: [{ proto: 'DNS', weight: 468027 }] }, { from: 1705, to: 957, weight: 46980, annotations: [{ proto: 'DNS', weight: 46980 }] }, { from: 1387, to: 10531, weight: 231, annotations: [{ proto: 'DNS', weight: 231 }] }, { from: 1387, to: 899, weight: 413891, annotations: [{ proto: 'DNS', weight: 413891 }] }, { from: 1387, to: 422, weight: 1235, annotations: [{ proto: 'DNS', weight: 1235 }] }, { from: 2290, to: 10531, weight: 7503, annotations: [{ proto: 'DNS', weight: 7503 }] }, { from: 2290, to: 899, weight: 289855, annotations: [{ proto: 'DNS', weight: 289855 }] }, { from: 959, to: 899, weight: 146847, annotations: [{ proto: 'DNS', weight: 146847 }] }, { from: 6104, to: 899, weight: 141859, annotations: [{ proto: 'DNS', weight: 141859 }] }, { from: 838, to: 899, weight: 502427, annotations: [{ proto: 'DNS', weight: 502427 }] }, { from: 838, to: 171, weight: 14674, annotations: [{ proto: 'DNS', weight: 14674 }] }, { from: 876, to: 387, weight: 444378, annotations: [{ proto: 'DNS', weight: 444378 }] }, { from: 876, to: 957, weight: 70260, annotations: [{ proto: 'DNS', weight: 70260 }] }, { from: 876, to: 422, weight: 549, annotations: [{ proto: 'DNS', weight: 549 }] }, { from: 579, to: 899, weight: 389344, annotations: [{ proto: 'DNS', weight: 389344 }] }, { from: 364, to: 899, weight: 2370920, annotations: [{ proto: 'DNS', weight: 2370920 }] }, { from: 11705, to: 2872, weight: 207804, annotations: [{ proto: 'DNS', weight: 207804 }] }, { from: 11705, to: 2871, weight: 12144, annotations: [{ proto: 'DNS', weight: 12144 }] }, { from: 2670, to: 2872, weight: 115207, annotations: [{ proto: 'DNS', weight: 115207 }] }, { from: 2670, to: 2871, weight: 644, annotations: [{ proto: 'DNS', weight: 644 }] }, { from: 2143, to: 10531, weight: 1752, annotations: [{ proto: 'DNS', weight: 1752 }] }, { from: 2143, to: 899, weight: 301582, annotations: [{ proto: 'DNS', weight: 301582 }] }, { from: 2874, to: 10531, weight: 5850, annotations: [{ proto: 'DNS', weight: 5850 }] }, { from: 2874, to: 899, weight: 90362, annotations: [{ proto: 'DNS', weight: 90362 }] }, { from: 4560, to: 10531, weight: 171742, annotations: [{ proto: 'DNS', weight: 171742 }] }, { from: 4560, to: 899, weight: 228786, annotations: [{ proto: 'DNS', weight: 228786 }] }, { from: 4560, to: 171, weight: 191970, annotations: [{ proto: 'DNS', weight: 191970 }] }, { from: 4560, to: 2872, weight: 288, annotations: [{ proto: 'DNS', weight: 288 }] }, { from: 11842, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 2136, to: 899, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 1638, to: 899, weight: 31937, annotations: [{ proto: 'DNS', weight: 31937 }] }, { from: 1052, to: 899, weight: 344449, annotations: [{ proto: 'DNS', weight: 344449 }] }, { from: 1052, to: 10531, weight: 609, annotations: [{ proto: 'DNS', weight: 609 }] }, { from: 483, to: 422, weight: 7929, annotations: [{ proto: 'DNS', weight: 7929 }] }, { from: 483, to: 899, weight: 6338, annotations: [{ proto: 'DNS', weight: 6338 }] }, { from: 483, to: 171, weight: 1128457, annotations: [{ proto: 'DNS', weight: 1128457 }] }, { from: 6969, to: 899, weight: 5940, annotations: [{ proto: 'DNS', weight: 5940 }] }, { from: 11486, to: 899, weight: 59465, annotations: [{ proto: 'DNS', weight: 59465 }] }, { from: 3454, to: 2872, weight: 8018, annotations: [{ proto: 'DNS', weight: 8018 }] }, { from: 3454, to: 2871, weight: 298, annotations: [{ proto: 'DNS', weight: 298 }] }, { from: 10241, to: 2872, weight: 75059, annotations: [{ proto: 'DNS', weight: 75059 }] }, { from: 10241, to: 2871, weight: 3072, annotations: [{ proto: 'DNS', weight: 3072 }] }, { from: 1798, to: 899, weight: 1185, annotations: [{ proto: 'DNS', weight: 1185 }] }, { from: 11836, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1401, to: 899, weight: 8484, annotations: [{ proto: 'DNS', weight: 8484 }] }, { from: 11226, to: 2872, weight: 15907, annotations: [{ proto: 'DNS', weight: 15907 }] }, { from: 6644, to: 10531, weight: 7296, annotations: [{ proto: 'DNS', weight: 7296 }] }, { from: 6644, to: 899, weight: 65169, annotations: [{ proto: 'DNS', weight: 65169 }] }, { from: 9064, to: 899, weight: 9478, annotations: [{ proto: 'DNS', weight: 9478 }] }, { from: 9156, to: 899, weight: 53628, annotations: [{ proto: 'DNS', weight: 53628 }] }, { from: 6457, to: 171, weight: 5830, annotations: [{ proto: 'DNS', weight: 5830 }] }, { from: 5561, to: 10531, weight: 17892, annotations: [{ proto: 'DNS', weight: 17892 }] }, { from: 1843, to: 899, weight: 274756, annotations: [{ proto: 'DNS', weight: 274756 }] }, { from: 1843, to: 171, weight: 79990, annotations: [{ proto: 'DNS', weight: 79990 }] }, { from: 1843, to: 10531, weight: 25371, annotations: [{ proto: 'DNS', weight: 25371 }] }, { from: 9701, to: 899, weight: 3038, annotations: [{ proto: 'DNS', weight: 3038 }] }, { from: 1795, to: 171, weight: 498249, annotations: [{ proto: 'DNS', weight: 498249 }] }, { from: 11469, to: 171, weight: 318, annotations: [{ proto: 'DNS', weight: 318 }] }, { from: 11469, to: 2872, weight: 216, annotations: [{ proto: 'DNS', weight: 216 }] }, { from: 11469, to: 10531, weight: 909, annotations: [{ proto: 'DNS', weight: 909 }] }, { from: 11469, to: 899, weight: 511141, annotations: [{ proto: 'DNS', weight: 511141 }] }, { from: 5364, to: 10531, weight: 5970, annotations: [{ proto: 'DNS', weight: 5970 }] }, { from: 5364, to: 899, weight: 23250, annotations: [{ proto: 'DNS', weight: 23250 }] }, { from: 11855, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1965, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 1296, to: 899, weight: 6612, annotations: [{ proto: 'DNS', weight: 6612 }] }, { from: 11796, to: 2872, weight: 51795, annotations: [{ proto: 'DNS', weight: 51795 }] }, { from: 1014, to: 899, weight: 236, annotations: [{ proto: 'DNS', weight: 236 }] }, { from: 5655, to: 899, weight: 431056, annotations: [{ proto: 'DNS', weight: 431056 }] }, { from: 9730, to: 899, weight: 237933, annotations: [{ proto: 'DNS', weight: 237933 }] }, { from: 2076, to: 171, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 941, to: 2872, weight: 60956, annotations: [{ proto: 'DNS', weight: 60956 }] }, { from: 941, to: 2871, weight: 960, annotations: [{ proto: 'DNS', weight: 960 }] }, { from: 9443, to: 10531, weight: 23151, annotations: [{ proto: 'DNS', weight: 23151 }] }, { from: 9443, to: 899, weight: 225563, annotations: [{ proto: 'DNS', weight: 225563 }] }, { from: 9443, to: 171, weight: 24626, annotations: [{ proto: 'DNS', weight: 24626 }] }, { from: 1502, to: 10531, weight: 29912, annotations: [{ proto: 'DNS', weight: 29912 }] }, { from: 1502, to: 899, weight: 165361, annotations: [{ proto: 'DNS', weight: 165361 }] }, { from: 1786, to: 899, weight: 11632, annotations: [{ proto: 'DNS', weight: 11632 }] }, { from: 2092, to: 171, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 2507, to: 171, weight: 29916, annotations: [{ proto: 'DNS', weight: 29916 }] }, { from: 2507, to: 10531, weight: 102561, annotations: [{ proto: 'DNS', weight: 102561 }] }, { from: 2507, to: 899, weight: 96585, annotations: [{ proto: 'DNS', weight: 96585 }] }, { from: 961, to: 171, weight: 5610, annotations: [{ proto: 'DNS', weight: 5610 }] }, { from: 11810, to: 2872, weight: 63804, annotations: [{ proto: 'DNS', weight: 63804 }] }, { from: 9382, to: 2872, weight: 27550, annotations: [{ proto: 'DNS', weight: 27550 }] }, { from: 9382, to: 2871, weight: 4209, annotations: [{ proto: 'DNS', weight: 4209 }] }, { from: 2896, to: 899, weight: 171031, annotations: [{ proto: 'DNS', weight: 171031 }] }, { from: 7162, to: 899, weight: 300480, annotations: [{ proto: 'DNS', weight: 300480 }] }, { from: 1904, to: 899, weight: 18356, annotations: [{ proto: 'DNS', weight: 18356 }] }, { from: 10414, to: 899, weight: 31740, annotations: [{ proto: 'DNS', weight: 31740 }] }, { from: 10003, to: 899, weight: 168265, annotations: [{ proto: 'DNS', weight: 168265 }] }, { from: 5678, to: 2872, weight: 131697, annotations: [{ proto: 'DNS', weight: 131697 }] }, { from: 5678, to: 2871, weight: 481, annotations: [{ proto: 'DNS', weight: 481 }] }, { from: 1483, to: 171, weight: 1220, annotations: [{ proto: 'DNS', weight: 1220 }] }, { from: 1483, to: 10531, weight: 208828, annotations: [{ proto: 'DNS', weight: 208828 }] }, { from: 1483, to: 899, weight: 113429, annotations: [{ proto: 'DNS', weight: 113429 }] }, { from: 11832, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1426, to: 899, weight: 88701, annotations: [{ proto: 'DNS', weight: 88701 }] }, { from: 8894, to: 8409, weight: 2095, annotations: [{ proto: 'DNS', weight: 2095 }] }, { from: 8456, to: 899, weight: 11408, annotations: [{ proto: 'DNS', weight: 11408 }] }, { from: 1451, to: 899, weight: 4872, annotations: [{ proto: 'DNS', weight: 4872 }] }, { from: 1451, to: 10531, weight: 1172, annotations: [{ proto: 'DNS', weight: 1172 }] }, { from: 1903, to: 10531, weight: 662220, annotations: [{ proto: 'DNS', weight: 662220 }] }, { from: 1903, to: 899, weight: 589889, annotations: [{ proto: 'DNS', weight: 589889 }] }, { from: 1903, to: 171, weight: 541232, annotations: [{ proto: 'DNS', weight: 541232 }] }, { from: 1903, to: 422, weight: 128, annotations: [{ proto: 'DNS', weight: 128 }] }, { from: 1903, to: 2872, weight: 72, annotations: [{ proto: 'DNS', weight: 72 }] }, { from: 15, to: 171, weight: 2440, annotations: [{ proto: 'DNS', weight: 2440 }] }, { from: 15, to: 422, weight: 1151, annotations: [{ proto: 'DNS', weight: 1151 }] }, { from: 15, to: 10531, weight: 182718, annotations: [{ proto: 'DNS', weight: 182718 }] }, { from: 15, to: 899, weight: 690019, annotations: [{ proto: 'DNS', weight: 690019 }] }, { from: 1636, to: 10531, weight: 2098625, annotations: [{ proto: 'DNS', weight: 2098625 }] }, { from: 1636, to: 899, weight: 1832547, annotations: [{ proto: 'DNS', weight: 1832547 }] }, { from: 1636, to: 171, weight: 2199239, annotations: [{ proto: 'DNS', weight: 2199239 }] }, { from: 1878, to: 10531, weight: 208569, annotations: [{ proto: 'DNS', weight: 208569 }] }, { from: 2408, to: 10531, weight: 18675, annotations: [{ proto: 'DNS', weight: 18675 }] }, { from: 2408, to: 899, weight: 167366, annotations: [{ proto: 'DNS', weight: 167366 }] }, { from: 2408, to: 171, weight: 1986, annotations: [{ proto: 'DNS', weight: 1986 }] }, { from: 2728, to: 899, weight: 8556, annotations: [{ proto: 'DNS', weight: 8556 }] }, { from: 2194, to: 171, weight: 26004, annotations: [{ proto: 'DNS', weight: 26004 }] }, { from: 11403, to: 2872, weight: 12788, annotations: [{ proto: 'DNS', weight: 12788 }] }, { from: 2665, to: 2872, weight: 85727, annotations: [{ proto: 'DNS', weight: 85727 }] }, { from: 2665, to: 2871, weight: 162, annotations: [{ proto: 'DNS', weight: 162 }] }, { from: 11818, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 10753, to: 899, weight: 8418, annotations: [{ proto: 'DNS', weight: 8418 }] }, { from: 2432, to: 171, weight: 11408, annotations: [{ proto: 'DNS', weight: 11408 }] }, { from: 684, to: 2872, weight: 83953, annotations: [{ proto: 'DNS', weight: 83953 }] }, { from: 684, to: 2871, weight: 1361, annotations: [{ proto: 'DNS', weight: 1361 }] }, { from: 8319, to: 899, weight: 30808, annotations: [{ proto: 'DNS', weight: 30808 }] }, { from: 8319, to: 171, weight: 1040, annotations: [{ proto: 'DNS', weight: 1040 }] }, { from: 8319, to: 10531, weight: 3348, annotations: [{ proto: 'DNS', weight: 3348 }] }, { from: 1048, to: 10531, weight: 750103, annotations: [{ proto: 'DNS', weight: 750103 }] }, { from: 1048, to: 899, weight: 1112773, annotations: [{ proto: 'DNS', weight: 1112773 }] }, { from: 1048, to: 171, weight: 918508, annotations: [{ proto: 'DNS', weight: 918508 }] }, { from: 11933, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 11872, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 1639, to: 899, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 1293, to: 10531, weight: 612, annotations: [{ proto: 'DNS', weight: 612 }] }, { from: 1293, to: 899, weight: 124446, annotations: [{ proto: 'DNS', weight: 124446 }] }, { from: 865, to: 10531, weight: 103266, annotations: [{ proto: 'DNS', weight: 103266 }] }, { from: 865, to: 899, weight: 174471, annotations: [{ proto: 'DNS', weight: 174471 }] }, { from: 865, to: 422, weight: 1333, annotations: [{ proto: 'DNS', weight: 1333 }] }, { from: 962, to: 899, weight: 18446, annotations: [{ proto: 'DNS', weight: 18446 }] }, { from: 2380, to: 899, weight: 150151, annotations: [{ proto: 'DNS', weight: 150151 }] }, { from: 10266, to: 899, weight: 8588, annotations: [{ proto: 'DNS', weight: 8588 }] }, { from: 7196, to: 171, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 8409, to: 171, weight: 2384, annotations: [{ proto: 'DNS', weight: 2384 }] }, { from: 8409, to: 8408, weight: 116587, annotations: [{ proto: 'DNS', weight: 116587 }] }, { from: 1529, to: 10531, weight: 746, annotations: [{ proto: 'DNS', weight: 746 }] }, { from: 1529, to: 899, weight: 319021, annotations: [{ proto: 'DNS', weight: 319021 }] }, { from: 6068, to: 10531, weight: 5376, annotations: [{ proto: 'DNS', weight: 5376 }] }, { from: 6068, to: 899, weight: 5222, annotations: [{ proto: 'DNS', weight: 5222 }] }, { from: 11396, to: 10531, weight: 84663, annotations: [{ proto: 'DNS', weight: 84663 }] }, { from: 11396, to: 899, weight: 858814, annotations: [{ proto: 'DNS', weight: 858814 }] }, { from: 11396, to: 422, weight: 4739, annotations: [{ proto: 'DNS', weight: 4739 }] }, { from: 2100, to: 899, weight: 2884, annotations: [{ proto: 'DNS', weight: 2884 }] }, { from: 8995, to: 899, weight: 140940, annotations: [{ proto: 'DNS', weight: 140940 }] }, { from: 1846, to: 171, weight: 8644, annotations: [{ proto: 'DNS', weight: 8644 }] }, { from: 1114, to: 10531, weight: 2510, annotations: [{ proto: 'DNS', weight: 2510 }] }, { from: 1114, to: 899, weight: 10062, annotations: [{ proto: 'DNS', weight: 10062 }] }, { from: 1114, to: 171, weight: 1506, annotations: [{ proto: 'DNS', weight: 1506 }] }, { from: 6403, to: 899, weight: 2998, annotations: [{ proto: 'DNS', weight: 2998 }] }, { from: 575, to: 899, weight: 5500, annotations: [{ proto: 'DNS', weight: 5500 }] }, { from: 2346, to: 899, weight: 22828, annotations: [{ proto: 'DNS', weight: 22828 }] }, { from: 8679, to: 2872, weight: 18689, annotations: [{ proto: 'DNS', weight: 18689 }] }, { from: 8679, to: 2871, weight: 728, annotations: [{ proto: 'DNS', weight: 728 }] }, { from: 7470, to: 2872, weight: 23780, annotations: [{ proto: 'DNS', weight: 23780 }] }, { from: 7470, to: 2871, weight: 493, annotations: [{ proto: 'DNS', weight: 493 }] }, { from: 7061, to: 899, weight: 22496, annotations: [{ proto: 'DNS', weight: 22496 }] }, { from: 8576, to: 899, weight: 9172, annotations: [{ proto: 'DNS', weight: 9172 }] }, { from: 8489, to: 171, weight: 16348, annotations: [{ proto: 'DNS', weight: 16348 }] }, { from: 2950, to: 10531, weight: 2868, annotations: [{ proto: 'DNS', weight: 2868 }] }, { from: 2950, to: 899, weight: 327101, annotations: [{ proto: 'DNS', weight: 327101 }] }, { from: 6055, to: 10531, weight: 3126, annotations: [{ proto: 'DNS', weight: 3126 }] }, { from: 6055, to: 899, weight: 709854, annotations: [{ proto: 'DNS', weight: 709854 }] }, { from: 1471, to: 899, weight: 43475, annotations: [{ proto: 'DNS', weight: 43475 }] }, { from: 7032, to: 899, weight: 16904, annotations: [{ proto: 'DNS', weight: 16904 }] }, { from: 3610, to: 899, weight: 22592, annotations: [{ proto: 'DNS', weight: 22592 }] }, { from: 2260, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 1132, to: 171, weight: 16192, annotations: [{ proto: 'DNS', weight: 16192 }] }, { from: 9765, to: 10531, weight: 3602, annotations: [{ proto: 'DNS', weight: 3602 }] }, { from: 9765, to: 899, weight: 935499, annotations: [{ proto: 'DNS', weight: 935499 }] }, { from: 9765, to: 422, weight: 1862, annotations: [{ proto: 'DNS', weight: 1862 }] }, { from: 888, to: 10531, weight: 114593, annotations: [{ proto: 'DNS', weight: 114593 }] }, { from: 888, to: 899, weight: 175472, annotations: [{ proto: 'DNS', weight: 175472 }] }, { from: 888, to: 422, weight: 736, annotations: [{ proto: 'DNS', weight: 736 }] }, { from: 11947, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 9357, to: 2872, weight: 124320, annotations: [{ proto: 'DNS', weight: 124320 }] }, { from: 9357, to: 2871, weight: 4698, annotations: [{ proto: 'DNS', weight: 4698 }] }, { from: 2250, to: 171, weight: 8748, annotations: [{ proto: 'DNS', weight: 8748 }] }, { from: 2393, to: 10531, weight: 3672, annotations: [{ proto: 'DNS', weight: 3672 }] }, { from: 2393, to: 899, weight: 610020, annotations: [{ proto: 'DNS', weight: 610020 }] }, { from: 2393, to: 171, weight: 2524, annotations: [{ proto: 'DNS', weight: 2524 }] }, { from: 11515, to: 899, weight: 471331, annotations: [{ proto: 'DNS', weight: 471331 }] }, { from: 11515, to: 422, weight: 600, annotations: [{ proto: 'DNS', weight: 600 }] }, { from: 11515, to: 10531, weight: 25707, annotations: [{ proto: 'DNS', weight: 25707 }] }, { from: 1492, to: 171, weight: 757470, annotations: [{ proto: 'DNS', weight: 757470 }] }, { from: 1492, to: 10531, weight: 601407, annotations: [{ proto: 'DNS', weight: 601407 }] }, { from: 1492, to: 899, weight: 1048508, annotations: [{ proto: 'DNS', weight: 1048508 }] }, { from: 11804, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 8429, to: 899, weight: 62264, annotations: [{ proto: 'DNS', weight: 62264 }] }, { from: 2368, to: 899, weight: 710434, annotations: [{ proto: 'DNS', weight: 710434 }] }, { from: 2368, to: 171, weight: 321506, annotations: [{ proto: 'DNS', weight: 321506 }] }, { from: 2368, to: 422, weight: 1433, annotations: [{ proto: 'DNS', weight: 1433 }] }, { from: 2169, to: 171, weight: 3584, annotations: [{ proto: 'DNS', weight: 3584 }] }, { from: 9941, to: 10531, weight: 2538, annotations: [{ proto: 'DNS', weight: 2538 }] }, { from: 9941, to: 899, weight: 7875, annotations: [{ proto: 'DNS', weight: 7875 }] }, { from: 495, to: 899, weight: 4984, annotations: [{ proto: 'DNS', weight: 4984 }] }, { from: 495, to: 10531, weight: 5019, annotations: [{ proto: 'DNS', weight: 5019 }] }, { from: 2425, to: 171, weight: 361592, annotations: [{ proto: 'DNS', weight: 361592 }] }, { from: 2425, to: 10531, weight: 325961, annotations: [{ proto: 'DNS', weight: 325961 }] }, { from: 2425, to: 899, weight: 293532, annotations: [{ proto: 'DNS', weight: 293532 }] }, { from: 11904, to: 899, weight: 58, annotations: [{ proto: 'DNS', weight: 58 }] }, { from: 1893, to: 899, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 2623, to: 899, weight: 53644, annotations: [{ proto: 'DNS', weight: 53644 }] }, { from: 3309, to: 2872, weight: 777677, annotations: [{ proto: 'DNS', weight: 777677 }] }, { from: 3309, to: 2871, weight: 189883, annotations: [{ proto: 'DNS', weight: 189883 }] }, { from: 5823, to: 899, weight: 5720, annotations: [{ proto: 'DNS', weight: 5720 }] }, { from: 1986, to: 899, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 3363, to: 899, weight: 224946, annotations: [{ proto: 'DNS', weight: 224946 }] }, { from: 3553, to: 899, weight: 113992, annotations: [{ proto: 'DNS', weight: 113992 }] }, { from: 695, to: 171, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 3970, to: 2872, weight: 149939, annotations: [{ proto: 'DNS', weight: 149939 }] }, { from: 1544, to: 899, weight: 7920, annotations: [{ proto: 'DNS', weight: 7920 }] }, { from: 5663, to: 10531, weight: 11835, annotations: [{ proto: 'DNS', weight: 11835 }] }, { from: 5663, to: 899, weight: 103373, annotations: [{ proto: 'DNS', weight: 103373 }] }, { from: 5663, to: 171, weight: 1498, annotations: [{ proto: 'DNS', weight: 1498 }] }, { from: 1834, to: 899, weight: 466968, annotations: [{ proto: 'DNS', weight: 466968 }] }, { from: 1834, to: 171, weight: 1194, annotations: [{ proto: 'DNS', weight: 1194 }] }, { from: 1834, to: 10531, weight: 151308, annotations: [{ proto: 'DNS', weight: 151308 }] }, { from: 2231, to: 899, weight: 308, annotations: [{ proto: 'DNS', weight: 308 }] }, { from: 1143, to: 899, weight: 8700, annotations: [{ proto: 'DNS', weight: 8700 }] }, { from: 1562, to: 899, weight: 13134, annotations: [{ proto: 'DNS', weight: 13134 }] }, { from: 9763, to: 2872, weight: 292684, annotations: [{ proto: 'DNS', weight: 292684 }] }, { from: 9763, to: 2871, weight: 122348, annotations: [{ proto: 'DNS', weight: 122348 }] }, { from: 7671, to: 2872, weight: 48374, annotations: [{ proto: 'DNS', weight: 48374 }] }, { from: 7671, to: 2871, weight: 1897, annotations: [{ proto: 'DNS', weight: 1897 }] }, { from: 685, to: 10531, weight: 6575, annotations: [{ proto: 'DNS', weight: 6575 }] }, { from: 685, to: 899, weight: 167808, annotations: [{ proto: 'DNS', weight: 167808 }] }, { from: 685, to: 171, weight: 6458, annotations: [{ proto: 'DNS', weight: 6458 }] }, { from: 1209, to: 10531, weight: 546730, annotations: [{ proto: 'DNS', weight: 546730 }] }, { from: 1209, to: 899, weight: 1488614, annotations: [{ proto: 'DNS', weight: 1488614 }] }, { from: 1209, to: 171, weight: 1121462, annotations: [{ proto: 'DNS', weight: 1121462 }] }, { from: 1209, to: 422, weight: 1467, annotations: [{ proto: 'DNS', weight: 1467 }] }, { from: 2164, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 2049, to: 10531, weight: 3738, annotations: [{ proto: 'DNS', weight: 3738 }] }, { from: 2049, to: 899, weight: 4858, annotations: [{ proto: 'DNS', weight: 4858 }] }, { from: 1360, to: 10531, weight: 228110, annotations: [{ proto: 'DNS', weight: 228110 }] }, { from: 1360, to: 899, weight: 197633, annotations: [{ proto: 'DNS', weight: 197633 }] }, { from: 1360, to: 171, weight: 179825, annotations: [{ proto: 'DNS', weight: 179825 }] }, { from: 3327, to: 10531, weight: 172676, annotations: [{ proto: 'DNS', weight: 172676 }] }, { from: 3327, to: 899, weight: 142621, annotations: [{ proto: 'DNS', weight: 142621 }] }, { from: 3327, to: 171, weight: 189823, annotations: [{ proto: 'DNS', weight: 189823 }] }, { from: 9851, to: 899, weight: 3038, annotations: [{ proto: 'DNS', weight: 3038 }] }, { from: 11911, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 5341, to: 899, weight: 11568, annotations: [{ proto: 'DNS', weight: 11568 }] }, { from: 2595, to: 899, weight: 19684, annotations: [{ proto: 'DNS', weight: 19684 }] }, { from: 5654, to: 899, weight: 177655, annotations: [{ proto: 'DNS', weight: 177655 }] }, { from: 1831, to: 171, weight: 493020, annotations: [{ proto: 'DNS', weight: 493020 }] }, { from: 1005, to: 2872, weight: 43488, annotations: [{ proto: 'DNS', weight: 43488 }] }, { from: 1647, to: 10531, weight: 159124, annotations: [{ proto: 'DNS', weight: 159124 }] }, { from: 7999, to: 899, weight: 26688, annotations: [{ proto: 'DNS', weight: 26688 }] }, { from: 2496, to: 899, weight: 267160, annotations: [{ proto: 'DNS', weight: 267160 }] }, { from: 3801, to: 2872, weight: 1354, annotations: [{ proto: 'DNS', weight: 1354 }] }, { from: 5345, to: 899, weight: 3561792, annotations: [{ proto: 'DNS', weight: 3561792 }] }, { from: 5345, to: 171, weight: 1895939, annotations: [{ proto: 'DNS', weight: 1895939 }] }, { from: 5345, to: 10531, weight: 2345246, annotations: [{ proto: 'DNS', weight: 2345246 }] }, { from: 1087, to: 899, weight: 5500, annotations: [{ proto: 'DNS', weight: 5500 }] }, { from: 1021, to: 899, weight: 11162, annotations: [{ proto: 'DNS', weight: 11162 }] }, { from: 10793, to: 899, weight: 13304, annotations: [{ proto: 'DNS', weight: 13304 }] }, { from: 7109, to: 2872, weight: 58135, annotations: [{ proto: 'DNS', weight: 58135 }] }, { from: 7109, to: 2871, weight: 7435, annotations: [{ proto: 'DNS', weight: 7435 }] }, { from: 2914, to: 2872, weight: 4573, annotations: [{ proto: 'DNS', weight: 4573 }] }, { from: 2914, to: 2871, weight: 2338, annotations: [{ proto: 'DNS', weight: 2338 }] }, { from: 2384, to: 899, weight: 791162, annotations: [{ proto: 'DNS', weight: 791162 }] }, { from: 2384, to: 171, weight: 794537, annotations: [{ proto: 'DNS', weight: 794537 }] }, { from: 2384, to: 10531, weight: 475159, annotations: [{ proto: 'DNS', weight: 475159 }] }, { from: 1162, to: 10531, weight: 801075, annotations: [{ proto: 'DNS', weight: 801075 }] }, { from: 2282, to: 899, weight: 3220, annotations: [{ proto: 'DNS', weight: 3220 }] }, { from: 2229, to: 899, weight: 2856, annotations: [{ proto: 'DNS', weight: 2856 }] }, { from: 1389, to: 899, weight: 5720, annotations: [{ proto: 'DNS', weight: 5720 }] }, { from: 1866, to: 899, weight: 5832, annotations: [{ proto: 'DNS', weight: 5832 }] }, { from: 1567, to: 899, weight: 7704300, annotations: [{ proto: 'DNS', weight: 7704300 }] }, { from: 2254, to: 171, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 2467, to: 171, weight: 11408, annotations: [{ proto: 'DNS', weight: 11408 }] }, { from: 1609, to: 2872, weight: 91667, annotations: [{ proto: 'DNS', weight: 91667 }] }, { from: 1609, to: 2871, weight: 2999, annotations: [{ proto: 'DNS', weight: 2999 }] }, { from: 11809, to: 899, weight: 180, annotations: [{ proto: 'DNS', weight: 180 }] }, { from: 656, to: 171, weight: 6483, annotations: [{ proto: 'DNS', weight: 6483 }] }, { from: 1197, to: 899, weight: 25268, annotations: [{ proto: 'DNS', weight: 25268 }] }, { from: 1197, to: 10531, weight: 9342, annotations: [{ proto: 'DNS', weight: 9342 }] }, { from: 7151, to: 899, weight: 389377, annotations: [{ proto: 'DNS', weight: 389377 }] }, { from: 8408, to: 171, weight: 4010, annotations: [{ proto: 'DNS', weight: 4010 }] }, { from: 8408, to: 8409, weight: 3089, annotations: [{ proto: 'DNS', weight: 3089 }] }, { from: 10762, to: 899, weight: 530791, annotations: [{ proto: 'DNS', weight: 530791 }] }, { from: 10762, to: 10531, weight: 308, annotations: [{ proto: 'DNS', weight: 308 }] }, { from: 2256, to: 171, weight: 97233, annotations: [{ proto: 'DNS', weight: 97233 }] }, { from: 2256, to: 422, weight: 467, annotations: [{ proto: 'DNS', weight: 467 }] }, { from: 2256, to: 10531, weight: 47997, annotations: [{ proto: 'DNS', weight: 47997 }] }, { from: 2256, to: 899, weight: 82424, annotations: [{ proto: 'DNS', weight: 82424 }] }, { from: 2284, to: 899, weight: 3248, annotations: [{ proto: 'DNS', weight: 3248 }] }, { from: 9733, to: 899, weight: 258290, annotations: [{ proto: 'DNS', weight: 258290 }] }, { from: 1196, to: 171, weight: 130, annotations: [{ proto: 'DNS', weight: 130 }] }, { from: 2047, to: 171, weight: 5940, annotations: [{ proto: 'DNS', weight: 5940 }] }, { from: 8323, to: 422, weight: 2937, annotations: [{ proto: 'DNS', weight: 2937 }] }, { from: 1514, to: 10531, weight: 3861, annotations: [{ proto: 'DNS', weight: 3861 }] }, { from: 1514, to: 899, weight: 538670, annotations: [{ proto: 'DNS', weight: 538670 }] }, { from: 2213, to: 899, weight: 451709, annotations: [{ proto: 'DNS', weight: 451709 }] }, { from: 2213, to: 171, weight: 436084, annotations: [{ proto: 'DNS', weight: 436084 }] }, { from: 2213, to: 10531, weight: 265340, annotations: [{ proto: 'DNS', weight: 265340 }] }, { from: 9853, to: 899, weight: 308, annotations: [{ proto: 'DNS', weight: 308 }] }, { from: 11588, to: 899, weight: 8556, annotations: [{ proto: 'DNS', weight: 8556 }] }, { from: 11301, to: 899, weight: 1998604, annotations: [{ proto: 'DNS', weight: 1998604 }] }, { from: 8339, to: 10531, weight: 2064, annotations: [{ proto: 'DNS', weight: 2064 }] }, { from: 8339, to: 899, weight: 300066, annotations: [{ proto: 'DNS', weight: 300066 }] }, { from: 8339, to: 171, weight: 3986, annotations: [{ proto: 'DNS', weight: 3986 }] }, { from: 2240, to: 899, weight: 3066, annotations: [{ proto: 'DNS', weight: 3066 }] }, { from: 3539, to: 899, weight: 13536, annotations: [{ proto: 'DNS', weight: 13536 }] }, { from: 1027, to: 10531, weight: 456, annotations: [{ proto: 'DNS', weight: 456 }] }, { from: 1027, to: 899, weight: 306935, annotations: [{ proto: 'DNS', weight: 306935 }] }, { from: 2230, to: 10531, weight: 429686, annotations: [{ proto: 'DNS', weight: 429686 }] }, { from: 2230, to: 899, weight: 604248, annotations: [{ proto: 'DNS', weight: 604248 }] }, { from: 2230, to: 171, weight: 834455, annotations: [{ proto: 'DNS', weight: 834455 }] }, { from: 2460, to: 171, weight: 2707763, annotations: [{ proto: 'DNS', weight: 2707763 }] }, { from: 2460, to: 422, weight: 1112, annotations: [{ proto: 'DNS', weight: 1112 }] }, { from: 2460, to: 2872, weight: 72, annotations: [{ proto: 'DNS', weight: 72 }] }, { from: 2460, to: 10531, weight: 824366, annotations: [{ proto: 'DNS', weight: 824366 }] }, { from: 2460, to: 899, weight: 2164191, annotations: [{ proto: 'DNS', weight: 2164191 }] }, { from: 10342, to: 899, weight: 6373, annotations: [{ proto: 'DNS', weight: 6373 }] }, { from: 11599, to: 899, weight: 357438, annotations: [{ proto: 'DNS', weight: 357438 }] }, { from: 171, to: 637, weight: 1173500, annotations: [{ proto: 'DNS', weight: 1173500 }] }, { from: 171, to: 11, weight: 16131, annotations: [{ proto: 'DNS', weight: 16131 }] }, { from: 171, to: 10056, weight: 335705, annotations: [{ proto: 'DNS', weight: 335705 }] }, { from: 171, to: 387, weight: 9638, annotations: [{ proto: 'DNS', weight: 9638 }] }, { from: 171, to: 957, weight: 9022, annotations: [{ proto: 'DNS', weight: 9022 }] }, { from: 10833, to: 899, weight: 8246, annotations: [{ proto: 'DNS', weight: 8246 }] }, { from: 2592, to: 10531, weight: 342, annotations: [{ proto: 'DNS', weight: 342 }] }, { from: 2592, to: 899, weight: 99040, annotations: [{ proto: 'DNS', weight: 99040 }] }, { from: 5479, to: 10531, weight: 442, annotations: [{ proto: 'DNS', weight: 442 }] }, { from: 5479, to: 899, weight: 1573, annotations: [{ proto: 'DNS', weight: 1573 }] }, { from: 11018, to: 10531, weight: 897, annotations: [{ proto: 'DNS', weight: 897 }] }, { from: 11018, to: 899, weight: 91619, annotations: [{ proto: 'DNS', weight: 91619 }] }, { from: 2868, to: 899, weight: 846654, annotations: [{ proto: 'DNS', weight: 846654 }] }, { from: 2868, to: 171, weight: 828, annotations: [{ proto: 'DNS', weight: 828 }] }, { from: 2868, to: 10531, weight: 18990, annotations: [{ proto: 'DNS', weight: 18990 }] }, { from: 6414, to: 10531, weight: 11193568, annotations: [{ proto: 'DNS', weight: 11193568 }] }, { from: 6414, to: 899, weight: 26808850, annotations: [{ proto: 'DNS', weight: 26808850 }] }, { from: 6414, to: 171, weight: 9654707, annotations: [{ proto: 'DNS', weight: 9654707 }] }, { from: 6414, to: 2872, weight: 16416, annotations: [{ proto: 'DNS', weight: 16416 }] }, { from: 1698, to: 899, weight: 2702, annotations: [{ proto: 'DNS', weight: 2702 }] }, { from: 11752, to: 899, weight: 6780, annotations: [{ proto: 'DNS', weight: 6780 }] }, { from: 931, to: 899, weight: 10866, annotations: [{ proto: 'DNS', weight: 10866 }] }, { from: 8149, to: 2872, weight: 34476, annotations: [{ proto: 'DNS', weight: 34476 }] }] } };
 
 /***/ }),
-/* 206 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _infernoCreateElement = __webpack_require__(61);
+var _infernoCreateElement = __webpack_require__(64);
 
 var _infernoCreateElement2 = _interopRequireDefault(_infernoCreateElement);
 
-var _inferno = __webpack_require__(62);
+var _inferno = __webpack_require__(65);
 
 var _inferno2 = _interopRequireDefault(_inferno);
 
-var _Client = __webpack_require__(203);
+var _Client = __webpack_require__(209);
 
 var _Client2 = _interopRequireDefault(_Client);
 
@@ -28079,7 +28578,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _inferno2.default.render((0, _infernoCreateElement2.default)(_Client2.default, null), document.getElementById('client'));
 
 /***/ }),
-/* 207 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28089,23 +28588,23 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _classCallCheck2 = __webpack_require__(63);
+var _classCallCheck2 = __webpack_require__(27);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(64);
+var _createClass2 = __webpack_require__(28);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _underscore = __webpack_require__(60);
+var _underscore = __webpack_require__(26);
 
 var _underscore2 = _interopRequireDefault(_underscore);
 
-var _d3Scale = __webpack_require__(86);
+var _d3Scale = __webpack_require__(34);
 
 var d3_scale = _interopRequireWildcard(_d3Scale);
 
-var _pixi = __webpack_require__(442);
+var _pixi = __webpack_require__(198);
 
 var PIXI = _interopRequireWildcard(_pixi);
 
@@ -28143,7 +28642,7 @@ var Drawing = function () {
         this.linkLayer = new PIXI.Container();
         this.stage.addChild(this.linkLayer);
         this.stage.addChild(this.nodeLayer);
-        this.setColors('Magma');
+        this.setColor('Magma');
     }
 
     (0, _createClass3.default)(Drawing, [{
@@ -28174,8 +28673,8 @@ var Drawing = function () {
             this.renderer.resize(width, height);
         }
     }, {
-        key: 'setColors',
-        value: function setColors(colorKey) {
+        key: 'setColor',
+        value: function setColor(colorKey) {
             var color = _constants.D3Colors[colorKey];
             this.colorScale = d3_scale.scaleSequential(color.interpolator).domain(color.domain);
         }
@@ -28219,6 +28718,7 @@ var Drawing = function () {
                 var sprite = _this3.nodeSpritesById[node.id];
                 if (!sprite) {
                     sprite = new PIXI.Sprite(_this3.nodeTexture);
+                    // sprite.on('pointerout', () => this.fadeInSprites())
                     _this3.nodeSpritesById[node.id] = sprite;
                     _this3.nodeLayer.addChild(sprite);
                 }
@@ -28232,6 +28732,7 @@ var Drawing = function () {
                 var sprite = _this3.linkSpritesById[link.id];
                 if (!sprite) {
                     sprite = new PIXI.Sprite(_this3.linkTexture);
+                    // sprite.on('pointerout', () => this.fadeInSprites())
                     _this3.linkSpritesById[link.id] = sprite;
                     _this3.linkLayer.addChild(sprite);
                 }
@@ -28341,7 +28842,7 @@ var setLinkPosition = function setLinkPosition(sprite, node1, node2) {
 };
 
 /***/ }),
-/* 208 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28351,23 +28852,23 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _classCallCheck2 = __webpack_require__(63);
+var _classCallCheck2 = __webpack_require__(27);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(64);
+var _createClass2 = __webpack_require__(28);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _underscore = __webpack_require__(60);
+var _underscore = __webpack_require__(26);
 
 var _underscore2 = _interopRequireDefault(_underscore);
 
-var _Drawing = __webpack_require__(207);
+var _Drawing = __webpack_require__(213);
 
 var _Drawing2 = _interopRequireDefault(_Drawing);
 
-var _worker = __webpack_require__(476);
+var _worker = __webpack_require__(480);
 
 var _worker2 = _interopRequireDefault(_worker);
 
@@ -28375,11 +28876,11 @@ var _util = __webpack_require__(109);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Module = function () {
-    function Module(width, height, canvas) {
+var PixiMap = function () {
+    function PixiMap(width, height, canvas) {
         var _this = this;
 
-        (0, _classCallCheck3.default)(this, Module);
+        (0, _classCallCheck3.default)(this, PixiMap);
 
         this.isDestroyed = false;
         this.width = width;
@@ -28409,7 +28910,7 @@ var Module = function () {
         });
     }
 
-    (0, _createClass3.default)(Module, [{
+    (0, _createClass3.default)(PixiMap, [{
         key: 'update',
         value: function update(edges) {
             var _this2 = this;
@@ -28453,7 +28954,7 @@ var Module = function () {
         key: 'config',
         value: function config(opts) {
             if (opts.colorKey) {
-                this.drawing.setColors(opts.colorKey);
+                this.drawing.setColor(opts.colorKey);
                 this.drawing.update(this.nodes, this.links);
             }
         }
@@ -28509,6 +29010,9 @@ var Module = function () {
                 } else {
                     link.status = 'updated';
                 }
+                // Add link reference to each node
+                fromNode.linksById[link.id] = link;
+                toNode.linksById[link.id] = link;
             });
             // Give renderer a chance to handle removed nodes/links
             this.drawing.remove(this.nodes, this.links);
@@ -28539,79 +29043,10 @@ var Module = function () {
             });
         }
     }]);
-    return Module;
+    return PixiMap;
 }();
 
-exports.default = Module;
-
-/***/ }),
-/* 209 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(216), __esModule: true };
-
-/***/ }),
-/* 210 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(217), __esModule: true };
-
-/***/ }),
-/* 211 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(218), __esModule: true };
-
-/***/ }),
-/* 212 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(219), __esModule: true };
-
-/***/ }),
-/* 213 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(220), __esModule: true };
-
-/***/ }),
-/* 214 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _setPrototypeOf = __webpack_require__(211);
-
-var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
-
-var _create = __webpack_require__(209);
-
-var _create2 = _interopRequireDefault(_create);
-
-var _typeof2 = __webpack_require__(110);
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : (0, _typeof3.default)(superClass)));
-  }
-
-  subClass.prototype = (0, _create2.default)(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      enumerable: false,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) _setPrototypeOf2.default ? (0, _setPrototypeOf2.default)(subClass, superClass) : subClass.__proto__ = superClass;
-};
+exports.default = PixiMap;
 
 /***/ }),
 /* 215 */
@@ -28620,69 +29055,734 @@ exports.default = function (subClass, superClass) {
 "use strict";
 
 
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 
-var _typeof2 = __webpack_require__(110);
+var _classCallCheck2 = __webpack_require__(27);
 
-var _typeof3 = _interopRequireDefault(_typeof2);
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(28);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _underscore = __webpack_require__(26);
+
+var _underscore2 = _interopRequireDefault(_underscore);
+
+var _d3Scale = __webpack_require__(34);
+
+var d3_scale = _interopRequireWildcard(_d3Scale);
+
+var _pixi = __webpack_require__(198);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _constants = __webpack_require__(217);
+
+var _util = __webpack_require__(110);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (self, call) {
-  if (!self) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
+var Drawing = function () {
+    function Drawing(width, height, canvas) {
+        (0, _classCallCheck3.default)(this, Drawing);
 
-  return call && ((typeof call === "undefined" ? "undefined" : (0, _typeof3.default)(call)) === "object" || typeof call === "function") ? call : self;
+        this.isRunning = false;
+        this.nodeTexture = PIXI.Texture.fromCanvas(makeNodeCanvas());
+        this.linkTexture = PIXI.Texture.fromCanvas(makeLinkCanvas());
+        this.nodeSpritesById = {};
+        this.linkSpritesById = {};
+        this.renderer = PIXI.autoDetectRenderer(width, height, {
+            antialias: true,
+            backgroundColor: 0x333333,
+            view: canvas
+        });
+        this.stage = new PIXI.Container();
+        this.stage.width = width;
+        this.stage.height = height;
+        this.stage.x += width / 2;
+        this.stage.y += height / 2;
+        this.stage.scale.x = 0.7; // magic #
+        this.stage.scale.y = 0.7; // magic #
+        this.stage.alpha = 0;
+        this.nodeLayer = new PIXI.Container();
+        this.linkLayer = new PIXI.Container();
+        this.stage.addChild(this.linkLayer);
+        this.stage.addChild(this.nodeLayer);
+        this.setColor('Magma');
+    }
+
+    (0, _createClass3.default)(Drawing, [{
+        key: 'run',
+        value: function run() {
+            this.isRunning = true;
+            this.loop();
+        }
+    }, {
+        key: 'halt',
+        value: function halt() {
+            this.isRunning = false;
+        }
+    }, {
+        key: 'loop',
+        value: function loop() {
+            var _this = this;
+
+            if (!this.isRunning) return;
+            window.requestAnimationFrame(function () {
+                _this.renderer.render(_this.stage);
+                _this.loop();
+            });
+        }
+    }, {
+        key: 'resize',
+        value: function resize(width, height) {
+            this.renderer.resize(width, height);
+        }
+    }, {
+        key: 'setColor',
+        value: function setColor(colorKey) {
+            var color = _constants.D3Colors[colorKey];
+            this.colorScale = d3_scale.scaleSequential(color.interpolator).domain(color.domain);
+        }
+    }, {
+        key: 'fadeOutSprites',
+        value: function fadeOutSprites() {
+            _underscore2.default.each(this.nodeSpritesById, fadeOutSprite);
+            _underscore2.default.each(this.linkSpritesById, fadeOutSprite);
+        }
+    }, {
+        key: 'fadeInSprites',
+        value: function fadeInSprites() {
+            _underscore2.default.each(this.nodeSpritesById, fadeInSprite);
+            _underscore2.default.each(this.linkSpritesById, fadeInSprite);
+        }
+    }, {
+        key: 'hoverNode',
+        value: function hoverNode(node) {
+            var _this2 = this;
+
+            this.fadeOutSprites();
+            var nodesById = {};
+            nodesById[node.id] = node;
+            _underscore2.default.each(node.linksById, function (link) {
+                // save connected nodes
+                nodesById[link.source.id] = link.source;
+                nodesById[link.target.id] = link.target;
+                // fade in link sprite
+                fadeInSprite(_this2.linkSpritesById[link.id]);
+            });
+            // fade in node sprites
+            _underscore2.default.each(nodesById, function (node) {
+                fadeInSprite(_this2.nodeSpritesById[node.id]);
+            });
+        }
+    }, {
+        key: 'hoverLink',
+        value: function hoverLink(link) {
+            this.fadeOutSprites();
+            // fade in link sprite
+            fadeInSprite(this.linkSpritesById[link.id]);
+            // fade in node sprites
+            fadeInSprite(this.nodeSpritesById[link.source.id]);
+            fadeInSprite(this.nodeSpritesById[link.target.id]);
+        }
+    }, {
+        key: 'remove',
+        value: function remove(nodes, links) {
+            var _this3 = this;
+
+            // Clean out sprites for any removed nodes
+            _underscore2.default.each(nodes, function (node) {
+                if (node.status !== 'removed') return;
+                var sprite = _this3.nodeSpritesById[node.id];
+                if (sprite) {
+                    delete _this3.nodeSpritesById[node.id];
+                    _this3.nodeLayer.removeChild(sprite);
+                    setTimeout(function () {
+                        return sprite.destroy();
+                    }, 0);
+                }
+            });
+            // Clean out sprites for any removed links
+            _underscore2.default.each(links, function (link) {
+                if (link.status !== 'removed') return;
+                var sprite = _this3.linkSpritesById[link.id];
+                if (sprite) {
+                    delete _this3.linkSpritesById[link.id];
+                    _this3.linkLayer.removeChild(sprite);
+                    setTimeout(function () {
+                        return sprite.destroy();
+                    }, 0);
+                }
+            });
+        }
+    }, {
+        key: 'update',
+        value: function update(nodes, links) {
+            var _this4 = this;
+
+            // Create/Update node sprites
+            _underscore2.default.each(nodes, function (node) {
+                var sprite = _this4.nodeSpritesById[node.id];
+                if (!sprite) {
+                    sprite = new PIXI.Sprite(_this4.nodeTexture);
+                    sprite.interactive = true;
+                    sprite.interactiveChildren = false;
+                    sprite.buttonMode = true;
+                    sprite.on('pointerover', function () {
+                        return _this4.hoverNode(node);
+                    });
+                    // sprite.on('pointerout', () => this.fadeInSprites())
+                    _this4.nodeSpritesById[node.id] = sprite;
+                    _this4.nodeLayer.addChild(sprite);
+                }
+                sprite.tint = (0, _util.colorToHex)(_this4.colorScale(node.scale));
+                sprite.scale.x = node.scale * 0.8; // magic #
+                sprite.scale.y = node.scale * 0.8; // magic #
+                // sprite.alpha = node.scale + 0.7 // magic #
+                sprite.alpha = 0.2;
+            });
+            // Create/Update link sprites
+            _underscore2.default.each(links, function (link) {
+                var sprite = _this4.linkSpritesById[link.id];
+                if (!sprite) {
+                    sprite = new PIXI.Sprite(_this4.linkTexture);
+                    sprite.interactive = true;
+                    sprite.interactiveChildren = false;
+                    sprite.buttonMode = true;
+                    sprite.on('pointerover', function () {
+                        return _this4.hoverLink(link);
+                    });
+                    // sprite.on('pointerout', () => this.fadeInSprites())
+                    _this4.linkSpritesById[link.id] = sprite;
+                    _this4.linkLayer.addChild(sprite);
+                }
+                sprite.tint = (0, _util.colorToHex)(_this4.colorScale(link.scale));
+                sprite.scale.y = link.scale * 1.2; // magic #
+                // sprite.alpha = link.scale
+                sprite.alpha = 0.2;
+            });
+        }
+    }, {
+        key: 'tick',
+        value: function tick(nodes, links) {
+            var _this5 = this;
+
+            // Move node sprites
+            _underscore2.default.each(nodes, function (node) {
+                if (node.status === 'removed') return;
+                var sprite = _this5.nodeSpritesById[node.id];
+                sprite.x = node.x - sprite.width / 2;
+                sprite.y = node.y - sprite.height / 2;
+            });
+            // Move link sprites
+            _underscore2.default.each(links, function (link) {
+                if (link.status === 'removed') return;
+                var sprite = _this5.linkSpritesById[link.id];
+                var node1 = link.source;
+                var node2 = link.target;
+                setLinkPosition(sprite, node1, node2);
+            });
+            // Increment stage opacity (if not full)
+            if (this.stage.alpha < 1) this.stage.alpha += 0.01;
+        }
+    }, {
+        key: 'destroy',
+        value: function destroy() {
+            // stop loop
+            this.halt();
+            // clean up pixi
+            this.stage.destroy({
+                children: true,
+                texture: true,
+                baseTexture: true
+            });
+            this.renderer.destroy();
+        }
+    }]);
+    return Drawing;
+}();
+
+exports.default = Drawing;
+
+var nodeWidth = 32; // magic # (must be power of 2)
+var nodeHeight = nodeWidth; // square
+var nodeRadius = nodeWidth / 2 - 4; // magic #
+var linkLength = 8; // magic # (must be power of 2)
+var linkHeight = linkLength; // square
+var linkThickness = 2; // magic #
+var makeNodeCanvas = function makeNodeCanvas() {
+    var x = nodeWidth / 2;
+    var y = nodeHeight / 2;
+    var canvas = (0, _util.makeCanvas)(nodeWidth, nodeHeight);
+    var context = canvas.context;
+    context.beginPath();
+    context.moveTo(x + 4, y);
+    context.arc(x, y, nodeRadius, 0, 2 * Math.PI);
+    context.fillStyle = 'rgba(255, 255, 255, 1)';
+    context.fill();
+    context.strokeStyle = 'rgba(255, 255, 255, 1)';
+    context.stroke();
+    return canvas.element;
+};
+var makeLinkCanvas = function makeLinkCanvas() {
+    var x1 = 0;
+    var x2 = linkLength;
+    var y1 = linkHeight / 2 - linkThickness / 2;
+    var y2 = y1; // horizontal line
+    var canvas = (0, _util.makeCanvas)(linkLength, linkHeight);
+    var context = canvas.context;
+    context.beginPath();
+    context.moveTo(x1, y1);
+    context.lineWidth = linkThickness;
+    context.lineTo(x2, y2);
+    context.strokeStyle = 'rgba(255, 255, 255, 1)';
+    context.stroke();
+    return canvas.element;
+};
+var setLinkPosition = function setLinkPosition(sprite, node1, node2) {
+    // extract node coords
+    var x1 = node1.x;
+    var y1 = node1.y;
+    var x2 = node2.x;
+    var y2 = node2.y;
+    // calculate new length & angle
+    var xDiff = x2 - x1;
+    var yDiff = y2 - y1;
+    var length = Math.sqrt(xDiff * xDiff + yDiff * yDiff);
+    var radians = Math.acos(yDiff / length);
+    if (x2 > x1) radians *= -1;
+    // set new position
+    sprite.x = x1;
+    sprite.y = y1;
+    // set new rotation
+    sprite.pivot.x = 0;
+    sprite.pivot.y = linkHeight / 2;
+    sprite.rotation = radians + Math.PI / 2;
+    // set new stretch
+    sprite.scale.x = length / linkLength;
+};
+var fadeOutSprite = function fadeOutSprite(sprite) {
+    return sprite && (sprite.alpha = 0.2);
+};
+var fadeInSprite = function fadeInSprite(sprite) {
+    return sprite && (sprite.alpha = 1);
 };
 
 /***/ }),
 /* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(241);
-var $Object = __webpack_require__(26).Object;
-module.exports = function create(P, D){
-  return $Object.create(P, D);
-};
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(27);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(28);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _underscore = __webpack_require__(26);
+
+var _underscore2 = _interopRequireDefault(_underscore);
+
+var _Drawing = __webpack_require__(215);
+
+var _Drawing2 = _interopRequireDefault(_Drawing);
+
+var _worker = __webpack_require__(481);
+
+var _worker2 = _interopRequireDefault(_worker);
+
+var _util = __webpack_require__(110);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var PixiMap = function () {
+    function PixiMap(width, height, canvas) {
+        var _this = this;
+
+        (0, _classCallCheck3.default)(this, PixiMap);
+
+        this.isDestroyed = false;
+        this.width = width;
+        this.height = height;
+        this.nodes = [];
+        this.links = [];
+        this.nodesById = {};
+        this.linksById = {};
+        this.drawing = new _Drawing2.default(width, height, canvas);
+        this.drawing.run(); // TODO: halt?
+        this.worker = new _worker2.default();
+        this.worker.addEventListener('message', function (e) {
+            if (_this.isDestroyed) return;
+            switch (e.data.type) {
+                case 'tick':
+                    {
+                        // save new data for later updates
+                        _this.nodes = e.data.nodes;
+                        _this.links = e.data.links;
+                        _this.nodesById = e.data.nodesById;
+                        _this.linksById = e.data.linksById;
+                        // pass ticked nodes/links to drawing
+                        _this.drawing.tick(e.data.nodes, e.data.links);
+                        break;
+                    }
+            }
+        });
+    }
+
+    (0, _createClass3.default)(PixiMap, [{
+        key: 'update',
+        value: function update(edges) {
+            var _this2 = this;
+
+            // Module & renderer data changes are sync
+            // but worker is async, running in background with old data
+            // and could send 'tick' message with outdated nodes/links
+            //
+            // So, halt worker before updating
+            // and resume it once we're done
+            // with a one-time 'halt' listener
+            var haltListener = function haltListener(e) {
+                if (_this2.isDestroyed) return;
+                switch (e.data.type) {
+                    case 'halt':
+                        {
+                            _this2.handleEdges(edges);
+                            _this2.drawing.update(_this2.nodes, _this2.links);
+                            _this2.worker.removeEventListener('message', haltListener);
+                            _this2.worker.postMessage({
+                                type: 'run',
+                                limit: 200,
+                                nodes: _this2.nodes,
+                                links: _this2.links,
+                                nodesById: _this2.nodesById,
+                                linksById: _this2.linksById
+                            });
+                            break;
+                        }
+                }
+            };
+            this.worker.addEventListener('message', haltListener);
+            this.worker.postMessage({ type: 'halt' });
+        }
+    }, {
+        key: 'resize',
+        value: function resize(width, height) {
+            this.drawing.resize(width, height);
+        }
+    }, {
+        key: 'config',
+        value: function config(opts) {
+            if (opts.colorKey) {
+                this.drawing.setColor(opts.colorKey);
+                this.drawing.update(this.nodes, this.links);
+            }
+        }
+    }, {
+        key: 'destroy',
+        value: function destroy() {
+            this.isDestroyed = true;
+            this.worker.postMessage({ type: 'destroy' });
+            this.drawing.destroy();
+        }
+    }, {
+        key: 'handleEdges',
+        value: function handleEdges(edges) {
+            var _this3 = this;
+
+            // Assume all current node/links removed
+            // (unless proven otherwise, in next loop)
+            _underscore2.default.each(this.nodes, function (node) {
+                return node.status = 'removed';
+            });
+            _underscore2.default.each(this.links, function (link) {
+                return link.status = 'removed';
+            });
+            // Use edge data to update node/link collections
+            _underscore2.default.each(edges, function (edge) {
+                if (!edge.weight) return;
+                // Source node
+                var fromNode = _this3.nodesById[edge.from];
+                if (!fromNode) {
+                    fromNode = (0, _util.makeNode)(edge.from);
+                    _this3.nodesById[fromNode.id] = fromNode;
+                    _this3.nodes.push(fromNode);
+                } else {
+                    fromNode.status = 'updated';
+                }
+                // Target node
+                var toNode = _this3.nodesById[edge.to];
+                if (!toNode) {
+                    toNode = (0, _util.makeNode)(edge.to);
+                    _this3.nodesById[toNode.id] = toNode;
+                    _this3.nodes.push(toNode);
+                } else {
+                    toNode.status = 'updated';
+                }
+                // Link
+                var link = _this3.linksById[edge.from + ',' + edge.to];
+                if (!link) {
+                    link = (0, _util.makeLink)(edge, fromNode, toNode);
+                    fromNode.weight += edge.weight;
+                    toNode.weight += edge.weight;
+                    _this3.linksById[link.id] = link;
+                    _this3.links.push(link);
+                } else {
+                    link.status = 'updated';
+                }
+                // Add link reference to each node
+                fromNode.linksById[link.id] = link;
+                toNode.linksById[link.id] = link;
+            });
+            // Give renderer a chance to handle removed nodes/links
+            this.drawing.remove(this.nodes, this.links);
+            // Clean out removed nodes/links from collections
+            this.nodes = _underscore2.default.reject(this.nodes, function (node) {
+                return node.status === 'removed';
+            });
+            this.links = _underscore2.default.reject(this.links, function (link) {
+                return link.status === 'removed';
+            });
+            _underscore2.default.each(this.nodesById, function (node) {
+                if (node.status === 'removed') delete _this3.nodesById[node.id];
+            });
+            _underscore2.default.each(this.linksById, function (link) {
+                if (link.status === 'removed') delete _this3.linksById[link.id];
+            });
+            // Now that nodes/links may have new weights, regenerate their scales
+
+            var _makeScales = (0, _util.makeScales)(this.nodes, this.links),
+                nodeScale = _makeScales.nodeScale,
+                linkScale = _makeScales.linkScale;
+
+            _underscore2.default.each(this.nodes, function (node) {
+                return node.scale = nodeScale(node.weight);
+            });
+            _underscore2.default.each(this.links, function (link) {
+                return link.scale = linkScale(link.weight);
+            });
+        }
+    }]);
+    return PixiMap;
+}();
+
+exports.default = PixiMap;
 
 /***/ }),
 /* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(242);
-var $Object = __webpack_require__(26).Object;
-module.exports = function defineProperty(it, key, desc){
-  return $Object.defineProperty(it, key, desc);
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.D3Colors = undefined;
+
+var _d3Scale = __webpack_require__(34);
+
+var d3_scale = _interopRequireWildcard(_d3Scale);
+
+var _d3ScaleChromatic = __webpack_require__(149);
+
+var d3_scale_chromatic = _interopRequireWildcard(_d3ScaleChromatic);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+var D3Colors = exports.D3Colors = {
+    Viridis: {
+        name: 'Viridis',
+        interpolator: d3_scale.interpolateViridis,
+        domain: [0, 1]
+    },
+    Inferno: {
+        name: 'Inferno',
+        interpolator: d3_scale.interpolateInferno,
+        domain: [0, 1]
+    },
+    Magma: {
+        name: 'Magma',
+        interpolator: d3_scale.interpolateMagma,
+        domain: [0, 1]
+    },
+    Blues: {
+        name: 'Blues',
+        interpolator: d3_scale_chromatic.interpolateBlues,
+        domain: [1, 0]
+    },
+    Greens: {
+        name: 'Greens',
+        interpolator: d3_scale_chromatic.interpolateGreens,
+        domain: [1, 0]
+    },
+    Greys: {
+        name: 'Greys',
+        interpolator: d3_scale_chromatic.interpolateGreys,
+        domain: [1, 0]
+    },
+    Oranges: {
+        name: 'Oranges',
+        interpolator: d3_scale_chromatic.interpolateOranges,
+        domain: [1, 0]
+    },
+    Purples: {
+        name: 'Purples',
+        interpolator: d3_scale_chromatic.interpolatePurples,
+        domain: [1, 0]
+    },
+    Reds: {
+        name: 'Reds',
+        interpolator: d3_scale_chromatic.interpolateReds,
+        domain: [1, 0]
+    },
+    BuGn: {
+        name: 'BuGn',
+        interpolator: d3_scale_chromatic.interpolateBuGn,
+        domain: [1, 0]
+    },
+    BuPu: {
+        name: 'BuPu',
+        interpolator: d3_scale_chromatic.interpolateBuPu,
+        domain: [1, 0]
+    },
+    GnBu: {
+        name: 'GnBu',
+        interpolator: d3_scale_chromatic.interpolateGnBu,
+        domain: [1, 0]
+    },
+    OrRd: {
+        name: 'OrRd',
+        interpolator: d3_scale_chromatic.interpolateOrRd,
+        domain: [1, 0]
+    },
+    PuBuGn: {
+        name: 'PuBuGn',
+        interpolator: d3_scale_chromatic.interpolatePuBuGn,
+        domain: [1, 0]
+    },
+    PuBu: {
+        name: 'PuBu',
+        interpolator: d3_scale_chromatic.interpolatePuBu,
+        domain: [1, 0]
+    },
+    PuRd: {
+        name: 'PuRd',
+        interpolator: d3_scale_chromatic.interpolatePuRd,
+        domain: [1, 0]
+    },
+    RdPu: {
+        name: 'RdPu',
+        interpolator: d3_scale_chromatic.interpolateRdPu,
+        domain: [1, 0]
+    },
+    YlGnBu: {
+        name: 'YlGnBu',
+        interpolator: d3_scale_chromatic.interpolateYlGnBu,
+        domain: [1, 0]
+    },
+    YlGn: {
+        name: 'YlGn',
+        interpolator: d3_scale_chromatic.interpolateYlGn,
+        domain: [1, 0]
+    },
+    YlOrRd: {
+        name: 'YlOrRd',
+        interpolator: d3_scale_chromatic.interpolateYlOrRd,
+        domain: [1, 0]
+    }
 };
 
 /***/ }),
 /* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(243);
-module.exports = __webpack_require__(26).Object.setPrototypeOf;
+module.exports = { "default": __webpack_require__(223), __esModule: true };
 
 /***/ }),
 /* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(246);
-__webpack_require__(244);
-__webpack_require__(247);
-__webpack_require__(248);
-module.exports = __webpack_require__(26).Symbol;
+module.exports = { "default": __webpack_require__(224), __esModule: true };
 
 /***/ }),
 /* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(245);
-__webpack_require__(249);
-module.exports = __webpack_require__(78).f('iterator');
+module.exports = { "default": __webpack_require__(225), __esModule: true };
 
 /***/ }),
 /* 221 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(226), __esModule: true };
+
+/***/ }),
+/* 222 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(227), __esModule: true };
+
+/***/ }),
+/* 223 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(248);
+var $Object = __webpack_require__(29).Object;
+module.exports = function create(P, D){
+  return $Object.create(P, D);
+};
+
+/***/ }),
+/* 224 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(249);
+var $Object = __webpack_require__(29).Object;
+module.exports = function defineProperty(it, key, desc){
+  return $Object.defineProperty(it, key, desc);
+};
+
+/***/ }),
+/* 225 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(250);
+module.exports = __webpack_require__(29).Object.setPrototypeOf;
+
+/***/ }),
+/* 226 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(253);
+__webpack_require__(251);
+__webpack_require__(254);
+__webpack_require__(255);
+module.exports = __webpack_require__(29).Symbol;
+
+/***/ }),
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(252);
+__webpack_require__(256);
+module.exports = __webpack_require__(79).f('iterator');
+
+/***/ }),
+/* 228 */
 /***/ (function(module, exports) {
 
 module.exports = function(it){
@@ -28691,20 +29791,20 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 222 */
+/* 229 */
 /***/ (function(module, exports) {
 
 module.exports = function(){ /* empty */ };
 
 /***/ }),
-/* 223 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
 // true  -> Array#includes
 var toIObject = __webpack_require__(21)
-  , toLength  = __webpack_require__(238)
-  , toIndex   = __webpack_require__(237);
+  , toLength  = __webpack_require__(245)
+  , toIndex   = __webpack_require__(244);
 module.exports = function(IS_INCLUDES){
   return function($this, el, fromIndex){
     var O      = toIObject($this)
@@ -28723,13 +29823,13 @@ module.exports = function(IS_INCLUDES){
 };
 
 /***/ }),
-/* 224 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
-var getKeys = __webpack_require__(48)
-  , gOPS    = __webpack_require__(118)
-  , pIE     = __webpack_require__(71);
+var getKeys = __webpack_require__(52)
+  , gOPS    = __webpack_require__(121)
+  , pIE     = __webpack_require__(72);
 module.exports = function(it){
   var result     = getKeys(it)
     , getSymbols = gOPS.f;
@@ -28743,44 +29843,44 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 225 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(15).document && document.documentElement;
 
 /***/ }),
-/* 226 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
-var cof = __webpack_require__(111);
+var cof = __webpack_require__(114);
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function(it){
   return cof(it) == 'String' ? it.split('') : Object(it);
 };
 
 /***/ }),
-/* 227 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
-var cof = __webpack_require__(111);
+var cof = __webpack_require__(114);
 module.exports = Array.isArray || function isArray(arg){
   return cof(arg) == 'Array';
 };
 
 /***/ }),
-/* 228 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var create         = __webpack_require__(70)
-  , descriptor     = __webpack_require__(49)
-  , setToStringTag = __webpack_require__(72)
+var create         = __webpack_require__(71)
+  , descriptor     = __webpack_require__(53)
+  , setToStringTag = __webpack_require__(73)
   , IteratorPrototype = {};
 
 // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-__webpack_require__(27)(IteratorPrototype, __webpack_require__(28)('iterator'), function(){ return this; });
+__webpack_require__(30)(IteratorPrototype, __webpack_require__(31)('iterator'), function(){ return this; });
 
 module.exports = function(Constructor, NAME, next){
   Constructor.prototype = create(IteratorPrototype, {next: descriptor(1, next)});
@@ -28788,7 +29888,7 @@ module.exports = function(Constructor, NAME, next){
 };
 
 /***/ }),
-/* 229 */
+/* 236 */
 /***/ (function(module, exports) {
 
 module.exports = function(done, value){
@@ -28796,10 +29896,10 @@ module.exports = function(done, value){
 };
 
 /***/ }),
-/* 230 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getKeys   = __webpack_require__(48)
+var getKeys   = __webpack_require__(52)
   , toIObject = __webpack_require__(21);
 module.exports = function(object, el){
   var O      = toIObject(object)
@@ -28811,18 +29911,18 @@ module.exports = function(object, el){
 };
 
 /***/ }),
-/* 231 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var META     = __webpack_require__(50)('meta')
-  , isObject = __webpack_require__(35)
+var META     = __webpack_require__(54)('meta')
+  , isObject = __webpack_require__(39)
   , has      = __webpack_require__(19)
   , setDesc  = __webpack_require__(20).f
   , id       = 0;
 var isExtensible = Object.isExtensible || function(){
   return true;
 };
-var FREEZE = !__webpack_require__(47)(function(){
+var FREEZE = !__webpack_require__(51)(function(){
   return isExtensible(Object.preventExtensions({}));
 });
 var setMeta = function(it){
@@ -28869,12 +29969,12 @@ var meta = module.exports = {
 };
 
 /***/ }),
-/* 232 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP       = __webpack_require__(20)
-  , anObject = __webpack_require__(33)
-  , getKeys  = __webpack_require__(48);
+  , anObject = __webpack_require__(37)
+  , getKeys  = __webpack_require__(52);
 
 module.exports = __webpack_require__(18) ? Object.defineProperties : function defineProperties(O, Properties){
   anObject(O);
@@ -28887,12 +29987,12 @@ module.exports = __webpack_require__(18) ? Object.defineProperties : function de
 };
 
 /***/ }),
-/* 233 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(21)
-  , gOPN      = __webpack_require__(117).f
+  , gOPN      = __webpack_require__(120).f
   , toString  = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -28912,13 +30012,13 @@ module.exports.f = function getOwnPropertyNames(it){
 
 
 /***/ }),
-/* 234 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
 var has         = __webpack_require__(19)
-  , toObject    = __webpack_require__(239)
-  , IE_PROTO    = __webpack_require__(73)('IE_PROTO')
+  , toObject    = __webpack_require__(246)
+  , IE_PROTO    = __webpack_require__(74)('IE_PROTO')
   , ObjectProto = Object.prototype;
 
 module.exports = Object.getPrototypeOf || function(O){
@@ -28930,13 +30030,13 @@ module.exports = Object.getPrototypeOf || function(O){
 };
 
 /***/ }),
-/* 235 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
 /* eslint-disable no-proto */
-var isObject = __webpack_require__(35)
-  , anObject = __webpack_require__(33);
+var isObject = __webpack_require__(39)
+  , anObject = __webpack_require__(37);
 var check = function(O, proto){
   anObject(O);
   if(!isObject(proto) && proto !== null)throw TypeError(proto + ": can't set as prototype!");
@@ -28945,7 +30045,7 @@ module.exports = {
   set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
     function(test, buggy, set){
       try {
-        set = __webpack_require__(112)(Function.call, __webpack_require__(116).f(Object.prototype, '__proto__').set, 2);
+        set = __webpack_require__(115)(Function.call, __webpack_require__(119).f(Object.prototype, '__proto__').set, 2);
         set(test, []);
         buggy = !(test instanceof Array);
       } catch(e){ buggy = true; }
@@ -28960,11 +30060,11 @@ module.exports = {
 };
 
 /***/ }),
-/* 236 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(75)
-  , defined   = __webpack_require__(66);
+var toInteger = __webpack_require__(76)
+  , defined   = __webpack_require__(67);
 // true  -> String#at
 // false -> String#codePointAt
 module.exports = function(TO_STRING){
@@ -28982,10 +30082,10 @@ module.exports = function(TO_STRING){
 };
 
 /***/ }),
-/* 237 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(75)
+var toInteger = __webpack_require__(76)
   , max       = Math.max
   , min       = Math.min;
 module.exports = function(index, length){
@@ -28994,42 +30094,42 @@ module.exports = function(index, length){
 };
 
 /***/ }),
-/* 238 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
-var toInteger = __webpack_require__(75)
+var toInteger = __webpack_require__(76)
   , min       = Math.min;
 module.exports = function(it){
   return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
 };
 
 /***/ }),
-/* 239 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.13 ToObject(argument)
-var defined = __webpack_require__(66);
+var defined = __webpack_require__(67);
 module.exports = function(it){
   return Object(defined(it));
 };
 
 /***/ }),
-/* 240 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var addToUnscopables = __webpack_require__(222)
-  , step             = __webpack_require__(229)
-  , Iterators        = __webpack_require__(68)
+var addToUnscopables = __webpack_require__(229)
+  , step             = __webpack_require__(236)
+  , Iterators        = __webpack_require__(69)
   , toIObject        = __webpack_require__(21);
 
 // 22.1.3.4 Array.prototype.entries()
 // 22.1.3.13 Array.prototype.keys()
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
-module.exports = __webpack_require__(115)(Array, 'Array', function(iterated, kind){
+module.exports = __webpack_require__(118)(Array, 'Array', function(iterated, kind){
   this._t = toIObject(iterated); // target
   this._i = 0;                   // next index
   this._k = kind;                // kind
@@ -29055,45 +30155,45 @@ addToUnscopables('values');
 addToUnscopables('entries');
 
 /***/ }),
-/* 241 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $export = __webpack_require__(34)
+var $export = __webpack_require__(38)
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', {create: __webpack_require__(70)});
+$export($export.S, 'Object', {create: __webpack_require__(71)});
 
 /***/ }),
-/* 242 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $export = __webpack_require__(34);
+var $export = __webpack_require__(38);
 // 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
 $export($export.S + $export.F * !__webpack_require__(18), 'Object', {defineProperty: __webpack_require__(20).f});
 
 /***/ }),
-/* 243 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
-var $export = __webpack_require__(34);
-$export($export.S, 'Object', {setPrototypeOf: __webpack_require__(235).set});
+var $export = __webpack_require__(38);
+$export($export.S, 'Object', {setPrototypeOf: __webpack_require__(242).set});
 
 /***/ }),
-/* 244 */
+/* 251 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 245 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var $at  = __webpack_require__(236)(true);
+var $at  = __webpack_require__(243)(true);
 
 // 21.1.3.27 String.prototype[@@iterator]()
-__webpack_require__(115)(String, 'String', function(iterated){
+__webpack_require__(118)(String, 'String', function(iterated){
   this._t = String(iterated); // target
   this._i = 0;                // next index
 // 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -29108,7 +30208,7 @@ __webpack_require__(115)(String, 'String', function(iterated){
 });
 
 /***/ }),
-/* 246 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29117,28 +30217,28 @@ __webpack_require__(115)(String, 'String', function(iterated){
 var global         = __webpack_require__(15)
   , has            = __webpack_require__(19)
   , DESCRIPTORS    = __webpack_require__(18)
-  , $export        = __webpack_require__(34)
-  , redefine       = __webpack_require__(120)
-  , META           = __webpack_require__(231).KEY
-  , $fails         = __webpack_require__(47)
-  , shared         = __webpack_require__(74)
-  , setToStringTag = __webpack_require__(72)
-  , uid            = __webpack_require__(50)
-  , wks            = __webpack_require__(28)
-  , wksExt         = __webpack_require__(78)
-  , wksDefine      = __webpack_require__(77)
-  , keyOf          = __webpack_require__(230)
-  , enumKeys       = __webpack_require__(224)
-  , isArray        = __webpack_require__(227)
-  , anObject       = __webpack_require__(33)
+  , $export        = __webpack_require__(38)
+  , redefine       = __webpack_require__(123)
+  , META           = __webpack_require__(238).KEY
+  , $fails         = __webpack_require__(51)
+  , shared         = __webpack_require__(75)
+  , setToStringTag = __webpack_require__(73)
+  , uid            = __webpack_require__(54)
+  , wks            = __webpack_require__(31)
+  , wksExt         = __webpack_require__(79)
+  , wksDefine      = __webpack_require__(78)
+  , keyOf          = __webpack_require__(237)
+  , enumKeys       = __webpack_require__(231)
+  , isArray        = __webpack_require__(234)
+  , anObject       = __webpack_require__(37)
   , toIObject      = __webpack_require__(21)
-  , toPrimitive    = __webpack_require__(76)
-  , createDesc     = __webpack_require__(49)
-  , _create        = __webpack_require__(70)
-  , gOPNExt        = __webpack_require__(233)
-  , $GOPD          = __webpack_require__(116)
+  , toPrimitive    = __webpack_require__(77)
+  , createDesc     = __webpack_require__(53)
+  , _create        = __webpack_require__(71)
+  , gOPNExt        = __webpack_require__(240)
+  , $GOPD          = __webpack_require__(119)
   , $DP            = __webpack_require__(20)
-  , $keys          = __webpack_require__(48)
+  , $keys          = __webpack_require__(52)
   , gOPD           = $GOPD.f
   , dP             = $DP.f
   , gOPN           = gOPNExt.f
@@ -29261,11 +30361,11 @@ if(!USE_NATIVE){
 
   $GOPD.f = $getOwnPropertyDescriptor;
   $DP.f   = $defineProperty;
-  __webpack_require__(117).f = gOPNExt.f = $getOwnPropertyNames;
-  __webpack_require__(71).f  = $propertyIsEnumerable;
-  __webpack_require__(118).f = $getOwnPropertySymbols;
+  __webpack_require__(120).f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(72).f  = $propertyIsEnumerable;
+  __webpack_require__(121).f = $getOwnPropertySymbols;
 
-  if(DESCRIPTORS && !__webpack_require__(69)){
+  if(DESCRIPTORS && !__webpack_require__(70)){
     redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
   }
 
@@ -29340,7 +30440,7 @@ $JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function(){
 });
 
 // 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
-$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(27)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
+$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(30)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
 // 19.4.3.5 Symbol.prototype[@@toStringTag]
 setToStringTag($Symbol, 'Symbol');
 // 20.2.1.9 Math[@@toStringTag]
@@ -29349,26 +30449,26 @@ setToStringTag(Math, 'Math', true);
 setToStringTag(global.JSON, 'JSON', true);
 
 /***/ }),
-/* 247 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(77)('asyncIterator');
+__webpack_require__(78)('asyncIterator');
 
 /***/ }),
-/* 248 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(77)('observable');
+__webpack_require__(78)('observable');
 
 /***/ }),
-/* 249 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(240);
+__webpack_require__(247);
 var global        = __webpack_require__(15)
-  , hide          = __webpack_require__(27)
-  , Iterators     = __webpack_require__(68)
-  , TO_STRING_TAG = __webpack_require__(28)('toStringTag');
+  , hide          = __webpack_require__(30)
+  , Iterators     = __webpack_require__(69)
+  , TO_STRING_TAG = __webpack_require__(31)('toStringTag');
 
 for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList', 'CSSRuleList'], i = 0; i < 5; i++){
   var NAME       = collections[i]
@@ -29379,7 +30479,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 }
 
 /***/ }),
-/* 250 */
+/* 257 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29391,11 +30491,11 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 251 */
+/* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pairs__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pairs__ = __webpack_require__(130);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function(values0, values1, reduce) {
@@ -29420,7 +30520,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 252 */
+/* 259 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29430,18 +30530,18 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 253 */
+/* 260 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisect__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(250);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ticks__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__threshold_sturges__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisect__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ticks__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__threshold_sturges__ = __webpack_require__(132);
 
 
 
@@ -29520,7 +30620,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 254 */
+/* 261 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29530,7 +30630,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 255 */
+/* 262 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29571,11 +30671,11 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 256 */
+/* 263 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(40);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function(values, valueof) {
@@ -29604,13 +30704,13 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 257 */
+/* 264 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__number__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quantile__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__number__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quantile__ = __webpack_require__(80);
 
 
 
@@ -29642,7 +30742,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 258 */
+/* 265 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29670,7 +30770,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 259 */
+/* 266 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29682,11 +30782,11 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 260 */
+/* 267 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(32);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function(values, compare) {
@@ -29710,7 +30810,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 261 */
+/* 268 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29731,7 +30831,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 262 */
+/* 269 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29758,14 +30858,14 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 263 */
+/* 270 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quantile__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quantile__ = __webpack_require__(80);
 
 
 
@@ -29778,11 +30878,11 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 264 */
+/* 271 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__deviation__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__deviation__ = __webpack_require__(127);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function(values, min, max) {
@@ -29791,11 +30891,11 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 265 */
+/* 272 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transpose__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transpose__ = __webpack_require__(134);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function() {
@@ -29804,21 +30904,21 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 266 */
+/* 273 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(276);
 /* unused harmony reexport nest */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(277);
 /* unused harmony reexport set */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_map__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_map__ = __webpack_require__(81);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_map__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(275);
 /* unused harmony reexport keys */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(278);
 /* unused harmony reexport values */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(274);
 /* unused harmony reexport entries */
 
 
@@ -29829,7 +30929,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 267 */
+/* 274 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29841,7 +30941,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 268 */
+/* 275 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29853,11 +30953,11 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 
 /***/ }),
-/* 269 */
+/* 276 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(81);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function() {
@@ -29934,11 +31034,11 @@ function setMap(map, key, value) {
 
 
 /***/ }),
-/* 270 */
+/* 277 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(81);
 
 
 function Set() {}
@@ -29981,7 +31081,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 271 */
+/* 278 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29993,13 +31093,13 @@ function set(object, f) {
 
 
 /***/ }),
-/* 272 */
+/* 279 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(136);
 /* harmony export (immutable) */ __webpack_exports__["a"] = cubehelix;
 /* unused harmony export Cubehelix */
 
@@ -30066,13 +31166,13 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(
 
 
 /***/ }),
-/* 273 */
+/* 280 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(136);
 /* harmony export (immutable) */ __webpack_exports__["b"] = lab;
 /* unused harmony export Lab */
 /* harmony export (immutable) */ __webpack_exports__["a"] = hcl;
@@ -30188,11 +31288,11 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(
 
 
 /***/ }),
-/* 274 */
+/* 281 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(141);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return format; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return formatPrefix; });
 /* unused harmony export default */
@@ -30218,7 +31318,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 275 */
+/* 282 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30239,7 +31339,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 276 */
+/* 283 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30264,7 +31364,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 277 */
+/* 284 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30278,11 +31378,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 278 */
+/* 285 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(84);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(x, p) {
@@ -30297,7 +31397,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 279 */
+/* 286 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30307,11 +31407,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 280 */
+/* 287 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(55);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step) {
@@ -30320,11 +31420,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 281 */
+/* 288 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(55);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step, value) {
@@ -30333,11 +31433,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 282 */
+/* 289 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(55);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step, max) {
@@ -30347,12 +31447,12 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 283 */
+/* 290 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(41);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return cubehelixLong; });
 
 
@@ -30386,12 +31486,12 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 284 */
+/* 291 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(41);
 /* unused harmony export hclLong */
 
 
@@ -30417,12 +31517,12 @@ var hclLong = hcl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 285 */
+/* 292 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(41);
 /* unused harmony export hslLong */
 
 
@@ -30448,12 +31548,12 @@ var hslLong = hsl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 286 */
+/* 293 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(41);
 /* unused harmony export default */
 
 
@@ -30474,7 +31574,7 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 287 */
+/* 294 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30486,7 +31586,7 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 288 */
+/* 295 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30498,7 +31598,7 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 289 */
+/* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30532,12 +31632,12 @@ var identity = {
 
 
 /***/ }),
-/* 290 */
+/* 297 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(298);
 /* unused harmony export interpolateTransformCss */
 /* unused harmony export interpolateTransformSvg */
 
@@ -30606,11 +31706,11 @@ var interpolateTransformSvg = interpolateTransform(__WEBPACK_IMPORTED_MODULE_1__
 
 
 /***/ }),
-/* 291 */
+/* 298 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(296);
 /* harmony export (immutable) */ __webpack_exports__["a"] = parseCss;
 /* harmony export (immutable) */ __webpack_exports__["b"] = parseSvg;
 
@@ -30641,7 +31741,7 @@ function parseSvg(value) {
 
 
 /***/ }),
-/* 292 */
+/* 299 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30712,147 +31812,7 @@ function tanh(x) {
 
 
 /***/ }),
-/* 293 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_categorical_Accent__ = __webpack_require__(294);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeAccent", function() { return __WEBPACK_IMPORTED_MODULE_0__src_categorical_Accent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_categorical_Dark2__ = __webpack_require__(295);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeDark2", function() { return __WEBPACK_IMPORTED_MODULE_1__src_categorical_Dark2__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_categorical_Paired__ = __webpack_require__(296);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePaired", function() { return __WEBPACK_IMPORTED_MODULE_2__src_categorical_Paired__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_categorical_Pastel1__ = __webpack_require__(297);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePastel1", function() { return __WEBPACK_IMPORTED_MODULE_3__src_categorical_Pastel1__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel2__ = __webpack_require__(298);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePastel2", function() { return __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel2__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_categorical_Set1__ = __webpack_require__(299);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeSet1", function() { return __WEBPACK_IMPORTED_MODULE_5__src_categorical_Set1__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set2__ = __webpack_require__(300);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeSet2", function() { return __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set2__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set3__ = __webpack_require__(301);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeSet3", function() { return __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set3__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_diverging_BrBG__ = __webpack_require__(302);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateBrBG", function() { return __WEBPACK_IMPORTED_MODULE_8__src_diverging_BrBG__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeBrBG", function() { return __WEBPACK_IMPORTED_MODULE_8__src_diverging_BrBG__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_diverging_PRGn__ = __webpack_require__(303);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePRGn", function() { return __WEBPACK_IMPORTED_MODULE_9__src_diverging_PRGn__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePRGn", function() { return __WEBPACK_IMPORTED_MODULE_9__src_diverging_PRGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_diverging_PiYG__ = __webpack_require__(304);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePiYG", function() { return __WEBPACK_IMPORTED_MODULE_10__src_diverging_PiYG__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePiYG", function() { return __WEBPACK_IMPORTED_MODULE_10__src_diverging_PiYG__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_diverging_PuOr__ = __webpack_require__(305);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePuOr", function() { return __WEBPACK_IMPORTED_MODULE_11__src_diverging_PuOr__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePuOr", function() { return __WEBPACK_IMPORTED_MODULE_11__src_diverging_PuOr__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_diverging_RdBu__ = __webpack_require__(306);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdBu", function() { return __WEBPACK_IMPORTED_MODULE_12__src_diverging_RdBu__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdBu", function() { return __WEBPACK_IMPORTED_MODULE_12__src_diverging_RdBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdGy__ = __webpack_require__(307);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdGy", function() { return __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdGy__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdGy", function() { return __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdGy__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdYlBu__ = __webpack_require__(308);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdYlBu", function() { return __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdYlBu__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdYlBu", function() { return __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdYlBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlGn__ = __webpack_require__(309);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdYlGn", function() { return __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlGn__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdYlGn", function() { return __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_diverging_Spectral__ = __webpack_require__(310);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateSpectral", function() { return __WEBPACK_IMPORTED_MODULE_16__src_diverging_Spectral__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeSpectral", function() { return __WEBPACK_IMPORTED_MODULE_16__src_diverging_Spectral__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_sequential_multi_BuGn__ = __webpack_require__(311);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateBuGn", function() { return __WEBPACK_IMPORTED_MODULE_17__src_sequential_multi_BuGn__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeBuGn", function() { return __WEBPACK_IMPORTED_MODULE_17__src_sequential_multi_BuGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuPu__ = __webpack_require__(312);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateBuPu", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuPu__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeBuPu", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuPu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_GnBu__ = __webpack_require__(313);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateGnBu", function() { return __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_GnBu__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeGnBu", function() { return __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_GnBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_OrRd__ = __webpack_require__(314);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateOrRd", function() { return __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_OrRd__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeOrRd", function() { return __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_OrRd__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_PuBuGn__ = __webpack_require__(316);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePuBuGn", function() { return __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_PuBuGn__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePuBuGn", function() { return __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_PuBuGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBu__ = __webpack_require__(315);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePuBu", function() { return __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBu__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePuBu", function() { return __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuRd__ = __webpack_require__(317);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePuRd", function() { return __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuRd__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePuRd", function() { return __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuRd__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_RdPu__ = __webpack_require__(318);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRdPu", function() { return __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_RdPu__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeRdPu", function() { return __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_RdPu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_YlGnBu__ = __webpack_require__(320);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateYlGnBu", function() { return __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_YlGnBu__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeYlGnBu", function() { return __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_YlGnBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGn__ = __webpack_require__(319);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateYlGn", function() { return __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGn__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeYlGn", function() { return __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlOrBr__ = __webpack_require__(321);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateYlOrBr", function() { return __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlOrBr__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeYlOrBr", function() { return __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlOrBr__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrRd__ = __webpack_require__(322);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateYlOrRd", function() { return __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrRd__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeYlOrRd", function() { return __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrRd__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_sequential_single_Blues__ = __webpack_require__(323);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateBlues", function() { return __WEBPACK_IMPORTED_MODULE_29__src_sequential_single_Blues__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeBlues", function() { return __WEBPACK_IMPORTED_MODULE_29__src_sequential_single_Blues__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Greens__ = __webpack_require__(324);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateGreens", function() { return __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Greens__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeGreens", function() { return __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Greens__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greys__ = __webpack_require__(325);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateGreys", function() { return __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greys__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeGreys", function() { return __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greys__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Purples__ = __webpack_require__(327);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePurples", function() { return __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Purples__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemePurples", function() { return __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Purples__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Reds__ = __webpack_require__(328);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateReds", function() { return __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Reds__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeReds", function() { return __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Reds__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Oranges__ = __webpack_require__(326);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateOranges", function() { return __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Oranges__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeOranges", function() { return __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Oranges__["b"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 294 */
+/* 300 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30863,7 +31823,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 295 */
+/* 301 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30874,7 +31834,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 296 */
+/* 302 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30885,7 +31845,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 297 */
+/* 303 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30896,7 +31856,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 298 */
+/* 304 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30907,7 +31867,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 299 */
+/* 305 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30918,7 +31878,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 300 */
+/* 306 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30929,7 +31889,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 301 */
+/* 307 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30940,7 +31900,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 302 */
+/* 308 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30966,7 +31926,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 303 */
+/* 309 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30992,7 +31952,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 304 */
+/* 310 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31018,7 +31978,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 305 */
+/* 311 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31044,7 +32004,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 306 */
+/* 312 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31070,7 +32030,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 307 */
+/* 313 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31096,7 +32056,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 308 */
+/* 314 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31122,7 +32082,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 309 */
+/* 315 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31148,7 +32108,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 310 */
+/* 316 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31174,7 +32134,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 311 */
+/* 317 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31198,7 +32158,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 312 */
+/* 318 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31222,7 +32182,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 313 */
+/* 319 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31246,7 +32206,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 314 */
+/* 320 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31270,7 +32230,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 315 */
+/* 321 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31294,7 +32254,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 316 */
+/* 322 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31318,7 +32278,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 317 */
+/* 323 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31342,7 +32302,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 318 */
+/* 324 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31366,7 +32326,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 319 */
+/* 325 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31390,7 +32350,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 320 */
+/* 326 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31414,7 +32374,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 321 */
+/* 327 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31438,7 +32398,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 322 */
+/* 328 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31462,7 +32422,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 323 */
+/* 329 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31486,7 +32446,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 324 */
+/* 330 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31510,7 +32470,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 325 */
+/* 331 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31534,7 +32494,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 326 */
+/* 332 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31558,7 +32518,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 327 */
+/* 333 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31582,7 +32542,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 328 */
+/* 334 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31606,12 +32566,12 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 329 */
+/* 335 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ordinal__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ordinal__ = __webpack_require__(152);
 /* harmony export (immutable) */ __webpack_exports__["a"] = band;
 /* harmony export (immutable) */ __webpack_exports__["b"] = point;
 
@@ -31718,56 +32678,56 @@ function point() {
 
 
 /***/ }),
-/* 330 */
+/* 336 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(42);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */])("1f77b4ff7f0e2ca02cd627289467bd8c564be377c27f7f7fbcbd2217becf"));
 
 
 /***/ }),
-/* 331 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(42);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */])("1f77b4aec7e8ff7f0effbb782ca02c98df8ad62728ff98969467bdc5b0d58c564bc49c94e377c2f7b6d27f7f7fc7c7c7bcbd22dbdb8d17becf9edae5"));
 
 
 /***/ }),
-/* 332 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(42);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */])("393b795254a36b6ecf9c9ede6379398ca252b5cf6bcedb9c8c6d31bd9e39e7ba52e7cb94843c39ad494ad6616be7969c7b4173a55194ce6dbdde9ed6"));
 
 
 /***/ }),
-/* 333 */
+/* 339 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(42);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */])("3182bd6baed69ecae1c6dbefe6550dfd8d3cfdae6bfdd0a231a35474c476a1d99bc7e9c0756bb19e9ac8bcbddcdadaeb636363969696bdbdbdd9d9d9"));
 
 
 /***/ }),
-/* 334 */
+/* 340 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(33);
 
 
 
@@ -31775,13 +32735,13 @@ function point() {
 
 
 /***/ }),
-/* 335 */
+/* 341 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(151);
 /* harmony export (immutable) */ __webpack_exports__["a"] = identity;
 
 
@@ -31809,15 +32769,15 @@ function identity() {
 
 
 /***/ }),
-/* 336 */
+/* 342 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nice__ = __webpack_require__(146);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__continuous__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nice__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__continuous__ = __webpack_require__(57);
 /* harmony export (immutable) */ __webpack_exports__["a"] = log;
 
 
@@ -31950,13 +32910,13 @@ function log() {
 
 
 /***/ }),
-/* 337 */
+/* 343 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(57);
 /* harmony export (immutable) */ __webpack_exports__["a"] = pow;
 /* harmony export (immutable) */ __webpack_exports__["b"] = sqrt;
 
@@ -32000,7 +32960,7 @@ function sqrt() {
 
 
 /***/ }),
-/* 338 */
+/* 344 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32061,13 +33021,13 @@ function quantile() {
 
 
 /***/ }),
-/* 339 */
+/* 345 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__linear__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__linear__ = __webpack_require__(43);
 /* harmony export (immutable) */ __webpack_exports__["a"] = quantize;
 
 
@@ -32118,12 +33078,12 @@ function quantize() {
 
 
 /***/ }),
-/* 340 */
+/* 346 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(33);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return warm; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return cool; });
 
@@ -32146,11 +33106,11 @@ var rainbow = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_color__["a" /
 
 
 /***/ }),
-/* 341 */
+/* 347 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__linear__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__linear__ = __webpack_require__(43);
 /* harmony export (immutable) */ __webpack_exports__["a"] = sequential;
 
 
@@ -32185,7 +33145,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 342 */
+/* 348 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32228,12 +33188,12 @@ function threshold() {
 
 
 /***/ }),
-/* 343 */
+/* 349 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(137);
 
 
 
@@ -32268,12 +33228,12 @@ function threshold() {
 
 
 /***/ }),
-/* 344 */
+/* 350 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__time__ = __webpack_require__(149);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_time_format__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__time__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_time_format__ = __webpack_require__(154);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(89);
 
 
@@ -32285,11 +33245,11 @@ function threshold() {
 
 
 /***/ }),
-/* 345 */
+/* 351 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(42);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return magma; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return inferno; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return plasma; });
@@ -32312,11 +33272,11 @@ var plasma = ramp(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__colors__["a
 
 
 /***/ }),
-/* 346 */
+/* 352 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isoFormat__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isoFormat__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__defaultLocale__ = __webpack_require__(88);
 
 
@@ -32334,7 +33294,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 347 */
+/* 353 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32359,7 +33319,7 @@ var days = day.range;
 
 
 /***/ }),
-/* 348 */
+/* 354 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32386,7 +33346,7 @@ var hours = hour.range;
 
 
 /***/ }),
-/* 349 */
+/* 355 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32421,7 +33381,7 @@ var milliseconds = millisecond.range;
 
 
 /***/ }),
-/* 350 */
+/* 356 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32446,7 +33406,7 @@ var minutes = minute.range;
 
 
 /***/ }),
-/* 351 */
+/* 357 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32470,7 +33430,7 @@ var months = month.range;
 
 
 /***/ }),
-/* 352 */
+/* 358 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32495,7 +33455,7 @@ var seconds = second.range;
 
 
 /***/ }),
-/* 353 */
+/* 359 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32520,7 +33480,7 @@ var utcDays = utcDay.range;
 
 
 /***/ }),
-/* 354 */
+/* 360 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32545,7 +33505,7 @@ var utcHours = utcHour.range;
 
 
 /***/ }),
-/* 355 */
+/* 361 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32570,7 +33530,7 @@ var utcMinutes = utcMinute.range;
 
 
 /***/ }),
-/* 356 */
+/* 362 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32594,7 +33554,7 @@ var utcMonths = utcMonth.range;
 
 
 /***/ }),
-/* 357 */
+/* 363 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32646,7 +33606,7 @@ var utcSaturdays = utcSaturday.range;
 
 
 /***/ }),
-/* 358 */
+/* 364 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32681,7 +33641,7 @@ var utcYears = utcYear.range;
 
 
 /***/ }),
-/* 359 */
+/* 365 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32733,7 +33693,7 @@ var saturdays = saturday.range;
 
 
 /***/ }),
-/* 360 */
+/* 366 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32768,14 +33728,14 @@ var years = year.range;
 
 
 /***/ }),
-/* 361 */
+/* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 Object.defineProperty(exports, "__esModule", { value: true });
 // Make sure u use EMPTY_OBJ from 'inferno', otherwise it'll be a different reference
-var inferno_1 = __webpack_require__(62);
+var inferno_1 = __webpack_require__(65);
 var inferno_shared_1 = __webpack_require__(5);
 var noOp = inferno_shared_1.ERROR_MSG;
 if (process.env.NODE_ENV !== 'production') {
@@ -33039,22 +33999,13 @@ exports.default = Component;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 362 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(361).default;
-module.exports.default = module.exports;
-
-
-
-/***/ }),
-/* 363 */
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var inferno_1 = __webpack_require__(62);
+var inferno_1 = __webpack_require__(65);
 var inferno_shared_1 = __webpack_require__(5);
 var componentHooks = new Set();
 componentHooks.add('onComponentWillMount');
@@ -33148,7 +34099,7 @@ exports.default = createElement;
 
 
 /***/ }),
-/* 364 */
+/* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33255,7 +34206,7 @@ Lifecycle.prototype.trigger = function trigger() {
 
 
 /***/ }),
-/* 365 */
+/* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33366,7 +34317,7 @@ function trapClickOnNonInteractiveElement(dom) {
 
 
 /***/ }),
-/* 366 */
+/* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33389,7 +34340,7 @@ exports.linkEvent = linkEvent;
 
 
 /***/ }),
-/* 367 */
+/* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33397,10 +34348,10 @@ exports.linkEvent = linkEvent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var inferno_shared_1 = __webpack_require__(5);
 var options_1 = __webpack_require__(17);
-var constants_1 = __webpack_require__(54);
-var mounting_1 = __webpack_require__(55);
-var patching_1 = __webpack_require__(31);
-var rendering_1 = __webpack_require__(40);
+var constants_1 = __webpack_require__(58);
+var mounting_1 = __webpack_require__(59);
+var patching_1 = __webpack_require__(35);
+var rendering_1 = __webpack_require__(44);
 var utils_1 = __webpack_require__(10);
 var processElement_1 = __webpack_require__(91);
 function normalizeChildNodes(parentDom) {
@@ -33594,7 +34545,7 @@ exports.hydrateRoot = hydrateRoot;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 368 */
+/* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33729,7 +34680,7 @@ exports.applyValue = applyValue;
 
 
 /***/ }),
-/* 369 */
+/* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33829,7 +34780,7 @@ exports.applyValue = applyValue;
 
 
 /***/ }),
-/* 370 */
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33915,7 +34866,7 @@ exports.applyValue = applyValue;
 
 
 /***/ }),
-/* 371 */
+/* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33924,7 +34875,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:object-literal-sort-keys */
 var inferno_shared_1 = __webpack_require__(5);
 exports.NO_OP = inferno_shared_1.NO_OP;
-var normalization_1 = __webpack_require__(155);
+var normalization_1 = __webpack_require__(160);
 exports.getFlagsForElementVnode = normalization_1.getFlagsForElementVnode;
 exports.internal_normalize = normalization_1.normalize;
 var options_1 = __webpack_require__(17);
@@ -33932,13 +34883,13 @@ exports.options = options_1.options;
 var VNodes_1 = __webpack_require__(24);
 exports.cloneVNode = VNodes_1.cloneVNode;
 exports.createVNode = VNodes_1.createVNode;
-var constants_1 = __webpack_require__(54);
+var constants_1 = __webpack_require__(58);
 exports.internal_isUnitlessNumber = constants_1.isUnitlessNumber;
-var linkEvent_1 = __webpack_require__(366);
+var linkEvent_1 = __webpack_require__(371);
 exports.linkEvent = linkEvent_1.linkEvent;
-var patching_1 = __webpack_require__(31);
+var patching_1 = __webpack_require__(35);
 exports.internal_patch = patching_1.patch;
-var rendering_1 = __webpack_require__(40);
+var rendering_1 = __webpack_require__(44);
 exports.internal_DOMNodeMap = rendering_1.componentToDOMNodeMap;
 exports.createRenderer = rendering_1.createRenderer;
 exports.findDOMNode = rendering_1.findDOMNode;
@@ -33979,7 +34930,7 @@ exports.default = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 372 */
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34076,7 +35027,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 373 */
+/* 378 */
 /***/ (function(module, exports) {
 
 var EMPTY_ARRAY_BUFFER = new ArrayBuffer(0);
@@ -34201,11 +35152,11 @@ module.exports = Buffer;
 
 
 /***/ }),
-/* 374 */
+/* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var Texture = __webpack_require__(158);
+var Texture = __webpack_require__(163);
 
 /**
  * Helper class to create a webGL Framebuffer
@@ -34432,15 +35383,15 @@ module.exports = Framebuffer;
 
 
 /***/ }),
-/* 375 */
+/* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var compileProgram = __webpack_require__(160),
-	extractAttributes = __webpack_require__(162),
-	extractUniforms = __webpack_require__(163),
-	setPrecision = __webpack_require__(166),
-	generateUniformAccessObject = __webpack_require__(164);
+var compileProgram = __webpack_require__(165),
+	extractAttributes = __webpack_require__(167),
+	extractUniforms = __webpack_require__(168),
+	setPrecision = __webpack_require__(171),
+	generateUniformAccessObject = __webpack_require__(169);
 
 /**
  * Helper class to create a webGL Shader
@@ -34529,12 +35480,12 @@ module.exports = Shader;
 
 
 /***/ }),
-/* 376 */
+/* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
 // state object//
-var setVertexAttribArrays = __webpack_require__( 159 );
+var setVertexAttribArrays = __webpack_require__( 164 );
 
 /**
  * Helper class to work with WebGL VertexArrayObjects (vaos)
@@ -34797,7 +35748,7 @@ VertexArrayObject.prototype.getSize = function()
 
 
 /***/ }),
-/* 377 */
+/* 382 */
 /***/ (function(module, exports) {
 
 
@@ -34829,22 +35780,22 @@ module.exports = createContext;
 
 
 /***/ }),
-/* 378 */
+/* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-    compileProgram: __webpack_require__(160),
-    defaultValue: __webpack_require__(161),
-    extractAttributes: __webpack_require__(162),
-    extractUniforms: __webpack_require__(163),
-    generateUniformAccessObject: __webpack_require__(164),
-    setPrecision: __webpack_require__(166),
-    mapSize: __webpack_require__(165),
+    compileProgram: __webpack_require__(165),
+    defaultValue: __webpack_require__(166),
+    extractAttributes: __webpack_require__(167),
+    extractUniforms: __webpack_require__(168),
+    generateUniformAccessObject: __webpack_require__(169),
+    setPrecision: __webpack_require__(171),
+    mapSize: __webpack_require__(170),
     mapType: __webpack_require__(93)
 };
 
 /***/ }),
-/* 379 */
+/* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34860,7 +35811,7 @@ var _ismobilejs = __webpack_require__(92);
 
 var _ismobilejs2 = _interopRequireDefault(_ismobilejs);
 
-var _accessibleTarget = __webpack_require__(167);
+var _accessibleTarget = __webpack_require__(172);
 
 var _accessibleTarget2 = _interopRequireDefault(_accessibleTarget);
 
@@ -35343,7 +36294,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 
 /***/ }),
-/* 380 */
+/* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35351,7 +36302,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 exports.__esModule = true;
 
-var _accessibleTarget = __webpack_require__(167);
+var _accessibleTarget = __webpack_require__(172);
 
 Object.defineProperty(exports, 'accessibleTarget', {
   enumerable: true,
@@ -35360,7 +36311,7 @@ Object.defineProperty(exports, 'accessibleTarget', {
   }
 });
 
-var _AccessibilityManager = __webpack_require__(379);
+var _AccessibilityManager = __webpack_require__(384);
 
 Object.defineProperty(exports, 'AccessibilityManager', {
   enumerable: true,
@@ -35373,7 +36324,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 381 */
+/* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35381,7 +36332,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.__esModule = true;
 
-var _Container2 = __webpack_require__(42);
+var _Container2 = __webpack_require__(46);
 
 var _Container3 = _interopRequireDefault(_Container2);
 
@@ -35393,7 +36344,7 @@ var _Texture = __webpack_require__(25);
 
 var _Texture2 = _interopRequireDefault(_Texture);
 
-var _GraphicsData = __webpack_require__(173);
+var _GraphicsData = __webpack_require__(178);
 
 var _GraphicsData2 = _interopRequireDefault(_GraphicsData);
 
@@ -35411,11 +36362,11 @@ var _Bounds = __webpack_require__(94);
 
 var _Bounds2 = _interopRequireDefault(_Bounds);
 
-var _bezierCurveTo2 = __webpack_require__(383);
+var _bezierCurveTo2 = __webpack_require__(388);
 
 var _bezierCurveTo3 = _interopRequireDefault(_bezierCurveTo2);
 
-var _CanvasRenderer = __webpack_require__(43);
+var _CanvasRenderer = __webpack_require__(47);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -36550,7 +37501,7 @@ Graphics._SPRITE_TEXTURE = null;
 
 
 /***/ }),
-/* 382 */
+/* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36558,7 +37509,7 @@ Graphics._SPRITE_TEXTURE = null;
 
 exports.__esModule = true;
 
-var _CanvasRenderer = __webpack_require__(43);
+var _CanvasRenderer = __webpack_require__(47);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -36824,7 +37775,7 @@ _CanvasRenderer2.default.registerPlugin('graphics', CanvasGraphicsRenderer);
 
 
 /***/ }),
-/* 383 */
+/* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36879,7 +37830,7 @@ function bezierCurveTo(fromX, fromY, cpX, cpY, cpX2, cpY2, toX, toY) {
 
 
 /***/ }),
-/* 384 */
+/* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36891,35 +37842,35 @@ var _utils = __webpack_require__(4);
 
 var _const = __webpack_require__(1);
 
-var _ObjectRenderer2 = __webpack_require__(58);
+var _ObjectRenderer2 = __webpack_require__(62);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(57);
+var _WebGLRenderer = __webpack_require__(61);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
-var _WebGLGraphicsData = __webpack_require__(385);
+var _WebGLGraphicsData = __webpack_require__(390);
 
 var _WebGLGraphicsData2 = _interopRequireDefault(_WebGLGraphicsData);
 
-var _PrimitiveShader = __webpack_require__(386);
+var _PrimitiveShader = __webpack_require__(391);
 
 var _PrimitiveShader2 = _interopRequireDefault(_PrimitiveShader);
 
-var _buildPoly = __webpack_require__(388);
+var _buildPoly = __webpack_require__(393);
 
 var _buildPoly2 = _interopRequireDefault(_buildPoly);
 
-var _buildRectangle = __webpack_require__(389);
+var _buildRectangle = __webpack_require__(394);
 
 var _buildRectangle2 = _interopRequireDefault(_buildRectangle);
 
-var _buildRoundedRectangle = __webpack_require__(390);
+var _buildRoundedRectangle = __webpack_require__(395);
 
 var _buildRoundedRectangle2 = _interopRequireDefault(_buildRoundedRectangle);
 
-var _buildCircle = __webpack_require__(387);
+var _buildCircle = __webpack_require__(392);
 
 var _buildCircle2 = _interopRequireDefault(_buildCircle);
 
@@ -37149,7 +38100,7 @@ _WebGLRenderer2.default.registerPlugin('graphics', GraphicsRenderer);
 
 
 /***/ }),
-/* 385 */
+/* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37297,7 +38248,7 @@ exports.default = WebGLGraphicsData;
 
 
 /***/ }),
-/* 386 */
+/* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37305,7 +38256,7 @@ exports.default = WebGLGraphicsData;
 
 exports.__esModule = true;
 
-var _Shader2 = __webpack_require__(41);
+var _Shader2 = __webpack_require__(45);
 
 var _Shader3 = _interopRequireDefault(_Shader2);
 
@@ -37347,7 +38298,7 @@ exports.default = PrimitiveShader;
 
 
 /***/ }),
-/* 387 */
+/* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37356,7 +38307,7 @@ exports.default = PrimitiveShader;
 exports.__esModule = true;
 exports.default = buildCircle;
 
-var _buildLine = __webpack_require__(56);
+var _buildLine = __webpack_require__(60);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -37445,7 +38396,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 388 */
+/* 393 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37454,13 +38405,13 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildPoly;
 
-var _buildLine = __webpack_require__(56);
+var _buildLine = __webpack_require__(60);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
 var _utils = __webpack_require__(4);
 
-var _earcut = __webpack_require__(153);
+var _earcut = __webpack_require__(157);
 
 var _earcut2 = _interopRequireDefault(_earcut);
 
@@ -37536,7 +38487,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 389 */
+/* 394 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37545,7 +38496,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildRectangle;
 
-var _buildLine = __webpack_require__(56);
+var _buildLine = __webpack_require__(60);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -37617,7 +38568,7 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 390 */
+/* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37626,11 +38577,11 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildRoundedRectangle;
 
-var _earcut = __webpack_require__(153);
+var _earcut = __webpack_require__(157);
 
 var _earcut2 = _interopRequireDefault(_earcut);
 
-var _buildLine = __webpack_require__(56);
+var _buildLine = __webpack_require__(60);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -37778,7 +38729,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 
 
 /***/ }),
-/* 391 */
+/* 396 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37897,7 +38848,7 @@ exports.default = Circle;
 
 
 /***/ }),
-/* 392 */
+/* 397 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38024,7 +38975,7 @@ exports.default = Ellipse;
 
 
 /***/ }),
-/* 393 */
+/* 398 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38160,7 +39111,7 @@ exports.default = Polygon;
 
 
 /***/ }),
-/* 394 */
+/* 399 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38298,7 +39249,7 @@ exports.default = RoundedRectangle;
 
 
 /***/ }),
-/* 395 */
+/* 400 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38471,7 +39422,7 @@ exports.default = CanvasMaskManager;
 
 
 /***/ }),
-/* 396 */
+/* 401 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38482,7 +39433,7 @@ exports.default = mapCanvasBlendModesToPixi;
 
 var _const = __webpack_require__(1);
 
-var _canUseNewCanvasBlendModes = __webpack_require__(178);
+var _canUseNewCanvasBlendModes = __webpack_require__(183);
 
 var _canUseNewCanvasBlendModes2 = _interopRequireDefault(_canUseNewCanvasBlendModes);
 
@@ -38548,7 +39499,7 @@ function mapCanvasBlendModesToPixi() {
 
 
 /***/ }),
-/* 397 */
+/* 402 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38673,7 +39624,7 @@ exports.default = TextureGarbageCollector;
 
 
 /***/ }),
-/* 398 */
+/* 403 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38685,7 +39636,7 @@ var _pixiGlCore = __webpack_require__(9);
 
 var _const = __webpack_require__(1);
 
-var _RenderTarget = __webpack_require__(59);
+var _RenderTarget = __webpack_require__(63);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
@@ -38925,7 +39876,7 @@ exports.default = TextureManager;
 
 
 /***/ }),
-/* 399 */
+/* 404 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38933,7 +39884,7 @@ exports.default = TextureManager;
 
 exports.__esModule = true;
 
-var _mapWebGLBlendModesToPixi = __webpack_require__(406);
+var _mapWebGLBlendModesToPixi = __webpack_require__(411);
 
 var _mapWebGLBlendModesToPixi2 = _interopRequireDefault(_mapWebGLBlendModesToPixi);
 
@@ -39210,7 +40161,7 @@ exports.default = WebGLState;
 
 
 /***/ }),
-/* 400 */
+/* 405 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39277,7 +40228,7 @@ function extractUniformsFromString(string) {
 
 
 /***/ }),
-/* 401 */
+/* 406 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39364,7 +40315,7 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 
 
 /***/ }),
-/* 402 */
+/* 407 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39372,29 +40323,29 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(44);
+var _WebGLManager2 = __webpack_require__(48);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
-var _RenderTarget = __webpack_require__(59);
+var _RenderTarget = __webpack_require__(63);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
-var _Quad = __webpack_require__(181);
+var _Quad = __webpack_require__(186);
 
 var _Quad2 = _interopRequireDefault(_Quad);
 
 var _math = __webpack_require__(7);
 
-var _Shader = __webpack_require__(41);
+var _Shader = __webpack_require__(45);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
-var _filterTransforms = __webpack_require__(401);
+var _filterTransforms = __webpack_require__(406);
 
 var filterTransforms = _interopRequireWildcard(_filterTransforms);
 
-var _bitTwiddle = __webpack_require__(65);
+var _bitTwiddle = __webpack_require__(66);
 
 var _bitTwiddle2 = _interopRequireDefault(_bitTwiddle);
 
@@ -39939,7 +40890,7 @@ exports.default = FilterManager;
 
 
 /***/ }),
-/* 403 */
+/* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39947,11 +40898,11 @@ exports.default = FilterManager;
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(44);
+var _WebGLManager2 = __webpack_require__(48);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
-var _SpriteMaskFilter = __webpack_require__(180);
+var _SpriteMaskFilter = __webpack_require__(185);
 
 var _SpriteMaskFilter2 = _interopRequireDefault(_SpriteMaskFilter);
 
@@ -40154,7 +41105,7 @@ exports.default = MaskManager;
 
 
 /***/ }),
-/* 404 */
+/* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40162,7 +41113,7 @@ exports.default = MaskManager;
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(44);
+var _WebGLManager2 = __webpack_require__(48);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
@@ -40293,7 +41244,7 @@ exports.default = StencilManager;
 
 
 /***/ }),
-/* 405 */
+/* 410 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40373,7 +41324,7 @@ function generateIfTestSrc(maxIfs) {
 
 
 /***/ }),
-/* 406 */
+/* 411 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40427,7 +41378,7 @@ function mapWebGLBlendModesToPixi(gl) {
 
 
 /***/ }),
-/* 407 */
+/* 412 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40464,7 +41415,7 @@ function mapWebGLDrawModesToPixi(gl) {
 
 
 /***/ }),
-/* 408 */
+/* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40485,7 +41436,7 @@ function validateContext(gl) {
 
 
 /***/ }),
-/* 409 */
+/* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40493,7 +41444,7 @@ function validateContext(gl) {
 
 exports.__esModule = true;
 
-var _CanvasRenderer = __webpack_require__(43);
+var _CanvasRenderer = __webpack_require__(47);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -40643,7 +41594,7 @@ _CanvasRenderer2.default.registerPlugin('sprite', CanvasSpriteRenderer);
 
 
 /***/ }),
-/* 410 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40701,7 +41652,7 @@ exports.default = Buffer;
 
 
 /***/ }),
-/* 411 */
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40709,11 +41660,11 @@ exports.default = Buffer;
 
 exports.__esModule = true;
 
-var _ObjectRenderer2 = __webpack_require__(58);
+var _ObjectRenderer2 = __webpack_require__(62);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(57);
+var _WebGLRenderer = __webpack_require__(61);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -40721,15 +41672,15 @@ var _createIndicesForQuads = __webpack_require__(103);
 
 var _createIndicesForQuads2 = _interopRequireDefault(_createIndicesForQuads);
 
-var _generateMultiTextureShader = __webpack_require__(412);
+var _generateMultiTextureShader = __webpack_require__(417);
 
 var _generateMultiTextureShader2 = _interopRequireDefault(_generateMultiTextureShader);
 
-var _checkMaxIfStatmentsInShader = __webpack_require__(405);
+var _checkMaxIfStatmentsInShader = __webpack_require__(410);
 
 var _checkMaxIfStatmentsInShader2 = _interopRequireDefault(_checkMaxIfStatmentsInShader);
 
-var _BatchBuffer = __webpack_require__(410);
+var _BatchBuffer = __webpack_require__(415);
 
 var _BatchBuffer2 = _interopRequireDefault(_BatchBuffer);
 
@@ -40743,7 +41694,7 @@ var _pixiGlCore = __webpack_require__(9);
 
 var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
 
-var _bitTwiddle = __webpack_require__(65);
+var _bitTwiddle = __webpack_require__(66);
 
 var _bitTwiddle2 = _interopRequireDefault(_bitTwiddle);
 
@@ -41248,7 +42199,7 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 
 
 /***/ }),
-/* 412 */
+/* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41257,7 +42208,7 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 exports.__esModule = true;
 exports.default = generateMultiTextureShader;
 
-var _Shader = __webpack_require__(41);
+var _Shader = __webpack_require__(45);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
@@ -41316,7 +42267,7 @@ function generateSampleSrc(maxTextures) {
 
 
 /***/ }),
-/* 413 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41344,15 +42295,15 @@ var _settings = __webpack_require__(6);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _TextStyle = __webpack_require__(183);
+var _TextStyle = __webpack_require__(188);
 
 var _TextStyle2 = _interopRequireDefault(_TextStyle);
 
-var _TextMetrics = __webpack_require__(182);
+var _TextMetrics = __webpack_require__(187);
 
 var _TextMetrics2 = _interopRequireDefault(_TextMetrics);
 
-var _trimCanvas = __webpack_require__(423);
+var _trimCanvas = __webpack_require__(428);
 
 var _trimCanvas2 = _interopRequireDefault(_trimCanvas);
 
@@ -41976,7 +42927,7 @@ exports.default = Text;
 
 
 /***/ }),
-/* 414 */
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42242,7 +43193,7 @@ exports.default = Spritesheet;
 
 
 /***/ }),
-/* 415 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42258,7 +43209,7 @@ var _settings2 = _interopRequireDefault(_settings);
 
 var _const = __webpack_require__(1);
 
-var _TickerListener = __webpack_require__(416);
+var _TickerListener = __webpack_require__(421);
 
 var _TickerListener2 = _interopRequireDefault(_TickerListener);
 
@@ -42720,7 +43671,7 @@ exports.default = Ticker;
 
 
 /***/ }),
-/* 416 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42899,7 +43850,7 @@ exports.default = TickerListener;
 
 
 /***/ }),
-/* 417 */
+/* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42918,7 +43869,7 @@ function canUploadSameBuffer() {
 
 
 /***/ }),
-/* 418 */
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42927,7 +43878,7 @@ function canUploadSameBuffer() {
 exports.__esModule = true;
 exports.default = determineCrossOrigin;
 
-var _url2 = __webpack_require__(202);
+var _url2 = __webpack_require__(208);
 
 var _url3 = _interopRequireDefault(_url2);
 
@@ -42979,7 +43930,7 @@ function determineCrossOrigin(url) {
 
 
 /***/ }),
-/* 419 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43027,7 +43978,7 @@ function mapPremultipliedBlendModes() {
 
 
 /***/ }),
-/* 420 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43054,7 +44005,7 @@ function maxRecommendedTextures(max) {
 
 
 /***/ }),
-/* 421 */
+/* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43121,7 +44072,7 @@ function performMixins() {
 
 
 /***/ }),
-/* 422 */
+/* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43192,7 +44143,7 @@ exports.default = {
 
 
 /***/ }),
-/* 423 */
+/* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43273,7 +44224,7 @@ function trimCanvas(canvas) {
 
 
 /***/ }),
-/* 424 */
+/* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44374,7 +45325,7 @@ function deprecation(core) {
 
 
 /***/ }),
-/* 425 */
+/* 430 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44559,7 +45510,7 @@ core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
 
 
 /***/ }),
-/* 426 */
+/* 431 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44567,7 +45518,7 @@ core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
 
 exports.__esModule = true;
 
-var _WebGLExtract = __webpack_require__(427);
+var _WebGLExtract = __webpack_require__(432);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -44576,7 +45527,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasExtract = __webpack_require__(425);
+var _CanvasExtract = __webpack_require__(430);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -44589,7 +45540,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 427 */
+/* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44817,7 +45768,7 @@ core.WebGLRenderer.registerPlugin('extract', WebGLExtract);
 
 
 /***/ }),
-/* 428 */
+/* 433 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45230,7 +46181,7 @@ exports.default = AnimatedSprite;
 
 
 /***/ }),
-/* 429 */
+/* 434 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45244,7 +46195,7 @@ var _core = __webpack_require__(2);
 
 var core = _interopRequireWildcard(_core);
 
-var _ObservablePoint = __webpack_require__(175);
+var _ObservablePoint = __webpack_require__(180);
 
 var _ObservablePoint2 = _interopRequireDefault(_ObservablePoint);
 
@@ -45823,7 +46774,7 @@ BitmapText.fonts = {};
 
 
 /***/ }),
-/* 430 */
+/* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46280,7 +47231,7 @@ exports.default = TilingSprite;
 
 
 /***/ }),
-/* 431 */
+/* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46294,7 +47245,7 @@ var _Texture = __webpack_require__(25);
 
 var _Texture2 = _interopRequireDefault(_Texture);
 
-var _BaseTexture = __webpack_require__(32);
+var _BaseTexture = __webpack_require__(36);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
@@ -46689,7 +47640,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
 
 
 /***/ }),
-/* 432 */
+/* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46728,7 +47679,7 @@ core.Container.prototype.getChildByName = function getChildByName(name) {
 
 
 /***/ }),
-/* 433 */
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46766,7 +47717,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
 
 /***/ }),
-/* 434 */
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46933,7 +47884,7 @@ core.WebGLRenderer.registerPlugin('tilingSprite', TilingSpriteRenderer);
 
 
 /***/ }),
-/* 435 */
+/* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46947,11 +47898,11 @@ var _core = __webpack_require__(2);
 
 var core = _interopRequireWildcard(_core);
 
-var _BlurXFilter = __webpack_require__(188);
+var _BlurXFilter = __webpack_require__(193);
 
 var _BlurXFilter2 = _interopRequireDefault(_BlurXFilter);
 
-var _BlurYFilter = __webpack_require__(189);
+var _BlurYFilter = __webpack_require__(194);
 
 var _BlurYFilter2 = _interopRequireDefault(_BlurYFilter);
 
@@ -47095,7 +48046,7 @@ exports.default = BlurFilter;
 
 
 /***/ }),
-/* 436 */
+/* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47651,7 +48602,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 
 
 /***/ }),
-/* 437 */
+/* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47766,7 +48717,7 @@ exports.default = DisplacementFilter;
 
 
 /***/ }),
-/* 438 */
+/* 443 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47825,7 +48776,7 @@ exports.default = FXAAFilter;
 
 
 /***/ }),
-/* 439 */
+/* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47833,7 +48784,7 @@ exports.default = FXAAFilter;
 
 exports.__esModule = true;
 
-var _FXAAFilter = __webpack_require__(438);
+var _FXAAFilter = __webpack_require__(443);
 
 Object.defineProperty(exports, 'FXAAFilter', {
   enumerable: true,
@@ -47842,7 +48793,7 @@ Object.defineProperty(exports, 'FXAAFilter', {
   }
 });
 
-var _NoiseFilter = __webpack_require__(440);
+var _NoiseFilter = __webpack_require__(445);
 
 Object.defineProperty(exports, 'NoiseFilter', {
   enumerable: true,
@@ -47851,7 +48802,7 @@ Object.defineProperty(exports, 'NoiseFilter', {
   }
 });
 
-var _DisplacementFilter = __webpack_require__(437);
+var _DisplacementFilter = __webpack_require__(442);
 
 Object.defineProperty(exports, 'DisplacementFilter', {
   enumerable: true,
@@ -47860,7 +48811,7 @@ Object.defineProperty(exports, 'DisplacementFilter', {
   }
 });
 
-var _BlurFilter = __webpack_require__(435);
+var _BlurFilter = __webpack_require__(440);
 
 Object.defineProperty(exports, 'BlurFilter', {
   enumerable: true,
@@ -47869,7 +48820,7 @@ Object.defineProperty(exports, 'BlurFilter', {
   }
 });
 
-var _BlurXFilter = __webpack_require__(188);
+var _BlurXFilter = __webpack_require__(193);
 
 Object.defineProperty(exports, 'BlurXFilter', {
   enumerable: true,
@@ -47878,7 +48829,7 @@ Object.defineProperty(exports, 'BlurXFilter', {
   }
 });
 
-var _BlurYFilter = __webpack_require__(189);
+var _BlurYFilter = __webpack_require__(194);
 
 Object.defineProperty(exports, 'BlurYFilter', {
   enumerable: true,
@@ -47887,7 +48838,7 @@ Object.defineProperty(exports, 'BlurYFilter', {
   }
 });
 
-var _ColorMatrixFilter = __webpack_require__(436);
+var _ColorMatrixFilter = __webpack_require__(441);
 
 Object.defineProperty(exports, 'ColorMatrixFilter', {
   enumerable: true,
@@ -47896,7 +48847,7 @@ Object.defineProperty(exports, 'ColorMatrixFilter', {
   }
 });
 
-var _VoidFilter = __webpack_require__(441);
+var _VoidFilter = __webpack_require__(446);
 
 Object.defineProperty(exports, 'VoidFilter', {
   enumerable: true,
@@ -47909,7 +48860,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 440 */
+/* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48011,7 +48962,7 @@ exports.default = NoiseFilter;
 
 
 /***/ }),
-/* 441 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48066,125 +49017,7 @@ exports.default = VoidFilter;
 
 
 /***/ }),
-/* 442 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-exports.__esModule = true;
-exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
-
-var _polyfill = __webpack_require__(461);
-
-Object.keys(_polyfill).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _polyfill[key];
-        }
-    });
-});
-
-var _core = __webpack_require__(2);
-
-Object.keys(_core).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _core[key];
-        }
-    });
-});
-
-var _deprecation = __webpack_require__(424);
-
-var _deprecation2 = _interopRequireDefault(_deprecation);
-
-var _accessibility = __webpack_require__(380);
-
-var accessibility = _interopRequireWildcard(_accessibility);
-
-var _extract = __webpack_require__(426);
-
-var extract = _interopRequireWildcard(_extract);
-
-var _extras = __webpack_require__(187);
-
-var extras = _interopRequireWildcard(_extras);
-
-var _filters = __webpack_require__(439);
-
-var filters = _interopRequireWildcard(_filters);
-
-var _interaction = __webpack_require__(446);
-
-var interaction = _interopRequireWildcard(_interaction);
-
-var _loaders = __webpack_require__(447);
-
-var loaders = _interopRequireWildcard(_loaders);
-
-var _mesh = __webpack_require__(452);
-
-var mesh = _interopRequireWildcard(_mesh);
-
-var _particles = __webpack_require__(455);
-
-var particles = _interopRequireWildcard(_particles);
-
-var _prepare = __webpack_require__(464);
-
-var prepare = _interopRequireWildcard(_prepare);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// export core
-_core.utils.mixins.performMixins();
-
-/**
- * Alias for {@link PIXI.loaders.shared}.
- * @name loader
- * @memberof PIXI
- * @type {PIXI.loader.Loader}
- */
-
-
-// handle mixins now, after all code has been added, including deprecation
-
-
-// export libs
-// import polyfills. Done as an export to make sure polyfills are imported first
-var loader = loaders.shared || null;
-
-exports.accessibility = accessibility;
-exports.extract = extract;
-exports.extras = extras;
-exports.filters = filters;
-exports.interaction = interaction;
-exports.loaders = loaders;
-exports.mesh = mesh;
-exports.particles = particles;
-exports.prepare = prepare;
-exports.loader = loader;
-
-// Apply the deprecations
-
-if (typeof _deprecation2.default === 'function') {
-    (0, _deprecation2.default)(exports);
-}
-
-// Always export pixi globally.
-global.PIXI = exports; // eslint-disable-line
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(107)))
-
-/***/ }),
-/* 443 */
+/* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48274,7 +49107,7 @@ exports.default = InteractionEvent;
 
 
 /***/ }),
-/* 444 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48288,15 +49121,15 @@ var _core = __webpack_require__(2);
 
 var core = _interopRequireWildcard(_core);
 
-var _InteractionData = __webpack_require__(193);
+var _InteractionData = __webpack_require__(199);
 
 var _InteractionData2 = _interopRequireDefault(_InteractionData);
 
-var _InteractionEvent = __webpack_require__(443);
+var _InteractionEvent = __webpack_require__(447);
 
 var _InteractionEvent2 = _interopRequireDefault(_InteractionEvent);
 
-var _InteractionTrackingData = __webpack_require__(445);
+var _InteractionTrackingData = __webpack_require__(449);
 
 var _InteractionTrackingData2 = _interopRequireDefault(_InteractionTrackingData);
 
@@ -48304,7 +49137,7 @@ var _eventemitter = __webpack_require__(23);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _interactiveTarget = __webpack_require__(194);
+var _interactiveTarget = __webpack_require__(200);
 
 var _interactiveTarget2 = _interopRequireDefault(_interactiveTarget);
 
@@ -50039,7 +50872,7 @@ core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
 
 
 /***/ }),
-/* 445 */
+/* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50220,7 +51053,7 @@ InteractionTrackingData.FLAGS = Object.freeze({
 
 
 /***/ }),
-/* 446 */
+/* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50228,7 +51061,7 @@ InteractionTrackingData.FLAGS = Object.freeze({
 
 exports.__esModule = true;
 
-var _InteractionData = __webpack_require__(193);
+var _InteractionData = __webpack_require__(199);
 
 Object.defineProperty(exports, 'InteractionData', {
   enumerable: true,
@@ -50237,7 +51070,7 @@ Object.defineProperty(exports, 'InteractionData', {
   }
 });
 
-var _InteractionManager = __webpack_require__(444);
+var _InteractionManager = __webpack_require__(448);
 
 Object.defineProperty(exports, 'InteractionManager', {
   enumerable: true,
@@ -50246,7 +51079,7 @@ Object.defineProperty(exports, 'InteractionManager', {
   }
 });
 
-var _interactiveTarget = __webpack_require__(194);
+var _interactiveTarget = __webpack_require__(200);
 
 Object.defineProperty(exports, 'interactiveTarget', {
   enumerable: true,
@@ -50259,7 +51092,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 447 */
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50268,7 +51101,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.__esModule = true;
 exports.shared = exports.Resource = exports.textureParser = exports.getResourcePath = exports.spritesheetParser = exports.parseBitmapFontData = exports.bitmapFontParser = exports.Loader = undefined;
 
-var _bitmapFontParser = __webpack_require__(195);
+var _bitmapFontParser = __webpack_require__(201);
 
 Object.defineProperty(exports, 'bitmapFontParser', {
     enumerable: true,
@@ -50283,7 +51116,7 @@ Object.defineProperty(exports, 'parseBitmapFontData', {
     }
 });
 
-var _spritesheetParser = __webpack_require__(196);
+var _spritesheetParser = __webpack_require__(202);
 
 Object.defineProperty(exports, 'spritesheetParser', {
     enumerable: true,
@@ -50298,7 +51131,7 @@ Object.defineProperty(exports, 'getResourcePath', {
     }
 });
 
-var _textureParser = __webpack_require__(197);
+var _textureParser = __webpack_require__(203);
 
 Object.defineProperty(exports, 'textureParser', {
     enumerable: true,
@@ -50307,7 +51140,7 @@ Object.defineProperty(exports, 'textureParser', {
     }
 });
 
-var _resourceLoader = __webpack_require__(46);
+var _resourceLoader = __webpack_require__(50);
 
 Object.defineProperty(exports, 'Resource', {
     enumerable: true,
@@ -50316,11 +51149,11 @@ Object.defineProperty(exports, 'Resource', {
     }
 });
 
-var _Application = __webpack_require__(168);
+var _Application = __webpack_require__(173);
 
 var _Application2 = _interopRequireDefault(_Application);
 
-var _loader = __webpack_require__(448);
+var _loader = __webpack_require__(452);
 
 var _loader2 = _interopRequireDefault(_loader);
 
@@ -50392,7 +51225,7 @@ AppPrototype.destroy = function destroy(removeView) {
 
 
 /***/ }),
-/* 448 */
+/* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50400,25 +51233,25 @@ AppPrototype.destroy = function destroy(removeView) {
 
 exports.__esModule = true;
 
-var _resourceLoader = __webpack_require__(46);
+var _resourceLoader = __webpack_require__(50);
 
 var _resourceLoader2 = _interopRequireDefault(_resourceLoader);
 
-var _blob = __webpack_require__(473);
+var _blob = __webpack_require__(477);
 
 var _eventemitter = __webpack_require__(23);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _textureParser = __webpack_require__(197);
+var _textureParser = __webpack_require__(203);
 
 var _textureParser2 = _interopRequireDefault(_textureParser);
 
-var _spritesheetParser = __webpack_require__(196);
+var _spritesheetParser = __webpack_require__(202);
 
 var _spritesheetParser2 = _interopRequireDefault(_spritesheetParser);
 
-var _bitmapFontParser = __webpack_require__(195);
+var _bitmapFontParser = __webpack_require__(201);
 
 var _bitmapFontParser2 = _interopRequireDefault(_bitmapFontParser);
 
@@ -50568,7 +51401,7 @@ Resource.setExtensionXhrType('fnt', Resource.XHR_RESPONSE_TYPE.DOCUMENT);
 
 
 /***/ }),
-/* 449 */
+/* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50578,7 +51411,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Plane2 = __webpack_require__(198);
+var _Plane2 = __webpack_require__(204);
 
 var _Plane3 = _interopRequireDefault(_Plane2);
 
@@ -50959,7 +51792,7 @@ exports.default = NineSlicePlane;
 
 
 /***/ }),
-/* 450 */
+/* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50967,7 +51800,7 @@ exports.default = NineSlicePlane;
 
 exports.__esModule = true;
 
-var _Mesh2 = __webpack_require__(45);
+var _Mesh2 = __webpack_require__(49);
 
 var _Mesh3 = _interopRequireDefault(_Mesh2);
 
@@ -51200,7 +52033,7 @@ exports.default = Rope;
 
 
 /***/ }),
-/* 451 */
+/* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51212,7 +52045,7 @@ var _core = __webpack_require__(2);
 
 var core = _interopRequireWildcard(_core);
 
-var _Mesh = __webpack_require__(45);
+var _Mesh = __webpack_require__(49);
 
 var _Mesh2 = _interopRequireDefault(_Mesh);
 
@@ -51487,7 +52320,7 @@ core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
 
 
 /***/ }),
-/* 452 */
+/* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51495,7 +52328,7 @@ core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
 
 exports.__esModule = true;
 
-var _Mesh = __webpack_require__(45);
+var _Mesh = __webpack_require__(49);
 
 Object.defineProperty(exports, 'Mesh', {
   enumerable: true,
@@ -51504,7 +52337,7 @@ Object.defineProperty(exports, 'Mesh', {
   }
 });
 
-var _MeshRenderer = __webpack_require__(453);
+var _MeshRenderer = __webpack_require__(457);
 
 Object.defineProperty(exports, 'MeshRenderer', {
   enumerable: true,
@@ -51513,7 +52346,7 @@ Object.defineProperty(exports, 'MeshRenderer', {
   }
 });
 
-var _CanvasMeshRenderer = __webpack_require__(451);
+var _CanvasMeshRenderer = __webpack_require__(455);
 
 Object.defineProperty(exports, 'CanvasMeshRenderer', {
   enumerable: true,
@@ -51522,7 +52355,7 @@ Object.defineProperty(exports, 'CanvasMeshRenderer', {
   }
 });
 
-var _Plane = __webpack_require__(198);
+var _Plane = __webpack_require__(204);
 
 Object.defineProperty(exports, 'Plane', {
   enumerable: true,
@@ -51531,7 +52364,7 @@ Object.defineProperty(exports, 'Plane', {
   }
 });
 
-var _NineSlicePlane = __webpack_require__(449);
+var _NineSlicePlane = __webpack_require__(453);
 
 Object.defineProperty(exports, 'NineSlicePlane', {
   enumerable: true,
@@ -51540,7 +52373,7 @@ Object.defineProperty(exports, 'NineSlicePlane', {
   }
 });
 
-var _Rope = __webpack_require__(450);
+var _Rope = __webpack_require__(454);
 
 Object.defineProperty(exports, 'Rope', {
   enumerable: true,
@@ -51553,7 +52386,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 453 */
+/* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51569,7 +52402,7 @@ var _pixiGlCore = __webpack_require__(9);
 
 var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
 
-var _Mesh = __webpack_require__(45);
+var _Mesh = __webpack_require__(49);
 
 var _Mesh2 = _interopRequireDefault(_Mesh);
 
@@ -51709,7 +52542,7 @@ core.WebGLRenderer.registerPlugin('mesh', MeshRenderer);
 
 
 /***/ }),
-/* 454 */
+/* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52085,7 +52918,7 @@ exports.default = ParticleContainer;
 
 
 /***/ }),
-/* 455 */
+/* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52093,7 +52926,7 @@ exports.default = ParticleContainer;
 
 exports.__esModule = true;
 
-var _ParticleContainer = __webpack_require__(454);
+var _ParticleContainer = __webpack_require__(458);
 
 Object.defineProperty(exports, 'ParticleContainer', {
   enumerable: true,
@@ -52102,7 +52935,7 @@ Object.defineProperty(exports, 'ParticleContainer', {
   }
 });
 
-var _ParticleRenderer = __webpack_require__(457);
+var _ParticleRenderer = __webpack_require__(461);
 
 Object.defineProperty(exports, 'ParticleRenderer', {
   enumerable: true,
@@ -52115,7 +52948,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 456 */
+/* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52360,7 +53193,7 @@ exports.default = ParticleBuffer;
 
 
 /***/ }),
-/* 457 */
+/* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52372,11 +53205,11 @@ var _core = __webpack_require__(2);
 
 var core = _interopRequireWildcard(_core);
 
-var _ParticleShader = __webpack_require__(458);
+var _ParticleShader = __webpack_require__(462);
 
 var _ParticleShader2 = _interopRequireDefault(_ParticleShader);
 
-var _ParticleBuffer = __webpack_require__(456);
+var _ParticleBuffer = __webpack_require__(460);
 
 var _ParticleBuffer2 = _interopRequireDefault(_ParticleBuffer);
 
@@ -52810,7 +53643,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 
 
 /***/ }),
-/* 458 */
+/* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52818,7 +53651,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 
 exports.__esModule = true;
 
-var _Shader2 = __webpack_require__(41);
+var _Shader2 = __webpack_require__(45);
 
 var _Shader3 = _interopRequireDefault(_Shader2);
 
@@ -52858,7 +53691,7 @@ exports.default = ParticleShader;
 
 
 /***/ }),
-/* 459 */
+/* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52881,13 +53714,13 @@ if (!Math.sign) {
 
 
 /***/ }),
-/* 460 */
+/* 464 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _objectAssign = __webpack_require__(372);
+var _objectAssign = __webpack_require__(377);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
@@ -52901,17 +53734,17 @@ if (!Object.assign) {
 
 
 /***/ }),
-/* 461 */
+/* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(460);
+__webpack_require__(464);
 
-__webpack_require__(462);
+__webpack_require__(466);
 
-__webpack_require__(459);
+__webpack_require__(463);
 
 if (!window.ArrayBuffer) {
     window.ArrayBuffer = Array;
@@ -52931,7 +53764,7 @@ if (!window.Uint16Array) {
 
 
 /***/ }),
-/* 462 */
+/* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53012,7 +53845,7 @@ if (!global.cancelAnimationFrame) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(107)))
 
 /***/ }),
-/* 463 */
+/* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53137,7 +53970,7 @@ core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
 
 
 /***/ }),
-/* 464 */
+/* 468 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53145,7 +53978,7 @@ core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
 
 exports.__esModule = true;
 
-var _WebGLPrepare = __webpack_require__(466);
+var _WebGLPrepare = __webpack_require__(470);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -53154,7 +53987,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasPrepare = __webpack_require__(463);
+var _CanvasPrepare = __webpack_require__(467);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -53172,7 +54005,7 @@ Object.defineProperty(exports, 'BasePrepare', {
   }
 });
 
-var _CountLimiter = __webpack_require__(199);
+var _CountLimiter = __webpack_require__(205);
 
 Object.defineProperty(exports, 'CountLimiter', {
   enumerable: true,
@@ -53181,7 +54014,7 @@ Object.defineProperty(exports, 'CountLimiter', {
   }
 });
 
-var _TimeLimiter = __webpack_require__(465);
+var _TimeLimiter = __webpack_require__(469);
 
 Object.defineProperty(exports, 'TimeLimiter', {
   enumerable: true,
@@ -53194,7 +54027,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 465 */
+/* 469 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53257,7 +54090,7 @@ exports.default = TimeLimiter;
 
 
 /***/ }),
-/* 466 */
+/* 470 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53384,7 +54217,7 @@ core.WebGLRenderer.registerPlugin('prepare', WebGLPrepare);
 
 
 /***/ }),
-/* 467 */
+/* 471 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -53920,10 +54753,10 @@ core.WebGLRenderer.registerPlugin('prepare', WebGLPrepare);
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(475)(module), __webpack_require__(107)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(479)(module), __webpack_require__(107)))
 
 /***/ }),
-/* 468 */
+/* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54014,7 +54847,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 469 */
+/* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54106,18 +54939,18 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 470 */
+/* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(468);
-exports.encode = exports.stringify = __webpack_require__(469);
+exports.decode = exports.parse = __webpack_require__(472);
+exports.encode = exports.stringify = __webpack_require__(473);
 
 
 /***/ }),
-/* 471 */
+/* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54152,7 +54985,7 @@ module.exports = function removeItems(arr, startIdx, removeCount)
 
 
 /***/ }),
-/* 472 */
+/* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54162,15 +54995,15 @@ exports.__esModule = true;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _miniSignals = __webpack_require__(156);
+var _miniSignals = __webpack_require__(161);
 
 var _miniSignals2 = _interopRequireDefault(_miniSignals);
 
-var _parseUri = __webpack_require__(157);
+var _parseUri = __webpack_require__(162);
 
 var _parseUri2 = _interopRequireDefault(_parseUri);
 
-var _async = __webpack_require__(200);
+var _async = __webpack_require__(206);
 
 var async = _interopRequireWildcard(_async);
 
@@ -54775,7 +55608,7 @@ exports.default = Loader;
 
 
 /***/ }),
-/* 473 */
+/* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54791,7 +55624,7 @@ var _Resource = __webpack_require__(106);
 
 var _Resource2 = _interopRequireDefault(_Resource);
 
-var _b = __webpack_require__(201);
+var _b = __webpack_require__(207);
 
 var _b2 = _interopRequireDefault(_b);
 
@@ -54868,7 +55701,7 @@ function blobMiddlewareFactory() {
 
 
 /***/ }),
-/* 474 */
+/* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54891,7 +55724,7 @@ module.exports = {
 
 
 /***/ }),
-/* 475 */
+/* 479 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -54919,7 +55752,15 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 476 */
+/* 480 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = function() {
+	return new Worker(__webpack_require__.p + "110813576025f7f56a4c.worker.js");
+};
+
+/***/ }),
+/* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
@@ -54928,4 +55769,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.206a69a3990988a03176.js.map
+//# sourceMappingURL=bundle.387c6ccae9f5e5685a6d.js.map

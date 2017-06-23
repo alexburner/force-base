@@ -1,4 +1,4 @@
-import { D3Colors } from 'src/PixiMap/constants'
+import { D3Colors } from 'src/PixiMapHover/constants'
 
 export interface Annotation {
     proto: string

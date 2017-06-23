@@ -1,6 +1,6 @@
 import * as d3_force from 'd3-force'
 
-import { Node, Link, NodesById, LinksById } from 'src/PixiMap/interfaces'
+import { Node, Link, NodesById, LinksById } from 'src/PixiMapHover/interfaces'
 
 const TICK_FLOOR = 10 // Number of ticks to withold from rendering
 

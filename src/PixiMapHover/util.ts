@@ -1,7 +1,7 @@
 import _ from 'underscore'
 import * as d3_scale from 'd3-scale'
 
-import { Edge, Node, Link } from 'src/PixiMap/interfaces'
+import { Edge, Node, Link } from 'src/PixiMapHover/interfaces'
 
 // Create a new node object
 export const makeNode = (object_id: number): Node => ({

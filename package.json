@@ -10,6 +10,7 @@
     "build": "webpack --progress",
     "clean": "rm -rf docs/* && rm -rf .awcache/*",
     "watch": "webpack-dev-server",
+    "prettier": "prettier --parser typescript --no-semi --single-quote --tab-width 4 --trailing-comma all --write '+(src|demo)/**/*.+(ts|tsx)'",
     "precommit": "lint-staged"
   },
   "repository": {
@@ -60,7 +61,7 @@
   },
   "lint-staged": {
     "+(src|demo)/**/*.+(ts|tsx)": [
-      "prettier --parser typescript --single-quote --tab-width 4 --trailing-comma all --write",
+      "prettier --parser typescript --no-semi --single-quote --tab-width 4 --trailing-comma all --write",
       "git add"
     ]
   }

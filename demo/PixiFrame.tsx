@@ -1,63 +1,63 @@
-import _ from 'underscore';
-import createElement from 'inferno-create-element';
-import InfernoComponent from 'inferno-component';
+import _ from 'underscore'
+import createElement from 'inferno-create-element'
+import InfernoComponent from 'inferno-component'
 
-import data from 'demo/data';
-import PixiMap from 'src/PixiMap/Module';
-import { D3Colors } from 'src/PixiMap/constants';
-import { Edge } from 'src/PixiMap/interfaces';
+import data from 'demo/data'
+import PixiMap from 'src/PixiMap/Module'
+import { D3Colors } from 'src/PixiMap/constants'
+import { Edge } from 'src/PixiMap/interfaces'
 
 interface State {
-    colorKey: keyof typeof D3Colors;
-    multiplier: number;
+    colorKey: keyof typeof D3Colors
+    multiplier: number
 }
 
 export default class PixiFrame extends InfernoComponent<void, State> {
-    private container: HTMLElement;
-    private canvas: HTMLCanvasElement;
-    private handleClose: { (): void };
-    private handleResize: { (): void };
-    private handleColorInput: { (e: Event): void };
-    private handleMultiplierInput: { (e: Event): void };
-    private map: PixiMap;
+    private container: HTMLElement
+    private canvas: HTMLCanvasElement
+    private handleClose: { (): void }
+    private handleResize: { (): void }
+    private handleColorInput: { (e: Event): void }
+    private handleMultiplierInput: { (e: Event): void }
+    private map: PixiMap
 
     constructor() {
-        super();
+        super()
         this.state = {
             colorKey: 'Magma',
             multiplier: 3,
-        };
+        }
 
-        this.handleClose = () => (window.location.hash = '');
+        this.handleClose = () => (window.location.hash = '')
 
         this.handleResize = () => {
             if (this.map) {
-                const bounds = this.container.getBoundingClientRect();
-                this.map.resize(bounds.width, bounds.height);
+                const bounds = this.container.getBoundingClientRect()
+                this.map.resize(bounds.width, bounds.height)
             }
-        };
+        }
 
         this.handleColorInput = e => {
-            this.setState({ colorKey: (e.target as HTMLInputElement).value });
+            this.setState({ colorKey: (e.target as HTMLInputElement).value })
             if (this.map) {
-                this.map.config({ colorKey: this.state.colorKey });
+                this.map.config({ colorKey: this.state.colorKey })
             }
-        };
+        }
 
         this.handleMultiplierInput = e => {
-            const value = (e.target as HTMLInputElement).value;
-            const number = Number(value);
-            this.setState({ multiplier: value });
-            if (isNaN(number)) return;
+            const value = (e.target as HTMLInputElement).value
+            const number = Number(value)
+            this.setState({ multiplier: value })
+            if (isNaN(number)) return
             if (this.map) {
-                this.map.update(generateEdges(number));
+                this.map.update(generateEdges(number))
             }
-        };
+        }
     }
 
     render() {
-        const barHeight = 30;
-        const xPadding = 6;
+        const barHeight = 30
+        const xPadding = 6
         return (
             <div
                 ref={el => (this.container = el)}
@@ -124,36 +124,36 @@ export default class PixiFrame extends InfernoComponent<void, State> {
                     }}
                 />
             </div>
-        );
+        )
     }
 
     componentDidMount() {
-        const bounds = this.container.getBoundingClientRect();
-        this.map = new PixiMap(bounds.width, bounds.height, this.canvas);
-        this.map.update(generateEdges(this.state.multiplier));
-        window.addEventListener('resize', this.handleResize);
+        const bounds = this.container.getBoundingClientRect()
+        this.map = new PixiMap(bounds.width, bounds.height, this.canvas)
+        this.map.update(generateEdges(this.state.multiplier))
+        window.addEventListener('resize', this.handleResize)
     }
 
     componentWillUnmount() {
-        window.removeEventListener('resize', this.handleResize);
-        this.map.destroy();
-        this.map = null;
+        window.removeEventListener('resize', this.handleResize)
+        this.map.destroy()
+        this.map = null
     }
 }
 
 const generateEdges = (multiplier: number): Edge[] => {
-    let edges: Edge[] = [];
+    let edges: Edge[] = []
     for (let i = 0; i < multiplier; i++) {
-        const factor = i + 1;
+        const factor = i + 1
         edges = edges.concat(
             _.map(data.result.edges, edge => {
                 return {
                     ...edge,
                     from: edge.from * factor,
                     to: edge.to * factor,
-                } as Edge;
+                } as Edge
             }),
-        );
+        )
     }
-    return edges;
-};
+    return edges
+}

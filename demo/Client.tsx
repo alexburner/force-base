@@ -1,5 +1,5 @@
-import createElement from 'inferno-create-element';
+import createElement from 'inferno-create-element'
 
-import PixiFrame from 'demo/PixiFrame';
+import PixiFrame from 'demo/PixiFrame'
 
-export default () => <PixiFrame />;
+export default () => <PixiFrame />

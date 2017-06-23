@@ -1,5 +1,5 @@
-import * as d3_scale from 'd3-scale';
-import * as d3_scale_chromatic from 'd3-scale-chromatic';
+import * as d3_scale from 'd3-scale'
+import * as d3_scale_chromatic from 'd3-scale-chromatic'
 
 export const D3Colors = {
     Viridis: {
@@ -102,4 +102,4 @@ export const D3Colors = {
         interpolator: d3_scale_chromatic.interpolateYlOrRd,
         domain: [1, 0],
     },
-};
+}

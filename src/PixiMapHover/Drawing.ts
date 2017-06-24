@@ -55,6 +55,7 @@ export default class Drawing {
         this.setColor('Magma')
 
         {
+            // Drag-to-pan
             let prevX: number
             let prevY: number
             let isMouseDown: boolean
@@ -78,6 +79,7 @@ export default class Drawing {
                 isMouseDown = false
             })
 
+            // Scroll-to-zoom
             const MIN_SCALE = 0.1 // magic #
             const MAX_SCALE = 10 // magic #
             canvas.addEventListener('wheel', (e: WheelEvent) => {
@@ -296,6 +298,7 @@ const makeLinkCanvas = (): HTMLCanvasElement => {
     context.beginPath()
     context.moveTo(x1, y1)
     context.lineWidth = linkThickness
+    context.lineCap = 'round'
     context.lineTo(x2, y2)
     context.strokeStyle = 'rgba(255, 255, 255, 1)'
     context.stroke()

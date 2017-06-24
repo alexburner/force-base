@@ -21,7 +21,6 @@ export interface Node {
     x: number
     y: number
     status: Status
-    linksById: LinksById
 }
 
 export interface Link {

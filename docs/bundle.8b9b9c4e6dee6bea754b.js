@@ -17160,8 +17160,7 @@ var makeNode = exports.makeNode = function makeNode(object_id) {
         weight: 0,
         x: object_id % 3000 - 3000 / 2,
         y: object_id % 3000 - 3000 / 2,
-        status: 'added',
-        linksById: {}
+        status: 'added'
     };
 };
 // Create a new link object
@@ -28718,7 +28717,6 @@ var Drawing = function () {
                 var sprite = _this3.nodeSpritesById[node.id];
                 if (!sprite) {
                     sprite = new PIXI.Sprite(_this3.nodeTexture);
-                    // sprite.on('pointerout', () => this.fadeInSprites())
                     _this3.nodeSpritesById[node.id] = sprite;
                     _this3.nodeLayer.addChild(sprite);
                 }
@@ -28732,7 +28730,6 @@ var Drawing = function () {
                 var sprite = _this3.linkSpritesById[link.id];
                 if (!sprite) {
                     sprite = new PIXI.Sprite(_this3.linkTexture);
-                    // sprite.on('pointerout', () => this.fadeInSprites())
                     _this3.linkSpritesById[link.id] = sprite;
                     _this3.linkLayer.addChild(sprite);
                 }
@@ -29010,9 +29007,6 @@ var PixiMap = function () {
                 } else {
                     link.status = 'updated';
                 }
-                // Add link reference to each node
-                fromNode.linksById[link.id] = link;
-                toNode.linksById[link.id] = link;
             });
             // Give renderer a chance to handle removed nodes/links
             this.drawing.remove(this.nodes, this.links);
@@ -55769,4 +55763,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.387c6ccae9f5e5685a6d.js.map
+//# sourceMappingURL=bundle.8b9b9c4e6dee6bea754b.js.map

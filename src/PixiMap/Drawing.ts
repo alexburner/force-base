@@ -108,7 +108,6 @@ export default class Drawing {
             let sprite = this.nodeSpritesById[node.id]
             if (!sprite) {
                 sprite = new PIXI.Sprite(this.nodeTexture)
-                // sprite.on('pointerout', () => this.fadeInSprites())
                 this.nodeSpritesById[node.id] = sprite
                 this.nodeLayer.addChild(sprite)
             }
@@ -123,7 +122,6 @@ export default class Drawing {
             let sprite = this.linkSpritesById[link.id]
             if (!sprite) {
                 sprite = new PIXI.Sprite(this.linkTexture)
-                // sprite.on('pointerout', () => this.fadeInSprites())
                 this.linkSpritesById[link.id] = sprite
                 this.linkLayer.addChild(sprite)
             }

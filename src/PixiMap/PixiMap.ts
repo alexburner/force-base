@@ -140,10 +140,6 @@ export default class PixiMap {
             } else {
                 link.status = 'updated'
             }
-
-            // Add link reference to each node
-            fromNode.linksById[link.id] = link
-            toNode.linksById[link.id] = link
         })
 
         // Give renderer a chance to handle removed nodes/links

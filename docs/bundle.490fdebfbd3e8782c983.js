@@ -29131,6 +29131,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Drawing = function () {
     function Drawing(width, height, canvas) {
+        var _this = this;
+
         (0, _classCallCheck3.default)(this, Drawing);
 
         this.isRunning = false;
@@ -29158,6 +29160,39 @@ var Drawing = function () {
         this.stage.addChild(this.linkLayer);
         this.stage.addChild(this.nodeLayer);
         this.setColor('Magma');
+        {
+            var prevX = void 0;
+            var prevY = void 0;
+            var isMouseDown = void 0;
+            canvas.addEventListener('mousedown', function (e) {
+                isMouseDown = true;
+                prevX = e.offsetX;
+                prevY = e.offsetY;
+            });
+            canvas.addEventListener('mousemove', function (e) {
+                if (!isMouseDown) return;
+                var x = e.offsetX;
+                var y = e.offsetY;
+                var diffX = x - prevX;
+                var diffY = y - prevY;
+                _this.stage.x += diffX;
+                _this.stage.y += diffY;
+                prevX = x;
+                prevY = y;
+            });
+            canvas.addEventListener('mouseup', function () {
+                isMouseDown = false;
+            });
+            var MIN_SCALE = 0.1; // magic #
+            var MAX_SCALE = 10; // magic #
+            canvas.addEventListener('wheel', function (e) {
+                var delta = e.deltaY / 200; // magic #
+                var scale = _this.stage.scale.x - delta;
+                scale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, scale));
+                _this.stage.scale.x = scale;
+                _this.stage.scale.y = scale;
+            });
+        }
     }
 
     (0, _createClass3.default)(Drawing, [{
@@ -29174,12 +29209,12 @@ var Drawing = function () {
     }, {
         key: 'loop',
         value: function loop() {
-            var _this = this;
+            var _this2 = this;
 
             if (!this.isRunning) return;
             window.requestAnimationFrame(function () {
-                _this.renderer.render(_this.stage);
-                _this.loop();
+                _this2.renderer.render(_this2.stage);
+                _this2.loop();
             });
         }
     }, {
@@ -29208,22 +29243,22 @@ var Drawing = function () {
     }, {
         key: 'hoverNode',
         value: function hoverNode(node) {
-            var _this2 = this;
+            var _this3 = this;
 
             this.fadeOutSprites();
             var nodesById = {};
             nodesById[node.id] = node;
             _underscore2.default.each([].concat((0, _toConsumableArray3.default)(node.linkIds.values())), function (linkId) {
-                var link = _this2.linksById[linkId];
+                var link = _this3.linksById[linkId];
                 // save connected nodes
                 nodesById[link.source.id] = link.source;
                 nodesById[link.target.id] = link.target;
                 // fade in link sprite
-                fadeInSprite(_this2.linkSpritesById[link.id]);
+                fadeInSprite(_this3.linkSpritesById[link.id]);
             });
             // fade in node sprites
             _underscore2.default.each(nodesById, function (node) {
-                fadeInSprite(_this2.nodeSpritesById[node.id]);
+                fadeInSprite(_this3.nodeSpritesById[node.id]);
             });
         }
     }, {
@@ -29239,15 +29274,15 @@ var Drawing = function () {
     }, {
         key: 'remove',
         value: function remove(nodes, links) {
-            var _this3 = this;
+            var _this4 = this;
 
             // Clean out sprites for any removed nodes
             _underscore2.default.each(nodes, function (node) {
                 if (node.status !== 'removed') return;
-                var sprite = _this3.nodeSpritesById[node.id];
+                var sprite = _this4.nodeSpritesById[node.id];
                 if (sprite) {
-                    delete _this3.nodeSpritesById[node.id];
-                    _this3.nodeLayer.removeChild(sprite);
+                    delete _this4.nodeSpritesById[node.id];
+                    _this4.nodeLayer.removeChild(sprite);
                     setTimeout(function () {
                         return sprite.destroy();
                     }, 0);
@@ -29256,10 +29291,10 @@ var Drawing = function () {
             // Clean out sprites for any removed links
             _underscore2.default.each(links, function (link) {
                 if (link.status !== 'removed') return;
-                var sprite = _this3.linkSpritesById[link.id];
+                var sprite = _this4.linkSpritesById[link.id];
                 if (sprite) {
-                    delete _this3.linkSpritesById[link.id];
-                    _this3.linkLayer.removeChild(sprite);
+                    delete _this4.linkSpritesById[link.id];
+                    _this4.linkLayer.removeChild(sprite);
                     setTimeout(function () {
                         return sprite.destroy();
                     }, 0);
@@ -29269,48 +29304,49 @@ var Drawing = function () {
     }, {
         key: 'update',
         value: function update(nodes, links, nodesById, linksById) {
-            var _this4 = this;
+            var _this5 = this;
 
             this.nodesById = nodesById;
             this.linksById = linksById;
             // Create/Update node sprites
             _underscore2.default.each(nodes, function (node) {
-                var sprite = _this4.nodeSpritesById[node.id];
+                var sprite = _this5.nodeSpritesById[node.id];
                 if (!sprite) {
-                    sprite = new PIXI.Sprite(_this4.nodeTexture);
+                    sprite = new PIXI.Sprite(_this5.nodeTexture);
                     sprite.interactive = true;
                     sprite.interactiveChildren = false;
                     sprite.buttonMode = true;
                     sprite.on('pointerover', function () {
-                        return _this4.hoverNode(node);
+                        return _this5.hoverNode(node);
                     });
                     // sprite.on('pointerout', () => this.fadeInSprites())
-                    _this4.nodeSpritesById[node.id] = sprite;
-                    _this4.nodeLayer.addChild(sprite);
+                    _this5.nodeSpritesById[node.id] = sprite;
+                    _this5.nodeLayer.addChild(sprite);
                 }
-                sprite.tint = (0, _util.colorToHex)(_this4.colorScale(node.scale));
-                sprite.scale.x = node.scale * 0.8; // magic #
-                sprite.scale.y = node.scale * 0.8; // magic #
+                sprite.tint = (0, _util.colorToHex)(_this5.colorScale(node.scale));
+                sprite.scale.x = node.scale * 0.08; // magic #
+                sprite.scale.y = node.scale * 0.08; // magic #
                 // sprite.alpha = node.scale + 0.7 // magic #
                 sprite.alpha = 0.2;
             });
             // Create/Update link sprites
             _underscore2.default.each(links, function (link) {
-                var sprite = _this4.linkSpritesById[link.id];
+                var sprite = _this5.linkSpritesById[link.id];
                 if (!sprite) {
-                    sprite = new PIXI.Sprite(_this4.linkTexture);
+                    sprite = new PIXI.Sprite(_this5.linkTexture);
                     sprite.interactive = true;
                     sprite.interactiveChildren = false;
                     sprite.buttonMode = true;
                     sprite.on('pointerover', function () {
-                        return _this4.hoverLink(link);
+                        return _this5.hoverLink(link);
                     });
                     // sprite.on('pointerout', () => this.fadeInSprites())
-                    _this4.linkSpritesById[link.id] = sprite;
-                    _this4.linkLayer.addChild(sprite);
+                    _this5.linkSpritesById[link.id] = sprite;
+                    _this5.linkLayer.addChild(sprite);
                 }
-                sprite.tint = (0, _util.colorToHex)(_this4.colorScale(link.scale));
-                sprite.scale.y = link.scale * 1.2; // magic #
+                sprite.anchor.set(0, 0.5);
+                sprite.tint = (0, _util.colorToHex)(_this5.colorScale(link.scale));
+                sprite.scale.y = link.scale * 0.02; // magic #
                 // sprite.alpha = link.scale
                 sprite.alpha = 0.2;
             });
@@ -29318,19 +29354,19 @@ var Drawing = function () {
     }, {
         key: 'tick',
         value: function tick(nodes, links) {
-            var _this5 = this;
+            var _this6 = this;
 
             // Move node sprites
             _underscore2.default.each(nodes, function (node) {
                 if (node.status === 'removed') return;
-                var sprite = _this5.nodeSpritesById[node.id];
+                var sprite = _this6.nodeSpritesById[node.id];
                 sprite.x = node.x - sprite.width / 2;
                 sprite.y = node.y - sprite.height / 2;
             });
             // Move link sprites
             _underscore2.default.each(links, function (link) {
                 if (link.status === 'removed') return;
-                var sprite = _this5.linkSpritesById[link.id];
+                var sprite = _this6.linkSpritesById[link.id];
                 var node1 = link.source;
                 var node2 = link.target;
                 setLinkPosition(sprite, node1, node2);
@@ -29357,12 +29393,12 @@ var Drawing = function () {
 
 exports.default = Drawing;
 
-var nodeWidth = 32; // magic # (must be power of 2)
+var nodeWidth = 256; // magic # (must be power of 2)
 var nodeHeight = nodeWidth; // square
 var nodeRadius = nodeWidth / 2 - 4; // magic #
-var linkLength = 8; // magic # (must be power of 2)
+var linkLength = 256; // magic # (must be power of 2)
 var linkHeight = linkLength; // square
-var linkThickness = 2; // magic #
+var linkThickness = 128; // magic #
 var makeNodeCanvas = function makeNodeCanvas() {
     var x = nodeWidth / 2;
     var y = nodeHeight / 2;
@@ -29380,7 +29416,7 @@ var makeNodeCanvas = function makeNodeCanvas() {
 var makeLinkCanvas = function makeLinkCanvas() {
     var x1 = 0;
     var x2 = linkLength;
-    var y1 = linkHeight / 2 - linkThickness / 2;
+    var y1 = linkHeight / 2;
     var y2 = y1; // horizontal line
     var canvas = (0, _util.makeCanvas)(linkLength, linkHeight);
     var context = canvas.context;
@@ -29408,8 +29444,6 @@ var setLinkPosition = function setLinkPosition(sprite, node1, node2) {
     sprite.x = x1;
     sprite.y = y1;
     // set new rotation
-    sprite.pivot.x = 0;
-    sprite.pivot.y = linkHeight / 2;
     sprite.rotation = radians + Math.PI / 2;
     // set new stretch
     sprite.scale.x = length / linkLength;
@@ -55969,4 +56003,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.c2210d266d5dadef5675.js.map
+//# sourceMappingURL=bundle.490fdebfbd3e8782c983.js.map

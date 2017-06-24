@@ -53,6 +53,41 @@ export default class Drawing {
         this.stage.addChild(this.nodeLayer)
 
         this.setColor('Magma')
+
+        {
+            let prevX: number
+            let prevY: number
+            let isMouseDown: boolean
+            canvas.addEventListener('mousedown', (e: MouseEvent) => {
+                isMouseDown = true
+                prevX = e.offsetX
+                prevY = e.offsetY
+            })
+            canvas.addEventListener('mousemove', (e: MouseEvent) => {
+                if (!isMouseDown) return
+                const x = e.offsetX
+                const y = e.offsetY
+                const diffX = x - prevX
+                const diffY = y - prevY
+                this.stage.x += diffX
+                this.stage.y += diffY
+                prevX = x
+                prevY = y
+            })
+            canvas.addEventListener('mouseup', () => {
+                isMouseDown = false
+            })
+
+            const MIN_SCALE = 0.1 // magic #
+            const MAX_SCALE = 10 // magic #
+            canvas.addEventListener('wheel', (e: WheelEvent) => {
+                const delta = e.deltaY / 200 // magic #
+                let scale = this.stage.scale.x - delta
+                scale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, scale))
+                this.stage.scale.x = scale
+                this.stage.scale.y = scale
+            })
+        }
     }
 
     run() {
@@ -166,8 +201,8 @@ export default class Drawing {
                 this.nodeLayer.addChild(sprite)
             }
             sprite.tint = colorToHex(this.colorScale(node.scale))
-            sprite.scale.x = node.scale * 0.8 // magic #
-            sprite.scale.y = node.scale * 0.8 // magic #
+            sprite.scale.x = node.scale * 0.08 // magic #
+            sprite.scale.y = node.scale * 0.08 // magic #
             // sprite.alpha = node.scale + 0.7 // magic #
             sprite.alpha = 0.2
         })
@@ -185,8 +220,9 @@ export default class Drawing {
                 this.linkSpritesById[link.id] = sprite
                 this.linkLayer.addChild(sprite)
             }
+            sprite.anchor.set(0, 0.5)
             sprite.tint = colorToHex(this.colorScale(link.scale))
-            sprite.scale.y = link.scale * 1.2 // magic #
+            sprite.scale.y = link.scale * 0.02 // magic #
             // sprite.alpha = link.scale
             sprite.alpha = 0.2
         })
@@ -227,13 +263,13 @@ export default class Drawing {
     }
 }
 
-const nodeWidth = 32 // magic # (must be power of 2)
+const nodeWidth = 256 // magic # (must be power of 2)
 const nodeHeight = nodeWidth // square
 const nodeRadius = nodeWidth / 2 - 4 // magic #
 
-const linkLength = 8 // magic # (must be power of 2)
+const linkLength = 256 // magic # (must be power of 2)
 const linkHeight = linkLength // square
-const linkThickness = 2 // magic #
+const linkThickness = 128 // magic #
 
 const makeNodeCanvas = (): HTMLCanvasElement => {
     const x = nodeWidth / 2
@@ -253,7 +289,7 @@ const makeNodeCanvas = (): HTMLCanvasElement => {
 const makeLinkCanvas = (): HTMLCanvasElement => {
     const x1 = 0
     const x2 = linkLength
-    const y1 = linkHeight / 2 - linkThickness / 2
+    const y1 = linkHeight / 2
     const y2 = y1 // horizontal line
     const canvas = makeCanvas(linkLength, linkHeight)
     const context = canvas.context
@@ -282,8 +318,6 @@ const setLinkPosition = (sprite: PIXI.Sprite, node1: Node, node2: Node) => {
     sprite.x = x1
     sprite.y = y1
     // set new rotation
-    sprite.pivot.x = 0
-    sprite.pivot.y = linkHeight / 2
     sprite.rotation = radians + Math.PI / 2
     // set new stretch
     sprite.scale.x = length / linkLength

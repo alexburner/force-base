@@ -11,7 +11,7 @@
         "noUnusedParameters": true,
         "sourceMap": true,
         "strict": true,
-        "target": "es2015"
+        "target": "es6"
     },
     "exclude": [
         "node_modules"

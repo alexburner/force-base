@@ -3,8 +3,8 @@ import createElement from 'inferno-create-element'
 import InfernoComponent from 'inferno-component'
 
 import data from 'demo/data'
-import PixiMap from 'src/PixiMap/PixiMap'
-import PixiMapHover from 'src/PixiMapHover/PixiMap'
+import PixiMap from 'src/PixiMap/Main'
+import PixiMapHover from 'src/PixiMapHover/Main'
 import { D3Colors } from 'src/PixiMap/constants'
 import { Edge } from 'src/PixiMap/interfaces'
 

@@ -11,7 +11,7 @@ export const makeNode = (object_id: number): Node => ({
     x: object_id % 3000 - 3000 / 2,
     y: object_id % 3000 - 3000 / 2,
     status: 'added',
-    linksById: {},
+    linkIds: new Set(),
 })
 
 // Create a new link object

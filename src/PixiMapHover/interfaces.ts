@@ -21,7 +21,7 @@ export interface Node {
     x: number
     y: number
     status: Status
-    linksById: LinksById
+    linkIds: Set<string>
 }
 
 export interface Link {

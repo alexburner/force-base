@@ -64,7 +64,12 @@ export default class PixiMap {
             switch (e.data.type) {
                 case 'halt': {
                     this.handleEdges(edges)
-                    this.drawing.update(this.nodes, this.links)
+                    this.drawing.update(
+                        this.nodes,
+                        this.links,
+                        this.nodesById,
+                        this.linksById,
+                    )
                     this.worker.removeEventListener('message', haltListener)
                     this.worker.postMessage({
                         type: 'run',
@@ -89,7 +94,12 @@ export default class PixiMap {
     config(opts: Opts) {
         if (opts.colorKey) {
             this.drawing.setColor(opts.colorKey)
-            this.drawing.update(this.nodes, this.links)
+            this.drawing.update(
+                this.nodes,
+                this.links,
+                this.nodesById,
+                this.linksById,
+            )
         }
     }
 
@@ -102,7 +112,10 @@ export default class PixiMap {
     private handleEdges(edges: Edge[]) {
         // Assume all current node/links removed
         // (unless proven otherwise, in next loop)
-        _.each(this.nodes, node => (node.status = 'removed'))
+        _.each(this.nodes, node => {
+            node.status = 'removed'
+            node.linkIds = new Set()
+        })
         _.each(this.links, link => (link.status = 'removed'))
 
         // Use edge data to update node/link collections
@@ -142,8 +155,8 @@ export default class PixiMap {
             }
 
             // Add link reference to each node
-            fromNode.linksById[link.id] = link
-            toNode.linksById[link.id] = link
+            fromNode.linkIds.add(link.id)
+            toNode.linkIds.add(link.id)
         })
 
         // Give renderer a chance to handle removed nodes/links

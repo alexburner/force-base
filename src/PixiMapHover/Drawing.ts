@@ -3,7 +3,7 @@ import * as d3_scale from 'd3-scale'
 import * as PIXI from 'pixi.js'
 
 import { D3Colors } from 'src/PixiMapHover/constants'
-import { Node, Link } from 'src/PixiMapHover/interfaces'
+import { Node, Link, NodesById, LinksById } from 'src/PixiMapHover/interfaces'
 import { colorToHex, makeCanvas } from 'src/PixiMapHover/util'
 
 export default class Drawing {
@@ -15,8 +15,10 @@ export default class Drawing {
     private linkTexture: PIXI.Texture
     private nodeSpritesById: { [id: number]: PIXI.Sprite }
     private linkSpritesById: { [id: number]: PIXI.Sprite }
-    private colorScale: d3_scale.ScaleSequential<any>
+    private nodesById: NodesById
+    private linksById: LinksById
     private isRunning: boolean
+    private colorScale: d3_scale.ScaleSequential<any>
 
     constructor(width: number, height: number, canvas: HTMLCanvasElement) {
         this.isRunning = false
@@ -26,6 +28,9 @@ export default class Drawing {
 
         this.nodeSpritesById = {}
         this.linkSpritesById = {}
+
+        this.nodesById = {}
+        this.linksById = {}
 
         this.renderer = PIXI.autoDetectRenderer(width, height, {
             antialias: true,
@@ -92,7 +97,8 @@ export default class Drawing {
         this.fadeOutSprites()
         const nodesById = {}
         nodesById[node.id] = node
-        _.each(node.linksById, (link: Link) => {
+        _.each([...node.linkIds.values()], (linkId: string) => {
+            const link = this.linksById[linkId]
             // save connected nodes
             nodesById[link.source.id] = link.source
             nodesById[link.target.id] = link.target
@@ -138,7 +144,14 @@ export default class Drawing {
         })
     }
 
-    update(nodes: Node[], links: Link[]) {
+    update(
+        nodes: Node[],
+        links: Link[],
+        nodesById: NodesById,
+        linksById: LinksById,
+    ) {
+        this.nodesById = nodesById
+        this.linksById = linksById
         // Create/Update node sprites
         _.each(nodes, node => {
             let sprite = this.nodeSpritesById[node.id]

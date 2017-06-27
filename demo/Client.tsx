@@ -13,6 +13,7 @@ const setMapName = (mapName: string) => {
 
 const mapExists = {
     'pixi-map': true,
+    'pixi-map-degree': true,
     'pixi-map-hover': true,
 }
 
@@ -41,7 +42,8 @@ export default class Client extends InfernoComponent<void, State> {
                 }}
             >
                 {mapName === 'pixi-map' && <PixiFrame />}
-                {mapName === 'pixi-map-hover' && <PixiFrame hover={true} />}
+                {mapName === 'pixi-map-degree' && <PixiFrame type="degree" />}
+                {mapName === 'pixi-map-hover' && <PixiFrame type="hover" />}
                 {!mapExists[mapName] &&
                     <fieldset>
                         <legend>Choose a map visualization</legend>
@@ -49,8 +51,12 @@ export default class Client extends InfernoComponent<void, State> {
                             Pixi Map
                         </button>
                         &nbsp;
+                        <button onClick={() => setMapName('pixi-map-degree')}>
+                            Pixi Map (degree weight)
+                        </button>
+                        &nbsp;
                         <button onClick={() => setMapName('pixi-map-hover')}>
-                            Pixi Map (+hover)
+                            Pixi Map (hover experiment)
                         </button>
                     </fieldset>}
             </div>

@@ -4,12 +4,13 @@ import InfernoComponent from 'inferno-component'
 
 import data from 'demo/data'
 import PixiMap from 'src/PixiMap/Main'
+import PixiMapDegree from 'src/PixiMapDegree/Main'
 import PixiMapHover from 'src/PixiMapHover/Main'
 import { D3Colors } from 'src/PixiMap/constants'
 import { Edge } from 'src/PixiMap/interfaces'
 
 interface Props {
-    hover: boolean
+    type: 'degree' | 'hover' | null
 }
 
 interface State {
@@ -24,7 +25,7 @@ export default class PixiFrame extends InfernoComponent<Props, State> {
     private handleResize: { (): void }
     private handleColorInput: { (e: Event): void }
     private handleMultiplierInput: { (e: Event): void }
-    private map: PixiMap | PixiMapHover
+    private map: PixiMap | PixiMapHover | PixiMapDegree
 
     constructor(props) {
         super(props)
@@ -134,9 +135,24 @@ export default class PixiFrame extends InfernoComponent<Props, State> {
 
     componentDidMount() {
         const bounds = this.container.getBoundingClientRect()
-        this.map = this.props.hover
-            ? new PixiMapHover(bounds.width, bounds.height, this.canvas)
-            : new PixiMap(bounds.width, bounds.height, this.canvas)
+        switch (this.props.type) {
+            case 'hover':
+                this.map = new PixiMapHover(
+                    bounds.width,
+                    bounds.height,
+                    this.canvas,
+                )
+                break
+            case 'degree':
+                this.map = new PixiMapDegree(
+                    bounds.width,
+                    bounds.height,
+                    this.canvas,
+                )
+                break
+            default:
+                this.map = new PixiMap(bounds.width, bounds.height, this.canvas)
+        }
         this.map.update(generateEdges(this.state.multiplier))
         window.addEventListener('resize', this.handleResize)
     }

@@ -19,7 +19,7 @@ export const makeLink = (edge: Edge, fromNode: Node, toNode: Node): Link => ({
     scale: 0,
     source: fromNode,
     target: toNode,
-    weight: 1,
+    weight: 0,
     status: 'added',
 })
 

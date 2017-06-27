@@ -163,9 +163,9 @@ export default class Drawing {
                 this.linkLayer.addChild(sprite)
             }
             sprite.anchor.set(0, 0.5)
-            sprite.tint = 0xaaaaaa
-            sprite.scale.y = 0.02
-            sprite.alpha = 0.6
+            sprite.tint = colorToHex(this.colorScale(link.scale))
+            sprite.scale.y = link.scale * 0.02 // magic #
+            sprite.alpha = link.scale
         })
     }
 

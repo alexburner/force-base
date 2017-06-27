@@ -140,6 +140,12 @@ export default class PixiMap {
             }
         })
 
+        // Now that nodes, have weights,
+        // give links weights based on them
+        _.each(this.links, link => {
+            link.weight = link.source.weight + link.target.weight / 2
+        })
+
         // Give renderer a chance to handle removed nodes/links
         this.drawing.remove(this.nodes, this.links)
 

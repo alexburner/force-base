@@ -17556,7 +17556,7 @@ var makeLink = exports.makeLink = function makeLink(edge, fromNode, toNode) {
         scale: 0,
         source: fromNode,
         target: toNode,
-        weight: 1,
+        weight: 0,
         status: 'added'
     };
 };
@@ -29427,9 +29427,9 @@ var Drawing = function () {
                     _this4.linkLayer.addChild(sprite);
                 }
                 sprite.anchor.set(0, 0.5);
-                sprite.tint = 0xAAAAAA;
-                sprite.scale.y = 0.02;
-                sprite.alpha = 0.6;
+                sprite.tint = (0, _util.colorToHex)(_this4.colorScale(link.scale));
+                sprite.scale.y = link.scale * 0.02; // magic #
+                sprite.alpha = link.scale;
             });
         }
     }, {
@@ -29699,6 +29699,11 @@ var PixiMap = function () {
                 } else {
                     link.status = 'updated';
                 }
+            });
+            // Now that nodes, have weights,
+            // give links weights based on them
+            _underscore2.default.each(this.links, function (link) {
+                link.weight = link.source.weight + link.target.weight / 2;
             });
             // Give renderer a chance to handle removed nodes/links
             this.drawing.remove(this.nodes, this.links);
@@ -56787,4 +56792,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.1de7565ae7f63d211f17.js.map
+//# sourceMappingURL=bundle.87bdf5d254d9db25d054.js.map

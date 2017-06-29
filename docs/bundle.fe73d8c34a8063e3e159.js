@@ -29930,8 +29930,8 @@ var Drawing = function () {
         this.stage.height = height;
         this.stage.x += width / 2;
         this.stage.y += height / 2;
-        this.stage.scale.x = 0.7; // magic #
-        this.stage.scale.y = 0.7; // magic #
+        this.stage.scale.x = 0.8; // magic #
+        this.stage.scale.y = 0.8; // magic #
         this.stage.alpha = 0;
         this.nodeLayer = new PIXI.Container();
         this.linkLayer = new PIXI.Container();
@@ -30011,14 +30011,14 @@ var Drawing = function () {
     }, {
         key: 'fadeOutSprites',
         value: function fadeOutSprites() {
-            _underscore2.default.each(this.nodeSpritesById, fadeOutSprite);
-            _underscore2.default.each(this.linkSpritesById, fadeOutSprite);
+            _underscore2.default.each(this.nodeSpritesById, fadeOutNodeSprite);
+            _underscore2.default.each(this.linkSpritesById, fadeOutLinkSprite);
         }
     }, {
         key: 'fadeInSprites',
         value: function fadeInSprites() {
-            _underscore2.default.each(this.nodeSpritesById, fadeInSprite);
-            _underscore2.default.each(this.linkSpritesById, fadeInSprite);
+            _underscore2.default.each(this.nodeSpritesById, fadeInNodeSprite);
+            _underscore2.default.each(this.linkSpritesById, fadeInLinkSprite);
         }
     }, {
         key: 'hoverNode',
@@ -30034,11 +30034,11 @@ var Drawing = function () {
                 nodesById[link.source.id] = link.source;
                 nodesById[link.target.id] = link.target;
                 // fade in link sprite
-                fadeInSprite(_this3.linkSpritesById[link.id]);
+                fadeInLinkSprite(_this3.linkSpritesById[link.id]);
             });
             // fade in node sprites
             _underscore2.default.each(nodesById, function (node) {
-                fadeInSprite(_this3.nodeSpritesById[node.id]);
+                fadeInNodeSprite(_this3.nodeSpritesById[node.id]);
             });
         }
     }, {
@@ -30046,10 +30046,10 @@ var Drawing = function () {
         value: function hoverLink(link) {
             this.fadeOutSprites();
             // fade in link sprite
-            fadeInSprite(this.linkSpritesById[link.id]);
+            fadeInLinkSprite(this.linkSpritesById[link.id]);
             // fade in node sprites
-            fadeInSprite(this.nodeSpritesById[link.source.id]);
-            fadeInSprite(this.nodeSpritesById[link.target.id]);
+            fadeInNodeSprite(this.nodeSpritesById[link.source.id]);
+            fadeInNodeSprite(this.nodeSpritesById[link.target.id]);
         }
     }, {
         key: 'remove',
@@ -30103,11 +30103,15 @@ var Drawing = function () {
                     _this5.nodeSpritesById[node.id] = sprite;
                     _this5.nodeLayer.addChild(sprite);
                 }
-                sprite.tint = (0, _util.colorToHex)(_this5.colorScale(node.scale));
-                sprite.scale.x = node.scale * 0.08; // magic #
-                sprite.scale.y = node.scale * 0.08; // magic #
-                // sprite.alpha = node.scale + 0.7 // magic #
-                sprite.alpha = 0.2;
+                sprite.data = {
+                    alpha: node.scale + 0.7,
+                    scaleX: node.scale * 0.08,
+                    scaleY: node.scale * 0.08,
+                    tint: (0, _util.colorToHex)(_this5.colorScale(node.scale))
+                };
+                sprite.anchor.set(0.5, 0.5);
+                sprite.tint = sprite.data.tint;
+                fadeOutNodeSprite(sprite);
             });
             // Create/Update link sprites
             _underscore2.default.each(links, function (link) {
@@ -30124,11 +30128,14 @@ var Drawing = function () {
                     _this5.linkSpritesById[link.id] = sprite;
                     _this5.linkLayer.addChild(sprite);
                 }
+                sprite.data = {
+                    alpha: link.scale,
+                    scaleY: link.scale * 0.02,
+                    tint: (0, _util.colorToHex)(_this5.colorScale(link.scale))
+                };
                 sprite.anchor.set(0, 0.5);
-                sprite.tint = (0, _util.colorToHex)(_this5.colorScale(link.scale));
-                sprite.scale.y = link.scale * 0.02; // magic #
-                // sprite.alpha = link.scale
-                sprite.alpha = 0.2;
+                sprite.tint = sprite.data.tint;
+                fadeOutLinkSprite(sprite);
             });
         }
     }, {
@@ -30140,8 +30147,8 @@ var Drawing = function () {
             _underscore2.default.each(nodes, function (node) {
                 if (node.status === 'removed') return;
                 var sprite = _this6.nodeSpritesById[node.id];
-                sprite.x = node.x - sprite.width / 2;
-                sprite.y = node.y - sprite.height / 2;
+                sprite.x = node.x;
+                sprite.y = node.y;
             });
             // Move link sprites
             _underscore2.default.each(links, function (link) {
@@ -30152,7 +30159,7 @@ var Drawing = function () {
                 setLinkPosition(sprite, node1, node2);
             });
             // Increment stage opacity (if not full)
-            if (this.stage.alpha < 1) this.stage.alpha += 0.01;
+            if (this.stage.alpha < 1) this.stage.alpha += 0.1;
         }
     }, {
         key: 'destroy',
@@ -30229,11 +30236,29 @@ var setLinkPosition = function setLinkPosition(sprite, node1, node2) {
     // set new stretch
     sprite.scale.x = length / linkLength;
 };
-var fadeOutSprite = function fadeOutSprite(sprite) {
-    return sprite && (sprite.alpha = 0.2);
+var fadeOutNodeSprite = function fadeOutNodeSprite(s) {
+    if (!s) return;
+    s.alpha = s.data.alpha * 0.2; // magic #
+    s.scale.x = s.data.scaleX;
+    s.scale.y = s.data.scaleY;
 };
-var fadeInSprite = function fadeInSprite(sprite) {
-    return sprite && (sprite.alpha = 1);
+var fadeInNodeSprite = function fadeInNodeSprite(s) {
+    if (!s) return;
+    s.alpha = 0.9;
+    // s.alpha = s.data.alpha
+    s.scale.x = s.data.scaleX * 1.2; // magic #
+    s.scale.y = s.data.scaleY * 1.2; // magic #
+};
+var fadeOutLinkSprite = function fadeOutLinkSprite(s) {
+    if (!s) return;
+    s.alpha = s.data.alpha * 0.1; // magic #
+    s.scale.y = s.data.scaleY;
+};
+var fadeInLinkSprite = function fadeInLinkSprite(s) {
+    if (!s) return;
+    s.alpha = 0.8;
+    // s.alpha = s.data.alpha + 0.2
+    s.scale.y = s.data.scaleY * 2; // magic #
 };
 
 /***/ }),
@@ -56771,7 +56796,7 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-	return new Worker(__webpack_require__.p + "110813576025f7f56a4c.worker.js");
+	return new Worker(__webpack_require__.p + "2e0cdb5afa4fda584493.worker.js");
 };
 
 /***/ }),
@@ -56792,4 +56817,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.87bdf5d254d9db25d054.js.map
+//# sourceMappingURL=bundle.fe73d8c34a8063e3e159.js.map

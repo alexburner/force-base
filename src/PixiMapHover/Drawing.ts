@@ -43,8 +43,8 @@ export default class Drawing {
         this.stage.height = height
         this.stage.x += width / 2
         this.stage.y += height / 2
-        this.stage.scale.x = 0.7 // magic #
-        this.stage.scale.y = 0.7 // magic #
+        this.stage.scale.x = 0.8 // magic #
+        this.stage.scale.y = 0.8 // magic #
         this.stage.alpha = 0
 
         this.nodeLayer = new PIXI.Container()
@@ -121,13 +121,13 @@ export default class Drawing {
     }
 
     fadeOutSprites() {
-        _.each(this.nodeSpritesById, fadeOutSprite)
-        _.each(this.linkSpritesById, fadeOutSprite)
+        _.each(this.nodeSpritesById, fadeOutNodeSprite)
+        _.each(this.linkSpritesById, fadeOutLinkSprite)
     }
 
     fadeInSprites() {
-        _.each(this.nodeSpritesById, fadeInSprite)
-        _.each(this.linkSpritesById, fadeInSprite)
+        _.each(this.nodeSpritesById, fadeInNodeSprite)
+        _.each(this.linkSpritesById, fadeInLinkSprite)
     }
 
     hoverNode(node: Node) {
@@ -140,21 +140,21 @@ export default class Drawing {
             nodesById[link.source.id] = link.source
             nodesById[link.target.id] = link.target
             // fade in link sprite
-            fadeInSprite(this.linkSpritesById[link.id])
+            fadeInLinkSprite(this.linkSpritesById[link.id])
         })
         // fade in node sprites
         _.each(nodesById, (node: Node) => {
-            fadeInSprite(this.nodeSpritesById[node.id])
+            fadeInNodeSprite(this.nodeSpritesById[node.id])
         })
     }
 
     hoverLink(link: Link) {
         this.fadeOutSprites()
         // fade in link sprite
-        fadeInSprite(this.linkSpritesById[link.id])
+        fadeInLinkSprite(this.linkSpritesById[link.id])
         // fade in node sprites
-        fadeInSprite(this.nodeSpritesById[link.source.id])
-        fadeInSprite(this.nodeSpritesById[link.target.id])
+        fadeInNodeSprite(this.nodeSpritesById[link.source.id])
+        fadeInNodeSprite(this.nodeSpritesById[link.target.id])
     }
 
     remove(nodes: Node[], links: Link[]) {
@@ -202,11 +202,15 @@ export default class Drawing {
                 this.nodeSpritesById[node.id] = sprite
                 this.nodeLayer.addChild(sprite)
             }
-            sprite.tint = colorToHex(this.colorScale(node.scale))
-            sprite.scale.x = node.scale * 0.08 // magic #
-            sprite.scale.y = node.scale * 0.08 // magic #
-            // sprite.alpha = node.scale + 0.7 // magic #
-            sprite.alpha = 0.2
+            sprite.data = {
+                alpha: node.scale + 0.7, // magic #
+                scaleX: node.scale * 0.08, // magic #
+                scaleY: node.scale * 0.08, // magic #
+                tint: colorToHex(this.colorScale(node.scale)),
+            }
+            sprite.anchor.set(0.5, 0.5)
+            sprite.tint = sprite.data.tint
+            fadeOutNodeSprite(sprite)
         })
 
         // Create/Update link sprites
@@ -222,11 +226,14 @@ export default class Drawing {
                 this.linkSpritesById[link.id] = sprite
                 this.linkLayer.addChild(sprite)
             }
+            sprite.data = {
+                alpha: link.scale,
+                scaleY: link.scale * 0.02, // magic #
+                tint: colorToHex(this.colorScale(link.scale)),
+            }
             sprite.anchor.set(0, 0.5)
-            sprite.tint = colorToHex(this.colorScale(link.scale))
-            sprite.scale.y = link.scale * 0.02 // magic #
-            // sprite.alpha = link.scale
-            sprite.alpha = 0.2
+            sprite.tint = sprite.data.tint
+            fadeOutLinkSprite(sprite)
         })
     }
 
@@ -235,8 +242,8 @@ export default class Drawing {
         _.each(nodes, node => {
             if (node.status === 'removed') return
             const sprite = this.nodeSpritesById[node.id]
-            sprite.x = node.x - sprite.width / 2
-            sprite.y = node.y - sprite.height / 2
+            sprite.x = node.x
+            sprite.y = node.y
         })
 
         // Move link sprites
@@ -249,7 +256,7 @@ export default class Drawing {
         })
 
         // Increment stage opacity (if not full)
-        if (this.stage.alpha < 1) this.stage.alpha += 0.01
+        if (this.stage.alpha < 1) this.stage.alpha += 0.1
     }
 
     destroy() {
@@ -326,5 +333,28 @@ const setLinkPosition = (sprite: PIXI.Sprite, node1: Node, node2: Node) => {
     sprite.scale.x = length / linkLength
 }
 
-const fadeOutSprite = (sprite: PIXI.Sprite) => sprite && (sprite.alpha = 0.2)
-const fadeInSprite = (sprite: PIXI.Sprite) => sprite && (sprite.alpha = 1)
+const fadeOutNodeSprite = (s: PIXI.Sprite) => {
+    if (!s) return
+    s.alpha = s.data.alpha * 0.2 // magic #
+    s.scale.x = s.data.scaleX
+    s.scale.y = s.data.scaleY
+}
+const fadeInNodeSprite = (s: PIXI.Sprite) => {
+    if (!s) return
+    s.alpha = 0.9
+    // s.alpha = s.data.alpha
+    s.scale.x = s.data.scaleX * 1.2 // magic #
+    s.scale.y = s.data.scaleY * 1.2 // magic #
+}
+
+const fadeOutLinkSprite = (s: PIXI.Sprite) => {
+    if (!s) return
+    s.alpha = s.data.alpha * 0.1 // magic #
+    s.scale.y = s.data.scaleY
+}
+const fadeInLinkSprite = (s: PIXI.Sprite) => {
+    if (!s) return
+    s.alpha = 0.8
+    // s.alpha = s.data.alpha + 0.2
+    s.scale.y = s.data.scaleY * 2 // magic #
+}

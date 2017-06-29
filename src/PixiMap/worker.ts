@@ -2,7 +2,7 @@ import * as d3_force from 'd3-force'
 
 import { Node, Link, NodesById, LinksById } from 'src/PixiMap/interfaces'
 
-const TICK_FLOOR = 10 // Number of ticks to withold from rendering
+const TICK_FLOOR = 5 // Number of ticks to withold from rendering
 
 // Global state
 let simulation

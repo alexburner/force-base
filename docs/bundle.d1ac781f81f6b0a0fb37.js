@@ -28620,6 +28620,7 @@ var PixiFrame = function (_InfernoComponent) {
                     height: '100%'
                 } }, (0, _infernoCreateElement2.default)("div", { style: {
                     width: 'auto',
+                    height: '20px',
                     position: 'fixed',
                     top: 0,
                     right: 0,
@@ -56812,4 +56813,4 @@ module.exports = function() {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.54e252f8f6c5e6a61bbb.js.map
+//# sourceMappingURL=bundle.d1ac781f81f6b0a0fb37.js.map

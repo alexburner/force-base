@@ -73,6 +73,7 @@ export default class PixiFrame extends InfernoComponent<Props, State> {
                 <div
                     style={{
                         width: 'auto',
+                        height: '20px',
                         position: 'fixed',
                         top: 0,
                         right: 0,

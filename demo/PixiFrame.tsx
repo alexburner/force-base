@@ -62,8 +62,6 @@ export default class PixiFrame extends InfernoComponent<Props, State> {
     }
 
     render() {
-        const barHeight = 30
-        const xPadding = 6
         return (
             <div
                 ref={el => (this.container = el)}
@@ -74,56 +72,49 @@ export default class PixiFrame extends InfernoComponent<Props, State> {
             >
                 <div
                     style={{
-                        width: '100%',
-                        height: `${barHeight}px`,
-                        lineHeight: `${barHeight}px`,
-                        padding: `0 ${xPadding}px`,
-                        backgroundColor: '#EEE',
+                        width: 'auto',
+                        position: 'fixed',
+                        top: 0,
+                        right: 0,
+                        bottom: 0,
+                        zIndex: 10,
+                        padding: '10px',
+                        color: 'white',
                     }}
                 >
-                    <div
-                        style={{
-                            width: 'auto',
-                            position: 'absolute',
-                            top: 0,
-                            right: `${xPadding}px`,
-                            bottom: 0,
-                        }}
-                    >
-                        <label>
-                            Color=
-                            <select
-                                value={this.state.colorKey}
-                                onChange={this.handleColorInput}
-                            >
-                                {_.map(D3Colors, (scale, key) =>
-                                    <option value={key}>{scale.name}</option>,
-                                )}
-                            </select>
-                        </label>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <label>
-                            Multiplier=
-                            <input
-                                type="text"
-                                style={{
-                                    width: '30px',
-                                    textAlign: 'center',
-                                }}
-                                value={this.state.multiplier}
-                                onChange={this.handleMultiplierInput}
-                            />
-                        </label>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <button onclick={this.handleClose}>&#x2715;</button>
-                    </div>
+                    <label>
+                        Color=
+                        <select
+                            value={this.state.colorKey}
+                            onChange={this.handleColorInput}
+                        >
+                            {_.map(D3Colors, (scale, key) =>
+                                <option value={key}>{scale.name}</option>,
+                            )}
+                        </select>
+                    </label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>
+                        Multiplier=
+                        <input
+                            type="text"
+                            style={{
+                                width: '30px',
+                                textAlign: 'center',
+                            }}
+                            value={this.state.multiplier}
+                            onChange={this.handleMultiplierInput}
+                        />
+                    </label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button onclick={this.handleClose}>&#x2715;</button>
                 </div>
                 <canvas
                     ref={el => (this.canvas = el)}
                     style={{
                         display: 'block',
                         position: 'absolute',
-                        top: `${barHeight}px`,
+                        top: 0,
                         left: 0,
                         right: 0,
                         bottom: 0,

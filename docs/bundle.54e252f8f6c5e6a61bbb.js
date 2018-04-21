@@ -28613,36 +28613,31 @@ var PixiFrame = function (_InfernoComponent) {
         value: function render() {
             var _this2 = this;
 
-            var barHeight = 30;
-            var xPadding = 6;
             return (0, _infernoCreateElement2.default)("div", { ref: function ref(el) {
                     return _this2.container = el;
                 }, style: {
                     width: '100%',
                     height: '100%'
                 } }, (0, _infernoCreateElement2.default)("div", { style: {
-                    width: '100%',
-                    height: barHeight + 'px',
-                    lineHeight: barHeight + 'px',
-                    padding: '0 ' + xPadding + 'px',
-                    backgroundColor: '#EEE'
-                } }, (0, _infernoCreateElement2.default)("div", { style: {
                     width: 'auto',
-                    position: 'absolute',
+                    position: 'fixed',
                     top: 0,
-                    right: xPadding + 'px',
-                    bottom: 0
+                    right: 0,
+                    bottom: 0,
+                    zIndex: 10,
+                    padding: '10px',
+                    color: 'white'
                 } }, (0, _infernoCreateElement2.default)("label", null, "Color=", (0, _infernoCreateElement2.default)("select", { value: this.state.colorKey, onChange: this.handleColorInput }, _underscore2.default.map(_constants.D3Colors, function (scale, key) {
                 return (0, _infernoCreateElement2.default)("option", { value: key }, scale.name);
             }))), '\xA0\xA0\xA0\xA0', (0, _infernoCreateElement2.default)("label", null, "Multiplier=", (0, _infernoCreateElement2.default)("input", { type: "text", style: {
                     width: '30px',
                     textAlign: 'center'
-                }, value: this.state.multiplier, onChange: this.handleMultiplierInput })), '\xA0\xA0\xA0\xA0', (0, _infernoCreateElement2.default)("button", { onclick: this.handleClose }, '\u2715'))), (0, _infernoCreateElement2.default)("canvas", { ref: function ref(el) {
+                }, value: this.state.multiplier, onChange: this.handleMultiplierInput })), '\xA0\xA0\xA0\xA0', (0, _infernoCreateElement2.default)("button", { onclick: this.handleClose }, '\u2715')), (0, _infernoCreateElement2.default)("canvas", { ref: function ref(el) {
                     return _this2.canvas = el;
                 }, style: {
                     display: 'block',
                     position: 'absolute',
-                    top: barHeight + 'px',
+                    top: 0,
                     left: 0,
                     right: 0,
                     bottom: 0
@@ -56796,7 +56791,7 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-	return new Worker(__webpack_require__.p + "2e0cdb5afa4fda584493.worker.js");
+  return new Worker(__webpack_require__.p + "2e0cdb5afa4fda584493.worker.js");
 };
 
 /***/ }),
@@ -56804,7 +56799,7 @@ module.exports = function() {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-	return new Worker(__webpack_require__.p + "110813576025f7f56a4c.worker.js");
+  return new Worker(__webpack_require__.p + "110813576025f7f56a4c.worker.js");
 };
 
 /***/ }),
@@ -56812,9 +56807,9 @@ module.exports = function() {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-	return new Worker(__webpack_require__.p + "110813576025f7f56a4c.worker.js");
+  return new Worker(__webpack_require__.p + "110813576025f7f56a4c.worker.js");
 };
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.fe73d8c34a8063e3e159.js.map
+//# sourceMappingURL=bundle.54e252f8f6c5e6a61bbb.js.map
